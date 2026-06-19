@@ -80,12 +80,16 @@ FROM   DEMO_1GCO.dbo.CLIENTES c
 WHERE  c.CODIGO LIKE '43%'
 ORDER  BY c.CODIGO;
 
--- Exemplo: cabeçalho + linhas de documento comercial
--- (confirma as chaves DOCGCCAB ↔ DOCGCLIN nos .txt antes de usar)
-SELECT h.TIPODOC, h.SERIE, h.NUMERO, l.ARTIGO, l.QUANT
+-- Exemplo: cabeçalho + linhas de documento comercial.
+-- Chave composta (verificada nos .txt): cab DOCGCCAB usa TPDOC; linhas DOCGCLIN usam TPDOCUM.
+SELECT h.TPDOC, h.SERIE, h.NNUMDOC, l.ARTIGO, l.QUANT
 FROM   DEMO_1GCO.dbo.DOCGCCAB h
-JOIN   DEMO_1GCO.dbo.DOCGCLIN l ON l.ID = h.ID
-ORDER  BY h.NUMERO;
+JOIN   DEMO_1GCO.dbo.DOCGCLIN l
+       ON  l.ANO     = h.ANO
+       AND l.TPDOCUM = h.TPDOC
+       AND l.SERIE   = h.SERIE
+       AND l.NNUMDOC = h.NNUMDOC
+ORDER  BY h.NNUMDOC;
 ```
 
 ---
