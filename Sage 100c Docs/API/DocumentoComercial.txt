@@ -1,0 +1,579 @@
+DocumentoComercial
+Documentos comerciais Principal (clientes, fornecedores, internos), (orçamentos, encomendas, guias, facturas, devoluções, notas de crédito)
+
+Membros (131):
+
+  [Get] Alterado
+    Output: Integer
+    => Sinaliza se um documento já sofreu alterações em memória desde que foi lido da base de dados
+
+  [Let] AnularQuantidadeOriginal
+    Input : ByVal valor As Boolean - True sinaliza que não deev manter as quantidades não satisfeitas no documento original
+    => na conversão / importação de documentos sinaliza se o utilizador deseja manter as quantidade em falta de stock no docuemtno original ou se deseja zerar esse documento
+
+  [Get] Bancos
+    Output: Sage1GCOApi.Bancos
+    => retorna os dados de bancos
+
+  [Get] Cliente
+    Output: Sage1GCOApi.Clientes
+    => Retorna os dados do cliente
+
+  [Get] Diarios
+    Output: Sage1GCOApi.DiariosControlo
+    => Retorna os dados do diário
+
+  [Get] DocumentReferenceID
+    Input : Linha As DocumentosGcLin
+    Output: string
+    => Retorna Reference ID
+
+  [Get] DocumentReferenceNumber
+    Output: ByVal value As String
+    => Atribui DocumentReferenceNumber
+
+  [Let] DocumentReferenceNumber
+    Input : ByVal value As String
+    => Atribui DocumentReferenceNumber
+
+  [Get] DocumentReferenceTypeCode
+    Output: ByVal value As String
+    => Lê DocumentReferenceTypeCode
+
+  [Let] DocumentReferenceTypeCode
+    Input : ByVal value As String
+    => Atribui DocumentReferenceTypeCode
+
+  [Get] EmEdicao
+    Output: Boolean - True se não é novo
+    => Diz se o documento é novo ou se foi lido da base de dados
+
+  [Let] EmEdicao
+    Input : valor As Boolean
+    => Forçar a sinalização se o documento é novo ou se foi lido da base de dados
+
+  [Get] Empresa
+    Input : entidade As Integer
+    Output: DadosEmpresa
+    => Retorna os dados da ficha da empresa
+
+  [Get] ExportedElectronicDocument
+    Output: Boolean
+    => Retorna ExportedElectronicDocument
+
+  [Get] FormatoIva
+    Output: String
+    => retorna o formato usado para ver os valores do iva (para usar em format())
+
+  [Get] Fornecedor
+    Output: Sage1GCOApi.Fornecedores
+    => Retorna os dados do Fornecedor
+
+  [Get] MensagemCredito
+    Output: String
+    => retorna a mensagem de controlo de crédito
+
+  [Get] MessageReferenceID
+    Output: String
+    => Retorna MessageReferenceID
+
+  [Let] MessageReferenceID
+    Input : ByVal value As String
+    => Retorna MessageReferenceID
+
+  [Get] Moeda
+    Output: Sage1GCOApi.Moedas
+    => Retorna os dados da Moeda
+
+  [Get] ParcialmenteConvertido
+    Output: Boolean
+    => sinaliza que um documento já foi parcialmente ou totalmente convertido em outro
+
+  [Let] PesoFixo
+    Input : ByVal valor As Boolean - True sinaliza que do peso foi introduzido manualmente e não deve ser recalculado
+    => Propriedade para o documento comercial não recalcular o peso pelas linhas, assumir o introduzido pelo utilizador no cabeçalho como valor fixo
+
+  [Get] podeAlterar
+    Output: Boolean - false não pode alterar
+    => Retorna se o documento em memória é alterável ou se há alguma condição que o impeça
+
+  [Get] podeAnular
+    Output: Boolean - false não pode anular
+    => Retorna se o documento em memória é anulável ou se há alguma condição que o impeça
+
+  [Let] Reconstrucao
+    Input : ByVal valor As Boolean - True sinaliza que a api está a ser usada nas reconstruções
+    => Fazer com que as reconstruções NÃO liquidem vendas a dinheiro (quando a api é chamada das reconstruções)
+
+  [Let] ReconstrucaoIAVCORRIGIDO
+    Input : ByVal valor As Boolean - True sinaliza que a api está a ser usada nas reconstruções
+    => Sinaliza se pode reconstruir o iva corrigido nas compras ou não
+
+  [Get] RegimeIva
+    Output: Sage1GCOApi.RegimesIva
+    => Retorna os dados dos RegimesIva
+
+  [Get] Sector
+    Output: Sage1GCOApi.Sectores
+    => Retorna os dados do sector
+
+  [Get] SectorTerceiro
+    Output: Sage1GCOApi.Sectores
+    => Retorna os dados do sector que está no campo terceiro para documentos da área de inventário
+
+  [Get] Serie
+    Output: Sage1GCOApi.NomesSeries
+    => Retorna os dados da Serie do documento
+
+  [Get] TemDocumentosImportados
+    Output: Boolean
+    => Sinaliza se o documento foi criado por importação
+
+  [Get] TipoDocumento
+    Output: Sage1GCOApi.TiposDocumento
+    => Retorna os dados do TipoDocumento
+
+  [Let] ValorFinal
+    Input : ByVal value As String
+    => propriedade para o documento comercial saber que está a ser chamado do calculo do valor final
+
+  [Sub] ActualizarStocksTemporarios
+    Input : ByRef Lin As Sage1GCOApi.DocumentosGcLin - Linha do documento a partir da qual se pretende actualizar stocks ByVal Quant As Currency - Quantidade que foi introduzida e com a qual deve ser actualizado o stock Optional eReserva As Bool - Sinaliza se a quantidade que foi passada é referente a uma reserva de stocks, das encomendas de clientes, tem o mesmo efeito, abate a stock para efeito de calculo
+    => Actualizar o stock "virtual" com os valores introduzidos neste documento
+
+  [Function] AdicionaEcoValor
+    Input : ByVal EcoValor As EcoValLinha
+    Output: Integer =0 sucesso
+    => Adiciona uma linha com os dados dos ecovalores ao documento
+
+  [Function] AdicionaEncargo
+    Input : ByVal Encargo As Sage1GCOData.EncargosCompras - Objecto da Sage.1GCO.Data.dll contentor da informação detelhada do encargo
+    Output: Integer - <> 0 deu erro
+    => Adiciona e processa os dados de um encargo a um documento
+
+  [Function] AdicionaFormula
+    Input : ByVal Formula As FormulasMovLinha - Objecto contentor com dados da formula em Sage.1GCO.API.dll
+    Output: Integer - <> 0 deu erro
+    => Adiciona os dados das formulas de movimentação a uma linha de documento comercial
+
+  [Function] AdicionaLinha
+    Input : ByVal Linha As Sage1GCOApi.DocumentosGcLin
+    Output: Integer =0 sucesso
+    => Adiciona uma linha de documento
+
+  [Function] AdicionaLote
+    Input : ByVal lote As LotesLinha
+    Output: Integer =0 sucesso
+    => Adiciona uma linha com os dados de lotes ao documento
+
+  [Function] AdicionaNumeroSerie
+    Input : ByVal NumeroSerie As NumSerieLinha
+    Output: Integer =0 sucesso
+    => Adiciona uma linha com os dados de numeros de serie ao documento
+
+  [Function] Alterar
+    Input : Optional ActualizaOriginais As Boolean = True
+    Output: Long
+    => Altera um documento existente na base de dados
+
+  [Function] AprovarEncomenda
+    Output: Integer =0 está OK
+    => Altera o estado de uma encomenda para aprovada
+
+  [Sub] CalculaTotaisCabecalho
+    Input : Optional ByVal DocumentoOriginal As Boolean = False, Optional VeioRecalculaCabecalho As Boolean = False
+    => Usada pelos interfaces da Gestão Empresarial para despoletar o recalculo do documento e actualização do interface
+
+  [Function] CarregarEcovaloresLinha
+    Input : ByRef Linha As Sage1GCOApi.DocumentosGcLin
+    => Processar todas as acções que dependem da inserção de uma linha de artigo que tem ecotaxas associadas
+
+  [Function] DataPossivel
+    Input : Ndoc As Long
+    Output: Integer
+    => Valida a coerência dos numeradores
+
+  [Function] DistribuiEncargos
+    Output: Boolean
+    => Faz a distribuição dos encargos( nas compras), que previamente foram adicionados ao documento, segundo a parametrização
+
+  [Function] ExisteStockDisponivel
+    Input : Linha As Sage1GCOApi.DocumentosGcLin, QtdFinal As Currency, TipoProcessamento As etb_ACCAO
+    Output: etb_PROCERRO - =0 se há stock , QtdFinal As Currency quantidade restante em stock após retirar a quantidade da linha
+    => Testar para uma linha fornecida se existe quanttidade disponível em armazém
+
+  [Function] GetAreaDosOriginaisdasLinhas
+    Output: Integer
+    => Retorna a area de gestão das linhas importadas
+
+  [Function] GetMyMaxNumLin
+    Input : Optional Internal As Boolean = False
+    => Retorna o numero a atribuir á próxima linha
+
+  [Function] GetStockArtigo
+    Input : ByVal Lin As Sage1GCOApi.DocumentosGcLin - Linha do documento comercial a partir do qual se pretende obter o stock "virtual"
+    Output: Currency - Valor do stock "virtual" do artigo
+    => Obter o stock "virtual" de um artigo
+
+  [Function] IncoerenciaComOriginais
+    Input : Linha As Sage1GCOApi.DocumentosGcLin, MensagemErro As String, CodigoErro As Long
+    Output: Integer - sinaliza se há incoerências (True)
+    => Ao alterar a quantidade de uma factura que foi criada por importação, verificar que não fica com quantidade superior á guia
+
+  [Function] IncrementarNVias
+    => Incrementa o umero de vias após imprimir documento
+
+  [Sub] CorrigirIvaIncluidoPreco
+    Output: Long
+    => Insere um documento comercial novo na base de dados.
+
+  [Function] Ler
+    Input : ByVal Tipodoc As String, ByVal NumDoc As Long, ByVal Serie As Integer, ByVal Ano As Integer, Optional ByVal FichXML As String = ""
+    Output: Integer =0 sucesso
+    => Lê um documento comercial para memória pela chave primária
+
+  [Function] LerFormulaMov
+    Input : ByVal NumeroDaLinha As Integer
+    Output: Integer
+    => Lê para memória os dados das fórmulas associadas a uma linha de documento
+
+  [Function] LerLinhaEcoTaxas
+    Input : ByVal NumeroDaLinha As Integer
+    Output: Integer
+    => Lê para memória os dados das ecotaxas associadas a uma linha de documento
+
+  [Function] LerLinhaLote
+    Input : ByVal NumeroDaLinha As Integer
+    Output: Integer
+    => Lê para memória os dados dos lotes associados a uma linha de documento
+
+  [Function] LerLinhaNumeroSerie
+    Input : ByVal NumeroDaLinha As Integer
+    Output: Integer
+    => Lê para memória os dados dos nuemros de serie associados a uma linha de documento
+
+  [Function] LerModelosImpressao
+    Input : ByRef ModelosImpressao As Collection
+    Output: Boolean
+    => Retorna todos os modelos de impressão configurados para o tipo de documento , meio de pagamento, idioma
+
+  [Function] LerpeloVossoNumero
+    Input : ByVal Tipodoc As String, ByVal Terceiro As String, ByVal VossoNumero As String, ByVal Ano As Integer, Optional ByVal VerificarSeExiste As Boolean = False
+    Output: Integer
+    => Lê um documento comercial para memória por chave alternativa - vosso número
+
+  [Sub] LimparMensagens
+    => Limpa o log de erros e mensagens
+
+  [Function] NavegarAnterior
+    Output: Integer
+    => Lê o documento anterior na base de dados
+
+  [Function] NavegarPrimeiro
+    Output: Integer
+    => Lê o primeiro documento na base de dados
+
+  [Function] NavegarProximo
+    Output: Integer
+    => Lê o próximo documento na base de dados
+
+  [Function] NavegarUltimo
+    Output: Integer
+    => Lê o ultimo documento na base de dados
+
+  [Function] NumeroDocumentoValido
+    Input : NumDoc As String, dia1 As String, dia2 As String
+    Output: Integer
+    => Valida o numero de documento que foi atribuido
+
+  [Function] PrepararImpressao
+    Input : ByVal NumVias As Integer, ByVal sqlWhere As String
+    Output: Boolean
+    => Auxilio á impressão do documento
+
+  [Function] ProcessarLinha
+    Input : ByRef Linha As Sage1GCOApi.DocumentosGcLin, TipoProcessamento As etb_ACCAO
+    => Processar todas as acções que dependem da inserção de uma linha (lançamento de artigos associados, substitutos, ecotaxas, bonus etc)
+
+  [Function] ProcessarLinhaTaxa
+    Input : ByVal excepcaoTaxa As Sage1GCOData.ExcepcoesTaxasAdicionais, ByRef newLine As EcoValLinha, ByVal linhaDocumento As DocumentosGcLin
+    Output: Integer =0 sucesso
+    => Gera em memória as ecotaxas associadas á linha de documento passada
+
+  [Function] PropoeSector
+    Output: String - Sector sugerido
+    => Propõe um sector baseado no utilizador
+
+  [Function] PropoeSerie
+    Output: Integer
+    => Sugere valores por defeito para a serie baseado no numero de documento
+
+  [Sub] RefreshEntidade
+    Input : entidade As Integer
+    => Vai á base de dados reler os dados das entidades associadas ao documento comercial
+
+  [Function] Remover
+    Output: Long
+    => Anula documento na base de dados (logicamente, não fisicamente)
+
+  [Sub] RepoeFObra
+    Input : Chave As String, Ano As String, Tercei As String, Total As Currency
+    => Repõe status de folha de obra quando a factura vem de uma folha de obra (na anulação da factura)
+
+  [Function] RetiraLinha
+    Input : ByVal NumLinha As Integer
+    Output: Integer =0 sucesso
+    => Retira uma linha de documento
+
+  [Function] SugereValoresLin
+    Input : Novalinha As Sage1GCOApi.DocumentosGcLin, Optional SugereUnidade As Boolean = True, Optional SugereData As Boolean = True, Optional SugereDescricao As Boolean = True, Optional SugereQuantidade As Boolean = True, Optional SugerePrUnit As Boolean = True, Optional SugereDesconto As Boolean = True, Optional SugereIva As Boolean = True
+    Output: Integer
+    => Sugere valores por defeito para a linha - usada nos interfaces da Gestão Empresarial
+
+  [Function] SugerirLotesParaQuantidade
+    Input : lin As DocumentosGcLin
+    Output: Integer
+    => Atribui automaticamente lotes a uma linha de documento
+
+  [Function] UltimaMensagem
+    Output: String
+    => Retorna a ultima mensagem logada pela API
+
+  [Function] UltimoDocumentoGravado
+    Output: Boolean
+    => Retornar o ultimo documento gravado
+
+  [Function] UltimoErro
+    Output: String
+    => Retorna o ultimo erro logado pela API
+
+  [Function] Validar
+    Input : Optional ByVal Operacao As Integer
+    Output: Integer =0 está OK
+    => Testa se documento está em condições de ser gravado na base de dados, despoleta o recalculo de documento e actualização de estruturas internas
+
+  [Function] VerificarReferenciaElectronica
+    Input : Linha As DocumentosGcLin
+    Output: Boolean
+    => Verificar se a factura já está na base de dados
+
+  [Sub] Class_Initialize
+    => Liga as camadas de dados , inicializa estruturas
+
+  [Sub] ActualizaInterface
+    Input : Optional VeiodoInserir As Boolean = False
+    Output: String
+    => Actualiza as estruturas que representam o interface do documento comercial e estão visíveis de fora da API
+
+  [Sub] Actualizar_Numerador
+    Input : TpDoc As String, Ano As Integer, Serie As Integer, Numero As Long
+    => Actualização de numeradores de documento - quando está a inserir documento novo onde o numero não é atribuido por nós
+
+  [Function] ActualizaTerceiro
+    Input : TPTERC As Integer, AREAG As Integer, NATCON As Integer, Credit As Integer, valor As Currency, Aprova As Integer, Sinal As Integer, GravarOuAnular As Integer, Cambio As Double, Optional Satisfeito As Integer = 1
+    Output: Integer
+    => Chama GravaTotCli, tem interface genério para clientes e fornecedores
+
+  [Function] AjustaDataPagamento
+    Input : Datavenc As String, Dias As Integer
+    Output: String
+    => auxilio ao calculo de data de pagamento
+
+  [Sub] AlteraPendente
+    Input : campos As DocumentosGcCab, ComissaoCobr As Currency
+    => Altera o pendente de um documento na base de dados
+
+  [Function] AnaliseDiferencas
+    Input : Tmpcab As DocumentosGcCab, TmpLin As Collection, RefazEncargos As Boolean
+    Output: eLAlteracoes
+    => compara o docuemtno em memória com o que está gravado , uado na alteração de documentos
+
+  [Sub] AplicaEncargo
+    Input : Linha As Sage1GCOApi.DocumentosGcLin
+    => Interna usada no recalculo dos encargos
+
+  [Sub] CalculaTotaisCab
+    Input : TotaisFinal As Totais, TotaisOri As Totais, ByVal Cambio As Double, Optional Taxa1 As Currency, Optional Taxa2 As Currency, Optional Taxa3 As Currency, Optional Taxa4 As Currency, Optional Originais As Boolean = False
+    => Auxilio ao recalculo de totais de documento
+
+  [Sub] CarregarDadosAjudaVenda
+    Input : Linha As DocumentosGcLin
+    => Carregar dados da Ajuda á venda
+
+  [Function] ClienteOcasional
+    Output: Boolean
+    => Validar se o documento é do tipo orçamento a clientes e estiver parametrizado na ficha do cliente como pode alterar a morada
+
+  [Sub] CopiaDados
+    Input : Optional ByVal DocumentoOriginal As Boolean = False, Optional ByVal VeioRecalculaCabecalho As Boolean = False
+    => Actualiza as estruturas internas do documento comercial que são usadas para efectuar processamentos e gravação de dados
+
+  [Function] DataPagamento
+    Input : Datavenc As String, NumDias As String
+    Output: String
+    => Calcula a data de pagamento do pendente
+
+  [Function] DataVto
+    Input : RegVto As String, TpDoc As String, DataDoc As String, DataCarga As String
+    Output: String
+    => Calcula a data de vencimento de um documento
+
+  [Function] DescontoValido
+    Input : Linha As Sage1GCOApi.DocumentosGcLin, msg As String, Codigo As Long
+    Output: Boolean - sinaliza se o desconto é válido (True)
+    => Validar o desconto de cabeçalho do documento pelas grelhas de desconto (pode ser exclusivo)
+
+  [Function] DiaFixo
+    Input : Datavenc As String, Dia As Integer
+    Output: String
+    => auxilio ao calculo de data de pagamento
+
+  [Function] GerarChaveStock
+    Input : ByVal Art As String - Código do artigo ByVal Arm As String - Código do armazém
+    Output: String - Chave para aceder ao stock do artigo
+    => Gerar uma chave única para identificação do stock do artigo
+
+  [Function] GetPrecoAjudaCompra
+    Input : Linha As Sage1GCOApi.DocumentosGcLin, PrecoAjudaCompra As Currency, DescontoAjudaCompra As String, DataLinhas As String
+    Output: Integer -
+    => Sugere dados parea as linhas de documento baseado na tabela de ajuda á compra
+
+  [Function] GravaComissaoLinha
+    Input : Linha As Integer
+    Output: Currency
+    => Calcula a comissão associada a uma linha
+
+  [Function] GravaPendente
+    Input : GravaOuAnula As Integer, ComissaoCobr As Currency
+    Output: Boolean
+    => Cria, anula ou actualiza pendentes
+
+  [Function] GravarLog
+    Output: Boolean
+    => Gravar a informação para log e criar a respectiva signature
+
+  [Function] GravaStockArmazemArtigo
+    Input : Linha As Object, Optional Anular As Boolean = False, Optional LinhaAnterior As Object = Nothing
+    Output: Boolean
+    => Actualização de stocks
+
+  [Function] GravaStockArtigo
+    Input : Linha As Object, Optional Anular As Boolean = False, Optional LinhaAnterior As Object = Nothing, Optional ActualizaOriginais As Boolean = True
+    Output: Boolean
+    => Actualização de stocks
+
+  [Sub] GravaTerceirosVdi
+    => Actualiza os dados do terceiro das vendas a dinheiro
+
+  [Function] GravaTotCli
+    Input : AREAG As Integer, NATCON As Integer, Credit As Integer, valor As Currency, Aprova As Integer, Sinal As Integer, GravarOuAnular As Integer, Cambio As Double, Optional Satisfeito As Integer = 1
+    => Actualiza os totais do cliente
+
+  [Function] IncoerenciaComOriginaisPraFrente
+    Input : Linha As Sage1GCOApi.DocumentosGcLin
+    Output: Integer - sinaliza se há incoerências (True)
+    => Só deve actualizar quantidade origem se este documento não foi parcialmente convertido para outro para a frente, ou seja, está afzer um documento novo que foi importado de outro, não interessa testar a quantidade original interessa testar se a minha quantidade foi para outro sítio na edição de documentos
+
+  [Function] InserirBancos
+    Input : BCabLiq() As String
+    Output: Boolean
+    => Grava os dados de bancos
+
+  [Function] JafuiImportada
+    Input : Novalinha As DocumentosGcLin
+    Output: Boolean
+    => Verifica se a linha passada já foi importada para algum documento
+
+  [Sub] LigarGCCT_Anular
+    Input : Ano As Integer, TpDoc As String, Serie As Integer, Num As Long
+    => Remove a ligação á contabilidade de um documento
+
+  [Function] LigarGCCT_JaLigado
+    Input : Ano As Integer, TpDoc As String, Serie As Integer, Num As Long
+    Output: Boolean - True está ligado á contabilidade
+    => Retorna se o documento já está ligado á contabilidade
+
+  [Sub] Limpar
+    => esta função limpa as estruturas de cabeçalho e linhas e modulos adicionais não as destroi, apenas limpa
+
+  [Function] LockEdicao
+    Input : Lockar As Boolean
+    Output: Boolean
+    => Locka pendente e documento
+
+  [Function] NumeroDiasMes
+    Input : Mes As Integer, Ano As Integer
+    Output: Integer
+    => auxilio ao calculo de data de pagamento
+
+  [Sub] Ordena_Etiquetas
+    Input : Byref col As String - Código do artigo Byref Min_ As String - Código do armazém
+    => ordenar a colecção de linhas de etiquetas do mesmo modo que estão as linhas de ecrã defect 1-66833
+
+  [Sub] PropoePrecoUnitario
+    Input : Linha As Integer, Optional LinhaMem As Sage1GCOApi.DocumentosGcLin
+    => Sugere o preço unitário de uma linha baseado nas parametrizações
+
+  [Function] Sacar_Cambio
+    Output: Double
+    => Vai buscar o cambio de venda á moeda
+
+  [Function] Sacar_CambiodeCompra
+    Output: Double
+    => Vai buscar o cambio de compra á moeda
+
+  [Function] Sacar_Conta_Tesouraria
+    Input : Cambio As Double, totalcomissao As Currency, OutOBS As String, Outnumrec As Long
+    Output: Boolean
+    => Vai buscar a conta de tesouraria para o pendente opu liquidação
+
+  [Function] Sacar_Dias
+    Input : NumDias As String, Dias() As Integer
+    Output: Integer
+    => auxilio ao calculo de data de pagamento
+
+  [Function] Sacar_Mercado
+    Output: Integer
+    => Vai buscar o mercado associado ao regime de iva do documento
+
+  [Function] Sacar_NumDoc
+    Input : TpDoc As String, Ano As Integer, Serie As Integer
+    Output: Long - Numero atribuido
+    => Actualização de numeradores de documento
+
+  [Function] Sacar_ODia
+    Input : Datavenc As String, Dias() As Integer
+    Output: Integer
+    => auxilio ao calculo de data de pagamento
+
+  [Function] SuperRecalculaCabecalho
+    Input : Values As Totais, Linhas() As IDocumentosGcLin, IvaInc As Integer, DesCab As Currency, DescValor As Currency, Moeda As String, Mercado As Integer, ByVal Decimais As Integer, Tx1 As Currency, tx2 As Currency, Tx3 As Currency, Tx4 As Currency, Optional Originais As Boolean = False, Optional LinhasInterface As Collection
+    Output: Totais
+    => Efectua o recalculo de totais do documento e de valores das linhas
+
+  [Function] Valida_DataFechada
+    Input : DataDoc As String
+    Output: Integer - True se é válida
+    => Compara a data passada com a data de fecho de contabilidade
+
+  [Function] Valida_DataStock
+    Input : DataDoc As String
+    Output: Integer - True se é válida
+    => Compara a data passada com a dta de fecho de stocks
+
+  [Sub] Valores_Defeito_Cab
+    Input : Optional VeioRecalculaCabecalho As Boolean = False
+    => Sugere valores por defeito para o cabeçalho de documento
+
+  [Sub] Valores_Defeito_Lin
+    Input : Optional VeioRecalculaCabecalho As Boolean = True
+    => Sugeres valores por defeito para uma linha de documento, baseado nas parametrizações da base de dados
+
+  [Function] Verifica_Data
+    Input : NovaData As String
+    Output: String
+    => auxilio ao calculo de data de pagamento
+
+  [Function] XML
+    Output: Long
+    => Lê documento para memória a partir de fx xml

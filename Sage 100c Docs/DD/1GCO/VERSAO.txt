@@ -1,0 +1,8 @@
+VERSAO — Versao  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary]: TIPOREG
+
+Columns (2):
+  NUMERO   Long     
+  TIPOREG  Text(3)  

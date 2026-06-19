@@ -1,0 +1,11 @@
+MEDTAMCO — Medidas Grelha Taman  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINCIPA [primary, unique]: CODTIPOM+CODMED
+  CODMED: CODTIPOM
+
+Columns (4):
+  CODMED    Text(4)   Código Medida
+  CODTIPOM  Text(10)  Tipo de Medida
+  DESCRICA  Text(20)  Descrição
+  POSIMP    Integer   Posição Impressão

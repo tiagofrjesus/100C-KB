@@ -1,0 +1,9 @@
+AVENNUM — Avenças Numeração  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ANO [primary, unique]: TIPOCNTR+ANO
+
+Columns (3):
+  ANO       Integer  Ano
+  NUMERO    Long     Numero
+  TIPOCNTR  Text(5)  Tipo de Avença

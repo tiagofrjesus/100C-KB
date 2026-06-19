@@ -1,0 +1,17 @@
+AJUDAVND — Ajuda à Venda  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: ARTIGO+CLIENTE
+
+Columns (11):
+  ACCAO_PRECO                    Integer   Acção Preço
+  ACCAO_QUANTIDADE               Integer   Acção Quantidade
+  ARTIGO                         Text(15)  Artigo
+  CLIENTE                        Text(15)  Cliente
+  DESCR                          Text(50)  Descr. Art. Cliente
+  EANART                         Text(20)  EAN Artigo Cliente
+  FACTOR_PRECO                   Currency  Factor Preço
+  FACTOR_QUANTIDADE              Currency  Factor Quantidade
+  REFART                         Text(20)  Cód. Artigo Cliente
+  UNIDADE                        Text(3)   Unidade
+  USA_DEFINICOES_ESPECIFICAS_FE  Integer   Def. Específicas FE

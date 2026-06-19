@@ -1,0 +1,18 @@
+RECONBANCAB — Reconciliação Bancária Cabeçalho  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: ANO+CONTA+PERIODO
+
+Columns (12):
+  ANO              Integer   Ano
+  CONTA            Text(50)  Conta
+  DATAFIM          Date      Data de Fim
+  DATAINICIO       Date      Data de Início
+  DIASTOLERANCIA   Integer   Dias de tolerancia
+  EXTRATOBANCARIO  Memo      XML do Extracto Bancário
+  MOVIMENTOS       Integer   Movimentos com data superior ao final do periodo
+  PERIODO          Text(3)   Periodo
+  TOTALCREDITO     Currency  Total Crédito
+  TOTALCREDITOREC  Currency  Total Crédito Reconciliado
+  TOTALDEBITO      Currency  Total Débito
+  TOTALDEBITOREC   Currency  Total Débito Reconciliado

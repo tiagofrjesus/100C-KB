@@ -1,0 +1,9 @@
+DESAUT — Descritivos Automáti  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  DESAUT [primary, unique]: DESAUT
+
+Columns (3):
+  DESAUT  Text(3)   Desc. Automático
+  DESCR   Text(30)  Descrição
+  TECLA   Text(3)   Tecla associada

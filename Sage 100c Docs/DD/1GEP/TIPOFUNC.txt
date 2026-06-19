@@ -1,0 +1,9 @@
+TIPOFUNC — Tipos de funcionário  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (3):
+  CODIGO   Integer   Código
+  DESCR    Text(30)  Descrição
+  TPBLSOC  Integer   Tipo Balanço Social

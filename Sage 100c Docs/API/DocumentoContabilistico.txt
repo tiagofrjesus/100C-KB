@@ -1,0 +1,107 @@
+DocumentoContabilistico
+Documentos contabilisticos - Principal (classificação de comerciais e financeiros)
+
+Membros (26):
+
+  [Get] Alterado
+    => sinaliza que o documento foi alterado
+
+  [Let] Alterado
+    => sinaliza que o documento foi alterado
+
+  [Get] DiarioPropr
+    Output: Diarios
+    => Retorna objecto com as propriedades dos diário associado ao documento contabilistico
+
+  [Get] SugereNumeroDiario
+    Input : ByVal Actualiza As Boolean - True incrementa a numeração do diário
+    Output: String
+    => Retorna o próximo numero de documento disponível, e actualiza a base de dados
+
+  [Get] SugereNumeroDocumento
+    Output: Long
+    => Retorna o próximo numero de documento disponível
+
+  [Get] TotalDocumento
+    => Retorna o total de documento
+
+  [Let] TotalDocumento
+    => Atribui o total de documento
+
+  [Function] AdicionaLinha
+    Input : ByVal Linha As MovimentosCtb2
+    Output: Long
+    => Adiciona uma linha de movimento contabilistico ao documento
+
+  [Function] Alterar
+    Output: Long
+    => Alterar todas as linhas de movimento contabilistico associadas a este documento
+
+  [Function] DocumentoComercial
+    Input : Documento As DocumentoComercial
+    Output: Long
+    => Anexa um documento comercial ao documento contabilistico (usado para seguidamente gerar o movimento contabilistico a partir do documento comercial automaticamente)
+
+  [Function] DocumentoFinanceiro
+    Input : Documento As DocumentoFinanceiro
+    Output: Long
+    => Anexa um documento financeiro ao documento contabilistico (usado para seguidamente gerar o movimento contabilistico a partir do documento financeiro automaticamente)
+
+  [Function] Inserir
+    Output: Long
+    => Inserir todas as linhas de movimento contabilistico associadas a este documento , actualiza documento comercial ou financeiro se existirem
+
+  [Function] Ler
+    Input : ByVal Tipodoc As String, ByVal NumDoc As Long, ByVal Serie As Integer, ByVal Ano As Integer, Optional ByVal FichXML As String = ""
+    Output: Long
+    => Ler todas as linhas de movimento contabilistico de um dado documento
+
+  [Function] Remover
+    Output: Long
+    => Apaga todas as linhas de movimento contabilistico associadas a este documento
+
+  [Function] RetiraLinha
+    Output: Long
+    => Retira uma linha dos movimentos contabilisticos
+
+  [Function] SugereReparticao
+    => Sugere uma repartição rubricas centro de custo
+
+  [Function] UltimaMensagem
+    Output: String
+    => Retorna a ultima mensagem emitida pela API
+
+  [Function] UltimoErro
+    Output: String
+    => Retorna o ultimo erro emitido pela API
+
+  [Function] Validar
+    Input : Optional ByVal Operacao As Integer
+    Output: integer - -1 = Erro
+    => Verifica se os dados que constam nas propriedades são válidos para de seguida se poder efectuar inserção, alteração, anulação
+
+  [Sub] Class_Initialize
+    Output: Loga erro se não conseguir ligar á base de dados
+    => Ligar as camada de dados
+
+  [Sub] Class_Terminate
+    => Desligar as camadas de dados
+
+  [Sub] CopiaDados
+    => Passa a informação do interface para a camada de dados para posterior inserção, alteração, remoção. Pode ter algum processamnto, transformação da informação
+
+  [Function] Sacar_NumDoc
+    Output: Long
+    => Agtribui numero ao documento contabilistico
+
+  [Sub] Valores_Defeito_Cab
+    Output: Long
+    => Sugere alguns valores por defeito
+
+  [Sub] Valores_Defeito_Lin
+    Output: Long
+    => Sugere alguns valores por defeito para a linhas
+
+  [Function] XML
+    Output: Long
+    => Lê entidade para memória a partir de fx xml

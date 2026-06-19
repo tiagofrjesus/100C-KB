@@ -1,0 +1,21 @@
+DECRETOS — Tabela de Decretos  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (15):
+  ANO       Integer   Ano
+  CODIGO    Integer   Código Dec. Lei
+  CPORT     Long      Código da Portaria
+  DESCRICA  Text(35)  Descrição
+  EXERPOC   Integer   Ano da Reavaliação
+  FACTOR    Double    Factor
+  MNTR      Text(6)   Mod bens não t. dep.
+  MQD       Text(6)   Mapa Quotas decresce
+  MTR       Text(6)   Mod bens total depre
+  PERREACE  Integer   Percentagem Aceite
+  REIJAREA  Integer   Reintegrações do exercício são calculadas sobre valores reavaliados
+  RMNTR     Text(5)   Mapa não total. dep.
+  RMTR      Text(5)   Mapa total. depre.
+  SIGLA     Text(10)  Sigla
+  VIDAUMIN  Integer   Vida Útil Mínima

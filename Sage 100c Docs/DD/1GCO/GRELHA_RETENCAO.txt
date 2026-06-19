@@ -1,0 +1,12 @@
+GRELHA_RETENCAO — Grelha de Retenção  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CLASS [primary, unique]: EXERCICIO+CLASSE+TIPO_OPERACAO+TIPO_SUJEITO
+
+Columns (6):
+  CATEGORIA      Integer   Categoria rendimento
+  CLASSE         Text(5)   Classe de retenção
+  CONTA          Text(15)  Conta
+  EXERCICIO      Integer   Exercício
+  TIPO_OPERACAO  Integer   Tipo de operação
+  TIPO_SUJEITO   Integer   Tipo sujeito passivo

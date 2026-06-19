@@ -1,0 +1,8 @@
+INDIC — Indicadores  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IND [primary, unique]: COD
+
+Columns (2):
+  COD    Text(3)   Código
+  DESCR  Text(30)  Descrição

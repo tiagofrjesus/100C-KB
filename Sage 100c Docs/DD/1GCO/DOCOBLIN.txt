@@ -1,0 +1,48 @@
+DOCOBLIN — Documentos Obras Lin  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPDOC [primary, unique]: ANO+TPDOCUM+SERIE+NNUMDOC+NUMLINHA
+  ARTDATA: ARTIGO+DATA+MOVSTC+TPOPER
+  ARTDTARM: ARTIGO+ARMAZEM+DATA
+
+Columns (40):
+  ANO       Integer   Ano
+  ARMAZEM   Text(6)   Armazém
+  ARTIGO    Text(15)  Artigo
+  DATA      Date      Data Mov Stock
+  DESCONTO  Text(12)  Desconto
+  DESCR     Text(80)  Descrição
+  DESCRRTF  Text(0)   Descrição RTF
+  DESCVAL   Currency  Desconto Valor
+  FACTOR    Currency  Factor
+  FORMUL    Integer   Linha com fórmula
+  GARANTIA  Integer   Garantia Sim/Não
+  HKFIM     Text(7)   HoraKms Fim
+  HKINI     Text(7)   HoraKms Ini
+  HORAKMS   Integer   Hora / Kms
+  IVA       Currency  Taxa I.V.A.
+  LINANU    Integer   Linha Anulada
+  LIVRE015  Currency  
+  LIVRE016  Currency  
+  LIVRE027  Integer   
+  LIVRE028  Integer   
+  LIVRE029  Integer   
+  LIVRE034  Currency  
+  LIVRE035  Currency  
+  MOVSTC    Integer   Movimento Stock
+  NNUMDOC   Long      Número Documento
+  NOME      Text(30)  Nome Técnico
+  NUMLINHA  Integer   Número da Linha
+  PRUNIT    Currency  Preço Unitário
+  QUANT     Currency  Quantidade
+  RUBRICA   Text(15)  Descritor
+  SECTOR    Text(3)   Sector
+  SERIE     Integer   Série
+  TECNICO   Text(5)   Tecnico
+  TPDOCUM   Text(3)   Tipo Documento
+  TPLINHA   Integer   Tipo de Linha
+  TPOPER    Integer   Tipo Operação
+  TXDESC    Currency  Taxa Desconto
+  UNIDADE   Text(3)   Unidade
+  VALOR     Currency  Valor
+  VLMOVSTK  Currency  Vl Movimento Stock

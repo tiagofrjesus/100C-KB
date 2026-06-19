@@ -1,0 +1,14 @@
+CTBORC — Contab. Orçamental  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ANO [primary, unique]: EXERC+MES+SECTOR+CONTA+RUBRICA+CCUSTO+CUSTEIO
+
+Columns (8):
+  CCUSTO   Text(6)   
+  CONTA    Text(15)  
+  CUSTEIO  Text(6)   
+  EXERC    Integer   
+  MES      Integer   
+  RUBRICA  Text(6)   
+  SECTOR   Text(3)   
+  VALOR    Currency  

@@ -1,0 +1,16 @@
+SITCGA — Situação CGA  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: COD+TPREL
+  COD: COD
+
+Columns (9):
+  COD                Text(2)    Código
+  DATA_EFEITO        Integer    Data efeito
+  DESCR              Text(100)  Descrição
+  HORARIO_COMPLETO   Integer    Horário completo
+  HORARIO_PARCIAL    Integer    Horário parcial
+  NIVEL_VENCIMENTO   Integer    Nível de vencimento
+  NUMERO_DIAS        Integer    Número de dias
+  TPREL              Text(2)    
+  VALOR_REMUNERACAO  Integer    Valor da remuneração

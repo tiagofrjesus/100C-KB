@@ -1,0 +1,21 @@
+HISTSS — Histórico Seg.Social  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: ANO+MES+ESTAB+TAXA+LINHA
+
+Columns (15):
+  ANO       Integer   ANO
+  CATEG     Text(35)  CATEG
+  CODSS     Text(4)   CODSS
+  COL1      Double    COL1
+  COL2      Double    COL2
+  COL3      Double    COL3
+  DATANASC  Date      DATANASC
+  ESTAB     Text(4)   ESTAB
+  LINHA     Integer   LINHA
+  MES       Integer   MES
+  NDIAS     Single    NDIAS
+  NOME      Text(50)  NOME
+  NSEGSOC   Text(9)   NSEGSOC
+  OBSERV    Text(50)  OBSERV
+  TAXA      Single    TAXA

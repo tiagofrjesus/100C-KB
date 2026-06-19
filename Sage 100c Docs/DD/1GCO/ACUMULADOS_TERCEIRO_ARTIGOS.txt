@@ -1,0 +1,18 @@
+ACUMULADOS_TERCEIRO_ARTIGOS — Acumulados por terceiro e artigos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TERCEIRO [primary, unique]: TPTERC+TERCEIRO+ANO+MES+ARTIGO
+
+Columns (12):
+  ANO          Integer   Ano
+  ARTIGO       Text(15)  Artigo
+  MES          Integer   Mês
+  QTDENT       Currency  Qtd. Entrada
+  QTDSAIDA     Currency  Qtd. Saída
+  TERCEIRO     Text(15)  Terceiro
+  TPTERC       Integer   Tipo de Terceiro
+  VLDESCONTOS  Currency  Valor descontos
+  VLEXTENT     Currency  Valor entrada
+  VLEXTSAI     Boolean   Valor Saída
+  VLSTKENT     Currency  Valor stock entrada
+  VLSTKSAI     Currency  Valor stock saida

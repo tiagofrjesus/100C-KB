@@ -1,0 +1,8 @@
+FUNC — Funções  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (2):
+  COD    Text(4)   Código
+  DESCR  Text(35)  Descrição

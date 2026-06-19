@@ -1,0 +1,8 @@
+DISMISSALREASONS — Motivo da saída na Entidade Empregadora  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  INDEX [primary, unique]: REFERENCE
+
+Columns (2):
+  NAME       Memo     Descrição
+  REFERENCE  Text(3)  Código

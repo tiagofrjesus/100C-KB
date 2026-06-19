@@ -1,0 +1,4 @@
+BancosReader
+Ligação ao módulo de bancos. Leitura de definições para ligação de documentos comerciais a bancos.
+
+Membros (0):

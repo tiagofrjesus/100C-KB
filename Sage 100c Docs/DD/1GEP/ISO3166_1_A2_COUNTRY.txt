@@ -1,0 +1,10 @@
+ISO3166_1_A2_COUNTRY — Código do País conforme norma ISO 3166-1 Alpha2  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (4):
+  CODIGO           Text(2)   Código do País
+  CODIGO_3DIGITOS  Text(3)   Código 3 dígitos
+  CODIGO_NUMERICO  Text(3)   Código númerico
+  DESCRICAO        Text(50)  Descrição do País

@@ -1,0 +1,9 @@
+BASEANOS — Bases Dados Anos Fec  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRIN [primary, unique]: BDANO+BDNOME
+
+Columns (3):
+  BDANO   Integer  BDANO
+  BDNOME  Text(8)  BDNOME
+  BDSTAT  Integer  BDSTAT

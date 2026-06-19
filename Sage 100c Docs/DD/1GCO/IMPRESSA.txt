@@ -1,0 +1,14 @@
+IMPRESSA — Impressao  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINCIPA [primary, unique]: CHAVE
+
+Columns (8):
+  ANO     Integer   
+  CERT    Text(25)  Digitos certificação
+  CHAVE   Long      
+  NUMDOC  Long      
+  NUMVIA  Integer   
+  SERIE   Integer   
+  TPDOC   Text(3)   
+  UTILIZ  Text(20)  

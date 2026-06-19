@@ -1,0 +1,270 @@
+PARAMAPL — Parametros Aplicação  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  NUMREG [primary, unique]: NUMREG
+
+Columns (264):
+  ABREINV                        Date       Abertura Inventário
+  ACTACUM                        Integer    Actualiza Acumulados
+  ACTPMP                         Integer    Actualiza PMP OnLine
+  AJUSTPGT                       Text(12)   Ajuste Pagamento
+  AJUST_ACT_DATA_STOCKS          Integer    
+  APLIC                          Text(15)   Aplicação
+  APPFIELD1                      Text(50)   
+  APRENC                         Integer    Aprovação Encomendas
+  ARMAZ                          Text(6)    Armazém web
+  ARMEDI                         Text(6)    Armazém EDI
+  ARREDLIN                       Integer    Arredondar Valor Lin
+  ARREDVNDDESCRITOR              Text(15)   Vendas: descritor para linhas de arredondamento
+  AUX                            Integer    AUX
+  AVARR                          Integer    Aviso Arr.
+  AVDIAR                         Integer    Aviso série s/diário
+  AVDOC                          Integer    Aviso de Doc.
+  AVENCAIT                       Integer    Itens Avenças
+  AVISOLIQ                       Integer    Emite aviso Liq.
+  AVVENC1                        Text(20)   AVVENC1
+  AVVENC2                        Text(20)   AVVENC2
+  AVVENC3                        Text(20)   AVVENC3
+  AVVENC4                        Text(20)   AVVENC4
+  BALCAO                         Text(4)    Balcão
+  BALCL9                         Integer    Tipo Bal. Classe 9
+  BANCO                          Text(4)    Banco
+  BAREMP                         Text(6)    BAREMP
+  BARPAIS                        Text(3)    BARPAIS
+  BDGC                           Text(255)  B.D.G Comercial
+  BDIMO                          Text(255)  B.D. Imobilizado
+  BDSLR                          Text(255)  Base de Dados
+  BLOQUEAR_ORDENACAO             Integer    Bloquear ordenação da grelha
+  CARRPRUN                       Integer    Não Arr.Prc.Unit.Cmp
+  CATSLR                         Text(255)  Perc. de catálogos
+  CCAMBDP                        Text(15)   
+  CCAMBDR                        Text(15)   
+  CCAMBFP                        Text(15)   
+  CCAMBFR                        Text(15)   
+  CDATADOC                       Integer    RepoedataSistemaCmp
+  CDEMPINF                       Text(3)    Cod.Emp.INFOLOGIA
+  CDESCFIP                       Text(15)   
+  CDESCFIR                       Text(15)   
+  CENCCOBP                       Text(15)   
+  CENCCOBR                       Text(15)   
+  CENCDESP                       Text(15)   
+  CENCDESR                       Text(15)   
+  CIMPOBSO                       Integer    Imp Obs Orç Cmp
+  CINSLING                       Integer    Ins.linha branco Cmp
+  CJURMORP                       Text(15)   
+  CJUROMOR                       Text(15)   
+  CLASSE9                        Integer    Tra. Classe 9
+  CLCDSC                         Integer    Cálculo Desconto
+  CLIENTE                        Text(15)   Cliente web
+  CNSUIVAP                       Text(15)   
+  CNSUIVAR                       Text(15)   
+  CNTARRCR                       Text(15)   Conta Arr. Cr.
+  CNTARRDB                       Text(15)   Conta Arr. Db
+  CNTBAL                         Text(15)   Conta Balan.
+  COMUTAR_MOEDA                  Integer    Comutar moeda
+  CONTA                          Text(21)   Conta
+  COUTROSP                       Text(15)   
+  COUTROSR                       Text(15)   
+  CRECENCP                       Text(15)   
+  CRECENCR                       Text(15)   
+  CTBBAN                         Integer    Janela CTB
+  CTRLPROD                       Integer    Controlo Prod. CeC
+  CTRLVTO                        Integer    Ctrl. Vto.
+  CTRNUM                         Integer    Controlo Numeração
+  CVDTXTLI                       Integer    Doc. Dinh. c/DocCmp
+  DADOS_CERTIFICACAO             Text(150)  
+  DATAEDI                        Integer    EDI Data Entrega
+  DATAPCM                        Date       Data de Comutação
+  DATA_CERTIFICACAO              Text(150)  
+  DATA_EXECUCAO                  Text(100)  
+  DATA_INICIO_CL9                Date       Data inicio CL9
+  DATA_SAIDA_GB_UE               Date       Data de saída GB da UE (Hard-Brexit)
+  DECCTB                         Integer    Decimais Ctb
+  DECIMAIS_PRECO                 Integer    Decimais Preco
+  DECQTD                         Integer    Decimais Quantidade
+  DESCONTO                       Text(3)    Doc Banc Desconto
+  DESCRICAO_LANCAMENTOS          Integer    Descrição a atribuir aos lançamentos
+  DESCRITOR_DESCONTOS            Text(15)   Descritor Desc. Fin.
+  DESDIF                         Integer    Descarga Diferida
+  DESMARCARCLASSIFICACAO         Integer    Desmarcar classificação contabilistica
+  DESPLETR                       Integer    Desp. de LTR BNC
+  DEVOLVE_LOTE_CLIENTE           Integer    Devoluções de Lote
+  DIARIBAN                       Integer    Diário bancos
+  DIASATR                        Integer    Dias Atraso
+  DIASEXT                        Integer    Num Dias Extracto
+  DOCUMENTODIGITAL               Integer    Documento Digital
+  DOCUMENTO_PREPARACAO           Integer    Documento em preparação
+  DOCWEB                         Text(3)    Documento web
+  DOC_ASSINADOS_ARQ_DIGITAL      Integer    Doc.Ass.Arq.Digital
+  DTENTCMP                       Integer    Data Entrega Compras
+  DTENTVND                       Integer    Data Entrega Vendas
+  DTFECHO                        Date       Data Fechada
+  DTFSTK                         Date       Data Fechada Stk
+  DTVAZIA                        Integer    Usa data do cab.
+  EAN128ID                       Text(3)    EAN128 Identificador
+  EAN128SUBFNC1                  Text(3)    EAN128 Substituição FNC1
+  EANEMPED                       Text(20)   EAN Empresa
+  EDIPASTAARQ                    Text(512)  EDI Pasta de arquivo de ficheiros importação
+  EDIUNIMPINFLUE                 Integer    EDI Unidade de importação INFLUE
+  EDIUNIMPTSVA                   Integer    EDI Unidade de importação TSVA
+  EMPGDC                         Text(50)   Empresa Gestão Doc.
+  EURO                           Text(3)    Euro
+  EUROPA                         Integer    Modo Trabalho
+  EXE                            Text(50)   
+  EXEFEC                         Integer    Último Exer. Fechado
+  EXPOBS                         Integer    Exporta Obs. EDI
+  EXPSERIE                       Integer    Exporta Série Doc.
+  EXTINF                         Text(2)    Extensão INFOLOGIA
+  FACTENCA                       Integer    Imp. Enc. aprov.
+  FACTURAELECTRONICA             Integer    Faturação eletrónica Sage
+  FACTURAELECTRONICA_DIFERIDA    Integer    Fatura eletrónica diferida
+  FACTZERO                       Integer    NFacturarQTDZero
+  FATURA_SEM_PAPEL               Integer    Fatura sem papel
+  FECHAINV                       Date       Livre
+  FICHBLCK                       Text(100)  Ficheiro lista negra
+  FLUXOCL9                       Integer    Tr. Fluxos Classe 9
+  FMVLOTE                        Integer    Importar V/Lote FM
+  FTIMPHOR                       Integer    Importar Hora e Data
+  GARANTDE                       Integer    Garantia Desconto
+  GESTAOEQUIPAMENTO              Integer    Gestão Equipamento
+  GUIASFAC                       Integer    Imp. parcial de Guia
+  IMPACUMQTDCOMP                 Integer    Importações Acumulam Quantidades importadas nas compras
+  IMPACUMQTDVEND                 Integer    Importações Acumulam Quantidades importadas nas vendas
+  IMPADPARCIAIS                  Integer    Permite importação parcial de adiantamentos de clientes para o documento de venda.
+  IMPCMPQTDSUPORIG               Integer    Importação: Permite quantidade superior à origem nas compras
+  IMPVNDQTDSUPORIG               Integer    Importação: Permite quantidade superior à origem nas vendas
+  INSTAL                         Text(5)    Instalação
+  INULPRCP                       Integer    Inv.Act.Ult.Pr.Cmp
+  LIGCTB                         Integer    Ligação a CTB
+  LNARTASS                       Integer    Lança Artigo Assoc.
+  LOTEMASCARA                    Text(32)   Máscara de sugestão dos códigos dos lotes
+  LOTESUGERECOMPRAS              Integer    Sugere códigos do lote nas compras
+  LOTESUGERESTOCKS               Integer    Sugere códigos do lote nos stocks
+  LOTESUGEREVENDAS               Integer    Sugere códigos do lote nas vendas
+  MAXTOT                         Text(100)  MAXTOT
+  METODO_NUMERACAO               Integer    Método de numeração de documentos na passagem de ano
+  MODOEAN                        Integer    Modo exportação EAN
+  MODULO                         Text(1)    MODULO
+  MOEDANAC                       Text(3)    Código Moeda
+  MOVIMDEF                       Integer    Campo defeito Mov.
+  MSGLDNUMBER                    Long       MSGLDNUMBER
+  MULTIEMPRESA                   Integer    Sistema multiempresa
+  NCVALPCM                       Integer    N.C. For. val. PCM
+  NIB                            Integer    Altera NIB
+  NOTACR                         Integer    AnexoINotaCr
+  NSERFOBR                       Integer    Folhas Obra NSER
+  NUBNPGT                        Integer    Nº Doc. Bancário
+  NUMREG                         Long       Num.Registo
+  NUMSER                         Integer    Comprar Num. Serie
+  NUMSERINV                      Integer    Poder efectuar inventário inicial de números de série já vendidos
+  ORCAMCL9                       Integer    Orçamental Classe 9
+  PBORDOAC                       Integer    Actual. Painel Bordo
+  PERCINF                        Text(50)   Percurso INFOLOGIA
+  PERIODOEXPERIMENTALFE          Integer    Ativou o periodo experimental da fatura eletronica até 30 de Maio
+  PERIVA                         Integer    Periodicidade do IVA
+  PKARQFICH                      Integer    Arquivar ficheiros depois da utilização
+  PKCCOD                         Integer    Comprimento código
+  PKCQTD                         Integer    Comprimento qtd.
+  PKDEC                          Integer    Casas decimais
+  PKFICHMULT                     Integer    Permite a utilização de vários ficheiros
+  PKPASTAARQ                     Text(512)  Pasta de arquivo dos ficheiros
+  PKPASTAFICH                    Text(512)  Pasta para importação dos ficheiros
+  PKPATH                         Text(100)  Ficheiro de descarga
+  PKSATDOCIMP                    Integer    Permite satisfazer documentos importados
+  PKSEP                          Integer    Separador decimais
+  PRECOGC                        Integer    Usa preço GC
+  PRECOSGC                       Integer    Grelha Desc./Cli.
+  PRECZERO                       Integer    NFacturarPRCZero
+  PREFIXO_CLIENTE_POS            Text(10)   Prefixo Cliente POS
+  PRENUMMES                      Integer    Prefixo numérico mês
+  PROVISOR                       Integer    PROVISORIO
+  PRZPGT                         Text(3)    Prazo Pgt
+  PUTISEC                        Integer    Acesso Sect. Utili.
+  QUANT_UNIDADE_CBARRAS          Integer    Utiliza quantidade e unidade indicada no código de Barras
+  RECAMBIO                       Text(3)    Doc Banc Recambio
+  RECAP                          Currency   Valor Limite Recapit
+  RECCLI                         Text(3)    Recibo Cliente
+  RECFORN                        Text(3)    Recibo Fornecedor
+  REGFAC2013                     Text(500)  
+  REGIVANC                       Text(3)    Tipo de IVA Nacional
+  RELSERV                        Integer    Rel. Serv. Fact
+  RESTOREDATE                    Text(20)   Armazenar a data do restore efectuado
+  RETIRAR_FILTRO_TERCEIRO        Integer    Retirar filtro do terceiro na importação de documentos
+  REVALORIZAR_TRANS_PCM          Integer    Revalorizar Trans.
+  SARRPRUN                       Integer    Não Arr.Prc.Unit.Stc
+  SDATADOC                       Integer    RepoedataSistemaStc
+  SECTBAN                        Text(3)    Sector por defeito b
+  SECTCON                        Text(3)    Sector CON
+  SECTENP                        Text(3)    Sector ENP
+  SECTOR                         Text(3)    Sector
+  SECTOR_OPERACOES               Text(3)    Sector Operações
+  SENHA_PORTAL                   Text(100)  Senha do Portal e-fatura
+  SERCTB                         Integer    Série sugerida CTB
+  SERIE                          Integer    Serie web
+  SERIECD                        Integer    Série CD
+  SERIEEDI                       Integer    Série EDI
+  SERIETDE                       Integer    Serie Doc. Entrada
+  SERIETDS                       Integer    Serie Doc. Saída
+  SERIEVCC                       Integer    Série VCC
+  SERIEVCV                       Integer    Série VCV
+  SERIEVD                        Integer    Série VD
+  SETORCONTABILIDADE             Text(3)    Setor usado na contabilidade
+  SNC                            Integer    Exercício início SNC
+  SSCC                           Long       Sequência SSCC
+  TAMCORTO                       Integer    Ver todos tamanhos
+  TIPOPCM                        Integer    Método de Cálculo
+  TIPO_BD                        Integer    Tipo de base dados
+  TIPO_DATA_LANCAMENTOS          Integer    Tipo de data a atribuir aos lançamentos
+  TOLERANCIADTCARGA              Text(10)   Tolerância de hora de carga
+  TPDENC                         Text(3)    Tp. Doc. Enc. Compra
+  TPDENV                         Text(3)    Tp. Doc. Enc. Vendas
+  TPDESC                         Integer    Grelha Desc/Com.
+  TPDFTC                         Text(3)    Tp. Doc. Fac. Compra
+  TPDFTV                         Text(3)    Tp. Doc. Fac. Venda
+  TPDGEC                         Text(3)    Tp. Doc. Rem. Compra
+  TPDGTC                         Text(3)    Tp. Doc. GT Compras
+  TPDGTI                         Text(3)    Tp. Doc. GT Internos
+  TPDGTV                         Text(3)    Tp. Doc. GT Vendas
+  TPDOCEDI                       Text(3)    Tp. Doc. EDI
+  TPDORC                         Text(3)    Tp. Doc. Orç. Compra
+  TPDORV                         Text(3)    Tp. Doc. Orç. Vendas
+  TPDRMV                         Text(3)    Tp. Doc. Rem. Venda
+  TPENVI                         Integer    Tipo Envio Fac. Ele.
+  TPPACK                         Integer    Tipo Pack Envio
+  TP_PRECO_FCOMPOSICAO           Integer    Tipo Preco Produçoes
+  TRADEDI                        Integer    Tradutor EDI
+  TRANSDE                        Text(3)    TRANSDE
+  TRANSDS                        Text(3)    TRANSDS
+  TRANSFOR                       Integer    Diferenças Cambiais
+  TXIVAGC                        Integer    Usa Taxa IVA GC
+  TXJUROR                        Currency   Taxa Juro
+  ULTCBAR                        Long       ULTCBAR
+  ULTENC                         Text(20)   Ultima enc.
+  ULTIMA_VERIFICACAO_OBRIGACOES  Text(10)   Últ. Ver. Obrigações
+  ULTIMO_DOC_EFATURA             Long       Número sequencial do ultimo documento do e-Fatura
+  UMOVCTB                        Date       Ultima Data de Mov.
+  USADESCRARTIGO                 Integer    Utilizar descrições de artigos
+  USA_RESTRICOES_FLUXOS          Integer    Usar restrições de fluxos de tesouraria
+  UTILSEC                        Integer    Utilizadores Sector
+  VARRPRUN                       Integer    Não Arr.Prc.Unit.Vnd
+  VDATADOC                       Integer    RepoedataSistemaVnd
+  VENCNTCR                       Integer    Notas de Crédito
+  VEND                           Text(6)    Vendedor
+  VENDEDOR_LINHA                 Integer    Vendedor na linha
+  VERSAOX                        Integer    VERSAOX
+  VIMPOBSO                       Integer    Imp Obs Orç Vnd
+  VINSLING                       Integer    Ins.linha branco Vnd
+  VNUMOB                         Integer    VNUMDOC Obrigatorio
+  VPCREC                         Text(3)    Valor Conta Rec
+  VPRPAG                         Text(3)    Valor Conta Pag
+  VVDTXTLI                       Integer    Doc. Dinh. c/DocVnd
+  WSACCESSION                    Integer    Aderiu à submissão à AT de documentos de venda pelo Webservice
+  WSDELAYSALESINVOICE            Integer    Momento de envio de documentos de venda
+  WSPASS                         Text(100)  Password para Webservice
+  WSPASSSALESINVOICE             Text(100)  Password para Webservice de documentos de venda
+  WSSUBMISSIONMODE               Integer    Método de submissão
+  WSTERMS                        Text(100)  
+  WSTERMSFATURAELETRONICA        Text(100)  
+  WSTERMSSALESINVOICE            Text(100)  
+  WSUSER                         Text(14)   Nome de utilizador para Webservice
+  WSUSERSALESINVOICE             Text(14)   Nome de utilizador para Webservice de documentos de venda

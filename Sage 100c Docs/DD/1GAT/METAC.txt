@@ -1,0 +1,19 @@
+METAC — Definição dos campos. Usado nos limites GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXMETAC [primary, unique]: CTAB+CCOL
+
+Columns (13):
+  CCOL   Text(50)   
+  CTAB   Text(50)   
+  DESCR  Text(255)  
+  EAUTO  Boolean    
+  EPK    Boolean    
+  NBYT   Integer    
+  NORD   Integer    
+  PREC   Integer    
+  SCAL   Integer    
+  SIGLA  Text(50)   
+  TDV    Text(1)    
+  TIPO   Text(3)    
+  TRANS  Text(255)  

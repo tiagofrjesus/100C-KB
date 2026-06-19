@@ -1,0 +1,4 @@
+gtcReader
+Grelhas de tamanhos e cores - Acesso a dados para leitura, contem coleccção com todas as medidas associadas a um artigo
+
+Membros (0):

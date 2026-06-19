@@ -1,0 +1,12 @@
+ORC_ADIT — Aditamento de Orçamentos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD_OBRA+SIT_TRABALHOS+COD_ORC
+
+Columns (6):
+  COD_OBRA        Text(32)  
+  COD_ORC         Text(6)   
+  DATA_CONTRACTO  Date      
+  DATA_PROPOSTA   Date      
+  SIT_TRABALHOS   Text(80)  
+  VALOR           Currency  

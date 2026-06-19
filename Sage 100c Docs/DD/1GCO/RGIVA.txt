@@ -1,0 +1,25 @@
+RGIVA — Tipos de IVA  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (19):
+  CODIGO              Text(3)   Código
+  DESCR               Text(50)  Descrição
+  DTLIMIT             Date      Data Limite
+  ESPFIS              Integer   Espaço Fiscal
+  I1                  Integer   I1
+  I2                  Integer   I2
+  I3                  Integer   I3
+  I4                  Integer   I4
+  ISO3166             Text(3)   Código IS3166 do país a que respeita
+  MERCADO             Integer   Mercado
+  MOTIVO_ISENCAO_TX1  Text(3)   Motivo de isenção de IVA 1
+  MOTIVO_ISENCAO_TX2  Text(3)   Motivo de isenção de IVA 2
+  MOTIVO_ISENCAO_TX3  Text(3)   Motivo de isenção de IVA 3
+  MOTIVO_ISENCAO_TX4  Text(3)   Motivo de isenção de IVA 4
+  OBSFISC             Text(70)  Observações Fiscais
+  TX1                 Currency  Taxa de IVA 1
+  TX2                 Currency  Taxa de IVA 2
+  TX3                 Currency  Taxa de IVA 3
+  TX4                 Currency  Taxa de IVA 4

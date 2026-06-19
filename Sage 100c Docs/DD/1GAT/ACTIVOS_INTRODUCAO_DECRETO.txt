@@ -1,0 +1,24 @@
+ACTIVOS_INTRODUCAO_DECRETO — Activos na introdução de decreto  [1GAT · Sage Gestao de Ativos]
+
+Columns (21):
+  BEM_REDUZIDO_VALOR          Integer    Activo de reduzido valor
+  CLASSIFICACAO               Text(15)   Classificação
+  CODIGO                      Text(20)   Código do activo
+  CODIGO_TABELA               Text(5)    Código de tabela
+  CONTA_POC                   Text(15)   Conta POC
+  DATA_AQUISICAO              Date       Data de aquisição
+  DATA_FIM                    Date       Data de fim de utilização
+  DATA_INICIO                 Date       Data de inicio de utilização
+  DEPRECIACOES_ACUM_NREAVAL   Currency   Depreciações acumuladas não reavaliadas
+  DEPRECIACOES_ACUM_REAVAL    Currency   Depreciações acumuladas reavaliadas
+  DESCRICAO                   Text(100)  Descrição do activo
+  EXCLUIDO_REAVALIACOES       Integer    Excluido de reavaliações.
+  GRUPO_HOMOGENEO             Text(5)    Grupo homogéneo
+  INDICADOR_TAXA              Integer    Indicador de taxa
+  REGIME                      Integer    Regime
+  TAXA_DEPRECIACAO_UTILIZADA  Double     Taxa de depreciação utilizada
+  UTILIZADOR                  Text(15)   Utilizador
+  VALOR_AQUISICAO             Currency   Valor de aquisição
+  VALOR_AQUISICAO_ACTUAL      Currency   Valor de aquisição actual
+  VIDA_ADICIONAL_REAVALIADA   Integer    Vida adicional reavaliada
+  VIDA_FISCAL                 Integer    Vida fiscal

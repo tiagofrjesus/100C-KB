@@ -1,0 +1,21 @@
+CAUC_GARANT — Cauções e Garantias  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD
+
+Columns (15):
+  COD                Integer   
+  COD_OBRA           Text(6)   
+  COD_PAI            Integer   
+  COD_RENOVACAO      Integer   
+  DATA_EMISSAO       Date      
+  DATA_ENTREGA       Date      
+  DATA_RECEPCAO_DEF  Date      
+  DATA_VENCIMENTO    Date      
+  ENTIDADE           Text(6)   
+  ID                 Text(24)  
+  RESPONSAVEL        Text(50)  
+  TAXA_JURO          Double    
+  TIPO_CAUCAO        Integer   
+  TIPO_INCIDENCIA    Integer   
+  VALOR_EMISSAO      Currency  

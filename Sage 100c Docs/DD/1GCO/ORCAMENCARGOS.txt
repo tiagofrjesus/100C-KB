@@ -1,0 +1,19 @@
+ORCAMENCARGOS — Encargos de Obra  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD_ORC+NOME
+
+Columns (13):
+  COD_ORC    Text(6)   
+  DESC       Text(60)  
+  DIAS       Double    
+  ESTALEIRO  Boolean   
+  IDENT      Text(20)  
+  NOME       Long      
+  NOME_PAI   Long      
+  PERCENT    Boolean   
+  QUANT      Double    
+  TIPO       Integer   
+  UNID       Text(3)   
+  VALOR      Currency  
+  V_UNIT     Currency  

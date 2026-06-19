@@ -1,0 +1,9 @@
+WORKTIME — Regime de Duração do Trabalho  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  INDEX [primary, unique]: REFERENCE
+
+Columns (3):
+  COMMENTS   Memo      
+  NAME       Text(50)  Descrição
+  REFERENCE  Text(1)   Código

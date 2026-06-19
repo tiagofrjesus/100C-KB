@@ -1,0 +1,11 @@
+ACCOES_IMUNIZACAO — Acções de imunização  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NFUNC [primary, unique]: NFUNC+DATA+VACINA
+
+Columns (5):
+  DATA         Date       Data
+  INOCULACOES  Integer    Nº de inoculações
+  NFUNC        Text(10)   Nº do funcionário
+  OBSERVACOES  Text(100)  Observações
+  VACINA       Text(2)    Código da vacina

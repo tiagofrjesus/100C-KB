@@ -1,0 +1,11 @@
+ESTABSITACT — Estabelecimento situação perante a atividade  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  INDEX [primary, unique]: ESTABELECIMENTO+DATAINI
+
+Columns (5):
+  DATAFIM          Date     Data Fim
+  DATAINI          Date     Data Inicio
+  ESTABELECIMENTO  Text(4)  Código
+  MOTIVO           Text(2)  Código do Motivo
+  SITUACAO         Text(1)  Código Situação

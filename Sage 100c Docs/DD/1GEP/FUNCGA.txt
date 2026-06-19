@@ -1,0 +1,12 @@
+FUNCGA — Func. C.G.A.  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NFUNC [primary, unique]: NFUNC
+
+Columns (6):
+  DTEFE        Date      Dt. Efeito Esc.
+  ESCAL        Integer   Escalão
+  NDIUT        Integer   Nº Diuturnidades
+  NFUNC        Text(10)  Nº Funcionário
+  NIVREM       Text(3)   Nív. Rem.
+  NUMDIASTRAB  Currency  Nº Dias Trabalho

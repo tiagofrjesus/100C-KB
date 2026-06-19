@@ -1,0 +1,12 @@
+DOENCASPROFISSIONAIS — Doenças Profissionais  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: NFUNC+DATA
+
+Columns (6):
+  CONFIRMACAO                    Integer   Confirmação
+  DATA                           Date      Data de participação
+  NFUNC                          Text(10)  Funcionário
+  PARTICIPACAO                   Integer   Participação
+  PROFESSIONALDISEASERISKAGENTS  Text(4)   Factor de Risco
+  PROFESSIONALDISEASES           Text(3)   Doença Profissional

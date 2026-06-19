@@ -1,0 +1,13 @@
+LOCAIS — Localizações  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXLOCAIS [primary, unique]: CLOC
+
+Columns (7):
+  CEST     Text(15)   Estabelecimento
+  CLOC     Text(13)   Código do local
+  DESCR    Text(40)   Designação do local
+  GPS_N    Text(50)   GPS N
+  GPS_W    Text(50)   GPS W
+  INICRES  Text(15)   Código do Responsável por defeito de bens localizados no local
+  OBS      Text(255)  Descrição Detalhada

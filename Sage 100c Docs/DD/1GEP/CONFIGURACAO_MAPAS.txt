@@ -1,0 +1,10 @@
+CONFIGURACAO_MAPAS — Configuração dos mapas  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  MAPA [primary, unique]: MAPA
+
+Columns (4):
+  ASSUNTO      Text(100)  Assunto
+  ENVIODIRETO  Integer    Envio direto
+  MAPA         Integer    Código do mapa
+  TEXTO        Text(200)  Texto

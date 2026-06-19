@@ -1,0 +1,9 @@
+InfoCredito
+Implementação da informação de crédito que aparece no introdutor de vendas
+
+Membros (1):
+
+  [Function] Ler
+    Input : ByVal Data As String, ByVal Cliente As String
+    Output: Integer
+    => Lê e disponibiliza no interface a informação de crédito

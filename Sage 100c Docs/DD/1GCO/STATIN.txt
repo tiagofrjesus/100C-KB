@@ -1,0 +1,10 @@
+STATIN — TRANSAÇÕES INTRASTAT  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINCIPA [primary, unique]: CODIGOA+CODIGOB
+
+Columns (4):
+  CODIGOA  Integer  Código A
+  CODIGOB  Integer  Código B
+  DESCRA   Memo     Descrição A
+  DESCRB   Memo     Descrição B

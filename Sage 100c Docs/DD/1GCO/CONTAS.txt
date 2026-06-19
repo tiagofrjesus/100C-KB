@@ -1,0 +1,30 @@
+CONTAS — Contas Bancárias  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  NUMORDEM [primary, unique]: BANCO+AGENCIA+NUMCONTA
+  CONTA: NUMCONTA
+
+Columns (23):
+  AGENCIA   Text(4)   Balcão
+  BALCAORE  Text(4)   Balcão relacionado
+  BANCO     Text(4)   Banco
+  BIC       Text(11)  BIC da conta
+  BNCREL    Text(4)   BNC relacionado
+  CNTRESP   Text(15)  Conta Resp.
+  CODDIAR   Text(3)   
+  CONTAPOC  Text(15)  Conta Poc
+  CONTAREL  Text(21)  Conta relacionada
+  DBTS      23        
+  DESCOBER  Currency  Descoberto
+  DIARIO    Text(3)   Diário
+  DTABERT   Date      Data abertura
+  DTFECHO   Date      Data fecho
+  GRUPO     Text(3)   Grupo
+  IBAN      Text(34)  IBAN da conta
+  JURCRED   Currency  % de juros credores
+  JURDEB    Currency  % de juros devedores
+  NUMCONTA  Text(21)  Conta Bancária
+  NUMERO    Integer   
+  ORGID     Text(35)  Identifcação adicional
+  SLDMAX    Currency  Saldo máximo
+  SLDMIN    Currency  Saldo mínimo

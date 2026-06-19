@@ -1,0 +1,11 @@
+ACCOES_FORMACAO — Acções de formação  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NFUNC [primary, unique]: NFUNC+DATA+ACCAO
+
+Columns (5):
+  ACCAO        Text(5)    Código da acção
+  DATA         Date       Data
+  FORMACAO     Text(2)    Acção de formação
+  NFUNC        Text(10)   Nº de funcionário
+  OBSERVACOES  Text(100)  Observações

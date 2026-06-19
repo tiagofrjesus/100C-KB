@@ -1,0 +1,8 @@
+STATPAIS — PAÍSES INTRASTAT  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  COD [primary, unique]: CODIGO
+
+Columns (2):
+  CODIGO    Text(2)    Código
+  DESCRICA  Text(120)  Descrição

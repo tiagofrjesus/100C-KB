@@ -1,0 +1,10 @@
+COMPLRTF — Texto das notas comp  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO+TIPO+NOTA
+
+Columns (4):
+  CODIGO  Long     
+  NOTA    Text(3)  
+  TEXTO   Memo     
+  TIPO    Long     

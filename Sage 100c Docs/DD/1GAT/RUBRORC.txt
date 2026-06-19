@@ -1,0 +1,10 @@
+RUBRORC — Rubricas Orcamentais  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (4):
+  COD     Text(6)   Código
+  CODENQ  Text(6)   CodEnq
+  DESCR   Text(25)  Descrição
+  OBRI    Integer   Obri

@@ -1,0 +1,8 @@
+CNTANA — Contas Analitica  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CONTA [primary, unique]: EXERCICIO+CONTA
+
+Columns (2):
+  CONTA      Text(15)  Conta
+  EXERCICIO  Integer   Exercício

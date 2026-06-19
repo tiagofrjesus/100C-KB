@@ -1,0 +1,18 @@
+REPORTMANAGEMENT_LOG — Gestão de envio e impressão de documentos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: ANO+TPDOC+SERIE+NUMDOC+DATA
+
+Columns (12):
+  ANO          Integer    Ano
+  ARQUIVADO    Integer    Arquivado
+  DATA         Date       Data
+  EMAIL        Text(200)  Email
+  FICHEIRO     Text(200)  Nome do ficheiro
+  FORMA_ENVIO  Integer    Forma de envio
+  IMPRIMIR     Integer    Imprimir no relatório
+  NUMDOC       Long       Número do documento
+  NVIAS        Integer    Número de vias
+  SERIE        Integer    Série
+  TPDOC        Text(3)    Tipo de documento
+  UTILIZADOR   Text(20)   Utilizador

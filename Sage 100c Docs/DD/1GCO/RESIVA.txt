@@ -1,0 +1,15 @@
+RESIVA — Restrição IVA  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  RESIVA [primary, unique]: EXERCICIO+CONTA+TPDOC+MERC
+
+Columns (9):
+  CODIVA1    Text(6)   Código IVA 1
+  CODIVA2    Text(6)   Código IVA 2
+  CODIVA3    Text(6)   Código IVA 3
+  CODIVA4    Text(6)   Código IVA 4
+  CODIVA5    Text(6)   Código IVA 5
+  CONTA      Text(15)  Conta
+  EXERCICIO  Integer   Exercício
+  MERC       Integer   Mercado
+  TPDOC      Text(3)   Tipo Documento

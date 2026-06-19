@@ -1,0 +1,9 @@
+LINPRC — Nomes de linhas de p  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINCIPA [primary, unique]: LINHA
+
+Columns (3):
+  DBTS   23        
+  DESCR  Text(30)  Descrição
+  LINHA  Integer   Linha de preço

@@ -1,0 +1,12 @@
+DISTCUST — Distribuicao de Cust  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  REGISTO [primary, unique]: REGISTO
+  FICHA: FICHA
+
+Columns (5):
+  CONTA     Text(15)  Conta
+  DEBCRED   Integer   Débito ou Crédito
+  FICHA     Text(15)  Ficha
+  PERCENTA  Double    Percentagem
+  REGISTO   Long      Contador

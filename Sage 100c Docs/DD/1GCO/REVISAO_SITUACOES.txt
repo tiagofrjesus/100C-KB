@@ -1,0 +1,10 @@
+REVISAO_SITUACOES — Situações de trabalho para revisão de preços  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD_OBRA+DATA+TIPO_TRABALHO
+
+Columns (4):
+  COD_OBRA       Text(6)   
+  DATA           Date      
+  TIPO_TRABALHO  Integer   
+  VALOR          Currency  

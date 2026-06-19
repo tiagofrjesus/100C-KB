@@ -1,0 +1,11 @@
+NOTASRTF — Texto das notas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO+TIPO+NOTA
+
+Columns (5):
+  CODIGO    Long     
+  NOTA      Text(3)  
+  TEXTORTF  Memo     
+  TIPO      Long     
+  VISIVEL   Integer  

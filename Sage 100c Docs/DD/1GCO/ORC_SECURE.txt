@@ -1,0 +1,9 @@
+ORC_SECURE — Segurança de Orçamentos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD_ORC+UTILIZ
+
+Columns (3):
+  COD_ORC  Text(6)   
+  SECURE   Text(32)  
+  UTILIZ   Text(10)  

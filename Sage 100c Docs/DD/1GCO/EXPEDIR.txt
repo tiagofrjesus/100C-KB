@@ -1,0 +1,10 @@
+EXPEDIR — Modo expedicao  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (4):
+  CODIGO   Text(3)   Código
+  DBTS     23        
+  DESCR    Text(50)  Descrição
+  VLPRTES  Currency  

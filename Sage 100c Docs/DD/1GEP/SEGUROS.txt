@@ -1,0 +1,18 @@
+SEGUROS — Seguros  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (12):
+  CNTSEEP     Text(15)  Conta Ent. Patronal
+  COD         Text(4)   Código
+  CODIGO_ISP  Text(4)   Código ISP
+  CSEEMF      Text(15)  C. Ent. Patronal M.F
+  CSEG        Text(15)  Conta Seguros
+  CSEGMF      Text(15)  Conta Seguros M.F.
+  DESCR       Text(35)  Descrição
+  NAPOLISE    Text(20)  NAPOLISE
+  PERCDESC    Currency  Percent. Desconto
+  RAMO        Text(35)  Ramo
+  RUBCMF      Text(6)   Rubrica Mês Férias
+  RUBRICA     Text(6)   Rubrica

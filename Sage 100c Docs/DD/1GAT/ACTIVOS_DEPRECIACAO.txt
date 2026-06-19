@@ -1,0 +1,53 @@
+ACTIVOS_DEPRECIACAO — Activos no cálculo de depreciações  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO
+
+Columns (47):
+  ANO_MAISVALIAS                     Integer    Ano das mais valias
+  BEM_REDUZIDO_VALOR                 Integer    Bem de reduzido valor
+  BEM_REINVESTIDO                    Integer    Bem reinvestido
+  CODIGO                             Text(20)   Código do activo
+  CODIGO_TABELA                      Text(5)    Código de Tabela
+  CONTA_POC                          Text(15)   Conta POC
+  CORRECCAO_FISCAL_1                 Text(5)    Ajuste fiscal 1
+  CORRECCAO_FISCAL_2                 Text(5)    Ajuste fiscal 2
+  DATA_ABATE                         Date       Data de abate
+  DATA_AQUISICAO                     Date       Data de aquisição
+  DATA_FIM                           Date       Data de fim de utilizador
+  DATA_INICIO                        Date       Data de inicio de utilização
+  DECRETO_ULTIMA_REAVALIACAO         Integer    Decreto da última reavaliação
+  DEPRECIACAO_ANUAL                  Single     Depreciação anual
+  DEPRECIACOES_ACUM_NREAVAL          Currency   Depreciações acumuladas não reavaliadas
+  DEPRECIACOES_ACUM_REAVAL           Currency   Depreciações acumuladas reavaliadas
+  DEPRECIACOES_EXER_NREAVAL          Currency   Depreciações do exercício não reavaliadas
+  DEPRECIACOES_EXER_REAVAL           Currency   Depreciações do exercício reavaliadas
+  DESCRICAO                          Text(100)  Descrição
+  DESCRICAO_GRUPO                    Text(5)    Grande grupo
+  DESCRICAO_INDIVIDUAL               Integer    Descrição individual
+  DESCRICAO_SUB_GRUPO                Text(5)    Sub grupo
+  ESTADO                             Integer    Estado
+  FICHA_ASSOCIADA                    Text(20)   Activo associado
+  IMPARIDADES_ACUMULADAS             Currency   Imparidades acumuladas
+  INDICADOR_TAXA                     Integer    Indicador de taxa
+  METODO                             Integer    Método
+  NOVO                               Integer    Novo ou usado
+  OBRAS_EDIFICIOS_ALHEIOS            Integer    Obras edificios alheios
+  OBSERVACOES_ESPECIAIS              Text(100)  Observações especiais
+  PERCENTAGEM_DEPRECIACAO_EFECTUADA  Double     Percentagem depreciação efectuada
+  PERCENTAGEM_NAO_DEPRECIAVEL        Text(10)   Percentagem não depreciavel
+  PERCENTAGEM_REINT_ACEITE           Integer    Percentagem de depreciação aceite
+  QUOTAS_PERDIDAS                    Double     Quotas perdidas
+  REGIME                             Integer    Regime
+  REVALORIZACOES_ACUMULADAS          Currency   Revalorizações Acumuladas
+  TAXA_DEPRECIACAO_SIMULACAO         Single     Taxa de depreciação de simulação
+  TAXA_DEPRECIACAO_UTILIZADA         Single     Taxa de depreciação utilizada
+  TIPO_ACTIVO                        Integer    Tipo de activo
+  UPDATEDATE                         Date       Data da última alteração
+  UTILIZADOR                         Text(15)   Utilizador
+  VALOR_AQUISICAO                    Currency   Valor de aquisição
+  VALOR_AQUISICAO_ACTUAL             Currency   Valor de aquisição actualizado
+  VALOR_MAISVALIAS                   Currency   Valor das mais valias
+  VALOR_MATRICIAL                    Currency   Valor matricial
+  VIDA_ADICIONAL_REAVALIADA          Integer    Vida adicional reavaliada
+  VIDA_FISCAL                        Integer    Vida fiscal

@@ -1,0 +1,14 @@
+DEFREC — Definição Reconstr  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Columns (11):
+  EXECUTA  Text(20)  
+  OPCAO    Text(20)  
+  PARAM1   Text(20)  
+  PARAM2   Text(20)  
+  PARAM3   Text(20)  
+  PARAM4   Text(20)  
+  PARAM5   Text(20)  
+  PARAM6   Text(20)  
+  PARAM7   Text(20)  
+  PARAM8   Text(20)  
+  PARAM9   Text(0)   

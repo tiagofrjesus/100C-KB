@@ -1,0 +1,14 @@
+GREGIVA — Grelha Geral IVA  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPDOC [primary, unique]: EXERCICIO+TPOPER+TPBEM+REGIVA+TXIVA
+
+Columns (8):
+  CODIVA              Text(6)   Codigo IVA
+  CONTA               Text(15)  Conta
+  CONTA_NAO_EXIGIVEL  Text(15)  Conta não exigível
+  EXERCICIO           Integer   Exercício
+  REGIVA              Text(3)   Tipo de IVA
+  TPBEM               Integer   Tipo Bem
+  TPOPER              Integer   Tipo Operação
+  TXIVA               Integer   Taxa de IVA

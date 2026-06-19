@@ -1,0 +1,27 @@
+FCAND — Ficha Candidatos  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NCAND [primary, unique]: NCAND
+
+Columns (21):
+  CARGO                          Text(8)   Cargo
+  CDPOST                         Text(8)   Cód. Postal
+  CONSENTIMENTO_DATA_HORA        Date      Consentimento data hora
+  CONSENTIMENTO_UTILIZADOR       Text(20)  Consentimento utilizador
+  CONTRATADO                     Integer   Candidato contratado
+  DTNASC                         Date      Dt.Nascimento
+  EMAIL                          Text(50)  e-Mail
+  ESQUECIMENTO                   Integer   Pedido de esquecimento de dados pessoais
+  ESQUECIMENTO_DATA_HORA         Date      Esquecimento data hora
+  ESQUECIMENTO_UTILIZADOR        Text(20)  Esquecimento utilizador
+  FUNCAO                         Text(4)   Função na empresa
+  LOCAL                          Text(40)  Localidade
+  MORADA                         Text(50)  Morada
+  NCAND                          Text(10)  Nº Candidato
+  NOME                           Text(50)  Nome
+  NOTA                           Memo      Observações
+  RGPD_CONSENTIMENTO_TRAT_DADOS  Integer   Consentimento de tratamento de dados pessoais
+  RGPD_ESTADO                    Integer   Estado do consentimento
+  TELEF                          Text(15)  Telefone
+  TELEM                          Text(15)  Telemóvel
+  UPDATEDATE                     Date      Data da última alteração

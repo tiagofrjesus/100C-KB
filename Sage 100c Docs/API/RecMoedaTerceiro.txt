@@ -1,0 +1,4 @@
+RecMoedaTerceiro
+Usada na ligação á contabilidade (contabilidaderules.cls) classificação de documentos da área financeira
+
+Membros (0):

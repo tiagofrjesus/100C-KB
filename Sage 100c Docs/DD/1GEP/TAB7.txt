@@ -1,0 +1,15 @@
+TAB7 — Tab IRS 2  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  ANO [primary]: ANO+TAB+LIMSUP+DOMFIS+DATA
+  NODUPS: ANO+LIMSUP+TXNCAS+TXC1TIT+TXC2TIT+TAB+DOMFIS
+
+Columns (8):
+  ANO      Integer   Ano
+  DATA     Date      Data entrada em vigor
+  DOMFIS   Integer   Dom.Fiscal
+  LIMSUP   Currency  Limite Superior
+  TAB      Integer   Tabela
+  TXC1TIT  Currency  1 Titular
+  TXC2TIT  Currency  2 Titular
+  TXNCAS   Currency  Não Casado

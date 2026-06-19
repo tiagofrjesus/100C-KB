@@ -1,0 +1,66 @@
+MOVCTB — Movimentos CTB  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ANO [primary, unique]: ANO+TPDOC+SERIE+NUMDOC+NUMLINHA
+  DIARIO: DATADOC+DIARIO+NUMDIARI+CONTA
+  LIGCTB: LIGADO+DATADOC+TPDOC+SERIE+NUMDOC+NUMLINHA
+  CONTA: CONTA+DATADOC+DIARIO+NUMDIARI
+  ACUM: MVDES
+  JUSTIF: JUSTIF
+  CEX: CONTA+EXERCICIO
+
+Columns (54):
+  ANO                        Integer   Ano
+  CCUSTORC                   Text(6)   Centro Custo Orçam.
+  CLASSIFICACAO_CP           Text(3)   Classificação alteração no Capital Próprio
+  CNBANCO                    Text(4)   Conta do Banco
+  CODFLU                     Text(6)   Código Fluxo
+  CODIVA                     Text(6)   Código Iva
+  CONTA                      Text(15)  Conta
+  CTRESP                     Integer   Controlo Específico
+  CUSTEIO                    Text(6)   Centro Custeio
+  DATAAL                     Date      Data de Alteração
+  DATADOC                    Date      Data de lançamento
+  DATAR                      Date      Data de Criação
+  DBCR                       Integer   Movimentação
+  DBTS                       23        
+  DESCR                      Text(32)  Descrição
+  DIARIO                     Text(3)   Diário
+  DTREAL                     Date      Data do documento
+  ERROCTB                    Text(15)  Erros CTB
+  EXERCICIO                  Integer   Exercício
+  FICHA                      Text(15)  Ficha imobilizado
+  GUID_RECONCILIACAO         Text(40)  GUID da Reconciliação
+  IMO                        Integer   Imobilizado
+  JUSTIF                     Text(3)   Justificativo
+  LIGADO                     Integer   Ligado
+  LINCC                      Integer   Linha do C. de Custo
+  LINCOM                     Integer   Linha Comercial
+  MES                        Integer   Mês
+  MES_RECONCILIACAO          Integer   Mês da Reconciliação
+  MNLAUT                     Integer   Manual / Automático
+  MOTIVO_RIC                 Text(3)   Motivo (documentos rectificativos RIC)
+  MVDES                      Text(5)   Mov.Desc.
+  NAT                        Integer   Natureza
+  NCONT                      Text(20)  No.Contribuinte
+  NPEDIDO_REGULARIZACAO_IVA  Text(13)  Nº do Pedido associado à regularização do IVA (Anexos 40 e 41)
+  NUMDIARI                   Long      Número do Diário
+  NUMDOC                     Long      Número Documento
+  NUMLINHA                   Integer   Num. Linha
+  OPERADOR                   Text(9)   Operador
+  ORIGEM                     Integer   Origem
+  ORIGEM_REGULARIZACAO_IVA   Integer   Origem regularização do I.V.A.
+  REF                        Text(32)  Referência
+  REGIME_IVA_CAIXA           Integer   Regime de I.V.A. de caixa
+  RUBORC                     Text(6)   Rubrica Orçamental
+  SECTOR                     Text(3)   Sector
+  SERIE                      Integer   Série
+  STATAC                     Integer   Status Acumulados
+  STATUS                     Integer   Status
+  SYSTEMENTRYDATE            Text(20)  Data de registo do movimento AAAA-MM-DDTHH:MM:SS
+  TERC                       Text(15)  Terceiro
+  TPDOC                      Text(3)   Tipo Documento
+  TPTERC                     Integer   Tipo Terceiro
+  VALOR                      Currency  Valor
+  VALOR_BASE                 Currency  Valor base
+  VERSAO                     Integer   Versão do movimento

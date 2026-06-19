@@ -1,0 +1,11 @@
+RELPRO — Relat. Processamento  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary]: NFUNC+ID
+
+Columns (5):
+  DATA   Date       DATA
+  ID     Long       ID
+  NFUNC  Text(10)   NFUNC
+  OBS    Text(250)  OBS
+  TPMSG  Integer    TPMSG

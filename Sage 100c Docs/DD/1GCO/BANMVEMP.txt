@@ -1,0 +1,38 @@
+BANMVEMP — Extracto Banco  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRIM [primary, unique]: CHVPRIM
+  CHAVES: BANCO+BALCAO+CONTA+TPDOCBAN+NDOCBAN
+
+Columns (31):
+  ANOCTB    Integer   Ano Contab.
+  BALCAO    Text(4)   Balcão
+  BALCAOD   Text(4)   Balcao destino
+  BANCO     Text(4)   Banco
+  BANCOD    Text(4)   Banco Destino
+  CAMBIO    Currency  Cambio
+  CHVPRIM   Long      Chave Prim
+  CHVREL    Long      Chave Relacionada
+  CODEXTBA  Text(15)  Cód. Ext. Banc.
+  CONTA     Text(21)  Conta
+  CONTAD    Text(21)  Conta destino
+  DEBCRED   Integer   Débito/Crédito
+  DESCRICA  Text(50)  Descrição
+  DIARIO    Text(3)   Diário
+  DOCCTB    Text(3)   Doc. Contab
+  DTMOV     Date      Data Mov.
+  DTRECON   Date      Data Reconciliação
+  DTVALOR   Date      Data Valor
+  MOEDA     Text(3)   Moeda
+  NATUREZA  Text(3)   Natureza
+  NCONTRIB  Text(20)  Número Contribuinte
+  NDOCBAN   Text(24)  Num. Doc. Ban.
+  NOTAREC   Text(35)  Notas reconciliação
+  NOTAS     Text(35)  Notas
+  NUMCTB    Long      Num. Contab.
+  NUMDIAR   Long      Num. diário
+  RECON     Integer   Reconciliado
+  SECTOR    Text(3)   Sector
+  SERCTB    Integer   Serie Contab.
+  TPDOCBAN  Text(3)   Tipo doc. banc.
+  VALOR     Currency  Valor

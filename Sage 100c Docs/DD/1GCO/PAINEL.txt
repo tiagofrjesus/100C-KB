@@ -1,0 +1,14 @@
+PAINEL — Painel  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CHAVE [primary]: CM1
+
+Columns (8):
+  CM1   Text(20)  CM1
+  CM2   Text(50)  CM2
+  CM3   Currency  CM3
+  CM4   Currency  CM4
+  CM5   Currency  CM5
+  CM6   Currency  CM6
+  CM7   Currency  CM7
+  CM8   Currency  CM8

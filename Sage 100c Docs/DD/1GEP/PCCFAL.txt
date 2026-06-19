@@ -1,0 +1,13 @@
+PCCFAL — Proc. Conta Corrente  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: NFUNC+DATA+TPFALT
+
+Columns (7):
+  DATA    Date      Data
+  DIAS    Integer   Nº Dias
+  NFUNC   Text(10)  Número Funcionário
+  QTD     Double    Nº Horas
+  QTDINT  Single    Quantidade Introd.
+  TPFALT  Text(10)  Tipo Falta
+  TPINTR  Integer   Tipo de Introdução

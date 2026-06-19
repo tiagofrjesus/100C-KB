@@ -1,0 +1,16 @@
+CONTCAB — Contagem Cabeçalho  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  IDX [primary, unique]: DATAREF
+
+Columns (10):
+  DATAREF   Date      Data Referência
+  DTAQFIM   Date      Data Aquisição Final
+  DTAQINI   Date      Data Aquisição Inici
+  FICHAFIM  Text(15)  Ficha Final
+  FICHAINI  Text(15)  Ficha Inicial
+  LOCALFIM  Text(5)   Localização Final
+  LOCALINI  Text(5)   Localização Inicial
+  RESPONSA  Text(15)  Responsável
+  SECTFIM   Text(5)   Sector Final
+  SECTINI   Text(5)   Sector Inicial

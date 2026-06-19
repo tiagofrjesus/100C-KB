@@ -1,0 +1,39 @@
+TPINF — Tipos de Informação GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXTPINF [primary, unique]: CTINF
+
+Columns (33):
+  AGENLOC     Boolean    Nos bens q/o usam, é recolhido qd/se regista nova localização? Valores p/defeito - Parâmetros efectivos s/definidos p/cada bem
+  AGENPRI     Boolean    IV - AGENDAR RECOLHA: Nos bens q/o usam, é de preeenchimento obrigatório?
+  AGENSEG     Text(1)    Nos bens q/o usam, é recolhida periodicamente? 0=Não; P=Sim, com periodicidade fixe de; D=Sim, agendando seguinte após. Valores p/defeito - Parâmetros efectivos s/definidos p/cada bem
+  AGENSEGALT  Boolean    Operador da recolha pode alterar data agendada p/proxima?
+  AGENSEGLIM  Byte       Dias atraso máximo das recolhas agendadas 0=N/tem
+  AGENSEGN    Byte       Frequencia de recolhas, nº (1 a 255) (AGENSEG=P,D) Valores p/defeito - Parâmetros efectivos s/definidos p/cada bem
+  AGENSEGU    Text(4)    Freq.recolhas,unid:d=dias, ww=semanas, m=meses, yyyy=anos. Valores p/defeito - Parâmetros efectivos s/definidos p/cada bem
+  CTINF       Text(5)    I - CÒDIGO: Código do Tipo de Informação
+  DESCR       Text(25)   II - CARACTERIZAÇÂO GERAL: Descrição do Tipo de Informação
+  ETITULO     Boolean    Indica que é titulo, não pode ser usado em InfMv
+  INACT       Boolean    Tipo de recolha inactiva?
+  INFCGINF    Text(10)   Grupo de Informação recolhas
+  INFCK       Text(40)   Condição de constraint
+  INFDESCR    Text(35)   III - RECOLHA / Designação a utilizar no recolher
+  INFNOTAS    Text(255)  Instruções para o utilizador ao efectuar recolhas deste tipo
+  OBS         Text(255)  Descrição detalhada do tipo de informação.
+  PRCPANO     Text(1)    Procedimento da Passagem Ano: N=Nada; A=Anula; P=Anula e passa saldo
+  RESATT      Text(40)   Condição SQL da chamada de atenção
+  RESCGINF    Text(10)   Grupo da Informação resumo
+  RESCTINFA   Text(5)    V - RESUMO COMUTADO / Tipo Informação A
+  RESCTINFB   Text(5)    Tipo Informação B
+  RESCTINFC   Text(5)    Tipo Informação C
+  RESCTINFD   Text(5)    Tipo Informação D
+  RESDESCR    Text(30)   IV - RESUMO / Designação da informação resumida
+  RESEXPR     Text(40)   Expressão SQL de cálculo do tempo
+  RESFUN      Text(5)    Formula de cálculo dos valores do resumo: NUL, SUM, MIN, MAX, FIRST, LAST, COUNT, AVG, COMP
+  RESFUNA     Text(5)    Função A
+  RESFUNB     Text(5)    Função B
+  RESFUNC     Text(5)    Função C
+  RESFUND     Text(5)    Função D
+  TIPO        Text(1)    Tipo de dados: D=Data, N=Número; V=Valor; B=Boleano; T=Texto; L=Texto Longo
+  TREC        Text(1)    Tipo de informação recolhida: 0=Campo de recolha; 1=Campo da ficha COM Recolha; 2=Campo da ficha SEM Recolha; 9="
+  UNID        Text(5)    Unidade de medida (sigla opcional)

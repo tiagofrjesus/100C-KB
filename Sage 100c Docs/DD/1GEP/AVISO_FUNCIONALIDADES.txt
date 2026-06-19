@@ -1,0 +1,14 @@
+AVISO_FUNCIONALIDADES — Avisos de funcionalidades  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO+ORDEM
+
+Columns (8):
+  ACCAO      Long       Tipo de acção
+  APLICACAO  Text(10)   Código aplicação
+  CODIGO     Text(20)   Código da funcionalidade
+  MENSAGEM   Memo       Mensagem
+  MOSTRAR    Integer    Mostrar mensagem
+  ORDEM      Long       Ordem do aviso
+  TITULO     Text(200)  Título
+  VERSAO     Text(10)   Versão da aplicação

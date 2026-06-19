@@ -1,0 +1,9 @@
+SEPRO — Produtos de Seguradoras GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXSEPRO [primary, unique]: CPRO+CSEG
+
+Columns (3):
+  CPRO   Text(15)  Código do Produto
+  CSEG   Text(7)   Código da Seguradora
+  DESCR  Text(60)  Descrição do Produto

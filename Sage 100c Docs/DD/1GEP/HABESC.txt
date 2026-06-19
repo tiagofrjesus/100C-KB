@@ -1,0 +1,9 @@
+HABESC — Habilitações Escolar  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (3):
+  COD    Text(3)    Código
+  DESCR  Text(250)  Descrição
+  TIPO   Text(1)    Tipo

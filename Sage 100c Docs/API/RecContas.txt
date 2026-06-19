@@ -1,0 +1,4 @@
+RecContas
+Usada na ligação á contabilidade (contabilidaderules.cls) contas com erros de classificação.
+
+Membros (0):

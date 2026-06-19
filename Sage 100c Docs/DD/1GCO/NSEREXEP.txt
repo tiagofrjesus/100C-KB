@@ -1,0 +1,13 @@
+NSEREXEP — NumSer Excepcoes  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  GRFMSBAR [primary, unique]: GRUPO+FAMILIA+SUBFAM+ARTIGO
+
+Columns (7):
+  ARTIGO    Text(15)  Artigo
+  FAMILIA   Text(6)   Família
+  GARAINST  Integer   Garantia Instalação
+  GARANTIA  Text(5)   Dias Garantia
+  GARAVEND  Integer   Garantia Venda
+  GRUPO     Text(6)   Grupo
+  SUBFAM    Text(6)   Subfamília

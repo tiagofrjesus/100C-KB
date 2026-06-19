@@ -1,0 +1,11 @@
+MCCUST — Multiplos C. Custo  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: NFUNC+ANO+MES+CENTR
+
+Columns (5):
+  ANO    Integer   Ano
+  CENTR  Text(6)   Centro de Custo
+  MES    Integer   Mês
+  NFUNC  Text(10)  Número Funcionário
+  PERC   Single    Percentagem

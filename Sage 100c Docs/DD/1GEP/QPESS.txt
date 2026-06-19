@@ -1,0 +1,19 @@
+QPESS — Quadro de Pessoal  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: ANO+MES+NFUNC
+
+Columns (13):
+  ANO     Integer   ANO
+  ESTAB   Text(4)   ESTAB
+  HEXT    Integer   HEXT
+  HNORM   Integer   HNORM
+  IDX     Integer   IDX
+  IRC     Text(5)   IRC
+  MES     Integer   MES
+  NFUNC   Text(10)  NFUNC
+  NLINHA  Integer   NLINHA
+  REMBAS  Currency  REMBAS
+  REMHEX  Currency  REMHEX
+  REMIRE  Currency  REMIRE
+  REMREG  Currency  REMREG

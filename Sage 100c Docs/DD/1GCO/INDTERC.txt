@@ -1,0 +1,11 @@
+INDTERC — Indicadores Terc  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  INTERC [primary, unique]: TERC+TIPOIND
+
+Columns (5):
+  DATA     Date      Data
+  OBS      Memo      Observações
+  TERC     Text(15)  Terceiro
+  TIPOIND  Text(3)   Tipo Indicador
+  VALOR    Currency  Valor Indicador

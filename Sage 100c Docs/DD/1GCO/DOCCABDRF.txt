@@ -1,0 +1,49 @@
+DOCCABDRF — Documentos rectificativos de facturas/compras  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  DOC [primary, unique]: ANO+TPDOC+SERIE+NUMDOC
+  TERC: TPTERC+TERCEIRO
+  CT2: ANO+DIARIO+NUMDIAR
+  DATA: TPDOC+SERIE+DATA+NUMDOC
+
+Columns (40):
+  ANO                   Integer   Ano
+  AREAG                 Integer   Area de gestão
+  CAMBIO                Double    Câmbio
+  COMISS                Integer   Comissões
+  DATA                  Date      Data
+  DATA_VOSSO_DOCUMENTO  Date      Data vosso documento
+  DIARIO                Text(3)   Diário
+  LIGACT                Integer   Ligação à contabilidade
+  MOEDA                 Text(3)   Moeda
+  MOTIVO                Text(3)   Motivo
+  MOTIVO_ANULACAO       Text(50)  Motivo de anulação
+  NATCONTA              Integer   Natureza contabilística
+  NUMDIAR               Long      Número do diário
+  NUMDOC                Long      Número do documento
+  NVIAS                 Integer   Número Vias
+  OPERNEW               Text(20)  Operador criação
+  OPERUPD               Text(20)  Opeador alteração
+  PROCNEW               Integer   Origem criação
+  PROCUPD               Integer   Origem alteração
+  REGIME_IVA_CAIXA      Integer   Regime de I.V.A. de caixa
+  RGIVA                 Text(3)   Tipo de IVA
+  SECTOR                Text(3)   Sector
+  SERIE                 Integer   Série
+  SINALCT               Integer   Sinal contabilístico
+  SYSTEM_ENTRY_DATE     Text(20)  Data de gravação do registo ao segundo
+  TERCEIRO              Text(15)  Terceiro
+  TOTALDOCUMENTO        Currency  Total do documento
+  TPDOC                 Text(3)   Tipo de documento
+  TPFSTC                Integer   Tipificação de stock
+  TPOPER                Integer   Tipo de operação
+  TPTERC                Integer   Tipo de terceiro
+  VALORBASEIVA1         Currency  Valor base IVA 1
+  VALORBASEIVA2         Currency  Valor base IVA 2
+  VALORBASEIVA3         Currency  Valor base IVA 3
+  VALORBASEIVA4         Currency  Valor base IVA 4
+  VALORTOTIVA1          Currency  Valor IVA 1
+  VALORTOTIVA2          Currency  Valor IVA 2
+  VALORTOTIVA3          Currency  Valor IVA 3
+  VALORTOTIVA4          Currency  Valor IVA 4
+  VOSSO_NUMERO          Text(50)  Vosso número do documento

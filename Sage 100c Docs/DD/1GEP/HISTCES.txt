@@ -1,0 +1,10 @@
+HISTCES — Hist. cessação contr  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: NFUNC+DATA
+
+Columns (4):
+  DATA    Date       Data
+  MOTIVO  Text(3)    Motivo
+  NFUNC   Text(10)   Número Funcionário
+  OBS     Text(100)  Observação

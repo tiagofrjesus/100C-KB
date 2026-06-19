@@ -1,0 +1,20 @@
+CLCONF — Configuração Clivres  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  NOVO1 [primary, unique]: CHAVE+NCAMPO
+
+Columns (14):
+  CALT1     Text(30)  Chave Alt. 1
+  CALT2     Text(30)  Chave Alt. 2
+  CAMPO     Text(30)  CAMPO
+  CHAVE     Integer   CHAVE
+  COMPRIME  Integer   COMPRIMENTO
+  DECIMAIS  Integer   DECIMAIS
+  DECRICAO  Text(30)  Descrição
+  LISTA     Integer   
+  MAXIMO    Double    MAXIMO
+  MINIMO    Double    MINIMO
+  NCAMPO    Integer   NCAMPO
+  TABELA    Text(30)  TABELA
+  TITULO    Text(20)  TITULO
+  VALIDACA  Integer   VALIDACAO

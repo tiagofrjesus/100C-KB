@@ -1,0 +1,20 @@
+LIGCTB — LigacaoContabilidade  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  NUMLINHA [primary, unique]: NUMLINHA
+
+Columns (14):
+  CCECU1              Long      Código c/custo / Rateio a c/custo da tabela 1
+  CCECU2              Long      Código c/custo / Rateio a c/custo da tabela 2
+  CCECU3              Long      Código c/custo / Rateio a c/custo da tabela 3
+  CCECU4              Long      Código c/custo / Rateio a c/custo da tabela 4
+  CODTERC             Text(15)  Código Terceiro
+  CONTA               Text(15)  CONTA
+  DATA_CONTABILIDADE  Date      Data da contabilidade
+  DATA_OCORRENCIA     Date      Data da ocorrência
+  DC                  Text(1)   DC
+  ID                  Long      Identificador
+  NUMLINHA            Long      NUMLINHA
+  SECTOR              Text(5)   SECTOR
+  TIPO_MOVIMENTO      Integer   Tipo de Movimento
+  VALOR               Currency  VALOR

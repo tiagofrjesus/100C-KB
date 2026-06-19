@@ -1,0 +1,16 @@
+FAMILIA — Familia  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  COD [primary, unique]: GRUPO+COD
+  CODIGO: COD
+  WEB: CODWEB
+
+Columns (8):
+  COD                  Text(6)    Código
+  CODWEB               Text(15)   Código Web
+  DBTS                 23         
+  DESCR                Text(80)   Descrição
+  DESCRWEB             Text(255)  Descrição Web
+  GRUPO                Text(10)   Grupo
+  PRODUCTCATEGORYCODE  Integer    Código de Categoria de Produto
+  WEB                  Integer    Internet

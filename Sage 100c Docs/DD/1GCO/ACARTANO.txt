@@ -1,0 +1,16 @@
+ACARTANO — Acumul. Artigo Ano  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ARTANARM [primary, unique]: ARTIGO+ANO+CODEST+ARMAZEM
+
+Columns (10):
+  ANO       Integer   Ano
+  ARMAZEM   Text(6)   Armazém
+  ARTIGO    Text(15)  Código do Artigo
+  CODEST    Text(3)   Código Estatistico
+  QTDENTRA  Currency  Quantidade entrada
+  QTDSAI    Currency  Quantidade saída
+  VLENTRA   Currency  Valor de entrada
+  VLEXTENT  Currency  Valor Ext Entrada
+  VLEXTSAI  Currency  Valor Ext Saida
+  VLSAI     Currency  Valor Saído

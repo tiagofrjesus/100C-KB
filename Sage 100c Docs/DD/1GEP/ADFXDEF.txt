@@ -1,0 +1,9 @@
+ADFXDEF — Expressões A.D.F.  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  ADF [primary, unique]: ADF
+
+Columns (3):
+  ADF     Text(10)  A.D.F.
+  EQTD    Text(50)  Expressão Qtd.
+  EVALOR  Text(50)  Expressão Valor

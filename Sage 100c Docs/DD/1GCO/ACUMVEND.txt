@@ -1,0 +1,15 @@
+ACUMVEND — Acumulado Vendedores  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  VENDEDOR [primary, unique]: ANO+VENDEDOR+MES
+
+Columns (9):
+  ANO       Integer   Ano
+  BASECCOB  Currency  Base Cobrado
+  BASECFAC  Currency  Base Facturado
+  MES       Integer   Mês
+  TOTALBAS  Currency  Total Base
+  TOTCOMIS  Currency  Total Comissão
+  VENDEDOR  Text(10)  Vendedor
+  VLCOBR    Currency  Valor Cobrado
+  VLFACT    Currency  Valor Facturado

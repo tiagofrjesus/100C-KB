@@ -1,0 +1,14 @@
+DIAS_BAIXA_PROLONGADA — Situações de ausência prolongada  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: NFUNC+DATA_INICIO+DATA_FIM+CODIGO_SITUACAO
+
+Columns (8):
+  CODIGO_SITUACAO  Text(4)   Código da situação
+  DATA_FIM         Date      Data de Fim
+  DATA_INICIO      Date      Data de Início
+  INIBE_RECIBO     Integer   Inibe recibo
+  NFUNC            Text(10)  Nº Funcionário
+  NUMERO_DIAS      Currency  Número de dias
+  NUMERO_HORAS     Currency  Número de horas
+  OBSERVACOES      Text(50)  Observações

@@ -1,0 +1,13 @@
+TBEMTI — Tipos de Bens - Tipos de Informação GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXBEMTI [primary, unique]: CTBEM+CTINF
+
+Columns (7):
+  AGENLOC   Boolean  É recolhido qd/se regista nova localização?
+  AGENPRI   Boolean  Agenda recolha após criar ficha do bem?
+  AGENSEG   Text(1)  Agenda automaticamente a recolha seguinte? 0=Não; P=Apartir da primeira recolha c/periodicidade de; D=Depois da ultima recolha, após
+  AGENSEGN  Byte     Frequencia recolhas, nº (1 a 255)
+  AGENSEGU  Text(4)  Frequencia recolhas: d=dias, ww=semanas, m=meses, yyyy=anos
+  CTBEM     Text(5)  Código do Tipo de Bem
+  CTINF     Text(5)  Código do Tipo de Informação

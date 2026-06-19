@@ -1,0 +1,60 @@
+MOVIMENTOS_ACTIVO — Movimentos do Activo  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO+DATA_OCORRENCIA+TIPO_MOVIMENTO+NUMERO_ORDENA
+
+Columns (54):
+  ACEITE                                Integer    Aceite
+  AMORTIZACAO                           Currency   
+  ANOS_CORRECCAO_FUTURA                 Currency   
+  ANO_ACTUALIZACAO_REAVALIACAO          Integer    
+  ANO_MAIS_VALIAS                       Integer    
+  AUMENTO_CUSTO                         Currency   Aumento do custo nas reavaliações
+  AUMENTO_DEPRECIACOES                  Currency   Aumento das depreciações
+  AUMENTO_DEPRECIACOES_ACUMULADAS       Currency   Aumento das depreciações acumuladas
+  AUMENTO_DEPRECIACOES_ACUMULADAS_UTIL  Currency   Aumento das depreciações acumuladas do utilizador
+  CAPITAL_DIVIDA                        Currency   
+  CLASSE                                Text(8)    
+  CODIGO                                Text(20)   Código do Activo
+  CODIGO_CORRECCAO_FISCAL               Integer    
+  CORRECCOES_EXERCICIO                  Currency   
+  CORRECCOES_FUTURAS                    Currency   
+  DATA_DOC_AQUISICAO                    Date       Data do documento de aquisição
+  DATA_OCORRENCIA                       Date       Data
+  DECRETO                               Integer    
+  DEPRECIACOES_NAO_ACEITES              Currency   
+  DEPRECIACOES_PERDIDAS_REAV            Currency   
+  DEPRECIACOES_TOTALMENTE_AC            Currency   
+  DESCRICAO                             Text(100)  
+  DIARIO                                Text(4)    Diário da contabilidade onde se arquivou o documento
+  ESTADO_ACTIVO                         Integer    
+  EXERCICIO                             Integer    
+  EXISTE_VIDA_ADICIONAL                 Integer    
+  FACTURA                               Text(30)   
+  FORNECEDOR                            Text(30)   
+  IMPARIDADES_REVERTIVEIS               Currency   
+  IVA_DEDUTIVEL                         Currency   
+  IVA_NAO_DEDUTIVEL                     Currency   
+  JUROS                                 Currency   
+  METODO_DEPRECIACOES_ACUMULADAS        Integer    Método de cálculo das depreciações acumuladas
+  NUMERO_ANOS_VIDA_ESTIMADOS            Integer    Vida Útil Estimadada
+  NUMERO_DOC_CTB                        Text(15)   
+  NUMERO_ORDENA                         16         
+  OBSERVACOES                           Memo       
+  REEXPRESSAO_DEPRECIACOES_ACUMULADAS   Currency   Valor da reexpressão das depreciações acumuladas até à data da revalorização
+  RENDA                                 Currency   
+  SITUACAO_DESCARGA                     Integer    
+  TAXA                                  Double     
+  TAXA_IVA                              Integer    
+  TAXA_PERDIDA                          Double     
+  TIPO_ABATE                            Integer    
+  TIPO_MOVIMENTO                        Integer    Tipo de Movimento
+  TOTALMENTE_DEPRECIADO                 Integer    
+  VALOR_AQUISICAO_ACTUALIZADO           Currency   Valor de aquisição atualizado
+  VALOR_FISCAL                          Currency   
+  VALOR_MAIS_VALIAS                     Currency   
+  VALOR_MOVIMENTO                       Currency   Valor
+  VALOR_MOVIMENTO_REAL                  Currency   Valor efectivo da depreciação
+  VALOR_MOVIMENTO_REAVALIADO            Currency   
+  VALOR_PROMETIDO_REINVESTIR            Currency   Valor prometido reinvestir das alienações
+  VIDA_UTIL_DECORRIDA_DECRETO           Integer    

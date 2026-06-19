@@ -1,0 +1,12 @@
+BALCOES — Balcoes  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  CODBAL [primary, unique]: BANCO+CODBAL
+
+Columns (6):
+  AGENCIA  Text(50)  Agência
+  BANCO    Text(4)   Código do Banco
+  CODBAL   Text(4)   Código do Balcão
+  CODPOST  Text(8)   Código Postal
+  LOCAL    Text(50)  Localidade
+  MORADA   Text(50)  Morada

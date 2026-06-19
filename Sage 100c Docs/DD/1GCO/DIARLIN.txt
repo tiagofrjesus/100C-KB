@@ -1,0 +1,11 @@
+DIARLIN — Diários- Controlo  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  DIARL [primary, unique]: DIARIO+EXERC+NMES
+
+Columns (5):
+  DIARIO  Text(3)  Diário
+  EXERC   Integer  Exercício
+  MESF    Integer  Mês Fisico
+  NMES    Integer  Mês
+  STATUS  Integer  Status

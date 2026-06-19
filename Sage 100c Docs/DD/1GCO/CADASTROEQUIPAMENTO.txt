@@ -1,0 +1,30 @@
+CADASTROEQUIPAMENTO — Cadastro de equipamento  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO+TP_EQUIP
+
+Columns (24):
+  ABATIDO         Boolean   
+  ANOMATRICULA    Long      
+  ARTIGO          Text(15)  
+  CILINDRADA      Text(11)  
+  CODIGO          Text(13)  
+  COR             Text(11)  
+  DATACOMPRA      Date      
+  DESCRICAO       Text(43)  
+  HORAS           Double    
+  HORASAMORT      Double    
+  KM              Double    
+  LUGARES         Long      
+  MARCA           Text(16)  
+  MATRICULA       Text(13)  
+  MODELO          Text(16)  
+  POTENCIA        Text(11)  
+  PROPRIO         Boolean   
+  STOCK_EXIS      Double    
+  TP_EQUIP        Integer   
+  VALOR           Currency  
+  VALORADICIONAL  Currency  
+  VALORAMORT      Currency  
+  VC_ORDEM        Currency  
+  VC_TRAB         Currency  

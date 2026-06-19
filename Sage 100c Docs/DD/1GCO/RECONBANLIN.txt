@@ -1,0 +1,16 @@
+RECONBANLIN — Reconciliação Bancária Linhas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Columns (13):
+  ANO           Integer   Ano
+  CONTA         Text(50)  Conta
+  CREDITO       Currency  Crédito
+  DATAMOV       Date      Data Movimento
+  DATAVALOR     Date      Data Valor
+  DEBITO        Currency  Débito
+  DESCRICAO     Text(50)  Descrição
+  GUID          Text(40)  GUID
+  NUMLINHA      Integer   Número da Linha
+  PERIODO       Text(3)   Periodo
+  RECONCILIADO  Integer   Reconciliado
+  SELECTED      Integer   
+  SINAL         Text(3)   Sinal

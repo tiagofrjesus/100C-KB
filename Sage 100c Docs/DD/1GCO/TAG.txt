@@ -1,0 +1,18 @@
+TAG — Tag File  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRIMO [primary, unique]: TPFAC+DATA+CLIENTE+NUMERO
+
+Columns (12):
+  ANO       Integer   Ano
+  CLIENTE   Text(15)  Cliente
+  DATA      Date      Data
+  NUMERO    Long      Numero
+  NUMLDESP  Integer   NumLinDesp
+  NUMLINAD  Integer   NumLinAd
+  NUMLINCR  Integer   NumLinCredito
+  NUMLINDE  Integer   NumLinDebitos
+  NUMLINDO  Integer   NumLinDo
+  SERIE     Integer   Serie
+  TPDOC     Text(3)   TpDoc
+  TPFAC     Integer   TpFac

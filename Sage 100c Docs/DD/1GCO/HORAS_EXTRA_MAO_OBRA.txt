@@ -1,0 +1,10 @@
+HORAS_EXTRA_MAO_OBRA — Horas Extra de Mão-de-Obra  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: ARTIGO+NUMERO
+
+Columns (4):
+  ARTIGO  Text(15)  Código do Preço
+  CUSTO   Currency  Valor de Custo
+  NUMERO  Integer   Número da Hora Extra
+  VENDA   Currency  Valor de Venda

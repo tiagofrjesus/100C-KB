@@ -1,0 +1,15 @@
+RELATORI — Registo dos relatori  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: TIPO+EMPRESA+EXERCICI+VERSAO
+
+Columns (9):
+  CABECALH  Text(255)  
+  CODIGO    Long       
+  DESCRICA  Text(100)  
+  EMPRESA   Text(30)   
+  EXERCICI  Long       
+  ORIGEM    Long       
+  RODAPE    Text(255)  
+  TIPO      Long       
+  VERSAO    Text(2)    

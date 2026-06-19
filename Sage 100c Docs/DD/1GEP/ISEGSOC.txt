@@ -1,0 +1,13 @@
+ISEGSOC — Inst. Seg. Social  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (7):
+  COD            Text(3)   Código
+  CODIGO_POSTAL  Text(8)   Código postal
+  DESCR          Text(35)  Descrição
+  EMAIL          Text(50)  Endereço eletrónico
+  LOCALIDADE     Text(30)  Localidade
+  MORADA         Text(50)  Morada
+  NIF            Text(9)   N.I.F. ou N.I.P.C.

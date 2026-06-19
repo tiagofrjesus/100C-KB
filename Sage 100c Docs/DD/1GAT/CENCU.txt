@@ -1,0 +1,20 @@
+CENCU — Tabelas de Centros de Custo  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  IXCENCU [primary, unique]: TCECU+CCECU
+
+Columns (14):
+  CCECU   Long      Código do Centro de Custo
+  CCECU1  Long      Código do Centro de Custo da Tabela 1 para rateio
+  CCECU2  Long      Código do Centro de Custo da Tabela 2 para rateio
+  CCECU3  Long      Código do Centro de Custo da Tabela 3 para rateio
+  CCECU4  Long      Código do Centro de Custo da Tabela 4 para rateio
+  CCECU5  Long      Código do Centro de Custo da Tabela 5 para rateio
+  DESCR   Text(30)  Descrição
+  PCECU1  Double    % de rateio do Centro de Custo da Tabela 1
+  PCECU2  Double    % de rateio do Centro de Custo da Tabela 2
+  PCECU3  Double    % de rateio do Centro de Custo da Tabela 3
+  PCECU4  Double    % de rateio do Centro de Custo da Tabela 4
+  PCECU5  Double    % de rateio do Centro de Custo da Tabela 5
+  SIGLA   Text(12)  Sigla
+  TCECU   Byte      1,2,3 ou 4

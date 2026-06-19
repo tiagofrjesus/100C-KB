@@ -1,0 +1,9 @@
+SECCAO — Secções  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXSECCAO [primary, unique]: CSEC
+
+Columns (3):
+  CEST   Text(15)  Código do estabelecimento onde funciona a secção
+  CSEC   Text(15)  Código
+  DESCR  Text(40)  Designação da Secção

@@ -1,0 +1,8 @@
+FUNDAMENTOS — Fundamentos  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: CODIGO
+
+Columns (2):
+  CODIGO     Text(5)    Código do fundamento
+  DESCRICAO  Text(100)  Descrição do fundamento

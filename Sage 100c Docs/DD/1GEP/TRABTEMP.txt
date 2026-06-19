@@ -1,0 +1,30 @@
+TRABTEMP — Trabalhadores Temporários  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO
+
+Columns (24):
+  AUTRESIDENCIA                  Text(10)   Nº Autorização de Residência
+  CIDADAO                        Text(13)   Nº Cartão de Cidadão
+  CODIGO                         Text(10)   Código do Trabalhador Temporário
+  CODPOST                        Text(8)    Código Postal
+  CONSENTIMENTO_DATA_HORA        Date       Consentimento data hora
+  CONSENTIMENTO_UTILIZADOR       Text(20)   Consentimento utilizador
+  DATANASCIMENTO                 Date       Data de Nascimento
+  EMAIL                          Text(100)  E-Mail
+  ESQUECIMENTO                   Integer    Pedido de esquecimento de dados pessoais
+  ESQUECIMENTO_DATA_HORA         Date       Esquecimento data hora
+  ESQUECIMENTO_UTILIZADOR        Text(20)   Esquecimento utilizador
+  ESTADCIVIL                     Integer    Estado Civil
+  LOCALIDADE                     Text(50)   Localidade do Trabalhador
+  MORADA                         Text(100)  Morada do Trabalhador
+  NACIONALIDADE                  Integer    Estado Civil
+  NIF                            Text(10)   Nº Contribuinte Trabalhador
+  NISS                           Text(11)   Nº Identificação Segurança Social
+  NOME                           Text(100)  Nome do Trabalhador
+  PAIS                           Text(3)    País
+  RGPD_CONSENTIMENTO_TRAT_DADOS  Integer    Consentimento de tratamento de dados pessoais
+  RGPD_ESTADO                    Integer    Estado do consentimento
+  SEXO                           Text(1)    Sexo
+  TELEFONE                       Text(9)    Telefone
+  TELEMOVEL                      Text(9)    Telemóvel

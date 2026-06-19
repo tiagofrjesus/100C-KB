@@ -1,0 +1,31 @@
+FUNC_POR — Funcionário (Portal)  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NFUNC [primary, unique]: NFUNC
+
+Columns (25):
+  BI        Text(10)  Nº B. I.
+  CDPOSTAL  Text(8)   Código Postal
+  CONCELHO  Text(2)   Concelho
+  DEPEND    Integer   Núm. de Dependentes
+  DISTRITO  Text(2)   Distrito
+  DOMFIS    Integer   Domicílio Fiscal
+  DTBI      Date      Data B. I.
+  DTNASC    Date      Data de Nascimento
+  EMISSAO   Text(20)  Emissão
+  ESTCIVIL  Integer   Estado Civil
+  ESTFISCA  Integer   Estado Fiscal
+  LOCALID   Text(40)  Localidade
+  MORADA    Text(50)  Morada
+  NACIONAL  Integer   Nacionalidade
+  NDPDEFIC  Integer   Núm. Depend. Defic.
+  NFISCAL   Text(9)   Número Fiscal
+  NFUNC     Text(10)  Número Funcionário
+  NIBFUN    Text(21)  N.I.B. Funcionário
+  NOME      Text(60)  Nome
+  NSEGSOC   Text(11)  Nº Ident.Seg.Social
+  PAIS      Integer   País
+  PASSPO    Text(13)  Passaporte
+  REPFINAN  Text(4)   Repartição Finanças
+  TELEFONE  Text(9)   Telefone
+  TELEMOVE  Text(9)   Telemóvel

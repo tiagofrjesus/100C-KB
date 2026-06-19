@@ -1,0 +1,13 @@
+TABLIVCF — Config Tab Livres  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRIM [primary, unique]: CHAVE
+
+Columns (7):
+  CHAVE   Integer   Tabela Livre
+  CODTXT  Text(20)  Texto Código
+  COMPR   Integer   Compr. Descrição
+  DESTXT  Text(20)  Texto Descrição
+  MENU    Text(20)  Descrição Menu
+  TITULO  Text(40)  Título Janela
+  VALIDA  Integer   Validação

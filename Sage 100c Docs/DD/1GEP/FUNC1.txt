@@ -1,0 +1,158 @@
+FUNC1 — Funcionário  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NFUNC [primary, unique]: NFUNC
+
+Columns (152):
+  ACERTO_FERIAS                  Integer    Acerto do subsídio de férias
+  ACERTO_NATAL                   Integer    Acerto do subsídio de Natal
+  ADSE                           Text(6)    A.D.S.E.
+  AFECTOSORG                     Integer    Afetos Organizações
+  APPLICABILITYIRCT              Text(2)    Aplicabilidade do IRCT
+  AUTORIZACAO_RESIDENCIA         Text(10)   Autorização de residência
+  BALCAO_DESPESAS                Text(4)    Código do Balcão para pagamento de despesas
+  BALFUN                         Text(4)    Balcão Funcionário
+  BANCO_CR                       Text(4)    Banco cartão refeição
+  BANCO_DESPESAS                 Text(4)    Código do banco para pagamento de despesas
+  BASEPROC                       Integer    Base Processamento
+  BI                             Text(10)   Nº B. I.
+  BNCFUN                         Text(4)    Banco Funcionário
+  CALENDARIO                     Text(4)    Calendário
+  CAMPO_PALAVRA_CHAVE_RECIBOS    Integer    Campo utilizado para a palavra chave nos recibos por email
+  CARTA_CONDUCAO                 Text(20)   Carta de condução
+  CCUSTO                         Text(6)    Centro de Custo
+  CDBALCAO                       Text(4)    Código Balcão
+  CDBANCO                        Text(4)    Código Banco
+  CDCATEG                        Text(5)    Categoria
+  CDHORA                         Text(6)    Horário
+  CDNVHAB                        Text(3)    Cód. Nível Habilit.
+  CDPAGAM                        Integer    Modo de Pagamento
+  CDPOSTAL                       Text(8)    Código Postal
+  CDPROFIS                       Text(6)    Código Profissão
+  CDSEGSOC                       Text(4)    Código Seg. Social
+  CDSEGURO                       Text(4)    Código do Seguro
+  CDSINDIC                       Text(4)    Código do Sindicato
+  CDSITUAC                       Text(4)    Cód. Situação Func.
+  CGA                            Text(6)    C.G.A.
+  CNJDEFIC                       Integer    Cônjuge Deficiente
+  CONCELHO                       Text(2)    Concelho
+  CONSENTIMENTO_DATA_HORA        Date       Consentimento data hora
+  CONSENTIMENTO_UTILIZADOR       Text(20)   Consentimento utilizador
+  DEFIC                          Integer    Deficiente
+  DEMITIDO                       Integer    Demitido
+  DEPARTAMENTO                   Text(10)   Departamento
+  DEPEND                         Integer    Núm. de Dependentes
+  DESCONTA_SUBSALIMENTACAO       Integer    Desconta subsidio de alimentação nos dias indicados como períodos de férias
+  DIASSBFE                       Single     Dias Sub. Férias
+  DIASSBNA                       Single     Dias Subs. Natal
+  DISTRITO                       Text(2)    Distrito
+  DIUTURN                        Currency   Diuturnidades
+  DOMFIS                         Integer    Domicílio Fiscal
+  DTADMI                         Date       Data de Admissão
+  DTBI                           Date       Data B. I.
+  DTDEMIT                        Date       Data da cessação de contrato
+  DTFERIAS                       Date       Data Inicio Férias
+  DTFIMREGSS                     Date       Data de fim do regime da segurança social
+  DTNASC                         Date       Data de Nascimento
+  DTSEGSOC                       Date       Dt. Seg. Social
+  DTTERMO                        Date       Data de Termo
+  DTUPRO                         Date       Dt. Últ. Promoção
+  ECDU                           Integer    Subscritores abrangidos pelo ECDU
+  EMAIL                          Text(50)   E-Mail
+  EMISSAO                        Text(20)   Emissão
+  ENQAJC                         Integer    Enq. Aj. Custo
+  ESQUECIMENTO                   Integer    Pedido de esquecimento de dados pessoais
+  ESQUECIMENTO_DATA_HORA         Date       Esquecimento data hora
+  ESQUECIMENTO_UTILIZADOR        Text(20)   Esquecimento utilizador
+  ESTABEL                        Text(4)    Estabelecimento
+  ESTCIVIL                       Integer    Estado Civil
+  ESTFISCA                       Integer    Estado Fiscal
+  ESTSOCG                        Integer    Estatuto Sóc.Gerente
+  EXCLUSIVIDADE                  Integer    Trabalhador em exclusividade
+  FCT                            Text(6)    Fundo de compensação do trabalho
+  FGCT                           Text(6)    Fundo de garantia de compensação do trabalho
+  FLTPREM                        Integer    
+  FUNCAO                         Text(4)    Função
+  GRAUINCAP                      Integer    Grau de incapacidade
+  GRUPOS_ESPECIFICOS_SS          Integer    Grupos especificos para a Segurança Social
+  HABLIT                         Text(50)   Habilit. Literárias
+  HORASSEM                       Single     Horas Semanais
+  INDICE_ECDU                    Text(3)    Índices do ensino superior e investigação
+  INSREGTR                       Text(5)    Inst. Reg. Trab.
+  IVA_PERIODO_EXTRAORDINARIO     Currency   Per. Extraordinário
+  LOCALID                        Text(40)   Localidade
+  MARCADO                        Long       
+  MONTAJCU                       Text(4)    Montante Aj. Custo
+  MORADA                         Text(50)   Morada
+  MOTADMI                        Text(3)    Motivo da admissão
+  MOTDEMI                        Text(3)    Motivo da demissão
+  MOTPROM                        Integer    Motivo da promoção
+  NACIONAL                       Integer    Nacionalidade
+  NADSE                          Text(15)   Nº A.D.S.E.
+  NATURALIDADE_CONCELHO          Text(2)    Naturalidade - concelho
+  NATURALIDADE_DISTRITO          Text(2)    Naturalidade - distrito
+  NBALFU                         Text(50)   Nome Agência Func.
+  NBNCFU                         Text(50)   Nome Banco Func.
+  NCGA                           Text(7)    Nº C.G.A.
+  NDPDEFIC                       Integer    Núm. Depend. Defic.
+  NFISCAL                        Text(9)    Número Fiscal
+  NFUNC                          Text(10)   Nº Funcionário
+  NIB                            Text(21)   N.I.B.
+  NIBFUN                         Text(21)   N.I.B. Funcionário
+  NIB_DESPESAS                   Text(21)   N.I.B. para pagamento de despesas
+  NIF_PAIS_RESIDENCIA            Text(20)   Número identificação fiscal no pais de residência
+  NOME                           Text(60)   Nome Funcionário
+  NOME_PREFERIDO                 Text(80)   Nome de tratamento preferido
+  NOTAS                          Memo       Bloco de notas
+  NRIBAN                         Text(34)   Numero IBAN
+  NRSWIFT                        Text(11)   Numero SWIFT
+  NSEGSOC                        Text(11)   Nº Ident.Seg.Social
+  NSINDIC                        Text(10)   Número Sindicato
+  NUMERO_CARTAO_CIDADAO          Text(13)   Nº Cartão Cidadão
+  NUMERO_CARTAO_REFEICAO         Text(34)   Número do cartão refeição
+  NVQUAL                         Text(1)    Nível Qualificação
+  OBS                            Text(250)  Observações
+  OBSSS                          Text(50)   Observação S.Social
+  PAIS                           Integer    País
+  PAIS_ISO3166                   Text(3)    País
+  PAIS_RESIDENCIA                Text(3)    País de residência
+  PASSPO                         Text(13)   Passaporte
+  PENSION                        Integer    Pensionista
+  RECEMAIL                       Integer    Recibo por Email
+  REGIME_REFORMA                 Text(1)    Regime de reforma aplicado
+  REGIME_TRIBUTACAO              Text(2)    Código de regime de tributação
+  REPFINAN                       Text(4)    Repartição Finanças
+  RGPD_CONSENTIMENTO_TRAT_DADOS  Integer    Consentimento de tratamento de dados pessoais
+  RGPD_ESTADO                    Integer    Estado do consentimento
+  SECCAO                         Text(10)   Secção
+  SECTOR                         Text(4)    Setor
+  SEXO                           Text(1)    Sexo
+  SITCON                         Integer    Situação contratual
+  SITPROF                        Text(1)    Situação Profissão
+  SUBSIDIOS_FRACCIONADOS         Integer    Subsídio de Férias e Natal pagos fracionadamente
+  SUBTURNO                       Text(4)    Subsídio de Turno
+  TABELAIRS                      Integer    Tabelas IRS a aplicar
+  TELEFONE                       Text(15)   Telefone
+  TELEMOVE                       Text(15)   Telemóvel
+  TEMINDEM                       Integer    Motivo da demissão confere direito a compensação
+  TICKET                         Integer    Ticket Ref.
+  TIPOTICKET                     Integer    Tipo de ticket refeição
+  TIPO_REGIME_CGA                Integer    Tipo de regime de tempo
+  TPCONTR                        Text(4)    Tipo de Contrato
+  TPFERIAS                       Integer    Tipo de Férias
+  TPFUNC                         Integer    Tipo Funcionário
+  TPHORAR                        Integer    Tipo de Horário
+  TPPROC                         Integer    Tipo Processamento
+  TPSALIM                        Text(4)    Tp Subs. Alim.
+  TPSUBSNA                       Integer    Tipo de Subs. Natal
+  TXIRS                          Single     Taxa IRS
+  UPDATEDATE                     Date       Data da última alteração
+  VALIDADE_AR                    Date       Data de validade da autorização de residência
+  VALIDADE_BI                    Date       Data de validade do bilhete de identidade
+  VALIDADE_CC                    Date       Data de validade do cartão de cidadão
+  VALIDADE_P                     Date       Data de validade do passaporte
+  VENCIM                         Currency   Vencimento
+  VLRKM                          Text(4)    Valor Km
+  WORKTIME                       Text(1)    Regime de Duração do Trabalho
+  WORKTIMEDURATIONS              Text(2)    Duração do Tempo de Trabalho
+  WORKTIMESTRUCTURES             Text(1)    Organização do Tempo de Trabalho

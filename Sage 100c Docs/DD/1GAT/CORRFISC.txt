@@ -1,0 +1,12 @@
+CORRFISC — CorrecoesFiscais  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  FICHA [primary, unique]: SITUACAO+FICHA
+
+Columns (6):
+  CORRECAO  Currency  Correcção
+  DESCRICA  Text(35)  Descrição
+  FICHA     Text(20)  Ficha
+  REINTCAL  Currency  Depre. calculada
+  SITUACAO  Integer   Situação
+  VLAQUISI  Currency  ValorAquisição

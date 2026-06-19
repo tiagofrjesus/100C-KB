@@ -1,0 +1,11 @@
+EXPTB — Listagens configuradas - Tabelas GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXEXPTB [primary, unique]: CEXP+NLIN
+
+Columns (5):
+  ATAB     Text(50)   Código de tabela relacionada
+  CEXP     Text(50)   Código de exportação
+  CTAB     Text(20)   Código de tabela
+  NLIN     Integer    Número de linha
+  SQLFROM  Text(255)  Expressão SQL JOIN

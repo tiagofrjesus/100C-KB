@@ -1,0 +1,8 @@
+TXPRO — Taxas Pro-Rata  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  EXERC [primary, unique]: EXERC
+
+Columns (2):
+  EXERC  Integer   Exercício
+  TXDED  Currency  Taxa Dedutível

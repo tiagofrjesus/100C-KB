@@ -1,0 +1,13 @@
+XDEFEC — Def.Expr.Condicionai  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  REF [primary, unique]: REF
+
+Columns (7):
+  COND   Text(50)   Condição
+  DESCR  Text(100)  Descrição
+  EXPR   Text(200)  Expressão
+  EXPRF  Text(200)  Expressão Falso
+  EXPRT  Text(200)  Expressão Verdade
+  REF    Text(50)   Referência
+  TIPO   Integer    Tipo

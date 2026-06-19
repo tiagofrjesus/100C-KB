@@ -1,0 +1,4 @@
+MovsAnalitica
+Ligação á contabilidade, classe que tem os dados da contabilidade analitica durante o processo de reclassificação de um documento
+
+Membros (0):

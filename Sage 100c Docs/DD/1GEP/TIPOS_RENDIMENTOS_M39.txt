@@ -1,0 +1,8 @@
+TIPOS_RENDIMENTOS_M39 — Tipos de rendimentos (Modelo 39)  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  REFERENCE [primary, unique]: REFERENCE
+
+Columns (2):
+  NAME       Text(250)  Descrição
+  REFERENCE  Text(2)    Código

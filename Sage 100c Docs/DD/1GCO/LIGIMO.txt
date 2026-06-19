@@ -1,0 +1,9 @@
+LIGIMO — Contas Lig. Imobiliz  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: EXERCICIO+CONTA+TPDOC
+
+Columns (3):
+  CONTA      Text(15)  CONTA
+  EXERCICIO  Integer   Exercício
+  TPDOC      Text(3)   TPDOC

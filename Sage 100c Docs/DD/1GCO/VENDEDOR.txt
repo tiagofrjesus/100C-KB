@@ -1,0 +1,29 @@
+VENDEDOR — Vendedores  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (23):
+  BALCAO                         Text(4)   Balcão
+  BANCO                          Text(4)   Banco
+  CALCCOMI                       Integer   Cálculo da Comissão
+  CODIGO                         Text(6)   Codigo
+  CODPOST                        Text(8)   Código Postal
+  COMISSAO                       Currency  Comissão
+  CONSENTIMENTO_DATA_HORA        Date      Consentimento data hora
+  CONSENTIMENTO_UTILIZADOR       Text(20)  Consentimento utilizador
+  DBTS                           23        
+  DESCFIN                        Integer   Desconto Financeiro
+  DESCONTO_MAXIMO_POS            Currency  Desconto Máximo POS
+  ESQUECIMENTO                   Integer   Pedido de esquecimento de dados pessoais
+  ESQUECIMENTO_DATA_HORA         Date      Esquecimento data hora
+  ESQUECIMENTO_UTILIZADOR        Text(20)  Esquecimento utilizador
+  LOCAL                          Text(35)  Localidade
+  LOCALB                         Text(50)  Local Alternativo
+  MORADA                         Text(50)  Morada
+  MORADAB                        Text(50)  Morada alternativa
+  NOME                           Text(50)  Nome
+  PAIS                           Text(3)   País
+  PGTCOB                         Currency  % Cobrança
+  RGPD_CONSENTIMENTO_TRAT_DADOS  Integer   Consentimento de tratamento de dados pessoais
+  RGPD_ESTADO                    Integer   Estado do consentimento

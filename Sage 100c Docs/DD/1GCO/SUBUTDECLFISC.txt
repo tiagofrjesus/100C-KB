@@ -1,0 +1,11 @@
+SUBUTDECLFISC — Sub-utilizadores de Declarações Fiscais  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPDECLARACAO [primary, unique]: TPDECLARACAO
+
+Columns (5):
+  PASSCONTABILISTA   Text(100)  Password Contabilista Certificado
+  PASSEMPRESA        Text(100)  Password Empresa
+  SUBUTCONTABILISTA  Text(4)    Sub-utilizador Contabilista Certificado
+  SUBUTEMPRESA       Text(4)    Sub-utilizador Empresa
+  TPDECLARACAO       Integer    Tipo de Delclaração Fiscal

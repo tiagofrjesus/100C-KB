@@ -1,0 +1,27 @@
+MAPA31 — Mais ou Menos Valias  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  FICHA [primary, unique]: FICHA+ANO
+
+Columns (21):
+  ANO    Integer    
+  C01    Text(102)  C01
+  C02    Currency   C02
+  C03    Integer    C03
+  C04    Currency   C04
+  C05    Currency   C05
+  C06    Currency   C06
+  C07    Text(1)    C07
+  C08    Currency   C08
+  C09    Currency   C09
+  C10    Currency   C10
+  C11    Double     C11
+  C12    Currency   C12
+  C13    Text(1)    C13
+  C14    Currency   C14
+  FICHA  Text(20)   FICHA
+  GES07  Currency   GES07
+  GES08  Currency   GES08
+  GES13  Currency   GES13
+  GES14  Currency   GES14
+  TIMO   Integer    TIMO

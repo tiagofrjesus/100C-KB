@@ -1,0 +1,10 @@
+HISTACIDTEMP — Histórico de Acidentes de Trabalhadores Temporários  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO+DATA
+
+Columns (4):
+  CODIGO   Text(10)   Trabalhador Temporário
+  DATA     Date       Data do Acidente
+  OBSERV   Text(100)  Observações
+  TPINCAP  Integer    Consequência

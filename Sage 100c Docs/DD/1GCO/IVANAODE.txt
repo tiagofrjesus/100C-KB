@@ -1,0 +1,9 @@
+IVANAODE — Iva Nao Dedutível  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  SECTGRP [primary, unique]: SECTOR+GRPARTIG
+
+Columns (3):
+  GRPARTIG  Text(5)   Grupo Artigos
+  PERC      Currency  Percentagem dedução
+  SECTOR    Text(3)   Sector

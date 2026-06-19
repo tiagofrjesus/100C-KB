@@ -1,0 +1,11 @@
+CFGPARAM — Parametros Config. U  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (5):
+  AJUDA   Text(200)  AJUDA
+  APLIC   Text(4)    APLIC
+  CODIGO  Integer    CODIGO
+  DESCR   Text(100)  DESCR
+  LINHA   Text(1)    LINHA

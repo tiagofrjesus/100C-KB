@@ -1,0 +1,11 @@
+AVALIACA — Tabela de avaliacao  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CONTA [primary, unique]: FICHA+DATA
+  FICHA: FICHA
+
+Columns (4):
+  DATA   Date      Data
+  FICHA  Text(20)  Ficha
+  OBS    Memo      Obs
+  VALOR  Currency  Valor

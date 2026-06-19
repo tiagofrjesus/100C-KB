@@ -1,0 +1,17 @@
+ACPOCSEC — Acumulados POC por sector  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ACPOC [primary, unique]: ANO+MES+STATAC+NAT+CONTA
+
+Columns (11):
+  ANO        Integer   Ano
+  CONTA      Text(15)  Conta
+  EXERCICIO  Integer   Exercício
+  MES        Integer   Mês
+  NAT        Integer   Natureza
+  SECTOR     Text(3)   Sector
+  STATAC     Integer   Status acumulados
+  TERC       Text(15)  Terceiro
+  TPTERCEI   Integer   Tipo Terceiro
+  VLCRED     Currency  Crédito
+  VLDEB      Currency  Débito

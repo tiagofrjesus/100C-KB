@@ -1,0 +1,8 @@
+ABONOS_PERIODOS_EXTRA — Abon.Period.Extraor.  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO_ABONO+CODIGO_PERIODO
+
+Columns (2):
+  CODIGO_ABONO    Text(10)  Código Abono
+  CODIGO_PERIODO  Text(5)   Código Período

@@ -1,0 +1,11 @@
+ACCOES_PROMOCAO — Acções de promoção  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NFUNC [primary, unique]: NFUNC+DATA+ACCAO
+
+Columns (5):
+  ACCAO        Text(5)    Código da acção
+  ACTIVIDADE   Text(2)    Código da atividade
+  DATA         Date       Data
+  NFUNC        Text(10)   Nº do funcionário
+  OBSERVACOES  Text(100)  Observações

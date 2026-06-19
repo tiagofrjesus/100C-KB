@@ -1,0 +1,12 @@
+HISTADMCESTEMP — Histórico Entradas e Saídas Trabalhadores Temporários  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO+DATAADM
+
+Columns (6):
+  CEDENCIA  Integer    Regime de Cedência Ocasional
+  CODIGO    Text(10)   Trabalhador Temporário
+  DATAADM   Date       Data de Entrada
+  DATACES   Date       Data de Saída
+  ESTAB     Text(4)    Estabelecimento
+  OBSERV    Text(100)  Observações

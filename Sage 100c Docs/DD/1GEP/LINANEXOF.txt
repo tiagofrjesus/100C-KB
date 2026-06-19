@@ -1,0 +1,19 @@
+LINANEXOF — Preparação Anexo F  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: ANO+NIF+DATAINI
+
+Columns (13):
+  ANO                      Integer   Ano da Declaração
+  CAE                      Text(6)   C.A.E.
+  CIRS                     Text(6)   C.I.R.S
+  DATAFIM                  Date      Data Fim
+  DATAINI                  Date      Data Início
+  HORASACTIVIDADE          Integer   Número de Horas de Atividade
+  NIF                      Text(9)   Nº de Contribuinte
+  NISS                     Text(11)  Nº de Segurança Social
+  NOME                     Text(50)  Nome do prestador de serviços
+  REGIME_REFORMA_APLICADO  Text(1)   Regime de reforma aplicado (reduzido)
+  TIPO                     Text(1)   Tipo de Prestador
+  TIPO_CODIGO_ACTIVIDADE   Text(1)   Tipo de código atividade
+  TRABALHADORES            Integer   Número de Trabalhadores

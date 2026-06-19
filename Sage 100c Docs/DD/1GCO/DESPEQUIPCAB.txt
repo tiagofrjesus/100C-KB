@@ -1,0 +1,30 @@
+DESPEQUIPCAB — Despesas de equipamento cab.  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: NUMERO
+
+Columns (24):
+  ANO                 Integer   
+  CENTROCUSTO_LANC    Long      
+  CODIGO              Text(12)  
+  CONSUMO             Double    
+  CUSTO               Currency  
+  CUSTO_IVA           Currency  
+  DATA                Date      
+  DESCRICAO           Text(42)  
+  DESPESA_LANCAMENTO  Long      
+  DES_TIPO            Text(32)  
+  FORNECEDOR          Text(15)  
+  GARANTIA            Integer   
+  GARANTIA_UN         Text(15)  
+  HORAS               Double    
+  KILOMETROS          Long      
+  NNUMDOC             Long      
+  NUMERO              Text(32)  
+  PREVISAO_DATA       Date      
+  PREVISAO_KM         Long      
+  SERIE               Integer   
+  TAXA_IVA            Currency  
+  TIPO                Integer   
+  TPDOC               Text(3)   
+  ZONA_IVA            Text(3)   

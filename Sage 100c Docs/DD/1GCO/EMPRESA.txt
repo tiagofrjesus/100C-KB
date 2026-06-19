@@ -1,0 +1,80 @@
+EMPRESA — Dados da Empresa  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  NUMREG [primary, unique]: NUMREG
+
+Columns (74):
+  ACTPRINC                            Text(60)   Actividade Principal
+  ALVARA                              Text(60)   Alvará
+  ANDAR                               Text(15)   Andar
+  APARTADO                            Text(30)   Apartado
+  BAIFISCA                            Text(30)   Serv. Finanças
+  BAIRROFI                            Text(4)    Cód. Serv. Fin.
+  CAE                                 Text(6)    C. A.E.
+  CAPSOCIA                            Currency   Capital Social
+  CERTIFICADO_DIGITAL                 Text(64)   Certificado Digital
+  CODCON                              Text(3)    Cód.Consolição
+  CODIGO                              Integer    Código
+  CODPOSTA                            Text(40)   Código Postal
+  COMPANYCREATEDATE                   Date       Data de constituição da empresa
+  CONCELHO                            Text(2)    Concelho
+  CREGCOM                             Text(30)   C. Reg. Com
+  DERRAMA                             Currency   Taxa de derrama
+  DIASVALIDADE                        Text(2)    Número de dias de validade de pedido de consentimento
+  DISTRI                              Text(2)    Distrito
+  EAN                                 Text(20)   Código EAN
+  EMAIL                               Text(100)  Email
+  EMITERC                             Integer    Facturação emitida por terceiros
+  ESTABELECIMENTO                     Text(50)   Estabelecimento
+  FAX                                 Text(15)   Fax
+  FISCAL                              Text(5)    Bairro Fiscal
+  FOLHAS                              Text(10)   Secção
+  FORMGEST                            Text(30)   Forma Gestão
+  FREGUESI                            Text(2)    Freguesia
+  GLN                                 Text(20)   Código GLN
+  GLN2                                Text(20)   Código GLN 2
+  GLN3                                Text(20)   Código GLN 3
+  GLN4                                Text(20)   Código GLN 4
+  IDELECTR                            Text(50)   ID Electrónico
+  LIC_CODPOST                         Text(10)   Código postal da licença
+  LIC_LOCAL                           Text(40)   Localidade da licença
+  LIC_MORADA1                         Text(40)   Morada 1 da licença
+  LIC_MORADA2                         Text(40)   Morada 2 da licença
+  LIC_NIF                             Text(16)   Nif da licença
+  LIC_NOME                            Text(70)   Nome da licença
+  LIVRO                               Text(10)   Pasta
+  LOCALIDA                            Text(50)   Localidade
+  MORADA                              Text(60)   Morada
+  NANOSDADOSFICAIS                    Text(2)    Número de anos a manter dados fiscais
+  NATJURID                            Text(2)    Natureza Jurídica
+  NESTAB                              Integer    Núm. Estabel.
+  NIFREPL                             Text(20)   N.I.F. Repr. Legal
+  NIFROC                              Text(20)   N.I.F. ROC
+  NIFTOC                              Text(20)   N.I.F. T.O.C.
+  NOME                                Text(60)   Nome
+  NUMCONTR                            Text(11)   Número Contribuinte
+  NUMERO_AUTORIZACAO                  Text(20)   Número de autorização de exercicio de actividade
+  NUMERO_CONSERVATORIA                Text(10)   Número da conservatória
+  NUMMATRI                            Text(20)   Número Matricula
+  NUMPESSC                            Text(15)   Nº Pessoa Colectiva
+  NUMPORTA                            Text(6)    No.Porta
+  NUMREG                              Long       Num.Registo
+  PAIS                                Text(3)    País
+  PERIVA                              Integer    Periodicidade do IVA
+  QUALIFICPME                         Integer    Empresa qualificada como PME
+  REGECO                              Text(30)   Registo Eco
+  REGIME                              Integer    Regime de tributação
+  RENDCATB                            Integer    Rendimentos da categoria B
+  RETALHISTA                          Integer    Tipo de actividade (Retalhista)
+  RIC_ACTIVO                          Integer    Regime de IVA de caixa
+  SAPHETY_INCLUIR_LINHAS_COMENTARIOS  Integer    Incluir linhas de comentários presentes nos Documentos
+  SEDE                                Integer    Sede
+  SERVIDORFE                          Text(100)  Servidor fatura eletronica
+  SIGLA                               Text(30)   Sigla
+  SITE                                Text(100)  Site da Internet
+  SUJPASSI                            Integer    Sujeiro Passivo de IRC/IRS
+  TELEF                               Text(15)   Telefone
+  TELEM                               Text(15)   Telemóvel
+  TIPO_EMPRESA                        Integer    Tipo de empresa (Normal, Pequena Empresa ou Micro Empresa)
+  TOCPOD                              Integer    TOC Plenos Poderes
+  TPSUJPASSIVO                        Integer    Tipo de sujeito passivo

@@ -1,0 +1,21 @@
+LOG — Alterações de campos  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: ANO+MES+IDX+DIA+CAMPO
+
+Columns (15):
+  ANO     Integer   Ano
+  CAMPO   Integer   Campo
+  DATA    Date      Data
+  DESANT  Text(0)   DESANT
+  DESCAM  Text(0)   DESCAM
+  DESNOV  Text(0)   DESNOV
+  DESTAB  Text(0)   DESTAB
+  DIA     Integer   Dia
+  IDX     Text(0)   Número Funcionário
+  LOGIN   Text(30)  LOGIN
+  MES     Integer   Mês
+  OBS     Memo      Observações
+  TABELA  Integer   Tabela
+  VANT    Text(0)   Valor anterior
+  VNOV    Text(0)   Valor novo

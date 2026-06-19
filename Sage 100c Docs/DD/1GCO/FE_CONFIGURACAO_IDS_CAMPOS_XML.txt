@@ -1,0 +1,8 @@
+FE_CONFIGURACAO_IDS_CAMPOS_XML — Campos XML para config. dos IDs F.E.  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: TIPO_DOCUMENTO+XPATH_XML
+
+Columns (2):
+  TIPO_DOCUMENTO  Integer    
+  XPATH_XML       Text(255)  

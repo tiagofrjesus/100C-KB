@@ -1,0 +1,10 @@
+CLASSIFICACAO_CP — Classificação das alterações no Capital Próprio  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: EXERCICIO+CODIGO
+
+Columns (4):
+  CODIGO     Text(3)    Código
+  DESCRICAO  Text(100)  Descrição
+  EXERCICIO  Integer    Exercício
+  GRAU       Integer    Grau

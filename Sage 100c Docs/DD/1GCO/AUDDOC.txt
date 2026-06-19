@@ -1,0 +1,12 @@
+AUDDOC — Auditoria Doc  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  AUDDOC [primary, unique]: ANO+TPDOC+SERIE+NDOC+NLIN
+
+Columns (6):
+  ANO    Integer  Ano
+  NDOC   Long     No. Documento
+  NLIN   Integer  No. Linha
+  NOTAS  Memo     Notas
+  SERIE  Integer  Série
+  TPDOC  Text(3)  Tipo Documento

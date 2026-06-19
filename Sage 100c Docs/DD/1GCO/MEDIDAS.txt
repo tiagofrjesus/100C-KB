@@ -1,0 +1,21 @@
+MEDIDAS — Medidas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (15):
+  APLICA    Integer    Aplica à linha
+  COD       Text(3)    Código
+  DBTS      23         
+  DECIMAL1  Integer    Decimais Variável 1
+  DECIMAL2  Integer    Decimais Variável 2
+  DECIMAL3  Integer    Decimais Variável 3
+  DECIMAL4  Integer    Decimais Variável 4
+  DESCDIM1  Text(15)   Descrição Variável 1
+  DESCDIM2  Text(15)   Descrição Variável 2
+  DESCDIM3  Text(15)   Descrição Variável3
+  DESCDIM4  Text(15)   Descrição Variável 4
+  DESCR     Text(35)   Descrição
+  FORMULA   Text(100)  Fórmula de Cálculo
+  NDIMEN    Integer    Nº Variáveis
+  QTDVAL    Integer    Aplicável a Qtd Val

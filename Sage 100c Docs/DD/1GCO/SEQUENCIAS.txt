@@ -1,0 +1,8 @@
+SEQUENCIAS — Números de Sequência  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: SEQUENCIA
+
+Columns (2):
+  POSICAO    Long      
+  SEQUENCIA  Text(20)  

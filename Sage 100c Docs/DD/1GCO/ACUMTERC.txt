@@ -1,0 +1,23 @@
+ACUMTERC — Acumulados Terceiros  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPTERC [primary, unique]: TPTERC+ANO+TERCEIRO+ARGEST+TPOPER+MES
+
+Columns (17):
+  ANO       Integer   Ano
+  ARGEST    Integer   Area Gestão
+  CEXISPC   Currency  Custo Exis. P.Custo
+  CEXPVP    Currency  Custo Exist. PVP
+  COMISSPG  Currency  Comissões a pagar
+  MES       Integer   Mês
+  OUTVEND   Currency  Outras Vendas
+  TERCEIRO  Text(15)  Código do Terceiro
+  TOTDESCC  Currency  Total Desc. Com.
+  TOTDESCF  Currency  Total Desc. Finan.
+  TOTMERC   Currency  Total Mercadorias
+  TOTOUTRO  Currency  Total Outros
+  TPOPER    Integer   Tipo Operação
+  TPTERC    Integer   Tipo de Terceiro
+  VLBRUTO   Currency  Valor Bruto
+  VLCOMPRA  Currency  Valor Compra
+  VLPAGO    Currency  Valor Pago

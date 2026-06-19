@@ -1,0 +1,12 @@
+OBRIGACOES_EXECUCAO — Execução de Obrigações  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: ID_TIPO+PERIODO+ID_FASE
+
+Columns (6):
+  DATA_EXECUCAO  Text(20)   Data de Execução
+  ID_FASE        Text(20)   Id. Fase Obrigação
+  ID_TIPO        Text(20)   Id. Tipo Obrigação
+  OBSERVACOES    Text(255)  Observações
+  PERIODO        Integer    Período
+  UTILIZADOR     Text(50)   Utilizador

@@ -1,0 +1,11 @@
+IRSDIF — Diferenças de IRS  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NFUNC [primary, unique]: NFUNC
+
+Columns (5):
+  DATA       Date      Data
+  NFUNC      Text(10)  Nº Funcionário
+  SOBRETAXA  Currency  Valor da sobretaxa IRS
+  TIPO       Integer   Tipo de funcionário
+  VALOR      Currency  Valor

@@ -1,0 +1,11 @@
+IVAREPAR — IVA-Reemb. Param  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CONTA [primary, unique]: MASCARA+CONTA+TPDOC
+
+Columns (5):
+  CONTA    Text(15)  Conta
+  DEBCRED  Integer   Débito / Crédito
+  MASCARA  Text(15)  Máscara
+  TPDOC    Text(3)   Tipo de Documento
+  VLAQIVA  Integer   Tipo de conta

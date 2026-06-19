@@ -1,0 +1,18 @@
+MAPOBS — Observações dos Mapa  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  NUMERO [primary, unique]: NUMERO+ANO
+
+Columns (12):
+  ANO      Integer    
+  CODTAB   Text(4)    CODTAB
+  DATAAQ   Date       DATAAQ
+  DESCRIC  Text(50)   DESCRIC
+  FICHA    Text(20)   FICHA
+  MAPA     Text(5)    MAPA
+  NUMERO   Long       NUMERO
+  OBS      Text(100)  OBS
+  PAGINA   Integer    PAGINA
+  PROV     Integer    PROV
+  REINTAC  Currency   REINTAC
+  VALAQ    Currency   VALAQ

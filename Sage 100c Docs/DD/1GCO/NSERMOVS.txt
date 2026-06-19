@@ -1,0 +1,23 @@
+NSERMOVS — NumSer Movimentos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TIPDOC [primary, unique]: ANO+TIPDOC+SERIE+NUMDOC+LINHA+NUMSER
+  BASE: TERCEIRO+TPTERC+BASEINST
+
+Columns (16):
+  ANO       Integer   Ano
+  ARMAZEM   Text(6)   Armazém
+  ARTIGO    Text(15)  Artigo
+  BASEINST  Integer   Base Instalada
+  DATA      Date      Data Movimento
+  GARAFIM   Date      Fim Garantia
+  GARAINI   Date      Inicio Garantia
+  INSTAL    Date      Instalação
+  LINHA     Integer   Linha
+  NUMDOC    Long      No.Documento
+  NUMSER    Text(20)  No.Série
+  SERIE     Integer   Série
+  TERCEIRO  Text(15)  Terceiro
+  TIPDOC    Text(3)   Tipo Documento
+  TPFSTCK   Integer   TpfStck
+  TPTERC    Integer   TipTerc

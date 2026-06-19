@@ -1,0 +1,18 @@
+CRMNOTES — Notas CRM  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO
+  COMPOSTA [unique]: TEMA+OPERADOR+TIPOTERCEIRO+CODTERCEIRO+NUMORD
+
+Columns (11):
+  ASSUNTO       Text(50)  Assunto
+  CODIGO        16        Código da Nota
+  CODTERCEIRO   Text(15)  Código de Cliente
+  DATA          Date      Data da Nota
+  DATAAVISO     Date      Data do aviso
+  DESCRICAO     Memo      Descrição
+  HORA          Text(5)   Hora da Nota
+  NUMORD        Integer   Número de Ordem
+  OPERADOR      Text(20)  Operador
+  TEMA          Text(3)   Código do Tema
+  TIPOTERCEIRO  Integer   Tipo Terceiro

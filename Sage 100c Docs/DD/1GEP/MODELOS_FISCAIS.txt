@@ -1,0 +1,12 @@
+MODELOS_FISCAIS — Modelos Fiscais  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  CMOD [primary, unique]: CMODTYPE+CMODYEAR+CYEAR+CVERS
+
+Columns (6):
+  CELLS     Memo      
+  CMODTYPE  Text(15)  
+  CMODYEAR  Text(10)  
+  CVERS     Text(30)  
+  CYEAR     Integer   
+  PROPS     Memo      

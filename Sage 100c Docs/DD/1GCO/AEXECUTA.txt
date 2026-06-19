@@ -1,0 +1,20 @@
+AEXECUTA — Produção a Executar  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  AEXECUTA [primary, unique]: PROCESSO+ARTIGO+TIPODOC+ANO+NUMDOC+SERIE+OPERACAO+FACTOR+CCOMPOST+DATAENTR
+
+Columns (14):
+  ANO       Integer   Ano
+  ARTIGO    Text(15)  Artigo
+  CCOMPOST  Text(15)  Código Composto
+  CONSUMO   Currency  Qtd. Consumida
+  CUSTOPRE  Currency  Custo Previsto
+  DATAENTR  Date      Data de Entrega
+  FACTOR    Text(15)  Factor
+  NUMDOC    Long      Numero Documento
+  OPERACAO  Text(15)  Operação
+  PROCESSO  Text(30)  Processo
+  QUANTIDA  Currency  Qtd. a Consumir
+  SERIE     Integer   Serie
+  TIMPUTAC  Integer   Tipo Inputação
+  TIPODOC   Text(3)   Tipo Documento

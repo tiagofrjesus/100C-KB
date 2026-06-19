@@ -1,0 +1,46 @@
+MOV — Mov. Processamento  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: ANO+MES+TPREC+NORDEMRE+NFUNC+CDALT+ORIG
+
+Columns (40):
+  ANO                          Integer   Ano
+  ANOMESFI                     Date      Ano Mês Fim Ret.
+  ANOMESIN                     Date      Data Ref.
+  BASE_FCT                     Currency  Valor base para o cálculo do F.C.T.
+  BASIRS                       Currency  Valor Base IRS
+  CDALT                        Text(10)  Código Alteração
+  CONTRIBUICAO_ADSE            Currency  Contribuições obrigatórias para a ADSE
+  CONTRIBUICAO_CGA             Currency  Contribuições obrigatórias para a CGA
+  CONTRIBUICAO_SS              Currency  Contribuições obrigatórias para a segurança social
+  CONTRIBUICAO_SS_OP           Currency  Contribuições obrigatórias para a segurança social do prestador de serviços
+  DATA                         Date      Data Processamento
+  ENCARGO_EMPRESA              Currency  Valor do encargo para a empresa
+  ENCARGO_SS_OP                Currency  Encargo da segurança social da empresa do prestador de serviços
+  FORMULA_CALCULO_IRS          Integer   Fórmula de cálculo I.R.S.
+  MES                          Integer   Mês
+  MESFIMRE                     Integer   Mês Fim Ret.
+  MESINICR                     Integer   Mês Inicio Ret.
+  NFUNC                        Text(10)  Número Funcionário
+  NORDEMRE                     Integer   Número Ordem Recibo
+  ORIG                         Integer   Origem dos Valores
+  QTD                          Currency  Quantidade
+  QTDINT                       Currency  Quantidade introduzida
+  QUOTIZACAO_SINDICAL          Currency  Quotização sindical
+  RENDIMENTOS_SUJEITOS_IRS     Text(3)   Tipo de rendimentos sujeitos a I.R.S.
+  SOBRETAXA                    Currency  Sobretaxa
+  TAXA                         Double    Taxa
+  TAXAIRS                      Double    Taxa I.R.S.
+  TAXA_SS_CONTRIBUINTE         Double    Taxa da segurança social para o contribuinte
+  TAXA_ST                      Double    Taxa sobretaxa I.R.S.
+  TPREC                        Integer   Tipo Recibo
+  VALBASE                      Currency  Valor Base
+  VALBRUT                      Currency  Valor Bruto
+  VALLIQ                       Currency  Valor Liquído
+  VALORIRS                     Currency  Valor IRS
+  VALOR_ACERTO_SOBRETAXA       Currency  Valor de acerto da sobretaxa
+  VALOR_BASE_ADSE              Currency  Valor base para a A.D.S.E.
+  VALOR_BASE_CGA               Currency  Valor base para a C.G.A.
+  VALOR_BASE_SS_OP             Currency  Valor base (ilíquido) para a segurança social do prestador de serviços
+  VALOR_FALTAS_INJUSTIFICADAS  Currency  Valor das faltas injustificadas
+  VALOR_RMMG                   Currency  Valor RMMG para cálculo da sobretaxa

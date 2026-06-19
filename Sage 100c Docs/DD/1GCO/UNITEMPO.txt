@@ -1,0 +1,9 @@
+UNITEMPO — Unidades de Tempo  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (3):
+  CODIGO    Text(3)   Código
+  DESCRICA  Text(30)  Descrição
+  FACTOR    Currency  Factor

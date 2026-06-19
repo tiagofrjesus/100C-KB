@@ -1,0 +1,11 @@
+CODTAB — Codigos de tabelas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO
+
+Columns (5):
+  CODIGO    Text(5)   Codigo
+  DESCIND   Integer   Desc.Ind.
+  DESCRICA  Text(40)  Descrição
+  TX290     Double    TX290
+  TX73781   Double    TX73781

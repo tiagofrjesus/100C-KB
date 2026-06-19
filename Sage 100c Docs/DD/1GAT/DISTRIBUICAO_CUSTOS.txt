@@ -1,0 +1,10 @@
+DISTRIBUICAO_CUSTOS — Distribuição de Centros de Custo  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO+CONTA_9
+
+Columns (4):
+  CODIGO         Text(20)  Código do activo
+  CONTA_9        Text(15)  Código da conta 9
+  PERCENTAGEM_9  Double    Percentagem da conta 9
+  SENTIDO_9      Integer   Débito ou crédito da conta 9

@@ -1,0 +1,10 @@
+MENSAGENS — Mensagens para os recibos  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  ANO [primary, unique]: ANO+MES+NFUNC
+
+Columns (4):
+  ANO    Integer   Ano
+  MES    Integer   Mês
+  NFUNC  Text(10)  Código do funcionário
+  TEXTO  Text(50)  Texto

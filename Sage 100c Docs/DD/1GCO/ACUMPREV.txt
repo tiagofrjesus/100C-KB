@@ -1,0 +1,15 @@
+ACUMPREV — Acumulados prevision  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ARTANO [primary, unique]: ARTIGO+ANO
+
+Columns (9):
+  ANO       Integer   
+  ARMAZEM   Text(6)   
+  ARTIGO    Text(15)  
+  PERIODO   Integer   
+  QTDENTR   Currency  
+  QTDSAIDA  Currency  
+  TPPER     Integer   
+  VALENTR   Currency  
+  VALSAIDA  Currency  

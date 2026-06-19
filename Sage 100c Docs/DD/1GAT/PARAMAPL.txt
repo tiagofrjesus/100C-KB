@@ -1,0 +1,62 @@
+PARAMAPL — PARAMAPL  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  NUMREG [primary, unique]: NUMREG
+
+Columns (56):
+  ALGANHOS                         Text(15)   Alienações Ganhos
+  ALPERDAS                         Text(15)   Alien. Perdas
+  ANOTRAB                          Text(3)    Ano Trabalho / Extensão de ficheiro
+  ANO_CONVERSAO_CONTAS_SNC         Integer    Ano de conversão das contas SNC
+  ANO_SNC                          Integer    ANO SNC
+  APLIC                            Text(15)   Aplicação
+  APPFIELD1                        Text(50)   
+  AUX                              Integer    AUX
+  CNTCAIXA                         Text(15)   Conta Caixa
+  CNTFORNE                         Text(15)   Conta Fornecedor
+  CNTIVA                           Text(15)   Conta Iva
+  CODEMP                           Text(3)    Nome do Ficheiro
+  DATA                             Date       Data Gestão Activos
+  DATAF                            Date       Data Final
+  DATAI                            Date       Data Inicial
+  DATUPA                           Date       Data da última consulta de alertas
+  DESCARGA_CTB_MES_REGULARIZACOES  Integer    Se o lançamento para a contabilidade usa o mes 13. L50
+  DTEMI                            Date       Data a emitir nas impressões
+  DUODECIMAIS_ACUMULADAS           Integer    Englobar depreciações de períodos anteriores do exercício nas depreciações acumuladas
+  EXCLUIR_ACTIVOS_ABATIDOS         Integer    Excluir dos mapas os activos abatidos e sem valor de depreciação no período
+  EXCLUIR_ACTIVOS_DEPRECIADOS      Integer    Excluir dos mapas os activos totalmente depreciados
+  EXE                              Text(50)   
+  GERCBAR                          Integer    Gerar Cógido Barras
+  LIGANOMES                        Text(1)    Mês do lançamento das depreciações (anual ou mensal): A=Anual; M=Mensal
+  METODO                           Integer    Método
+  MODO                             Integer    Modo
+  MOEDABAS                         Text(3)    Moeda Base
+  MOEDAEUR                         Text(3)    Moeda Europeia
+  NUMREG                           Long       Número Registo
+  OUTGANHO                         Text(15)   Ganhos Outros
+  OUTPERDA                         Text(15)   Perdas Outros
+  PALCOR                           Integer    Palete de cores preferida para listagens
+  PERCURSO                         Text(255)  Percurso
+  PERDASAB                         Text(15)   Perdas c/ Abates
+  POCDR                            Text(10)   Código do Diário POC usado para os lançamentos de IMO
+  POCTLREA                         Text(10)   Tipo de lançamento do POC usado para as reavaliações
+  POCTLREI                         Text(10)   Tipo de lançamento do POC usado para as depreciações
+  PORTDMACT                        Text(1)    Tem coeficientes de Desvalorização Monetária para actualizar?
+  PROVISORIOS                      Integer    Convertidos os movimentos provisórios
+  RND                              Byte       Arredondamento dos valores
+  SIGANHOS                         Text(15)   Sinistros Ganhos
+  SIPERDAS                         Text(15)   Sinistros Perdas
+  TCECU1                           Text(50)   Designação da 1ª Tabela de Centros de Custo
+  TCECU2                           Text(50)   Designação da 2ª Tabela de Centros de Custo
+  TCECU3                           Text(50)   Designação da 3ª Tabela de Centros de Custo
+  TCECU4                           Text(50)   Designação da 4ª Tabela de Centros de Custo
+  TDOC                             Text(10)   Tipo de documento do POC usado para os moviementos (doc. interno)
+  TIPOPROV                         Integer    Tipo de provisório
+  TOTALN1                          Integer    Total Conta Poc
+  TOTALN2                          Integer    Total Grande Grupo
+  TOTALN3                          Integer    Total Código Tabela
+  TOTALN4                          Integer    Total Sub Grupo
+  TXE                              Double     Taxa de conversão do Euro
+  ULTIMA_VERIFICACAO_OBRIGACOES    Text(10)   Últ. Ver. Obrigações
+  VERSAOX                          Integer    VERSAOX
+  VIRGULA                          Integer    Usa ponto de teclado númerico como virgula?

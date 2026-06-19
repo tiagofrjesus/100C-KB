@@ -1,0 +1,9 @@
+ACTIVITIESSITUATION — Situação perante a atividade  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  INDEX [primary, unique]: REFERENCE
+
+Columns (3):
+  COMMENTS   Memo      Observações
+  NAME       Text(50)  Descrição
+  REFERENCE  Text(1)   Código

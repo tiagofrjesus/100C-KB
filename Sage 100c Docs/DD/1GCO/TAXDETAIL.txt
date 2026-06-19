@@ -1,0 +1,24 @@
+TAXDETAIL — Movimentos detalhe do I.V.A.  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPDOC [primary, unique]: ORIGEM_ANO+ORIGEM_TPDOC+ORIGEM_SERIE+ORIGEM_NUMDOC+LIQUIDACAO_ANO+LIQUIDACAO_TPDOC+LIQUIDACAO_SERIE+LIQUIDACAO_NUMDOC+TIPOBEM+TAXAIVA+TIPOOPERACAO+ARTIGO_DESCRITOR
+
+Columns (18):
+  ARTIGO_DESCRITOR   Integer   Artigo ou descritor
+  DATA               Date      Data
+  IVA                Currency  Taxa de IVA em percentagem
+  LIQUIDACAO_ANO     Integer   Ano do documento de liquidação
+  LIQUIDACAO_NUMDOC  Long      Número do documento de liquidação
+  LIQUIDACAO_SERIE   Integer   Série do documento da liquidação
+  LIQUIDACAO_TPDOC   Text(3)   Tipo de documento de liquidação
+  ORIGEM_ANO         Integer   Ano origem do documento
+  ORIGEM_NUMDOC      Long      Número do documento origem
+  ORIGEM_SERIE       Integer   Série do documento origem
+  ORIGEM_TPDOC       Text(3)   Tipo documento origem
+  REGIME_IVA_CAIXA   Integer   Regime I.V.A. de caixa
+  REGIVA             Text(3)   Tipo de I.V.A.
+  TAXAIVA            Integer   Taxa de I.V.A.
+  TIPOBEM            Integer   Tipo de bem
+  TIPOOPERACAO       Integer   Tipo de operação
+  VALOR_BASE         Currency  Valor base
+  VALOR_IVA          Currency  Valor do I.V.A.

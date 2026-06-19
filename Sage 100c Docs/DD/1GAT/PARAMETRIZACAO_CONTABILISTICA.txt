@@ -1,0 +1,26 @@
+PARAMETRIZACAO_CONTABILISTICA — Parametrização por grupos de activos  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  EXERCICIO [primary, unique]: EXERCICIO+TIPO_ACTIVO+GRUPO_ACTIVOS
+
+Columns (20):
+  AQUISICAO                   Text(15)  Aquisição
+  AUMENTOS_JUSTO_VALOR        Text(15)  Aumentos por justo v
+  DEPRECIACOES_ACUMULADAS     Text(15)  Depreciação acumul.
+  EXCEDENTE_REAVALIACAO       Text(15)  Excedente reavali.
+  EXCEDENTE_REVALORIZACAO     Text(15)  Excedente revalori.
+  EXERCICIO                   Integer   Exercício
+  GANHO_ALIENACAO             Text(15)  Ganho alienação
+  GANHO_SINISTRO              Text(15)  Ganho sinistro
+  GASTO_DEPRECIACAO           Text(15)  Gasto depreciação
+  GASTO_IMPARIDADE            Text(15)  Gasto imparidade
+  GRUPO_ACTIVOS               Text(10)  Grupo de activos
+  IMPARIDADES_ACUMULADAS      Text(15)  Imparidades acumul.
+  PERDAS_JUSTO_VALOR          Text(15)  Perdas por justo val
+  PERDA_ABATE                 Text(15)  Perda abate
+  PERDA_ALIENACAO             Text(15)  Perda alienação
+  PERDA_SINISTRO              Text(15)  Perda sinistro
+  RESULTADOS_TRANSITADOS      Text(15)  Resultados transitad
+  REVERSAO_IMPARIDADE         Text(15)  Reversão imparidade
+  TEM_IMPUTACAO_CENTRO_CUSTO  Integer   Tem imputação a centros de custo no Poc?
+  TIPO_ACTIVO                 Integer   Tipo de activo

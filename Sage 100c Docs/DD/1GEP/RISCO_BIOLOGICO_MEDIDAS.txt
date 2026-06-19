@@ -1,0 +1,10 @@
+RISCO_BIOLOGICO_MEDIDAS — Risco biológico - Medidas de prevenção  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NFUNC [primary, unique]: NFUNC+DATA+FACTOR_RISCO+MEDIDA_PREVENCAO
+
+Columns (4):
+  DATA              Date      Data
+  FACTOR_RISCO      Text(4)   Código do factor de risco
+  MEDIDA_PREVENCAO  Text(2)   Código da medida de prevenção
+  NFUNC             Text(10)  Nº do funcionário

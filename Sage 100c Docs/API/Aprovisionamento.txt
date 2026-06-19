@@ -1,0 +1,130 @@
+Aprovisionamento
+Entidade Aprovisionamento. Manutenção directa á tabela.
+
+Membros (29):
+
+  [Function] Alterar
+    Output: Long - Se <>0 deu erro
+    => Alterar registo existente desta entidade na base de dados
+
+  [Sub] EliminarPreparacao
+    Input : NumReg As Integer, DataReg As String
+    => Apaga preparação de aprovisionamento na data
+
+  [Function] GerarEncomenda
+    Input : ByVal Numero As Integer, ByVal Sector As String, ByVal TipoDocumento As String, ByVal Serie As Integer, ByVal Data As String, ByVal AgrupaArmazem As Boolean, ByVal CriarNovo As Boolean
+    Output: Boolean
+    => Gerar as encomendas do aprovisionamento
+
+  [Function] HerdarPropriedades
+    Input : Optional ByVal Outro As String = ""
+    => Clona os dados da entidade passada por parâmetro (lê a outra entidade e passa as suas propriedades para esta)
+
+  [Function] Inserir
+    Output: Long - Se <>0 deu erro
+    => Insere registo desta entidade na base de dados
+
+  [Function] Ler
+    Input : ByVal Numero As Integer, ByVal Linha As Integer, Optional ByVal FichXML As String = ""
+    Output: Long - <>0 = Erro
+    => Lê o registo da entidade da base de dados, opcionalmente pode ser passado um fx (percurso\nome) XML com os dados e a aplicação lê desse fx.
+
+  [Function] LerTodos
+    Input : Num As Integer
+    Output: Collection
+    => Lê todos os registos com chave NUM e retorna-os numa collection
+
+  [Function] NavegarAnterior
+    Output: Integer = -1 quando não consegue navegar
+    => Lê o registo anterior desta entidade
+
+  [Function] NavegarPrimeiro
+    Output: Integer = -1 quando não consegue navegar
+    => Lê o primeiro registo desta entidade
+
+  [Function] NavegarProximo
+    Output: Integer = -1 quando não consegue navegar
+    => Lê o registo seguinte desta entidade
+
+  [Function] NavegarUltimo
+    Output: Integer = -1 quando não consegue navegar
+    => Lê o último registo desta entidade
+
+  [Function] Remover
+    Output: Long - Se <>0 deu erro
+    => Remover (apagar) registo existente desta entidade na base de dados
+
+  [Function] UltimaMensagem
+    Output: String
+    => Retorna a ultima mensagem emitida pela API
+
+  [Function] UltimoErro
+    Output: String
+    => Retorna o ultimo Erro emitido pela API
+
+  [Function] Validar
+    Input : Optional ByVal Operacao As Integer
+    Output: integer -1 = Erro
+    => Verifica se os dados que constam nas propriedades são válidos para de seguida se poder efectuar inserção, alteração, anulação
+
+  [Sub] Class_Initialize
+    Output: Loga erro se não conseguir ligar á base de dados
+    => Ligar as camada de dados
+
+  [Sub] Class_Terminate
+    => Desligar as camadas de dados
+
+  [Function] CalcularDesconto
+    Input : ByVal Texto As String
+    Output: Currency
+    => Parser para o desconto composto
+
+  [Function] CarregarArtigo
+    Input : MyDoc As Sage1GCOApi.DocumentoComercial, Linha As Sage1GCOApi.DocumentosGcLin, Codigo As String, Optional VossosCodigos As Boolean = False, Optional Erro As String = ""
+    Output: Integer
+    => Vai buscar informações do artigo
+
+  [Sub] CarregarFornecedor
+    Input : MyDoc As Sage1GCOApi.DocumentoComercial, ByVal Terceiro As String
+    => Vai buscar registos informações do fornecedor
+
+  [Function] CarregarTipoDocumento
+    Input : MyDoc As Sage1GCOApi.DocumentoComercial, ByVal TpDoc As String
+    Output: As Sage1GCOApi.TiposDocumento
+    => Vai buscar informações do tipo de documento
+
+  [Sub] CopiaDados
+    => Passa a informação do interface para a camada de dados para posterior inserção, alteração, remoção. Pode ter algum processamnto, transformação da informação
+
+  [Function] EliminarAprovisionamento
+    Input : ByVal Numero As Integer, ByVal Fornecedor As String, ByVal Moeda As String, ByVal Armazem As String
+    Output: Boolean
+    => Remove registos de aprovisionamento após gerar as encomendas
+
+  [Function] GerarCabecalho
+    Input : ByVal TipoDocumento As String, ByVal Serie As Integer, ByVal Fornecedor As String, ByVal Moeda As String, ByRef MyDoc As Sage1GCOApi.DocumentoComercial, ByVal CriarNovo As Boolean, ByVal AgrupaArmazem As Boolean, ByVal Armazem As String
+    Output: Boolean
+    => Gerar as encomendas do aprovisionamento auxiliar
+
+  [Function] GerarLinhas
+    Input : ByVal Numero As Integer, ByVal Fornecedor As String, ByVal Moeda As String, ByVal Armazem As String, ByRef MyDoc As Sage1GCOApi.DocumentoComercial
+    Output: Boolean
+    => Gerar as encomendas do aprovisionamento auxiliar - linhas
+
+  [Function] LerCabecalhos
+    Input : ByVal AgrupaArmazem As Boolean, ByVal Numero As Integer
+    Output: Collection
+    => Lê todos os registos com chave NUM e retorna-os numa collection agrupados por armazém ou não
+
+  [Function] LerDocumento
+    Input : ByVal TipoDocumento As String, ByVal Serie As Integer, ByVal Fornecedor As String, ByVal Moeda As String, ByRef MyDoc As Sage1GCOApi.DocumentoComercial, ByVal AgrupaArmazem As Boolean, ByVal Armazem As String
+    Output: Boolean
+    => Gerar as encomendas do aprovisionamento auxiliar - ir buscar o ultimo documento gerado
+
+  [Sub] MaisUmErro
+    Input : ByVal sMsg As String, ByVal sMotivo As String, ByVal eTipo As errTipo
+    => Gerar as encomendas do aprovisionamento auxiliar - adiciona os erros encontrados
+
+  [Function] XML
+    Output: Long
+    => Lê entidade para memória a partir de fx xml

@@ -1,0 +1,13 @@
+OPERAFAC — Operações por Factor  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  OPERAFAC [primary, unique]: ARTIGO+OPERACAO+SEQ+FACTOR
+
+Columns (7):
+  ARTIGO    Text(15)  ARTIGO
+  CUSTOTEO  Currency  CUSTOTEO
+  FACTOR    Text(15)  FACTOR
+  OPERACAO  Text(3)   OPERACAO
+  QUANTIDA  Currency  QUANTIDA
+  SEQ       Integer   SEQ
+  TIMPUTAC  Integer   TIMPUTAC

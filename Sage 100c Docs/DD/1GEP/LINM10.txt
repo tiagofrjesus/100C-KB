@@ -1,0 +1,20 @@
+LINM10 — Linhas MOD10  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: TIPOM+ANODEC+TPDECL+ANOREP+TPALT+NFISC+TPREND
+
+Columns (14):
+  ANODEC     Integer   Ano da Declaração
+  ANOREP     Integer   Ano de Reporte
+  IMPRET     Currency  Importância Retida
+  NFISC      Text(9)   Número Fiscal
+  NFUNC      Text(10)  Número Funcionário
+  NOME       Text(60)  Nome
+  SOBRETAXA  Currency  Sobretaxa extraordinária IRS
+  TIPOM      Integer   Tipo de Modelo
+  TOTDESC    Currency  Descontos Obrigatóri
+  TOTREN     Currency  Total Rendimentos
+  TOTSIND    Currency  Quotiz. Sindicais
+  TPALT      Integer   Local
+  TPDECL     Integer   Tipo de Declaração
+  TPREND     Text(3)   Tipo de Rendimento

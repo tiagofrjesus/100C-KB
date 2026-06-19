@@ -1,0 +1,26 @@
+BANMVTMP — Movs Banco Temp  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CHAVES [primary, unique]: BANCO+BALCAO+CONTA+NDOCBAN+TPDOCBAN
+
+Columns (20):
+  BALCAO    Text(4)   BALCAO
+  BANCO     Text(4)   BANCO
+  CAMBIO    Double    CAMBIO
+  CODEXTBA  Text(15)  CODEXTBA
+  CONTA     Text(21)  CONTA
+  DEBCRED   Integer   DEBCRED
+  DESCRICA  Text(20)  descrição
+  DIARIO    Text(3)   DIARIO
+  DTMOV     Date      DTMOV
+  DTRECON   Date      DTRECON
+  DTVALOR   Date      DTVALOR
+  MOEDA     Text(3)   MOEDA
+  NATUREZA  Text(3)   NATUREZA
+  NDOCBAN   Text(24)  NDOCBAN
+  NOTAREC   Text(35)  NOTAREC
+  NUMDIAR   Long      numdiar
+  PRACA     Text(35)  PRACA
+  SECTOR    Text(3)   SECTOR
+  TPDOCBAN  Text(3)   TPDOCBAN
+  VALOR     Currency  VALOR

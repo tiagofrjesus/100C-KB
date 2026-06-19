@@ -1,0 +1,4 @@
+DataAccessXML
+Classe gestora do registo de erros e warnings da API. Usa MSXML2
+
+Membros (0):

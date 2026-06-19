@@ -1,0 +1,24 @@
+SECTORES — Tabela de Sectores  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (18):
+  ARMAZEM   Text(3)   Armazem
+  CCUSTO    Text(6)   Centro Custo
+  CNTCAIXA  Text(10)  Conta Caixa
+  CNTTESPG  Text(10)  CntEspg
+  CNTTESRC  Text(10)  CntTesrc
+  CODENQ    Text(6)   CodEnq
+  CODIGO    Text(3)   Código
+  CODPOST   Text(8)   Cód. Postal
+  CONTACTO  Text(25)  Contacto
+  DESCR     Text(50)  Descrição
+  EMAIL     Text(35)  Email
+  FAX       Text(15)  Fax
+  IVAINC    Integer   Iva Incluido
+  LOCALIDA  Text(35)  Localidade
+  MORADA    Text(50)  Morada
+  RESP      Text(50)  Respónsavel
+  SECTES    Text(3)   Sectes
+  TELEFONE  Text(15)  Telefone

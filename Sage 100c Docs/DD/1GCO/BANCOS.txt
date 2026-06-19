@@ -1,0 +1,16 @@
+BANCOS — Bancos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (10):
+  ABREV     Text(5)   Abreviatura
+  BIC       Text(11)  BIC do banco
+  CODIGO    Text(4)   Código
+  DBTS      23        
+  FICTDEP   Text(10)  Mod. Talão Depósito
+  FORMATDP  Text(8)   Formato Depósito
+  LINAPOIO  Text(20)  Linha apoio ao clien
+  NOME      Text(50)  Nome
+  PS2       Integer   Tipo de suporte mag.
+  SITE      Text(30)  Pág. web do banco

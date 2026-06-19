@@ -1,0 +1,10 @@
+OBRIGACOES — Obrigações  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: ID_TIPO+PERIODO
+
+Columns (4):
+  DATA_LIMITE  Text(20)   Data Limite
+  DESCRICAO    Text(255)  Descrição
+  ID_TIPO      Text(20)   Id. Tipo Obrigação
+  PERIODO      Integer    Período

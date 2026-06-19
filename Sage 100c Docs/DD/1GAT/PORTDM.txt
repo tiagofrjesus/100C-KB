@@ -1,0 +1,8 @@
+PORTDM — Portaria de Coeficientes  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  IDX [primary, unique]: CPORT
+
+Columns (2):
+  CPORT  Long      Código da Portaria
+  DESCR  Text(20)  Descrição

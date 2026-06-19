@@ -1,0 +1,27 @@
+MOD43 — Modelo 43  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  MO43 [primary, unique]: ANO+MES
+
+Columns (21):
+  ACO     Integer   Açores
+  ANO     Integer   Ano
+  CAPIT   Currency  Capitais
+  CLUB    Currency  Clubes Investidores
+  COMIS   Currency  Comissões
+  DATAL   Date      Data Limite Pag.
+  DATAP   Date      Data Pagamento
+  ENTID   Text(8)   Entidade Cobrança
+  EURO    Integer   Modelo EURO
+  JOGO    Currency  Ganhos Jogos
+  JUCOMP  Currency  Juros Compensatórios
+  JUROS   Currency  Juros Depósito
+  MAD     Integer   Madeira
+  MES     Integer   Mês
+  PAGAM   Currency  Pagamento Conta
+  PEN     Currency  Pensões
+  PRED    Currency  Prediais
+  RES     Boolean   Residente
+  TITUL   Currency  Títulos Nominativos
+  TRDEP   Currency  Trabalho Dependente
+  TRIND   Currency  Trabalho Indep.

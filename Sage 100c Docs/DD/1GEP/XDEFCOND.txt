@@ -1,0 +1,9 @@
+XDEFCOND — Def.Condições  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  REF [primary, unique]: REF
+
+Columns (3):
+  DEF    Text(200)  Definição
+  DESCR  Text(100)  Descrição
+  REF    Text(50)   Referência

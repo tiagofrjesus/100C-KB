@@ -1,0 +1,17 @@
+ORCAMSUBEMP — Orçamentos de Sub Empreiteiro  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD_ORC+COD
+
+Columns (11):
+  ACTIVIDADE  Text(80)  
+  COD         Integer   
+  CODP        Text(15)  
+  COD_FAM     Text(6)   
+  COD_ORC     Text(6)   
+  COD_SE      Text(15)  
+  COD_SUB     Text(6)   
+  DATA        Date      
+  DESCONTO    Currency  
+  ORC         Text(32)  
+  SUBEMP      Text(80)  

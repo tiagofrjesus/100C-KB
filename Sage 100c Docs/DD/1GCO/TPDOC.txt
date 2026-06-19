@@ -1,0 +1,76 @@
+TPDOC — Tipos Documento  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (70):
+  ABRJNLCT                   Integer   Abre janela contab.
+  ADIANTAMENTO_CRIACAO       Text(3)   Doc. Cri. Adian.
+  ADIANTAMENTO_DEBITO        Text(3)   Documento de débito para o adiantamento
+  ADIANTAMENTO_IMPORTACAO    Text(3)   Doc. Imp. Adian.
+  ADIANTAMENTO_LIQUIDACAO    Text(3)   Doc. Liq. Adian.
+  ADIDOCADI                  Integer   Documento de adiantamento
+  ANALISE_OBRA               Integer   Lista nas Análises
+  ANEXO_40                   Integer   Anexo 40 da declaração períodica
+  ANEXO_41                   Integer   Anexo 41 da declaração períodica
+  AREAG                      Integer   Area Gestão
+  AUTASS                     Integer   Anulação Associado
+  AUTBON                     Integer   Anulação de Bonus
+  AUTCEC                     Integer   Anulação Compostos
+  AUTECO                     Integer   Recursividade EcoVal
+  CARTEIRA_DESTINO           Integer   Carteira destino
+  CNSUPL                     Text(10)  Conta Supletiva
+  CODESTAT                   Text(3)   Cod. Estatistico
+  CODIGO                     Text(3)   Codigo
+  COMISS                     Integer   Comissões Vendas
+  CONFIRMA                   Integer   Confirmação
+  CREDITO                    Integer   Crédito
+  DBTS                       23        
+  DESCONTO_BASE              Integer   Cálculo desconto fi.
+  DESCR                      Text(50)  Descrição
+  DIARIO                     Text(3)   Livre
+  DISP_COMISSAO              Integer   Disponib. comissões
+  DOCIMPAU                   Text(12)  Livre
+  DOCUMENTO_RECTIFICATIVO    Integer   Documento rectificativo
+  EMISSAO1                   Text(20)  Emissão 1
+  EMISSAO2                   Text(20)  Emissão 2
+  EMISSAO3                   Text(20)  Emissão 3
+  EMISSAO4                   Text(20)  Emissão 4
+  ENTIDADE                   Integer   Entidades
+  ETIQUETA                   Integer   Etiqueta
+  FILTRO_MORADA              Integer   Filtrar importação de documentos por morada de entrega
+  FLUXO                      Text(6)   Código do Fluxo
+  HEDRTF                     Integer   Herdar texto RTF
+  IGNREF                     Integer   Ignorar Referência
+  IMPIME                     Integer   Imput. Imediata
+  IMPTEXTO                   Integer   Imp. Linhas Texto
+  INSTALACAO                 Integer   Instalação
+  LISTANEGRA                 Integer   Controla SCCI
+  MODEL                      Text(10)  Modelo
+  MODETIQ                    Text(20)  Modelo Etiqueta
+  MOVIMENTA_SO_VALOR         Integer   Só movimenta valor
+  NATCONTA                   Integer   Natureza Contab.
+  NRVIAS_MODELO_1            Integer   Número de vias para o modelo de report 1
+  NRVIAS_MODELO_2            Integer   Número de vias para o modelo de report 2
+  NRVIAS_MODELO_3            Integer   Número de vias para o modelo de report 3
+  NRVIAS_MODELO_4            Integer   Número de vias para o modelo de report 4
+  OBRIGA_CONTRIBUINTE        Integer   Obriga Num. Contrib.
+  OBRIGA_DATA_CARGA          Integer   Obriga data carga
+  OBRIGA_DATA_DESCARGA       Integer   Obriga data descarga
+  OBRIGA_MEIO_PAGAMENTO      Integer   Obriga a meio de pagamentos
+  OBVNUM                     Integer   Preencher V. número
+  PREENCHERDADOSTERC_CFINAL  Integer   Preencher dados do terceiro com consumidor final
+  PRE_DATADO                 Integer   Pré-datado
+  QUESTIONA_PAGAMENTO        Integer   Questiona Pagamento
+  REFCTB                     Text(15)  Referência movimento
+  REGULARIZACAO_IVA          Integer   Regularização IVA
+  RESVSTCK                   Integer   Reserva de Stocks
+  SAIDAS_VALOR_PCM           Integer   Saidas pelo PCM
+  SINALCT                    Integer   Sinal Contab.
+  SUGRESV                    Integer   Sugere Reserva
+  SUGULTPR                   Integer   Sug. Ult. Pr. Liq.
+  TPDSAFT                    Integer   Tipo Documento SAF-T
+  TPFSTC                     Integer   Tipificação Stocks
+  TPIMPUT                    Integer   Tipo Imputação
+  TPMOVIVA                   Integer   Tipo Mov. IVA
+  TPOPER                     Integer   Tipo Operação

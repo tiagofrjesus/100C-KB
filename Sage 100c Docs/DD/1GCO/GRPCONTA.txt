@@ -1,0 +1,16 @@
+GRPCONTA — Grupos Contas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRI [primary, unique]: EXERCICIO+CARTEIRA+TPDOC+MERCADO
+
+Columns (10):
+  CARTEIRA   Integer   Carteira
+  CONTA      Text(15)  Prefixo Conta
+  CONTA_2    Text(15)  Prefixo conta 2
+  CONTA_3    Text(15)  Prefixo conta 3
+  CONTA_4    Text(15)  Prefixo conta 4
+  CONTA_5    Text(15)  Prefixo conta 5
+  CONTA_6    Text(15)  Prefixo conta 6
+  EXERCICIO  Integer   Exercício
+  MERCADO    Integer   Mercado
+  TPDOC      Text(3)   Tipo Documento

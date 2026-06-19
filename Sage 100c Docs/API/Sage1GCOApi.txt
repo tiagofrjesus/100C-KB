@@ -1,0 +1,8 @@
+Sage1GCOApi
+
+
+Membros (1):
+
+  [Function] UltimaMensagem
+    Output: String
+    => Retorna a ultima mensagem emitida pela API

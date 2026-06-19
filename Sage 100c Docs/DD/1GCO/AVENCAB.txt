@@ -1,0 +1,38 @@
+AVENCAB — Avenças Cabecalhos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  GERAL [primary, unique]: CLIENTE+TIPOCNTR+NUMCNTR+ANO
+  CLIENTE: CLIENTE
+  CONTRATO [unique]: TIPOCNTR+NUMCNTR+ANO
+
+Columns (30):
+  ACTIVO      Integer   Contrato Activo
+  ALTERADO    Integer   Alterado
+  ANO         Integer   Ano ( Numeração )
+  ANOINI      Integer   Ano Inicio
+  AUTORENO    Integer   AutoRenovação
+  CLIENTE     Text(15)  Cliente
+  DEFAVEN     Integer   Usa Defs Avenças
+  DESCCAB     Text(15)  Desconto Cabecalho
+  DIAINI      Integer   Dia Inicio
+  DTACELEB    Date      Data Celebração
+  DTAFIM      Date      Data Fim
+  DTAINI      Date      Data Inicio
+  EDATATERMO  Integer   Define data de termo
+  MEMORAND    Memo      Memorandum
+  MESINI      Integer   Mês Inicio
+  MODOPGT     Text(3)   Modo de Pagamento
+  MOEDA       Text(3)   Moeda
+  NUMCNTR     Long      Numero Contrato
+  OBSERVA     Text(50)  Observações
+  PERIODO     Integer   Periodicidade
+  PROXRENO    Integer   Proxima Renovação
+  REGVCT      Text(3)   Regra de Vencimento
+  RENOVACA    Integer   Renovação
+  SECTOR      Text(5)   Sector
+  SERIE       Integer   Serie
+  TIPOCNTR    Text(5)   Tipo de Avença
+  TIPODOC     Text(3)   Tipo Documento
+  TOTVAVEN    Currency  Total Valor Avença
+  ULTACTPR    Date      Ultima Actualização
+  ULTPROC     Date      Ultimo Processamento

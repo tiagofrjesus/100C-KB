@@ -1,0 +1,9 @@
+MSG — Mensagens  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: TAB+IDX
+
+Columns (3):
+  IDX   Text(100)  IDx
+  MSG   Memo       MSG
+  TAB   Integer    Cindy

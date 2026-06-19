@@ -1,0 +1,8 @@
+DEPARTAMENTOS — Departamentos  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  REFERENCE [primary, unique]: REFERENCE
+
+Columns (2):
+  NAME       Text(100)  Designação do departamento
+  REFERENCE  Text(10)   Código do departamento

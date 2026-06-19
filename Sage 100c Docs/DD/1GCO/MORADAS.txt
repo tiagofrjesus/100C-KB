@@ -1,0 +1,23 @@
+MORADAS — Moradas Alternativas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPTERC [primary, unique]: TPTERC+TERCEIRO+CDMORADA
+  EAN: TPTERC+TERCEIRO+CODEAN
+
+Columns (16):
+  CDMORADA  Text(3)   Código da Morada
+  CDPOSTAL  Text(8)   Código Postal
+  CODEAN    Text(20)  Código EAN
+  CONTACTO  Text(25)  Contacto
+  DBTS      23        
+  DESCR     Text(50)  Descrição
+  FAX       Text(15)  Fax
+  LOCAL     Text(35)  Localidade
+  MORADA    Text(50)  Morada
+  MORADA2   Text(50)  Morada 2
+  PAÍS      Text(3)   País
+  TELEF     Text(15)  Telefone
+  TELEX     Text(15)  Telemóvel
+  TERCEIRO  Text(15)  Código do Terceiro
+  TPMORADA  Text(3)   Tipo de Morada
+  TPTERC    Integer   Tipo de Terceiro

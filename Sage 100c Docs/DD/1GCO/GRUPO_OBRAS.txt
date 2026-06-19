@@ -1,0 +1,8 @@
+GRUPO_OBRAS — Grupos de obras  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO
+
+Columns (2):
+  CODIGO  Text(6)   Código
+  DESCR   Text(50)  Descrição

@@ -1,0 +1,12 @@
+MSEXERC — Meses Exercicio  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  MSEXER [primary, unique]: EXERC+NMES
+  ANO: ANO+MESF
+
+Columns (5):
+  ANO    Integer   Ano
+  DESCR  Text(20)  Descrição
+  EXERC  Integer   Exercício
+  MESF   Integer   Mês Real
+  NMES   Integer   No. Mês

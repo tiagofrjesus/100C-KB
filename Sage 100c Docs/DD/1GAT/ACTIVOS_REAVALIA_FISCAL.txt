@@ -1,0 +1,22 @@
+ACTIVOS_REAVALIA_FISCAL — Activos no cálculo de reavaliações fiscais  [1GAT · Sage Gestao de Ativos]
+
+Columns (19):
+  CODIGO                      Text(20)  Código do activo
+  CODIGO_TABELA               Text(5)   Código de tabela
+  CONTA_POC                   Text(15)  Conta POC
+  DATA_AQUISICAO              Date      Data de aquisição
+  DATA_INICIO                 Date      Data de inicio de utilização
+  DECRETO_PROXIMA_REAVA       Integer   Decreto da próxima reavaliação
+  DECRETO_ULTIMA_REAVALIACAO  Integer   Decreto da última reavaliação
+  DEPRECIACOES_ACUM_NREAVAL   Currency  Depreciações acumuladas não reavaliadas
+  DEPRECIACOES_ACUM_REAIS     Currency  Depreciações acumuladas efectivas
+  DEPRECIACOES_ACUM_REAVAL    Currency  Depreciações acumuladas reavaliadas
+  DESCRICAO_GRUPO             Text(5)   Grande grupo
+  DESCRICAO_INDIVIDUAL        Integer   Descrição individual
+  DESCRICAO_SUB_GRUPO         Text(5)   Sub grupo
+  REGIME                      Integer   Regime
+  UTILIZADOR                  Text(15)  Utilizador
+  VALOR_AQUISICAO             Currency  Valor de aquisição
+  VALOR_AQUISICAO_ACTUAL      Currency  Valor de aquisição actual
+  VALOR_MATRICIAL             Currency  Valor matricial
+  VIDA_ADICIONAL_ATRIBUIDA    Integer   Vida adicional atribuida

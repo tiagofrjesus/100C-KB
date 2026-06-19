@@ -1,0 +1,23 @@
+SEGSOC — Segurança Social  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (17):
+  CDFIXO       Text(3)   Código Fixo
+  CDGPGT       Text(3)   Código Guia Pag.
+  CNTSS        Text(15)  Conta Seg. Social
+  CNTSSEP      Text(15)  Conta Enc. Ent. Pat.
+  COD          Text(4)   Código
+  CONTA        Text(21)  Conta IGFSS
+  CSSEMF       Text(15)  C. Enc. Ent. Pat. M.
+  CSSMF        Text(15)  C. Seg. Social M.F.
+  DATA_LIMITE  Date      Data limite
+  DESCR        Text(35)  Descrição
+  INTSS        Text(3)   Inst. Seg. Social
+  ORIGEM       Integer   Origem da criação
+  REGIME       Text(35)  Regime
+  RUBMF        Text(6)   Rub. Enc. Pat. M.F.
+  RUBRICA      Text(6)   Rubrica Enc. Pat.
+  TXBEN        Currency  Taxa do Beneficiário
+  TXCONTR      Currency  Taxa do Contribuinte

@@ -1,0 +1,8 @@
+LOTESSCC — Lotes - SSCC  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDLOTE [primary, unique]: IDLOTE+IDSSCC
+
+Columns (2):
+  IDLOTE  Long  Identificador Lote
+  IDSSCC  Long  Identificador U.L.

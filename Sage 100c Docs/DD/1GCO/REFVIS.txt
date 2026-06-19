@@ -1,0 +1,9 @@
+REFVIS — Referencias Visiveis  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINCIPA [primary, unique]: REF+CODTIPOM+MEDIDA
+
+Columns (3):
+  CODTIPOM  Text(10)  CODTIPOM
+  MEDIDA    Text(4)   MEDIDA
+  REF       Text(15)  Referência

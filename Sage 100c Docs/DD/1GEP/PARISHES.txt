@@ -1,0 +1,10 @@
+PARISHES — Freguesias  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  INDEX [primary, unique]: DISTRICT+MUNICIPALITY+REFERENCE
+
+Columns (4):
+  DISTRICT      Text(2)    Distrito
+  MUNICIPALITY  Text(2)    Concelho
+  NAME          Text(200)  Descrição
+  REFERENCE     Text(2)    Código

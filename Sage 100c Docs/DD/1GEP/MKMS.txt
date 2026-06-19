@@ -1,0 +1,9 @@
+MKMS — Montantes Kms  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  TIPO [primary, unique]: TIPO
+
+Columns (3):
+  DESCR  Text(30)  Descrição
+  TIPO   Text(4)   Tipo
+  VALOR  Currency  Valor

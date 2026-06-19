@@ -1,0 +1,14 @@
+IVAREMA — IVA-Reemb. Manut  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  NIF [primary, unique]: ANO+MES+NIF
+
+Columns (8):
+  ANO      Integer   Ano de Referência
+  MES      Integer   Mês de Referência
+  NIF      Text(20)  N.I.F. / Nº Terceiro
+  NOME     Text(50)  Nome do terceiro
+  ORIGEM   Integer   
+  PREFIXO  Text(3)   Prefixo
+  VLAQUI   Currency  Valor de aquisição
+  VLIVA    Currency  Valor do IVA

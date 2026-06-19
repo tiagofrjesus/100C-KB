@@ -1,0 +1,16 @@
+PREVISAO_SNC — Previsao de depreciações SNC  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  FICHA [primary, unique]: FICHA+ANO
+
+Columns (10):
+  ANO                     Integer   Ano
+  FICHA                   Text(15)  Ficha
+  TAXACORR                Double    TAXACORRIGIDA
+  VALOR_AQUISICAO         Currency  Valor de aquisição
+  VALOR_AQUISICAO_ACTUAL  Currency  Valor de aquisição actual
+  VLREACNR                Currency  VLREACNRV
+  VLREACRV                Currency  VLREACRV
+  VLREEXNR                Currency  VLREEXNRV
+  VLREEXRV                Currency  VLREEXRV
+  VRESIDUA                Currency  VRESIDUAL

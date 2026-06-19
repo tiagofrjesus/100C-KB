@@ -1,0 +1,8 @@
+STATTRAN — MODO DE TRANSPORTE I  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  COD [primary, unique]: CODIGO
+
+Columns (2):
+  CODIGO    Integer   Código
+  DESCRICA  Text(40)  Descrição

@@ -1,0 +1,19 @@
+FEDOCTRF — F.E. Docs Transforma  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  DOCTRF [primary, unique]: TPDOC+ANO+SERIE+NUMERO+ORTPDOC+ORANO+ORSERIE+ORNUMERO
+  DOCORI: ORTPDOC+ORANO+ORSERIE+ORNUMERO
+
+Columns (12):
+  ANO       Integer   Ano
+  ANULADO   Boolean   Doc. Anulado
+  DOCREFNC  Text(3)   Doc. Ref. Type Code
+  DOCREFNU  Text(20)  Doc. Ref. Number
+  MSGREFID  Text(50)  Message Reference ID
+  NUMERO    Long      Número Documento
+  ORANO     Integer   Orig. Ano
+  ORNUMERO  Long      Orig. Num. Documento
+  ORSERIE   Integer   Orig. Série
+  ORTPDOC   Text(3)   Orig. Tipo Documento
+  SERIE     Integer   Série
+  TPDOC     Text(3)   Tipo Documento

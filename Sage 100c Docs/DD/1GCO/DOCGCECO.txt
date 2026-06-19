@@ -1,0 +1,28 @@
+DOCGCECO — Documentos EcoValore  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINCIPA [primary, unique]: ID
+  IDLINDOC: IDLINDOC
+  DOCGCLIN: IDDOCGCL
+
+Columns (20):
+  CALCUL    Integer   Incidência Cálculo
+  CATEGOR   Text(10)  Categoria
+  CODIGO    Text(15)  Código do EcoValor
+  DESCRICA  Text(50)  Descrição
+  ECOPERC   Currency  Percentagem Calculo
+  ECOPESO   Currency  Peso do EcoValor
+  ID        16        ID Linha
+  IDDOCGCL  Long      Id Linha Docgclin
+  IDLINDOC  Long      Id Linha Doc.
+  IVA       Integer   IVA
+  METODO    Integer   Método de Cálculo
+  NINCDECL  Integer   Não Incluir Decl.
+  NIVEL     Text(10)  Nível
+  PESOART   Integer   Peso Liq. Dec. Anual
+  PESOTAXA  Currency  Peso Taxa
+  QTDEXECP  Currency  Qtd Multiplicativa
+  TAXA      Text(10)  Tipo de EcoValor
+  TIPOCALC  Integer   Tipo de Cálculo
+  VALOR     Currency  Valor para Cálculo
+  VOLUME    Currency  Volume

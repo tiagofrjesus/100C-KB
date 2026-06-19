@@ -1,0 +1,11 @@
+LISTANEGRA — Lista SCCI  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary]: TIPODOC+NUMDOC
+
+Columns (5):
+  CONTA     Text(11)  
+  ENTIDADE  Text(35)  
+  NUMDOC    Text(10)  
+  TIPODOC   Integer   
+  ZONABANC  Text(8)   

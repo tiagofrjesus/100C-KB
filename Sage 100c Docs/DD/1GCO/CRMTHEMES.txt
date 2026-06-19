@@ -1,0 +1,8 @@
+CRMTHEMES — Temas CRM  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO
+
+Columns (2):
+  CODIGO     Text(3)   Código do Tema
+  DESCRICAO  Text(20)  Descrição do Tema

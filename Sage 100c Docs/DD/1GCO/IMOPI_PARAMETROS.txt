@@ -1,0 +1,12 @@
+IMOPI_PARAMETROS — Parâmetros para revisão de preços  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD_FORMULA+COD_MATERIAL
+
+Columns (6):
+  COD_FORMULA     Text(6)  COD_FORMULA
+  COD_MATERIAL    Text(6)  COD_MATERIAL
+  COEF_PARAMETRO  Double   COEF_PARAMETRO
+  DL              Boolean  DL
+  DL_TIMESTAMP    Date     DL_TIMESTAMP
+  GRUPO           Text(1)  GRUPO

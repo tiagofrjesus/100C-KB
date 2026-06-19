@@ -1,0 +1,4 @@
+Totais
+Classe que armazena os totais de documento durante o processo de recalculo dos mesmos, tem os totais do interface e outros subtotsid usados em calculos intermédios
+
+Membros (0):

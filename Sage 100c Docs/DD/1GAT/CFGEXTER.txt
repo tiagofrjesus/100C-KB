@@ -1,0 +1,12 @@
+CFGEXTER — Configurações GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXCFGEXTER [primary, unique]: CCFG+CAUX1+CAUX2+CAUX3+CAUX4
+
+Columns (6):
+  CAUX1   Text(100)  
+  CAUX2   Text(100)  
+  CAUX3   Text(100)  
+  CAUX4   Text(100)  
+  CCFG    Text(100)  
+  CFGXML  Memo       

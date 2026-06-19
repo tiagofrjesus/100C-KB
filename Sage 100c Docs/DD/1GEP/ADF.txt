@@ -1,0 +1,60 @@
+ADF — ADF  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (54):
+  ACRDES                        Integer   Perc. Acres.Descanso
+  AFECTANTIG                    Integer   Afeta antiguidade do funcionário
+  AFECTEST                      Integer   Afeta Estatística
+  AFECTST                       Integer   Afeta Sub. Turno
+  AFERIAS                       Integer   Afeta Férias
+  COD                           Text(10)  Código
+  CODDOE                        Text(10)  Cód. Cplmt. Doença
+  CODIGO_FUNDAMENTO             Text(5)   Código do fundamento
+  CODIGO_SITUACAO_CGA           Text(2)   Código da situação (C.G.A.)
+  COLSS                         Integer   Coluna Seg. Social
+  DECLARACAO_RENDIMENTOS        Integer   Extrai desconto na declaração de rendimentos
+  DESCR                         Text(60)  Descrição
+  DESP                          Integer   Despesas
+  DETSH                         Integer   Determina Sal. Hora
+  DETSHE                        Integer   Det. Sal. Hora (H.E)
+  DIA_TRABALHO_SUPLEMENTAR      Integer   Dia de trabalho suplementar
+  FALALI                        Text(10)  Falta SubAlimentação
+  FALTA_SUSPENSAO_DISCIPLINAR   Integer   Falta por suspensão disciplinar
+  FCALC                         Integer   Forma de lançamento de valores fixos do funcionário
+  FERIAS                        Integer   Férias
+  FUNDAM                        Text(50)  Observações
+  HE14                          Integer   Nº Meses H.E.(14)
+  HORDES                        Currency  Perc. Horas Descanso
+  IMPRIME                       Integer   Imprimivel
+  MAPAAN                        Integer   Mapa Resumo Anual
+  MESFER                        Integer   Mês Férias ?
+  MOTIVO_HORAS_N_TRABALHADAS    Text(2)   Motivo Horas não Trabalhadas
+  MOTIVO_REDUCAO_REMUNERACAO    Text(1)   Motivo Redução Remuneração
+  NAT                           Integer   Natureza
+  NATAL                         Integer   Natal
+  NORMAL                        Integer   Normal
+  ORIGEM_ENCARGO                Text(1)   Origem encargo
+  PAGDES                        Integer   Paga Descanso
+  PASCOA                        Integer   Páscoa
+  PERC                          Currency  Percentagem
+  PERC_INC_SS                   Currency  Percentagem sobre base de Incidência contributiva para Seg. Social
+  PERREMUN                      Currency  Perc. Remunerada
+  RENDIMENTOS_ISENTOS           Text(3)   Rendimentos isentos sujeitos a englobamento
+  RENDIMENTOS_NAO_SUJEITOS_IRS  Text(3)   Rendimentos não sujeitos a I.R.S.
+  RENDIMENTOS_SUJEITOS_IRS      Text(3)   Rendimentos sujeitos a I.R.S.
+  RETRIBUICAO_BASE              Integer   Retribuição base
+  SH_HORAEXTRA_BASE21           Integer   Cálculo do sálario hora para hora extraordinária com base 21.666 dias
+  TAXAAB                        Currency  Taxa de Abono
+  TIPIFIC                       Integer   Tipificação
+  TIPOAB                        Integer   Tipo de Abono
+  TIPO_ENCARGO                  Integer   Tipo de Encargo
+  TIPO_HORA_SUPLEMENTAR         Integer   Tipo Hora Suplementar
+  TIPO_INTRODUCAO_FALTA         Integer   Tp.Introdução faltas
+  TIPO_RENDIMENTO               Text(2)   Tipo de rendimento
+  TRABALHO_NOCTURNO             Integer   Trabalho noturno para horas suplementares
+  UNIDADE_FALTAS                Integer   Unidade de lançamento de faltas
+  VISADA_COMISSAO               Integer   Visada Comissão de Trabalhadores ou Sindicato
+  VUESPEC                       Integer   Tipo de valorização das faltas
+  VUFATOR                       Currency  Fator multiplicativo do valor hora/dia a descontar falta

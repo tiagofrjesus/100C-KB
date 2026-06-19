@@ -1,0 +1,10 @@
+SITFUNC — Situação Funcionário  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (4):
+  CFALTA  Text(10)  Código Falta
+  COD     Text(4)   Código
+  DESCR   Text(35)  Descrição
+  OBSERV  Text(30)  Observações

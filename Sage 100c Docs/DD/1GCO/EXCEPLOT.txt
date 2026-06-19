@@ -1,0 +1,15 @@
+EXCEPLOT — Excepções de Lotes  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  GFSA [primary, unique]: GRUPO+FAMILIA+SUBFAM+ARTIGO
+
+Columns (9):
+  ARTIGO    Text(15)  Artigo
+  CONTADOR  Long      Contador sequencial para o código do lote
+  FAMILIA   Text(6)   Familia
+  GRUPO     Text(6)   Grupo
+  MASCARA   Text(32)  Máscara para sugestão do código
+  MODOCTRL  Integer   Modo de Controlo
+  SUBFAM    Text(6)   Subfamilia
+  TIPOCTRL  Integer   Tipo de Controlo
+  VALIDADE  Integer   Tipo Validade

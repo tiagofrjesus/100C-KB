@@ -1,0 +1,14 @@
+BANCOS — Bancos  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (8):
+  ABREV                    Text(5)   Abreviatura
+  BIC_IDENTIFIER           Text(11)  B.I.C.
+  COD                      Text(4)   Código do Banco
+  DESCR                    Text(50)  Nome
+  ENTIDADE_CAMS            Text(4)   Entidade CAMS (CGD)
+  FORMATO_CARTAO_REFEICAO  Integer   Formato do cartão refeição
+  FORMTRF                  Integer   Tipo Formato
+  NUMERO_CLIENTE           Long      Número cliente do banco

@@ -1,0 +1,11 @@
+LOGDIARIOS — Histórico de abonos / descontos diários  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  PROC [primary, unique]: ANO+MES+NFUNC+CODABDES
+
+Columns (5):
+  ANO       Integer   Ano de processamento
+  CODABDES  Text(10)  Código do abono
+  MES       Integer   Mês de processamento
+  NFUNC     Text(10)  Número do funcionário
+  VALOR     Currency  Valor

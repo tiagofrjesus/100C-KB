@@ -1,0 +1,9 @@
+MAISVALI — Mais valias  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  FICHA [primary, unique]: FICHA+ANO
+
+Columns (3):
+  ANO    Integer   ANO
+  FICHA  Text(20)  FICHA
+  VALOR  Currency  VALOR

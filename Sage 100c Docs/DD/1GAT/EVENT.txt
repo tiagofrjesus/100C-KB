@@ -1,0 +1,15 @@
+EVENT — Eventos Existentes GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXEVENT [primary, unique]: CEVE
+
+Columns (9):
+  CEVE      Text(20)  Código do tipo de evento
+  CEXP      Text(20)  Reporte para a Impressão de Alertas do tipo
+  DESCR     Text(60)  Descrição do Tipo de Alerta. Inicializará a Descrição do Alerta
+  GRUPO     Text(10)  Grupo para Classificação do Tipo de Alerta
+  LIMTSSTR  Memo      Definição dos Parâmetros a pedir nos limites
+  MESAG     Memo      Mensagem a apresentar ao utilizador, explicando o tipo de acontecimento, quando dispultado o alerta. Pode utilizar parâmetros definidos nos limites
+  NOTAS     Memo      Notas
+  OBS       Memo      Observação
+  SQLSEL    Memo      Definição da condição em SQL com a utilização de todos os parâmetros definidos nos limites que quando verificada deve dispultar o alerta

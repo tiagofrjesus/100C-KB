@@ -1,0 +1,8 @@
+TIPOS_RENDIMENTOS_DRF — Tipos de rendimentos (Declaração retenção na fonte)  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  REFERENCE [primary, unique]: REFERENCE
+
+Columns (2):
+  NAME       Text(250)  Descrição
+  REFERENCE  Text(3)    Código

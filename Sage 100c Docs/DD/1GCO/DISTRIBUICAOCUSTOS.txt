@@ -1,0 +1,12 @@
+DISTRIBUICAOCUSTOS — Distribuição de Custos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: ID+COD_OBRA
+
+Columns (6):
+  COD_OBRA          Text(6)   
+  DATA              Date      
+  ID                Long      
+  PERCENTAGEM       Currency  
+  TIPODISTRIBUICAO  Integer   
+  VALOR             Currency  

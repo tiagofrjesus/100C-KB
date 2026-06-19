@@ -1,0 +1,11 @@
+CATEGORIAS_NUMSERIE — Categorias de números de série  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: CATEGORIA
+
+Columns (5):
+  CATEGORIA   Text(10)  Categoria de números de série
+  DESCRICAO   Text(60)  Descrição
+  DIAS        Text(5)   Dias de garantia
+  INSTALACAO  Integer   Garantia desde data de instalação
+  VENDA       Integer   Garantia desde data de venda

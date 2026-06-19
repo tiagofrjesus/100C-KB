@@ -1,0 +1,127 @@
+GCCAB2 — Cópia de DocGcCab  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPDOC [primary, unique]: ANO+TPDOC+SERIE+NNUMDOC
+  TERCEIRO [unique]: TPTERC+TERCEIRO+DATA+TPDOC+SERIE+NNUMDOC
+  CONVTDOC: CONVERT+TPDOC+SERIE+DATA
+  DATA: TPDOC+SERIE+DATA+NNUMDOC
+  LIGACAO: LIGCT+DATA+TPDOC+SERIE+NNUMDOC
+  VNUMDOC: TPDOC+TERCEIRO+VNUMDOC
+  PROCESSO [unique]: TPDOC+NNUMDOC+SERIE+ANO+PROCESSO
+  SODATA: DATA
+  INTEGRA: INTEGRAC
+
+Columns (113):
+  ACREDITO  Integer   Credito
+  ADIORI    Currency  Adiantam. Ori
+  ANO       Integer   Ano
+  APROVADO  Integer   Enc. Aprovada
+  ARDOCORI  Currency  Arred. Doc Ori
+  AREAG     Integer   Area Gestão
+  ARIVAORI  Currency  Arred. Iva Ori
+  ARREDDOC  Currency  Arredondamento Doc.
+  ARREDIVA  Currency  Arredondamento IVA
+  BASE1     Currency  Base 1
+  BASE1ORI  Currency  Base1 Original
+  BASE2     Currency  Base 2
+  BASE2ORI  Currency  Base2 Original
+  BASE3     Currency  Base 3
+  BASE3ORI  Currency  Base3 Original
+  BASE4     Currency  Base 4
+  BASE4ORI  Currency  Base4 Original
+  BDDEL     Boolean   
+  BDSUMCC   Boolean   
+  BDSUMST   Boolean   
+  BOMPAG    Integer   
+  CEXORI    Currency  Créditos Ex Ori
+  COMISORI  Currency  Total Com.Ori
+  COMISS    Integer   Comissões
+  COMVEND   Currency  Comissão Vendedor
+  COMVORI   Currency  Com.Vend. Ori
+  CONVERT   Integer   Convertido
+  DATA      Date      Data
+  DATAAPRO  Date      Data Aprovação
+  DCPTORI   Currency  Total Dcpt. Ori
+  DESCABVL  Currency  Desconto Cab. Valor
+  DESCCAB   Currency  Desconto Cabeçalho
+  DESCLIN   Currency  Desconto Linhas
+  DESCPP    Text(3)   Desconto Pagamento
+  DESCVAL   Currency  
+  DESCVALT  Currency  
+  DESLNORI  Currency  Desc. Linha Ori
+  DESPORI   Currency  Despesas Ori
+  DESVLORI  Currency  Desc.Valor Original
+  DEXORI    Currency  Débitos Ex. Ori
+  DIARIO    Text(3)   Diário
+  DOCORI    Currency  Total Doc Ori
+  DTCARGA   Date      Data Carga
+  DTVENC    Date      Data Vencimento
+  EAN       Text(20)  
+  EXPEDIR   Text(3)   Modo Expedição
+  GESCNT    Text(10)  Gestor de Conta
+  HORA      Text(5)   Hora Carga
+  INTEGRAC  Text(4)   INTEGRAC
+  IVA1ORI   Currency  Total Iva1 Original
+  IVA2ORI   Currency  Total Iva2 Original
+  IVA3ORI   Currency  Total Iva3 Original
+  IVA4ORI   Currency  Total Iva4 Ori
+  IVAINC    Integer   I.V.A. Incluído
+  JALIQ     Integer   Liquidado
+  LIDOCORI  Currency  Linhas Doc. Ori
+  LIGCC     Integer   Ligação Cnt Corrente
+  LIGCT     Integer   Class.Efectuada
+  LIGST     Integer   Ligação Stocks
+  LOCALCG   Text(35)  Local Carga
+  LOCALDSG  Text(35)  Local Descarga
+  MBORI     Currency  Total MB Original
+  MEIOTRP   Text(20)  
+  MERCORI   Currency  Total Merc Ori
+  MODOPGT   Text(3)   Modo de Pagamento
+  MOEDA     Text(3)   Moeda
+  MOVSTC    Integer   Movimento Stocks
+  NATCONTA  Integer   Natureza Contab.
+  NCONTRIB  Text(20)  Número Contribuinte
+  NNUMDOC   Long      Nosso Nº Documento
+  NUMDIA    Long      Número Diário
+  NUMRECIB  Long      Número Recibo
+  NVIAS     Integer   Número Vias Emitidas
+  OBSERV    Memo      Observações
+  ONDEENTR  Text(3)   Onde Entregar Doc.
+  ONDEENV   Text(3)   Onde Enviar Doc.
+  OUTROORI  Currency  Total Outros Ori
+  PESOORI   Currency  Peso Original
+  PESOTOT   Currency  Peso Total
+  PRAZOPGT  Text(3)   Prazo de Pagamento
+  PROCESSO  Text(15)  PROCESSO
+  RESPAPRO  Text(20)  Responsável Apro.
+  RGIVA     Text(3)   Tipo de IVA
+  SECTOR    Text(3)   Sector
+  SERIE     Integer   Série
+  SINALCT   Integer   Sinal Contab
+  TCEXDOC   Currency  Total Crédito Extra
+  TDEXDOC   Currency  Total Débito Extra
+  TERCEIRO  Text(15)  Terceiro
+  TOTADIAM  Currency  Total Adiantamentos
+  TOTCOMI   Currency  Total Comisão
+  TOTDCPT   Currency  Total Descriptores
+  TOTDOC    Currency  Total Documento
+  TOTDOCMB  Currency  Total Doc Moeda Naci
+  TOTDSPAD  Currency  Total Despesas Ad.
+  TOTIVA1   Currency  Total I.V.A. 1
+  TOTIVA2   Currency  Total I.V.A. 2
+  TOTIVA3   Currency  Total I.V.A. 3
+  TOTIVA4   Currency  Total I.V.A. 4
+  TOTLINDO  Currency  Total Linhas Doc.
+  TOTMERC   Currency  Total Mercadoria
+  TOTOUTRO  Currency  Total Outros
+  TPDOC     Text(3)   Tipo Documento
+  TPFSTC    Integer   Tipificação Stcoks
+  TPOPER    Integer   Tipo Operação
+  TPPRECO   Integer   
+  TPTERC    Integer   Tipo Terceiro
+  TRANSP    Text(15)  Meio de Transporte
+  VENDEDOR  Text(10)  Vendedor
+  VLDESCPG  Currency  Valor Desconto Pgt
+  VNUMDOC   Text(20)  Vosso Nº Documento
+  VOLORI    Currency  Volume Original
+  VOLTOT    Currency  Volume Total

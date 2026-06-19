@@ -1,0 +1,12 @@
+SEPRC — Caracterização de Produtos de Seguradoras GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXSEPRC [primary, unique]: CCOB+CPRO+CSEG
+
+Columns (6):
+  CCOB    Integer   Número Sequencial (automático)
+  CPRO    Text(15)  Código do Produto
+  CSEG    Text(7)   Código da Seguradora
+  DESCR   Text(40)  Designação da Cobertura
+  FRANQ   Double    Franquia em % ou Valor
+  VALIND  Currency  Valor da Indemnização

@@ -1,0 +1,229 @@
+DOCGCCAB — Documentos GC Cab  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPDOC [primary, unique]: ANO+TPDOC+SERIE+NNUMDOC
+  TERCEIRO [unique]: TPTERC+TERCEIRO+DATA+TPDOC+SERIE+NNUMDOC
+  CONVTDOC: CONVERT+TPDOC+SERIE+DATA
+  DATA: TPDOC+SERIE+DATA+NNUMDOC
+  LIGACAO: LIGCT+DATA+TPDOC+SERIE+NNUMDOC
+  VNUMDOC: TPDOC+TERCEIRO+VNUMDOC+ANO
+  PROCESSO [unique]: TPDOC+NNUMDOC+SERIE+ANO+PROCESSO
+  SODATA: DATA
+  INTEGRA: INTEGRAC
+
+Columns (215):
+  ACREDITO                    Integer     Credito
+  ADIORI                      Currency    Adiantam. Ori
+  ANEXO_40                    Integer     Anexo 40 da declaração períodica
+  ANEXO_41                    Integer     Anexo 41 da declaração períodica
+  ANO                         Integer     Ano
+  ANODPIVA                    Integer     Ano da fatura a que se refere a nota de credito
+  APROVADO                    Integer     Encomenda Aprovada
+  ARDOCORI                    Currency    Arred. Doc Ori
+  AREAG                       Integer     Area de Gestão
+  ARIVAORI                    Currency    Arred. Iva Ori
+  ARREDDOC                    Currency    Arredondamento Doc.
+  ARREDIVA                    Currency    Arredondamento IVA
+  ATDOCCODEID                 Text(200)   AT Doc Code ID
+  ATRETURNCODETYPE            Integer     Tipo de retorno do AT Doc Code ID
+  ATRETURNERROR               Text(300)   Erro de retorno do AT Doc Code ID
+  AT_DOC_STATUS               Integer     Resposta da AT quanto ao estado do documento submetido
+  BASE1                       Currency    Base 1
+  BASE1ADIANTAMENTO           Currency    Base1 Adiantamentos
+  BASE1ORI                    Currency    Base1 Original
+  BASE2                       Currency    Base 2
+  BASE2ADIANTAMENTO           Currency    Base2 Adiantamentos
+  BASE2ORI                    Currency    Base2 Original
+  BASE3                       Currency    Base 3
+  BASE3ADIANTAMENTO           Currency    Base3 Adiantamentos
+  BASE3ORI                    Currency    Base3 Original
+  BASE4                       Currency    Base 4
+  BASE4ADIANTAMENTO           Currency    Base4 Adiantamentos
+  BASE4ORI                    Currency    Base4 Original
+  BDDEL                       Boolean     BDDEL
+  BDSUMCC                     Boolean     BDSUMCC
+  BDSUMST                     Boolean     BDSUMST
+  BOMPAG                      Integer     Bom Para Pagar
+  CABIMENTO_EDI               Text(20)    Número do cabimento
+  CDPOSTDSG                   Text(20)    Código postal de descarga
+  CEXORI                      Currency    Créditos Ex Ori
+  COMISORI                    Currency    Total Com.Ori
+  COMISS                      Integer     Comissões
+  COMPROMISSO_EDI             Text(20)    Número do compromisso
+  COMVEND                     Currency    Comissão Vendedor
+  COMVORI                     Currency    Com.Vend. Ori
+  CONTRATO_EDI                Text(20)    Número do contrato
+  CONVERT                     Integer     Convertido
+  DATA                        Date        Data Documento
+  DATAAPRO                    Date        Data Aprovação
+  DATADES                     Date        Data Descarga
+  DATALANC                    Date        Data de lançamento
+  DATENEW                     Date        Data criação
+  DATEUPD                     Date        Data alteração
+  DBTS                        23          
+  DCPTORI                     Currency    Total Dcpt. Ori
+  DESCABVL                    Currency    Desconto Cab. Valor
+  DESCCAB                     Currency    Desconto Cabeçalho T
+  DESCLIN                     Currency    Desconto Linhas
+  DESCONTO_FINANCEIRO         Currency    Desconto financeiro
+  DESCPP                      Text(3)     Desconto Pagamento
+  DESCVAL                     Currency    Desconto Valor
+  DESCVALT                    Currency    Desconto Valor Total
+  DESLNORI                    Currency    Desc. Linha Ori
+  DESPORI                     Currency    Despesas Ori
+  DESVLORI                    Currency    Desc.Valor Original
+  DEXORI                      Currency    Débitos Ex. Ori
+  DH_ENV_AT                   Text(20)    Data e hora de envio para efeitos de WS da AT
+  DH_ENV_CLI                  Text(20)    Data e hora de envio para efeitos de eMailing ao Cliente
+  DH_REC_AT                   Text(20)    Data e hora da resposta da entrega com sucesso à AT
+  DH_REC_CLI                  Text(20)    Data e hora do Download do PDF por parte do Cliente
+  DIARIO                      Text(3)     Diário
+  DOCORI                      Currency    Total Doc Ori
+  DOCREFNUMBERCODE_ORIGINAL   Integer     DocRefNumberCodeOrig
+  DOCREFNUMBER_ORIGINAL       Text(30)    DocRefNumberOriginal
+  DTCARGA                     Date        Data Carga
+  DTPRESTACAO                 Text(20)    Data prestação serviço
+  DTVENC                      Date        Data Vencimento
+  EAN                         Text(40)    EAN
+  ECOEMBAL                    Currency    Total Embalagens
+  ECOOUTRO                    Currency    Total Outros
+  ECOPILHA                    Currency    Total Ecopilhas
+  ECOPNEU                     Currency    Total Pneus
+  ECOREEE                     Currency    Total REEE
+  EXPEDIR                     Text(3)     Modo Expedição
+  FEGLNEMPRESA                Text(20)    GLN Empresa
+  FEIDDEPTERCEIRO             Text(20)    FE - ID do Departamento do Terceiro
+  FETPDOCOUTRO                Text(10)    FE - Identificador auxiliar de documento
+  GESCNT                      Text(10)    Gestor de Conta
+  HASH                        Text(500)   Assinatura digital
+  HASHCERTIFICATE             Integer     Número de certificação
+  HASHCONTROL                 Text(40)    Versão da assinatura digital
+  HASHSIGN                    Text(172)   Assinatura digital sem encriptação
+  HASHVARS                    Text(1000)  
+  HORA                        Text(5)     Hora Carga
+  HORADES                     Text(5)     Hora Descarga
+  HOURNEW                     Text(8)     Hora criação
+  HOURUPD                     Text(8)     Hora alteração
+  IGNORE_ORIGINALS            Integer     Indica se ignora ou não os campos dos documentos originais
+  IMPOSTO_ALCOOL              Currency    Total IMPOSTO_ALCOOL
+  INCOER                      Integer     Nº de incoêrencias
+  INTEGRAC                    Text(4)     INTEGRAC
+  INVOICENO                   Text(60)    Identificador do documento (outras soluções)
+  INVOICESTATUSDATE           Text(20)    Data e hora do status do documento
+  IVA1ADIANTAMENTO            Currency    IVA1 Adiantamentos
+  IVA1ORI                     Currency    Total Iva1 Original
+  IVA2ADIANTAMENTO            Currency    IVA2 Adiantamentos
+  IVA2ORI                     Currency    Total Iva2 Original
+  IVA3ADIANTAMENTO            Currency    IVA3 Adiantamentos
+  IVA3ORI                     Currency    Total Iva3 Original
+  IVA4ADIANTAMENTO            Currency    IVA4 Adiantamentos
+  IVA4ORI                     Currency    Total Iva4 Ori
+  IVAINC                      Integer     IVA Incluido
+  JALIQ                       Integer     Liquidado
+  LIDOCORI                    Currency    Linhas Doc. Ori
+  LIGCC                       Integer     Ligação Cnt Corrente
+  LIGCT                       Integer     Class.Efectuada
+  LIGST                       Integer     Ligação Stock
+  LOCALCG                     Text(80)    Local Carga
+  LOCALDSG                    Text(80)    Local Descarga
+  LOG                         Text(500)   Registo de log devolvido pelo componente de geração de assinaturas
+  MANUAL_EXTERNAL_INVOICENO   Text(32)    Número do documento manual externo
+  MANUAL_EXTERNAL_SERIE       Text(3)     Série do documento manual externo
+  MATRICUL                    Text(25)    Matricula Viatura
+  MATRICULREBOQ               Text(20)    Matrícula do reboque
+  MBORI                       Currency    Total MB Original
+  MEIOTRP                     Text(50)    
+  MERCORI                     Currency    Total Merc Ori
+  MESDPIVA                    Integer     Mes da fatura a que se refere a nota de credito
+  MODOPGT                     Text(3)     Meio de Pagamento
+  MOEDA                       Text(3)     Moeda
+  MORADADSG                   Text(100)   Morada de descarga
+  MOTIVO_ANULACAO             Text(200)   Motivo da anulação do documento
+  MOVSTC                      Integer     Movimento Stock
+  NATCONTA                    Integer     Natureza cont.
+  NCONTRIB                    Text(20)    Contribuinte
+  NNUMDOC                     Long        Número Doc
+  NUMDIA                      Long        Número Diário
+  NUMERO_AUTORIZACAO          Text(20)    Número de autorização de exercício de actividade
+  NUMERO_ORIGINAL             Long        Número Original do documento
+  NUMRECIB                    Long        Número Recibo
+  NVIAS                       Integer     Número de vias
+  NVIAS_EDI                   Integer     Numero de vias EDI
+  NVIAS_FES                   Integer     Numero de vias Factura Electronica Sage
+  N_CAMBIO                    Double      Câmbio
+  OBRA                        Text(6)     Obra
+  OBSERV                      Memo        Observações
+  ONDCOBR                     Text(3)     Onde Cobrar Merc.
+  ONDEENTR                    Text(3)     Entregar Mercadoria
+  ONDEENV                     Text(3)     Enviar Documento
+  OPERNEW                     Text(20)    Operador criação
+  OPERUPD                     Text(20)    Operador alteração
+  ORI_ADIANTAMENTO            Integer     Documento com origem num adiantamento
+  OUTROORI                    Currency    Total Outros Ori
+  PAIS                        Text(3)     País
+  PAISDSG                     Text(3)     País de descarga
+  PELIQORI                    Currency    Peso Liq. Original
+  PESOLIQ                     Currency    Peso Líquido
+  PESOORI                     Currency    Peso Original
+  PESOTOT                     Currency    Peso Bruto
+  PRAZOPGT                    Text(3)     Prazo de Pagamento
+  PROCESSO                    Text(30)    Processo
+  PROCNEW                     Integer     Origem criação
+  PROCUPD                     Integer     Origem alteração
+  REASON                      Text(50)    Motivo do crédito
+  RECTIFICADO                 Integer     Documento rectificado (R.I.C.)
+  REFERENCE                   Text(60)    Documentos rectificados
+  REGIME_IVA_CAIXA            Integer     Regime de I.V.A. de caixa
+  REGIME_NOVO                 Text(3)     Tipo de IVA - Conversor SageIva
+  RESPAPRO                    Text(20)    Responsável
+  RGIVA                       Text(3)     Tipo de IVA
+  SAFTDOCSTATE                Integer     Estado do documento em termos de SAF-T PT
+  SAFTEXPORTFILENAME          Text(120)   Nome do ficheiro onde o documento foi incluído na última exportação SAF-T PT
+  SAIDAS_VALOR_PCM            Integer     Saidas pelo PCM
+  SECTOR                      Text(3)     Sector
+  SERIE                       Integer     Série
+  SERIE_ORIGINAL              Integer     Série Original do documento
+  SIGNATUR                    Text(32)    Signature
+  SINALCT                     Integer     Sinal Contabilístico
+  SUBMISSIONDATE              Date        Data de submissão
+  SUBMISSIONSTATE             Integer     Estado resultante da submissão
+  SUBMISSIONUSER              Text(20)    Utilizador que efectuou a submissão
+  SUJEITO_FATURASIMPLIFICADA  Integer     Tipo de Sujeito passivo para facturas simplificadas
+  SYSTEMENTRYDATE             Text(20)    Data e hora da gravação
+  TCEXDOC                     Currency    Total Crédito Extra
+  TDEXDOC                     Currency    Total Débito Extra
+  TERCEIRO                    Text(15)    Fornecedor
+  TERCIRRE                    Integer     Terceiro Irregular
+  TOTADIAM                    Currency    Total Adiantamentos
+  TOTAL_AGRAVAMENTOS          Currency    Total Agravamentos
+  TOTAL_DEDUCOES              Currency    Total de Deduções
+  TOTAL_RETENCAO              Currency    Total a reter
+  TOTCOMI                     Currency    Total Comisão
+  TOTDCPT                     Currency    Total Descriptores
+  TOTDOC                      Currency    Total Documento
+  TOTDOCMB                    Currency    Total Doc Moeda Naci
+  TOTDSPAD                    Currency    Total Despesas Ad.
+  TOTIVA1                     Currency    Total I.V.A. 1
+  TOTIVA2                     Currency    Total I.V.A. 2
+  TOTIVA3                     Currency    Total I.V.A. 3
+  TOTIVA4                     Currency    Total I.V.A. 4
+  TOTLINDO                    Currency    Total Linhas Doc.
+  TOTMERC                     Currency    Total Mercadoria
+  TOTOUTRO                    Currency    Total Outros
+  TPDOC                       Text(3)     Documento
+  TPDSAFT                     Integer     Tipo documento SAF-T
+  TPFSTC                      Integer     Tipificação Stocks
+  TPOPER                      Integer     Tipo de operação
+  TPPRECO                     Integer     Tipo de Preço
+  TPTERC                      Integer     Tipo Terceiro
+  TRANSP                      Text(50)    Meio de Transporte
+  TXIVA1                      Currency    Taxa de Iva 1
+  TXIVA2                      Currency    Taxa de Iva 2
+  TXIVA3                      Currency    Taxa de Iva 3
+  TXIVA4                      Currency    Taxa de Iva 4
+  VENDEDOR                    Text(10)    Vendedor
+  VERSAO                      Integer     Versao
+  VLDESCPG                    Currency    Valor Desconto Pgt
+  VNUMDOC                     Text(32)    V/Numero
+  VOLORI                      Currency    Volume Original
+  VOLTOT                      Currency    Volume Total

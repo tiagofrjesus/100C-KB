@@ -1,0 +1,9 @@
+ACTIVIDADE — Actividades  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  INDEX [primary, unique]: CODIGO
+
+Columns (3):
+  CODIGO     Text(3)    Código
+  DESCRICAO  Text(35)   Descrição
+  OBS        Text(255)  Observações

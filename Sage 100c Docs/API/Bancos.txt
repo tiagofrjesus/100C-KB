@@ -1,0 +1,8 @@
+Bancos
+Entidade Bancos. Manutenção directa á tabela.
+
+Membros (1):
+
+  [Function] Inserir
+    Output: Long - Se <>0 deu erro
+    => Insere registo desta entidade na base de dados

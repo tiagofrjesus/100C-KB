@@ -1,0 +1,16 @@
+FRCGA — Folha Resumo CGA  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  ANO [primary, unique]: ANO+MES
+
+Columns (10):
+  ANO     Integer    Ano
+  CODSVR  Long       Cód.Serviço
+  DATA    Date       Data
+  FICH    Text(100)  Ficheiro
+  MES     Integer    Mês
+  NUMREG  Long       Nº Registos
+  QTD     Integer    Quantidade
+  SERV    Text(60)   Nome Serv.
+  TIPO    Integer    Tipo
+  TPREL   Text(2)    Tipo Relação

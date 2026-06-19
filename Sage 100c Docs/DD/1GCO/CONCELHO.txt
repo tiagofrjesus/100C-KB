@@ -1,0 +1,9 @@
+CONCELHO — Concelhos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  COD [primary, unique]: CDDISTR+COD
+
+Columns (3):
+  CDDISTR  Text(2)   Código do Distrito
+  COD      Text(2)   Código do Concelho
+  DESCR    Text(50)  Descrição

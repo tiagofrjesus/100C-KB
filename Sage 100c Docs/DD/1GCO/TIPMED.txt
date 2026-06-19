@@ -1,0 +1,8 @@
+TIPMED — Tipo de Medidas GTC  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TIPOMED [primary, unique]: TIPOMED
+
+Columns (2):
+  DESCRICA  Text(20)  Descrição
+  TIPOMED   Text(10)  Tipo de Medidas

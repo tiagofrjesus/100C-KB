@@ -1,0 +1,10 @@
+ABATE — Ficha de Abate  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CHABT [primary, unique]: FICHA
+
+Columns (4):
+  DTABATE  Date      Data Abate
+  FICHA    Text(20)  Ficha
+  TPABATE  Integer   Tipo de Abate
+  VLREAL   Currency  Valor da Venda

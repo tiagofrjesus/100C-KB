@@ -1,0 +1,12 @@
+MODELOS_FISCAIS — Modelos Fiscais  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CMOD [primary, unique]: CMODTYPE+CMODYEAR+CYEAR+CVERS
+
+Columns (6):
+  CELLS     Memo      
+  CMODTYPE  Text(15)  
+  CMODYEAR  Text(10)  
+  CVERS     Text(15)  
+  CYEAR     Integer   
+  PROPS     Memo      

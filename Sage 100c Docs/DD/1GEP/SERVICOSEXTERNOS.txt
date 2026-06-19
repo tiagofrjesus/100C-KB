@@ -1,0 +1,12 @@
+SERVICOSEXTERNOS — Atividades / Serviços  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: ANO+ESTAB+ENTIDADE+DATA
+
+Columns (6):
+  ANO          Integer    Exercício
+  DATA         Date       Data
+  ENTIDADE     Text(10)   Entidade externa
+  ESTAB        Text(4)    Estabelecimento
+  OBSERVACOES  Text(100)  Observações
+  SERVICO      Integer    Tipo de serviço

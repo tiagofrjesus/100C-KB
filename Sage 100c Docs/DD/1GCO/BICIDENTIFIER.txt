@@ -1,0 +1,9 @@
+BICIDENTIFIER — BIC do banco  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: REFERENCE
+
+Columns (3):
+  BANK       Text(4)    Código do banco
+  NAME       Text(100)  Nome do banco
+  REFERENCE  Text(11)   BIC do banco

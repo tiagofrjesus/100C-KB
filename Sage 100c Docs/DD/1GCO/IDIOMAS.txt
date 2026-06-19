@@ -1,0 +1,9 @@
+IDIOMAS — Idiomas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (3):
+  CODIGO  Text(3)   Idioma
+  DBTS    23        
+  DESCR   Text(50)  Descrição

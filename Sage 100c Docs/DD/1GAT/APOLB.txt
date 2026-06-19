@@ -1,0 +1,11 @@
+APOLB — Bens das Apólices (Linhas) GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXAPOLB [primary, unique]: CAPO+CBEM
+
+Columns (5):
+  ACTIV  Boolean   Apólice Activa para o bem?
+  CAPO   Text(10)  Código da Apólice
+  CBEM   Text(20)  Código do Bem
+  DTFIM  Date      Data em que o bem deixou de estar seguro
+  DTINI  Date      Data em que bem foi incluído na apólice

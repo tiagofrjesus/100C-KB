@@ -1,0 +1,19 @@
+RELATORIO_CONVERSAO — Relatório da Conversão de documentos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary]: UTIL+DATA+SESSAO
+
+Columns (13):
+  ANO            Integer   
+  ANODESTINO     Integer   
+  DATA           Date      
+  MENSAGEM       Memo      
+  NNUMDOC        Long      
+  NUMDOCDESTINO  Long      
+  SERIE          Integer   
+  SERIEDESTINO   Integer   
+  SESSAO         Integer   
+  SUCESSO        Integer   
+  TPDOC          Text(3)   
+  TPDOCDESTINO   Text(3)   
+  UTIL           Text(20)  

@@ -1,0 +1,12 @@
+LEASING — Ficha de Leasing  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CHLEA [primary, unique]: FICHA
+
+Columns (6):
+  ANOCEL   Integer   Ano de Celebração
+  ANOPCO   Integer   Ano Opção Compra
+  DURACAO  Integer   Duração
+  FICHA    Text(20)  Ficha
+  NAUESP   Integer   Numero Anos Util Esp
+  VLOPCO   Currency  Valor Opção Compra

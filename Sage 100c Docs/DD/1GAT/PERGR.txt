@@ -1,0 +1,9 @@
+PERGR — Tabela com as permissões de cada grupo GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXPERGR [primary, unique]: CGR+CPER
+
+Columns (3):
+  CGR    Text(5)   
+  CPER   Text(15)  
+  VALOR  Boolean   

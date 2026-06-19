@@ -1,0 +1,10 @@
+ARTIDIOM — Artigo por Idiomas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ARTIDIOM [primary, unique]: ARTIGO+IDIOMA
+
+Columns (4):
+  ARTIGO  Text(15)  Artigo
+  DBTS    23        
+  DESCR   Text(50)  Descrição
+  IDIOMA  Text(3)   Idioma

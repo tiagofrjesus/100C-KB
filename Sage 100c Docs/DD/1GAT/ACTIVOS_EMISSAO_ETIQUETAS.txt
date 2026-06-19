@@ -1,0 +1,13 @@
+ACTIVOS_EMISSAO_ETIQUETAS — Activos na emissão de etiquetas  [1GAT · Sage Gestao de Ativos]
+
+Columns (10):
+  CBARRAS           Text(26)   Código de barras
+  CODIGO            Text(20)   Código do activo
+  CONTA_POC         Text(15)   Conta POC
+  DATA_AQUISICAO    Text(10)   Data de aquisição
+  DESCRICAO         Text(100)  Descrição
+  ESTADO            Integer    Estado
+  LOCALIZACAO       Text(13)   Localizacao
+  NUMERO_ELEMENTOS  Long       Número de elementos
+  SECTOR            Text(15)   Sector
+  UTILIZADOR        Text(15)   Utilizador

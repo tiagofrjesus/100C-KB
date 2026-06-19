@@ -1,0 +1,10 @@
+METAT — Meta-Tabela. Definição das tabelas GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXMETAT [primary, unique]: CTAB
+
+Columns (4):
+  CLS    Text(5)   
+  CTAB   Text(50)  
+  DESCR  Text(50)  
+  SIGLA  Text(50)  

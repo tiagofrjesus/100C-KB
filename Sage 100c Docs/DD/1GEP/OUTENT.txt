@@ -1,0 +1,24 @@
+OUTENT — Outras Entidades  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (18):
+  CDPOST  Text(8)    Código Postal
+  CNTC    Text(15)   Conta (Custo)
+  CNTCMF  Text(15)   Conta (Custo) M. F.
+  CNTI    Text(15)   Conta (imp)
+  CNTIMF  Text(15)   Conta (imp) M. Féria
+  COD     Text(6)    Código
+  EMAIL   Text(50)   E-Mail
+  FGCT    Text(6)    Fundo de garantia de compensação do trabalho
+  LOCAL   Text(40)   Localidade
+  MORADA  Text(50)   Morada
+  NIF     Text(9)    N.I.F ou N.I.P.C.
+  NOME    Text(100)  Descrição
+  RUB     Text(6)    Rubrica
+  RUBMF   Text(6)    Rubrica Mês de Féria
+  TAXA    Single     Taxa
+  TAXAC   Single     Taxa Contr.
+  TPENT   Integer    Tipo
+  WEB     Text(40)   WWW

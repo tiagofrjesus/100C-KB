@@ -1,0 +1,23 @@
+GENERALLEDGERDOCUMENTLOG — Movimentos detalhe da contabilidade  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPDOC [primary, unique]: CONTA+ORIGEM_ANO+ORIGEM_TPDOC+ORIGEM_SERIE+ORIGEM_NUMDOC+LIQUIDACAO_ANO+LIQUIDACAO_TPDOC+LIQUIDACAO_SERIE+LIQUIDACAO_NUMDOC+DATA+TIPO_IVA+TIPOOPERACAO
+  DOCUMENTOSEMABERTOMOV: ORIGEM_ANO+ORIGEM_TPDOC+ORIGEM_SERIE+ORIGEM_NUMDOC+LIQUIDACAO_TPDOC+VALOR+RECTIFICADO
+  DOCEMABERTOLIQ: CONTA+ORIGEM_ANO+ORIGEM_SERIE+LIQUIDACAO_TPDOC+DATA+TIPO_IVA+VALOR+RECTIFICADO
+
+Columns (15):
+  CONTA              Text(15)  Conta
+  DATA               Date      Data
+  LIQUIDACAO_ANO     Integer   Ano do documento de liquidação
+  LIQUIDACAO_NUMDOC  Long      Número do documento de liquidação
+  LIQUIDACAO_SERIE   Integer   Série do documento da liquidação
+  LIQUIDACAO_TPDOC   Text(3)   Tipo de documento de liquidação
+  ORIGEM_ANO         Integer   Ano origem do documento
+  ORIGEM_NUMDOC      Long      Número do documento origem
+  ORIGEM_SERIE       Integer   Série do documento origem
+  ORIGEM_TPDOC       Text(3)   Tipo documento origem
+  RECTIFICADO        Integer   Documento rectificado
+  REGIME_IVA_CAIXA   Integer   Regime I.V.A. de caixa
+  TIPOOPERACAO       Integer   Tipo de operação
+  TIPO_IVA           Integer   Tipo de movimento I.V.A.
+  VALOR              Currency  Valor

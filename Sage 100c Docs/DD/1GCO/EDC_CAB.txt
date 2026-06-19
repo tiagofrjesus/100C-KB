@@ -1,0 +1,12 @@
+EDC_CAB — Dados do Encontro de Contas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CHAVE [primary, unique]: EXERCICIO+NUMERO
+
+Columns (6):
+  DATA       Date      Data
+  EXERCICIO  Integer   Exercicio
+  NIF        Text(20)  NIF
+  NOME       Text(50)  Nome
+  NUMERO     Long      Número
+  USER       Text(30)  Utilizador

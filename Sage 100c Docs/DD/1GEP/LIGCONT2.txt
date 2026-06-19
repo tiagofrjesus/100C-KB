@@ -1,0 +1,13 @@
+LIGCONT2 — Lig. Contabilidade D  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary]: ANO+MES+IDX
+
+Columns (7):
+  ADF     Text(10)  ADF
+  ANO     Integer   ANO
+  CODIGO  Text(10)  CODIGO
+  IDX     Integer   IDX
+  MES     Integer   MES
+  TIPO    Integer   TIPO
+  VALOR   Currency  VALOR

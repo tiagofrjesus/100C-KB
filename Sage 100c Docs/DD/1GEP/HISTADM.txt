@@ -1,0 +1,10 @@
+HISTADM — Histórico de Admissões  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  INDEX [primary, unique]: NFUNC+DATA
+
+Columns (4):
+  DATA    Date       Data
+  MOTIVO  Text(3)    Motivo
+  NFUNC   Text(10)   Número Funcionário
+  OBS     Text(100)  Observação

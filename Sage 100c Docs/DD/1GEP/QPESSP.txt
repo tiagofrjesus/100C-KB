@@ -1,0 +1,19 @@
+QPESSP — Q.Pessoal - Folha Su  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: MES
+
+Columns (13):
+  ANO     Integer   Ano
+  DISK    Integer   Sup.Magnético
+  FICEMP  Text(65)  Ficheiro Empresa
+  FICEST  Text(65)  Ficheiro Estab.
+  FICTRA  Text(65)  Ficheiro Trabalhador
+  INUT    Integer   Inutilizar
+  MES     Integer   Mês
+  NREST   Integer   Nº registos Estabel.
+  NRTRA   Integer   Nº Registos Trabalh.
+  PCI     Text(30)  Cont. Informática
+  PCIE    Text(50)  E-Mail
+  PCIF    Text(9)   Fax
+  PCIT    Text(9)   Telefone Informatica

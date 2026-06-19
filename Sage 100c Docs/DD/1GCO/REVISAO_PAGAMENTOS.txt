@@ -1,0 +1,10 @@
+REVISAO_PAGAMENTOS — Plano de pagamentos para revisão de preços  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD_OBRA+ANO+MES
+
+Columns (4):
+  ANO       Integer   
+  COD_OBRA  Text(6)   
+  MES       Integer   
+  VALOR     Currency  

@@ -1,0 +1,24 @@
+BANPERIODICMV — Movimentos Periódicos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO
+
+Columns (18):
+  BALCAODESTINO    Text(4)   Balcão Destino
+  BANCODESTINO     Text(4)   Banco Destino
+  CAMBIO           Double    Câmbio
+  CODIGO           Text(15)  Código do Movimento
+  CONTADESTINO     Text(21)  Conta Destino
+  DATAAVISORENOVA  Date      Data de Aviso de Renovação
+  DATAFIM          Date      Data de Fim
+  DATAINI          Date      Data de Início
+  DEBCRED          Integer   Débito/Crédito
+  DESCRICAO        Text(80)  Descrição
+  DIASREPETICAO    Integer   Dias de Repetição
+  MOEDA            Text(3)   Moeda
+  NATUREZA         Text(3)   Natureza
+  NDOCBAN          Text(24)  Nº Documento
+  PERIODICIDADE    Integer   Periodicidade
+  SECTOR           Text(3)   Sector
+  TPDOCBAN         Text(3)   Documento Bancário
+  VALOR            Currency  Valor

@@ -1,0 +1,8 @@
+CALEND — Calendário  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (2):
+  COD    Text(4)   Código
+  DESCR  Text(25)  Descrição

@@ -1,0 +1,8 @@
+COEFREAV — Coeficientes de desv  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  ANO [primary, unique]: ANO
+
+Columns (2):
+  ANO       Integer  Ano
+  COEFICIE  Double   Coeficiente

@@ -1,0 +1,8 @@
+TAXEXEMPTIONREASON — Tabela de motivos de isenção  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO
+
+Columns (2):
+  CODIGO     Text(3)    Código
+  DESCRICAO  Text(100)  Descrição

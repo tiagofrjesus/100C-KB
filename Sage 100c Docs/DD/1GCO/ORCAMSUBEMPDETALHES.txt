@@ -1,0 +1,10 @@
+ORCAMSUBEMPDETALHES — Detalhes de Orçamentos de Sub Empreiteiro  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD_ORC+COD+NOME
+
+Columns (4):
+  COD         Integer   
+  COD_ORC     Text(6)   
+  CUSTO_UNIT  Currency  
+  NOME        Long      

@@ -1,0 +1,25 @@
+GUIA — Guia  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  GUIA [primary, unique]: ANO+MES+ESTAB+CODSS
+
+Columns (19):
+  ACORD   Currency  Prest.Acordo
+  ANO     Integer   Ano
+  BANCO   Text(15)  Banco
+  CENTR   Integer   Centro Regional
+  CHEQ    Integer   Cheque
+  CODSS   Text(4)   Seg.Social
+  DATA    Date      Data Pagamento
+  ESTAB   Text(4)   Estabelecimento
+  ICAB    Integer   Imp. Cabeçalho
+  IDE     Integer   Imp. Dados Estab.
+  INST    Integer   Inst.Crédito
+  JUROS   Currency  Juros
+  MES     Integer   Mês
+  NCHEQ   Text(15)  Nº Cheque
+  NCONTA  Text(15)  Nº Conta
+  NUM     Integer   Numerário
+  OUTR    Currency  Outros
+  RGERAL  Currency  Reg. Geral
+  TRSUPL  Currency  Trab.Suplementar

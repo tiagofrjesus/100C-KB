@@ -1,0 +1,13 @@
+ANEXOIVA — Anexo I perio. iva  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINCIPA [primary, unique]: ANO+MES+NIF+TPOPER
+
+Columns (7):
+  ANO      Integer   Ano
+  MES      Integer   MES
+  NIF      Text(20)  NIF
+  PAISD    Text(50)  PAIS destino
+  PREFIXO  Text(3)   PREFIXO pais destino
+  TPOPER   Integer   TPOPER
+  VALOR    Currency  VALOR

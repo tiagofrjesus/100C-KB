@@ -1,0 +1,22 @@
+MRESUMO — Mapa Resumo  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LINHA [primary, unique]: LINHA+ANO
+
+Columns (16):
+  ANO      Integer   
+  CAMPO02  Currency  Campo02
+  CAMPO03  Currency  Campo03
+  CAMPO04  Currency  Campo04
+  CAMPO05  Currency  Campo05
+  CAMPO06  Currency  Campo06
+  CAMPO07  Currency  Campo07
+  CAMPO08  Currency  Campo08
+  CAMPO09  Currency  Campo09
+  CAMPO10  Currency  Campo10
+  CAMPO11  Currency  Campo11
+  LINHA    Long      Linha
+  MAPA     Text(70)  Mapa
+  NIVEL    Integer   NIVEL
+  ORDEM    Double    ORDEM
+  PROV     Integer   Provisorio

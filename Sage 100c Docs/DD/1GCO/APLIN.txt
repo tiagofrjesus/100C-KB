@@ -1,0 +1,12 @@
+APLIN — Apuramentos Linhas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  APLIN [primary]: CODAP+TIPO_PLANO
+
+Columns (6):
+  CNTDEST     Text(15)  Conta Destino
+  CNTORIG     Text(15)  Conta Origem
+  CODAP       Text(5)   Código Movimento
+  TIPO_PLANO  Integer   Tipo de código de contas
+  TPVAL       Integer   Tipo Valor
+  VALOR       Currency  Valor

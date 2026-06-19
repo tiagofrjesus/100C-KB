@@ -1,0 +1,37 @@
+POC — Plano Contas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CONTA [primary, unique]: EXERCICIO+CONTA
+  CONTAA: EXERCICIO+CONTA+CORRA
+  CONTAB: EXERCICIO+CONTA+CORRB
+
+Columns (29):
+  CL9CC                 Text(15)  CL9 Crédito Crédito
+  CL9CD                 Text(15)  CL9 Crédito Débito
+  CL9DC                 Text(15)  CL9 Débito Crédito
+  CL9DD                 Text(15)  CL9 Débito Débito
+  CODFLU                Text(6)   Código Fluxo
+  CODIVA                Text(6)   Código IVA
+  CONTA                 Text(15)  Conta
+  CORRA                 Text(15)  Conta Corresp. A
+  CORRB                 Text(15)  Conta Corresp. B
+  CRIAR_AUXILIAR        Integer   Criar auxiliar
+  CUSTEIO               Text(6)   Centro Custeio
+  DBTS                  23        
+  DESCR                 Text(80)  Descrição
+  DIASTOLRECON          Integer   Dias de Tolerância da Reconciliação
+  DOCUMENTOS_EM_ABERTO  Integer   Documentos em aberto
+  EXERCICIO             Integer   Exercicio
+  FORMATORECON          Text(15)  Formato do Ficheiro da Reconciliação
+  INTANT                Integer   Int. Anterior
+  NDIGITOS              Integer   No. Dígitos
+  NIVINT                Integer   Nível Integração
+  PERIODORECON          Integer   Periodo da Reconciliação
+  POSICAO_TIPO_RELACAO  Integer   Posição tipo relação
+  RECONCILIA            Integer   Reconcilia
+  RUBORC                Text(6)   Rúbrica Orçamental
+  TAXONOMIA             Integer   Código da taxonomia
+  TERC                  Text(15)  Terceiro
+  TIPOEMPRESA           Integer   Tipo da empresa para as taxonomias
+  TIPORECON             Integer   Tipo de Reconciliação
+  TPTERC                Integer   Tipo Terceiro

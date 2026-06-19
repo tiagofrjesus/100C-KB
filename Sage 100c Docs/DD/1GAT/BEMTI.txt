@@ -1,0 +1,15 @@
+BEMTI — Bens - Tipos de Informação GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXBEMTI [primary, unique]: CBEM+CTINF
+
+Columns (9):
+  AGENDAT    Date      II - PARAMETRIZAÇÂO DA RECOLHA / Data da Próxima recolha agendada
+  AGENLOC    Boolean   É recolhido qd/se regista nova localização?
+  AGENSEG    Text(1)   Agenda automáticamente a recolha seguinte: 0=Não; P=Sim, c/periodicidade fixa de; D=Sim, agendando seguinte após
+  AGENSEGN   Byte      Frequencia recolhas, nº (1 a 255)
+  AGENSEGU   Text(4)   Freq.recolhas,unid:d=dias, ww=semanas, m=meses, yyyy=anos
+  CBEM       Text(20)  I - CÒDIGO / Código do Bem
+  CTINF      Text(5)   Tipo de Informação a Recolher do Bem
+  RESVAL     Text(50)  III - RESUMO DE INFORMAÇÂO / Resumo de informação deste tipo (Auto)
+  TEMRESATT  Boolean   Tem chamada de atenção (auto)

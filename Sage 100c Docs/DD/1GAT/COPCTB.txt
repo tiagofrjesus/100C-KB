@@ -1,0 +1,26 @@
+COPCTB — Ctb Compactado  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CONTADOR [primary, unique]: CONTADOR
+
+Columns (20):
+  CCECU1              Long       Código c/custo / Rateio a c/custo da tabela 1
+  CCECU2              Long       Código c/custo / Rateio a c/custo da tabela 2
+  CCECU3              Long       Código c/custo / Rateio a c/custo da tabela 3
+  CCECU4              Long       Código c/custo / Rateio a c/custo da tabela 4
+  CODTERC             Text(15)   Código Terceiro
+  CONTA               Text(15)   CONTA
+  CONTADOR            Long       CONTADOR
+  DATA_CONTABILIDADE  Date       Data da contabilidade
+  DESCRICAO           Text(100)  Descrição da conta
+  DIARIO              Text(3)    DIARIO
+  DOCUMENT            Text(3)    DOCUMENT
+  DSC                 Text(50)   DSC
+  ID                  Long       Identificador
+  NUMDOC              Text(10)   Num.Doc.
+  SECTOR              Text(3)    SECTOR
+  SENTIDO             Text(1)    SENTIDO
+  SERIE               Long       SERIE
+  TIPO_MOVIMENTO      Integer    Tipo de movimento
+  VALORC              Currency   VALORC
+  VALORD              Currency   VALORD

@@ -1,0 +1,9 @@
+PVENDIAS — PosVen Dias Garantia  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (3):
+  CODIGO  Text(5)   Código
+  DESCR   Text(30)  Descrição
+  DIAS    Integer   Dias

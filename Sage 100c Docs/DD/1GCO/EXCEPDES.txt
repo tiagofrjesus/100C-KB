@@ -1,0 +1,33 @@
+EXCEPDES — Excepção Descontos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  GRFSFART [primary, unique]: GRUPO+FAMILIA+SUBFAM+ARTIGO+GRPCLI+CLIENTE
+
+Columns (27):
+  ACTIVO    Integer   Activo
+  ARTIGO    Text(15)  Artigo
+  BONUS1    Currency  Bónus 1
+  BONUS2    Currency  Bónus 2
+  BONUS3    Currency  Bónus 3
+  BONUS4    Currency  Bónus 4
+  BONUS5    Currency  Bónus 5
+  CLIENTE   Text(15)  Cliente
+  DESCCAB   Integer   Usa Desconto Cab.
+  DESCR     Text(25)  Descrição
+  DTFIM     Date      Data Final
+  DTINICIO  Date      Data Inicio
+  FAMILIA   Text(6)   Família
+  GRPCLI    Text(3)   Classe Desc.
+  GRUPO     Text(6)   Grupo
+  LIMITE1   Currency  Limite superior 1
+  LIMITE2   Currency  Limite superior 2
+  LIMITE3   Currency  Limite superior 3
+  LIMITE4   Currency  Limite superior 4
+  LIMITE5   Currency  Limite superior 5
+  PERC1     Text(15)  Desconto composto #1
+  PERC2     Text(15)  Desconto composto #2
+  PERC3     Text(15)  Desconto composto #3
+  PERC4     Text(15)  Desconto composto #4
+  PERC5     Text(15)  Desconto composto #5
+  SUBFAM    Text(6)   Subfamília
+  TIPOCALC  Integer   Tipo de cálculo

@@ -1,0 +1,10 @@
+REEXPCNT — Reexpressão de conta  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ANO [primary, unique]: ANO+ORIGEM+DESTIN
+
+Columns (4):
+  ANO     Integer   ANO
+  DESTIN  Text(15)  DESTIN
+  ORIGEM  Text(15)  ORIGEM
+  VALOR   Currency  VALOR

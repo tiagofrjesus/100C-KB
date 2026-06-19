@@ -1,0 +1,6 @@
+MSGBX — Lista de mensagens do sistema para utilizadores GEST  [1GAT · Sage Gestao de Ativos]
+
+Columns (3):
+  COPER     Text(50)   
+  DATAHORA  Date       
+  TEXTO     Text(255)  

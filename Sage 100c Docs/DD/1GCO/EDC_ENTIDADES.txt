@@ -1,0 +1,10 @@
+EDC_ENTIDADES — Tabela de entidades (Clientes e Fornecedores)  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  NIF [primary]: NIF
+
+Columns (4):
+  CODIGO  Text(15)  Código da Entidade
+  NIF     Text(20)  Número de Contribuinte da Entidade
+  NOME    Text(80)  Nome da Entidade
+  TPTERC  Integer   Tipo de Terceiro (Cliente ou Fornecedor)

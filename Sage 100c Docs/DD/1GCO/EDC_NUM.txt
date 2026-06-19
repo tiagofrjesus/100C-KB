@@ -1,0 +1,5 @@
+EDC_NUM — Numerador de encontro de contas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Columns (2):
+  ANO     Integer  Ano do encontro de contas
+  NUMERO  Long     Número do encontro de contas

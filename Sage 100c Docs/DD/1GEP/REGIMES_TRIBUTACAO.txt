@@ -1,0 +1,8 @@
+REGIMES_TRIBUTACAO — Regimes de tributação  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (2):
+  CODIGO     Text(2)    Código
+  DESCRICAO  Text(140)  Descricao

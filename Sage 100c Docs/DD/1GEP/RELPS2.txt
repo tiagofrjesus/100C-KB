@@ -1,0 +1,12 @@
+RELPS2 — Relatório PS2  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary]: NFUNC+ORIG
+
+Columns (6):
+  FICH   Text(60)  FICH
+  ID     Long      ID
+  NFUNC  Text(10)  NFUNC
+  ORIG   Integer   ORIG
+  TIPO   Integer   TIPO
+  VALOR  Currency  VALOR

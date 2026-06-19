@@ -1,0 +1,12 @@
+MSEXERC — Meses Exercicio  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  MSEXER [primary, unique]: EXERC+NMES
+  ANO: ANO+MESF
+
+Columns (5):
+  ANO       Integer   Ano
+  DESCRICA  Text(20)  Descrição
+  EXERC     Integer   Exercicio
+  MESF      Integer   Mes Final
+  NMES      Integer   Número de Mes

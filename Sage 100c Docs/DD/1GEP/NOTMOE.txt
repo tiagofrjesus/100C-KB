@@ -1,0 +1,8 @@
+NOTMOE — Notas e Moedas  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (2):
+  COD    Integer   Código
+  VALOR  Currency  Valor

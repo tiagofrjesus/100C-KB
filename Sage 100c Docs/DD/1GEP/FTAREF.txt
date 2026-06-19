@@ -1,0 +1,15 @@
+FTAREF — Tipos de serviços  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (9):
+  COD        Text(3)   Código
+  DESCR      Text(30)  Descritivo
+  INCLDR     Integer   Incluir na declaração de rendimentos
+  REGIMEIVA  Integer   Espaço fiscal
+  SUJIVA     Integer   Sujeito a IVA
+  SUJRET     Integer   Sujeito a retenção na fonte
+  TTAR       Integer   Tipo serviço
+  UNID       Text(10)  Sigla das unidades a registar no lançamento de serviços deste tipo
+  VLR        Currency  Valor

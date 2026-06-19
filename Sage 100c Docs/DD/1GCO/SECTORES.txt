@@ -1,0 +1,28 @@
+SECTORES — Sectores  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (22):
+  APLICIVA         Integer   Aplica Iva Terceiros
+  ARMAZEM          Text(6)   Armazém
+  ARMAZEM_INTERNO  Text(6)   Armazém Interno
+  CCUSTO           Text(6)   Livre
+  CNTCAIXA         Text(10)  
+  CNTTESPG         Text(15)  Cnt Tes Pg
+  CNTTESRC         Text(15)  Cnt Tes Rc
+  CODENQ           Text(6)   Cód. Enq. Sector
+  CODGLN           Text(20)  Código GLN
+  CODIGO           Text(3)   Código
+  CODPOST          Text(8)   Cod.Postal
+  CONTACTO         Text(25)  Contacto
+  DESCR            Text(50)  Descrição
+  EMAIL            Text(35)  E-Mail
+  FAX              Text(15)  Fax
+  IVAINC           Integer   Livre
+  LOCALIDA         Text(50)  Localidade
+  MORADA           Text(60)  Morada
+  PAIS             Text(3)   País
+  RESP             Text(50)  Responsável
+  SECTES           Text(3)   Livre
+  TELEFONE         Text(15)  Telefone

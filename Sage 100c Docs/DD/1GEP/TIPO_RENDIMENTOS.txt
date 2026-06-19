@@ -1,0 +1,8 @@
+TIPO_RENDIMENTOS — Tipos de rendimentos (Modelo 30 NR)  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  REFERENECE [primary, unique]: REFERENCE
+
+Columns (2):
+  NAME       Text(200)  Descrição
+  REFERENCE  Text(2)    Código

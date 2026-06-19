@@ -1,0 +1,19 @@
+BANMVBAN — Movimentos Banco  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CHVPRIM [primary, unique]: CHVPRIM
+  EXTRACTO: BANCO+BALCAO+CONTA+CODEXTBA
+
+Columns (12):
+  BALCAO    Text(4)   Balcão
+  BANCO     Text(4)   Banco
+  CHVPRIM   Long      CHVPRIM
+  CODEXTBA  Text(15)  Cód. Ext. Banc.
+  CONTA     Text(21)  Conta
+  DEBCRED   Integer   Débito/Crédito
+  DESCRICA  Text(20)  Descrição
+  DTMOV     Date      Data Mov.
+  DTRECON   Date      Data Recon.
+  DTVALOR   Date      Data Valor
+  NOTAREC   Text(35)  Obs.
+  VALOR     Currency  Valor

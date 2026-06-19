@@ -1,0 +1,25 @@
+FUNCIONARIOSSERVICOS — Serviços de Funcionários  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: NUM_LANC
+  IDX1: COD_OBRA+DATAREGISTO
+
+Columns (18):
+  ARTIGO        Text(15)  
+  AUSENCIA      Text(3)   
+  COD_OBRA      Text(7)   
+  DATAREGISTO   Date      
+  HORABAIXA     Currency  
+  HORAEXTRA1    Double    
+  HORAEXTRA2    Double    
+  HORAEXTRA3    Double    
+  HORAEXTRA4    Double    
+  NUM_LANC      Long      
+  OPERARIO      Text(7)   
+  TEMPO         Double    
+  VALCUSTOHORA  Currency  
+  VALOR         Currency  
+  VHORAEXT1     Currency  
+  VHORAEXT2     Currency  
+  VHORAEXT3     Currency  
+  VHORAEXT4     Currency  

@@ -1,0 +1,12 @@
+ACTMED — Act. Medicina Trabal  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary]: NFUNC+DATA
+
+Columns (6):
+  CUSTO   Currency  Custo
+  DATA    Date      Data
+  MOTIVO  Integer   Motivo do exame
+  NFUNC   Text(10)  Número Funcionário
+  OBS     Text(50)  Observações
+  TIPO    Integer   Tipo de exame

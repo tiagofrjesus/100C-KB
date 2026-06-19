@@ -1,0 +1,27 @@
+EXEPCOMI — Excepção Comissões  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  GFSAGC [primary, unique]: GRUPO+FAMILIA+SUBFAM+ARTIGO+GRPCLI+CLIENTE
+
+Columns (21):
+  ACTIVO   Integer   Activo
+  ARTIGO   Text(15)  Artigo
+  CLIENTE  Text(15)  Cliente
+  DATAFIM  Date      Data Final
+  DATAINI  Date      Data Início
+  DESCR    Text(25)  Descrição
+  FAMILIA  Text(6)   Familia
+  GRPCLI   Text(3)   Classe Com
+  GRUPO    Text(6)   Grupo
+  LIMSUP1  Currency  Limite superior 1
+  LIMSUP2  Currency  Limite superior 2
+  LIMSUP3  Currency  Limite superior 3
+  LIMSUP4  Currency  Limite superior 4
+  LIMSUP5  Currency  Limite superior 5
+  SUBFAM   Text(6)   SubFamília
+  TAXA1    Currency  Taxa1
+  TAXA2    Currency  Taxa2
+  TAXA3    Currency  Taxa3
+  TAXA4    Currency  Taxa4
+  TAXA5    Currency  Taxa5
+  USAC     Integer   Usa Comissão

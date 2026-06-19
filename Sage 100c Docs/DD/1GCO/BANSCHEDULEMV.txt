@@ -1,0 +1,23 @@
+BANSCHEDULEMV — Movimentos Programados  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO
+
+Columns (17):
+  BALCAO         Text(4)   Balcão
+  BANCO          Text(4)   Banco
+  BANMVEMPCHAVE  Long      Chave Primária do BANMVEMP
+  CAMBIO         Double    Câmbio
+  CODIGO         Long      Código Movimento
+  CONTA          Text(21)  Conta
+  DATAMOV        Date      Data do Movimento
+  DATAVALOR      Date      Data do Valor
+  DEBCRED        Integer   Débito/Crédito
+  DESCRICAO      Text(80)  Descrição
+  MOEDA          Text(3)   Moeda
+  MOVPERIOD      Text(15)  Movimento Periódico
+  NATUREZA       Text(3)   Natureza
+  NDOCBAN        Text(24)  Nº Documento
+  SECTOR         Text(3)   Sector
+  TPDOCBAN       Text(3)   Documento Bancário
+  VALOR          Currency  Valor

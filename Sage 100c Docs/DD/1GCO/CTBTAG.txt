@@ -1,0 +1,25 @@
+CTBTAG — CTB Tag  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  NOV [primary]: ANO
+
+Columns (19):
+  ACPOC   Integer   
+  ANO     Integer   
+  CCUST   Text(6)   
+  CODBNC  Text(3)   
+  CODFLU  Text(6)   
+  CODIVA  Text(6)   
+  CONTA   Text(15)  
+  CUST    Text(6)   
+  MES     Integer   
+  NAT     Integer   
+  NOCONT  Text(20)  
+  RUBR    Text(6)   
+  SECT    Text(3)   
+  STAT    Integer   
+  TERC    Text(15)  
+  TPIVA   Integer   
+  TPTERC  Integer   
+  VLC     Currency  
+  VLD     Currency  

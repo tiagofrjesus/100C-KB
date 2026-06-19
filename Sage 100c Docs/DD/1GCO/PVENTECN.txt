@@ -1,0 +1,12 @@
+PVENTECN — PosVen Tecnico  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (6):
+  CODIGO    Text(5)   Código
+  DESLEXTR  Text(15)  Deslocação Extra
+  DESLNORM  Text(15)  Deslocação Normal
+  OBRAEXTR  Text(15)  Mão Obra Extra
+  OBRANORM  Text(15)  Mão Obra Normal
+  TECNICO   Text(30)  Técnico

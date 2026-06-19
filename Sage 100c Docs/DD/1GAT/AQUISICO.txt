@@ -1,0 +1,19 @@
+AQUISICO — Aquisicoes  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  REGISTO [primary, unique]: REGISTO+FICHA
+  FICHA: FICHA
+
+Columns (12):
+  DATA      Date      Data Factura
+  FACTURA   Text(30)  Número da Factura
+  FICHA     Text(15)  Ficha
+  FORNECED  Text(15)  Fornecedor
+  IVADEDUT  Currency  Iva Dedutível
+  IVANDEDU  Currency  Iva Não Dedutível
+  NDOCCTB   Text(15)  Numero Doc CTB
+  ORIGEM    Integer   ORIGEM
+  REGISTO   Long      Contador
+  SITDESCA  Integer   Situação Descarga
+  TAXAIVA   Integer   Taxa Iva
+  VALORIMP  Currency  Valor Imputado

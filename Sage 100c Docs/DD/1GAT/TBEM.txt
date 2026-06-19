@@ -1,0 +1,26 @@
+TBEM — Tipos de Bens GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXTBEM [primary, unique]: CTBEM
+
+Columns (20):
+  CTBEM      Text(5)    I - CÒDIGO / Código do Tipo de Bem
+  DESCR      Text(25)   II - GERAL / Designação do Tipo de Bem
+  ETITULO    Boolean    Tipo de Bem é título?
+  INICBAR    Boolean    Gera automáticamente código de barras ao abrir novo bem?
+  INICBEM    Text(10)   Iniciar código de bem com
+  INICLOC    Text(13)   Iniciar Localização com (Tratamento Localizações)
+  INICRES    Text(15)   Iniciar Responsável com (Tratamento Localizações)
+  INICSEC    Text(15)   Iniciar secção com
+  INIDESCR   Text(30)   IV - VALORES POR DEFEITO / Iniciar Descrição com
+  OBS        Text(255)  Descrição detalhada
+  TEMAPOLI   Boolean    Regista Nº Apólices?
+  TEMCBAR    Boolean    Regista Código de Barras?
+  TEMDIM     Boolean    Regista dimensões para bens do tipo?
+  TEMETIQ    Boolean    III - TRATAMENTOS / Imprime Etiquetas?
+  TEMINF     Boolean    Utiliza Informações configuráveis p/bens do tipo?
+  TEMLOC     Boolean    Efectua registos de Localizações?
+  TEMMARMOD  Boolean    II - CARACTERIZAÇÃO / Regista Marca e Modelo
+  TEMPECAS   Boolean    Regista Nº de Série e Garantias?
+  TEMQTD     Boolean    Regista Quantidade?
+  TEMREFER   Boolean    Regista Referência?

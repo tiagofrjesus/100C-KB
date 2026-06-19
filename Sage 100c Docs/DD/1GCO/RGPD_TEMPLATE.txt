@@ -1,0 +1,9 @@
+RGPD_TEMPLATE — Template para o documento de consentimento  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: ID
+
+Columns (3):
+  CORPO   Memo      Corpo template
+  ID      Text(50)  ID template
+  TITULO  Memo      Titulo template

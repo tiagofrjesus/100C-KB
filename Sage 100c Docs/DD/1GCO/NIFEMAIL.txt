@@ -1,0 +1,8 @@
+NIFEMAIL — Nifs e respectivos emails para envio de fatura eletrónica Sage  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  NIF [primary, unique]: NIF
+
+Columns (2):
+  EMAIL  Text(500)  Email para envio da fatura eletrónica Sage
+  NIF    Text(20)   NIF do Terceiro

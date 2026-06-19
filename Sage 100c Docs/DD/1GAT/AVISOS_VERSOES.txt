@@ -1,0 +1,9 @@
+AVISOS_VERSOES — Avisos de Versões  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  IDX [primary, unique]: VERSAO
+
+Columns (3):
+  LIDO      Integer   Aviso Lido?
+  MENSAGEM  Memo      Mensagem
+  VERSAO    Text(10)  Versão

@@ -1,0 +1,20 @@
+SSEURO — Hist. Seg. Social (E  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary]: ANO+MES+NFUNC
+
+Columns (14):
+  ANO      Integer   ANO
+  CDFIXO   Text(3)   CDFIXO
+  CDSSOC   Text(4)   CDSSOC
+  DATAREM  Date      DATAREM
+  DIAS     Single    DIAS
+  ESTAB    Text(4)   ESTAB
+  GRP      Integer   GRP
+  INSTSS   Text(3)   INTSS
+  MES      Integer   MES
+  NFUNC    Text(10)  NFUNC
+  REGIME   Text(35)  REGIME
+  TAXA     Single    TAXA
+  TOTREM   Currency  TOTREM
+  TPREM    Integer   TPREM

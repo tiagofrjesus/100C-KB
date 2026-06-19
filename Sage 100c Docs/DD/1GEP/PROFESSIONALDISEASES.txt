@@ -1,0 +1,9 @@
+PROFESSIONALDISEASES — Doenças Profissionais de Participação Obrigatória  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  INDEX [primary, unique]: PROFESSIONALDISEASERISKAGENT+REFERENCE
+
+Columns (3):
+  NAME                          Memo     Descrição
+  PROFESSIONALDISEASERISKAGENT  Text(4)  Factor de Risco
+  REFERENCE                     Text(3)  Código

@@ -1,0 +1,10 @@
+RESDES — Restrição Descritivo  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  RESDES [primary, unique]: EXERCICIO+CONTA+TPDOC+CODAUT
+
+Columns (4):
+  CODAUT     Text(5)   Descritivo Aut.
+  CONTA      Text(15)  Conta
+  EXERCICIO  Integer   Exercício
+  TPDOC      Text(3)   Tipo Documento

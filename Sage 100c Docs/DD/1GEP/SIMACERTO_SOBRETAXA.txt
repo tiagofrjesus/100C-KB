@@ -1,0 +1,12 @@
+SIMACERTO_SOBRETAXA — Simulação - Acerto da sobretaxa I.R.S.  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NFUNC [primary, unique]: NFUNC+DATA+ORIGEM+TIPO_RECIBO+RENDIMENTOS_SUJEITOS_IRS
+
+Columns (6):
+  DATA                      Date      Data da alteração
+  NFUNC                     Text(10)  Código do funcionário
+  ORIGEM                    Integer   Origem da alteração
+  RENDIMENTOS_SUJEITOS_IRS  Text(3)   Tipo de rendimento sujeito a I.R.S.
+  TIPO_RECIBO               Integer   Tipo de recibo
+  VALOR                     Currency  Valor

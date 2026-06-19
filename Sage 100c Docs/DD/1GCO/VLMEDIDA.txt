@@ -1,0 +1,17 @@
+VLMEDIDA — Valor Medida Linhas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPDOC [primary, unique]: ANO+TPDOC+SERIE+NUMDOC+LINHA
+
+Columns (11):
+  ANO       Integer    Ano
+  FORMULA   Text(100)  Fórmula
+  LINHA     Integer    Linha do Documento
+  NUMDOC    Long       Número do documento
+  SERIE     Integer    Série
+  TPDOC     Text(3)    Tipo de Documento
+  VAR1      Currency   Valor da Variável 1
+  VAR2      Currency   Valor da Variável 2
+  VAR3      Currency   Valor da Variável 3
+  VAR4      Currency   Valor da Variável 4
+  VLFORMUL  Double     Valor da Fórmula

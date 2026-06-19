@@ -1,0 +1,11 @@
+SEGURADORAS — Seguradoras  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  COD [primary, unique]: CODIGO
+
+Columns (5):
+  AGENCIA    Text(25)  Agência
+  APOLICE    Text(15)  Apólice
+  CODIGO     Text(4)   Código
+  DESCRICAO  Text(25)  Descrição
+  RAMO       Text(15)  Ramo

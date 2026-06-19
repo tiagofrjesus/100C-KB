@@ -1,0 +1,11 @@
+ACPIVA — Ac. Plano IVA  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ACPIVA [primary, unique]: ANO+MES+CODIVA
+
+Columns (5):
+  ANO     Integer   Ano
+  CODIVA  Text(6)   Código IVA
+  MES     Integer   Mês
+  VLBASE  Currency  Valor Base
+  VLIVA   Currency  Valor IVA

@@ -1,0 +1,12 @@
+SUBEMPIMPORT — Importação de sub-empreiteiros  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD_ORC+ORC_SE+AUTO_DESTINO+AUTO_ORIGEM+NOME
+
+Columns (6):
+  AUTO_DESTINO  Integer   Auto de produção destino da importação
+  AUTO_ORIGEM   Integer   Auto de subempreiteiro origem da importação
+  COD_ORC       Text(6)   Código do orçamento
+  EXECUTADO     Currency  Quantidade executada no auto
+  NOME          Long      Identificador do elemento no orçamento
+  ORC_SE        Integer   Número do subempreiteiro

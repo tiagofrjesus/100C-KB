@@ -1,0 +1,8 @@
+ABONODES — Desc.Assoc.Abon.  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  CABONO [primary, unique]: CABONO+CDESC
+
+Columns (2):
+  CABONO  Text(10)  Código do Abono
+  CDESC   Text(10)  Código do Desconto

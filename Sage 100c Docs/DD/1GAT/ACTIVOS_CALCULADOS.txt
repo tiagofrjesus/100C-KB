@@ -1,0 +1,45 @@
+ACTIVOS_CALCULADOS — Valores calculados  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (39):
+  CODIGO                                   Text(20)   Código do activo
+  CONTA                                    Text(15)   Conta
+  DATA_ABATE                               Date       Data de abate
+  DATA_AQUISICAO                           Date       Data de aquisição
+  DECRETO_ULTIMA_REAVALIACAO               Integer    Decreto da última reavaliação
+  DEPRECIACOES_ACUMULADAS_ACEITES          Currency   Depreciações acumuladas aceites fiscalmente
+  DEPRECIACOES_ACUMULADAS_NAO_REAVALIADAS  Currency   Depreciações acumuladas não reavaliadas
+  DEPRECIACOES_ACUMULADAS_REAVALIADAS      Currency   Depreciações acumuladas reavaliadas
+  DEPRECIACOES_ACUMULADAS_RECUPERADAS      Currency   Depreciações acumuladas recuperadas
+  DEPRECIACOES_EXERCICIO_ACEITES           Currency   Depreciações do exercício aceites fiscalmente
+  DEPRECIACOES_EXERCICIO_NAO_REAVALIADAS   Currency   Depreciações do exercício não reavaliadas
+  DEPRECIACOES_EXERCICIO_REAVALIADAS       Currency   Depreciações do exercício reavaliadas
+  DEPRECIACOES_EXERCICIO_RECUPERADAS       Currency   Depreciações do exercício recuperadas
+  DEPRECIACOES_PERIODO_ACEITES             Currency   Depreciações do período aceites fiscalmente
+  DEPRECIACOES_PERIODO_NAO_REAVALIADAS     Currency   Depreciações do período não reavaliadas
+  DEPRECIACOES_PERIODO_REAVALIADAS         Currency   Depreciações do período reavaliadas
+  DESCRICAO_INDIVIDUAL                     Integer    Descrição individual
+  IMPARIDADES_ACUMULADAS                   Currency   Imparidades acumuladas
+  IMPARIDADES_ACUMULADAS_ACEITES           Currency   Imparidades acumuladas aceites fiscalmente
+  IMPARIDADES_ACUMULADAS_RECUPERADAS       Currency   Imparidades acumuladas recuperadas
+  IMPARIDADES_EXERCICIO                    Currency   Imparidades do exercício
+  IMPARIDADES_EXERCICIO_ACEITES            Currency   Imparidades do exercício aceites fiscalmente
+  IMPARIDADES_EXERCICIO_RECUPERADAS        Currency   Imparidades do exercício recuperadas
+  IMPARIDADES_PERIODO                      Currency   Imparidades do período
+  IMPARIDADES_PERIODO_ACEITES              Currency   Imparidades do período aceites fiscalmente
+  NOVO                                     Integer    Novo ou usado
+  OBSERVACOES_ESPECIAIS                    Text(100)  Observações especiais
+  PERCENTAGEM_DEPRECIACAO_ACEITE           Currency   Percentagem de depreciação aceite
+  REEXPRESSAO_DEPRECIACOES_ACUMULADAS      Currency   Reexpressão das depreciações acumuladas
+  REEXPRESSAO_DEPRECIACOES_PERIODO         Currency   Reexpressão das depreciações no período
+  REVALORIZACOES_ACUMULADAS                Currency   Revalorizações acumuladas
+  REVALORIZACOES_EXERCICIO                 Currency   Revalorizações do exercício
+  REVALORIZACOES_PERIODO                   Currency   Revalorizações do período
+  TAXAS_PERDIDAS_ACUMULADAS                Currency   Taxas perdidas acumuladas
+  TAXAS_PERDIDAS_EXERCICIO                 Currency   Taxas perdidas do exercício
+  TAXA_DEPRECIACAO_UTILIZADA               Single     Taxa de depreciação utilizada
+  UPDATEDATE                               Date       Data da última alteração
+  VALOR_AQUISICAO_NAO_REAVALIADO           Currency   Valor de aquisição não reavaliado
+  VALOR_AQUISICAO_REAVALIADO               Currency   Valor de aquisição reavaliado

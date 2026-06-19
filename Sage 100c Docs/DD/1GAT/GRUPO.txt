@@ -1,0 +1,9 @@
+GRUPO — Tabela de grupos de operadores GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXGRUPO [primary, unique]: CGR
+
+Columns (3):
+  CGR    Text(5)    
+  DESCR  Text(40)   
+  OBS    Text(255)  

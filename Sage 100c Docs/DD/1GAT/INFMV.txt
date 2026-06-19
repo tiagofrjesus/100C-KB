@@ -1,0 +1,12 @@
+INFMV — Recolha de Informação de Bens GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXINFMV [primary, unique]: CBEM+DATA+CTINF
+
+Columns (6):
+  CBEM   Text(20)   Código do Bem onde a informação foi recolhida
+  COPER  Text(8)    Operador que efectuou a recolha
+  CTINF  Text(5)    Código do Tipo de Informação recolhida
+  DATA   Date       Data e Hora da Recolha
+  OBS    Text(255)  Observações
+  VALOR  Text(255)  Medida Recolhida

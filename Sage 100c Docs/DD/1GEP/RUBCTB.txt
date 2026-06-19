@@ -1,0 +1,8 @@
+RUBCTB — Rubricas  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  RUB [primary, unique]: RUB
+
+Columns (2):
+  DESCR  Text(30)  Descrição
+  RUB    Text(6)   Código da Rubrica

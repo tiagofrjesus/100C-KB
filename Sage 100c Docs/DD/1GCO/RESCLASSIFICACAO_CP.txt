@@ -1,0 +1,9 @@
+RESCLASSIFICACAO_CP — Restrição classificação das alterações no Capital Próprio  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  EXERCICIO [primary, unique]: EXERCICIO+CONTA
+
+Columns (3):
+  CODIGO     Text(3)   Código da classificação
+  CONTA      Text(15)  Conta
+  EXERCICIO  Integer   Exercício

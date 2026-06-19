@@ -1,0 +1,16 @@
+DOCGCLIN_AUTOS — Ligação Documentos - Autos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: TPDOC+ANO+SERIE+NUMDOC+NUMERO_LINHA
+
+Columns (10):
+  ANO            Integer  Ano
+  COD_ORC        Text(6)  Código do Processo
+  NUMDOC         Long     Número Documento
+  NUMERO_LINHA   Integer  Número da Linha
+  ORC_SE         Long     Nº Orçamento Subemp.
+  SERIE          Integer  Série
+  SITUACAO       Integer  Situação
+  TIPO_AUTO      Text(1)  Tipo de Auto
+  TIPO_TRABALHO  Integer  Tipo de Trabalho
+  TPDOC          Text(3)  Tipo Documento

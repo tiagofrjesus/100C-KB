@@ -1,0 +1,42 @@
+NOMSERIE — Nome das Séries  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TDOC [primary, unique]: TIPODOC+SERIE
+  CODIGO: SERIE
+
+Columns (35):
+  ARQUIVAR                       Integer    Arquivo digital
+  CAE                            Text(6)    CAE
+  CODDIAR                        Text(3)    Diário
+  CTRLNUM                        Integer    Tipo Ctrl. Numeração
+  DBTS                           23         
+  DESCR                          Text(100)  Descrição
+  DOCUMENTO_GLOBAL               Integer    Documento global
+  EMITIDO_TERCEIRO               Integer    Documento emitido pelo terceiro
+  ESTADO                         Text(250)  Estado da série
+  EXPORTA_SAFT                   Integer    Indica se a série é exportada para o SAF-T ou não
+  FACTURA_ELECTRONICA            Integer    Série destinada a documentos da facturação electronica
+  FORMA_ENVIO                    Integer    Forma de envio de documentos
+  FORNECEDOR                     Text(15)   Fornecedor do documento autofacturado
+  FORNECEDOR_GENERICO            Integer    Indica se a serie pertence a um fornecedor generico
+  IMPRIME                        Integer    Imprime Doc. Destino
+  LINPRC                         Integer    Linha de Preços
+  MANUAL_EXTERNAL_SERIE          Text(3)    Série do documento manual externo
+  MANUAL_PROCESSING              Integer    Processamento manual
+  MDCRIAR                        Integer    Livre
+  MDDEST                         Integer    livre
+  NOVA_SERIE                     Integer    Nova série para os tipos de numeração
+  ORIGEM                         Integer    Origem da série
+  ORIGEM_RECEBIMENTOS            Integer    Origem da série nos recebimentos
+  REGIME                         Text(3)    Reg.IVA Alternativo
+  RESERVADO_POS                  Integer    Reservado POS
+  RIC                            Integer    Regime de I.V.A. de caixa
+  RIC_TERCEIRO                   Integer    Terceiro com regime de I.V.A. de caixa
+  SERIE                          Integer    Série
+  SERIECONVDEV                   Integer    Série destino para conversão em documento de devolução
+  SERIEDES                       Integer    Série Destino
+  SERIE_DOCUMENTO_RECTIFICATIVO  Integer    Série do documento rectificativo
+  TIPODOC                        Text(3)    Tipo Documento
+  TIPO_DOCUMENTO_RECTIFICATIVO   Text(3)    Tipo de documento rectificativo
+  TPDCDEST                       Text(3)    Doc. Conversão
+  TPDOCCONVDEV                   Text(3)    Documento destino para conversão em documento de devolução

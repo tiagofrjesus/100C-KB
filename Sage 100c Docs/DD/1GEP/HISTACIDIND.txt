@@ -1,0 +1,10 @@
+HISTACIDIND — Histórico de Acidentes prestadores de serviços  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: OP+DATA
+
+Columns (4):
+  DATA         Date       Data do Acidente
+  OBSERVACOES  Text(100)  Observações
+  OP           Text(10)   Prestador de serviços
+  TPINCAP      Integer    Consequência

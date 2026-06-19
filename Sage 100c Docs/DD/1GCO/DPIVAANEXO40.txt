@@ -1,0 +1,15 @@
+DPIVAANEXO40 — DP iva anexo 40  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: ANO+TPDOC+SERIE+NNUMDOC+ANONC+MESNC+ARTIGO
+
+Columns (9):
+  ANO        Integer   Ano do documento
+  ANONC      Integer   Ano da nota de credito
+  ARTIGO     Integer   Artigo do codigo do iva
+  MESNC      Integer   Mes da nota de credito
+  NNUMDOC    Long      Numero do documento
+  SERIE      Integer   Serie do documento
+  TPDOC      Text(3)   Tipo de documento
+  VALORBASE  Currency  Valor Base
+  VALORIVA   Currency  Valor Iva

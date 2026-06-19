@@ -1,0 +1,15 @@
+REFANEXO — Referencia do Anexo  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO+TIPO+REF
+
+Columns (9):
+  CODIGO    Long       
+  DESCR     Text(100)  Descrição
+  FORMULA   Text(250)  Fórmula
+  NOTA      Text(10)   Nota
+  REF       Text(10)   Referência
+  TIPO      Long       
+  TIPODADO  Long       
+  VALOR     Text(250)  Valor
+  VISIVEL   Integer    

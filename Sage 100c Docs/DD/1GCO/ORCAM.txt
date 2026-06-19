@@ -1,0 +1,65 @@
+ORCAM — Orçamentos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD_ORC+NOME
+
+Columns (59):
+  ABSOLUTEINDEX    Integer   
+  ACTIV            Text(80)  
+  ARTIGO           Text(15)  
+  COD_ORC          Text(6)   
+  COD_SE           Text(15)  
+  CUSTO            Currency  
+  CUSTO_UNIT       Currency  
+  C_ART            Currency  
+  DESCRICAO        Text(80)  
+  DESC_COMP        Memo      
+  DETALHE          Boolean   
+  EMAUTO           Text(3)   
+  EQUIV            Text(15)  
+  ERRO             Boolean   
+  E_MEDICOES       Memo      
+  E_QUANTIDADE     Currency  
+  FILHOS           Integer   
+  FIXO             Boolean   
+  FLAG             Boolean   
+  IDENT            Text(32)  
+  IDENT_ALT        Text(32)  
+  IDENT_CALC       Text(32)  
+  IVA_TIPO         Integer   
+  LUCRO            Currency  
+  LUCRO_UNIT       Currency  
+  MEDICOES         Memo      
+  NIVEL            Integer   
+  NOME             Long      
+  NOME_PAI         Long      
+  NOME_RENDIMENTO  Long      
+  OMISSAO          Boolean   
+  ORC_SE           Integer   
+  ORDEM            Integer   
+  P_CUSTO          Currency  
+  P_DIVER          Currency  
+  P_EQUIP          Currency  
+  P_MAO            Currency  
+  P_MAT            Currency  
+  P_SUBEMP         Currency  
+  QUANTIDADE       Currency  
+  Q_ART            Currency  
+  RECURSO          Text(32)  
+  RENDIMENTO       Boolean   
+  TIPO             Text(20)  
+  TIPOPRECO        Integer   
+  UNID_O           Text(3)   
+  U_G              Text(1)   
+  VALOR            Currency  
+  VENDA            Currency  
+  VENDAIVA1        Currency  
+  VENDAIVA2        Currency  
+  VENDAIVA3        Currency  
+  VENDAIVA4        Currency  
+  VENDA_UNIT       Currency  
+  V_DIVER          Currency  
+  V_EQUIP          Currency  
+  V_MAO            Currency  
+  V_MAT            Currency  
+  V_SUBEMP         Currency  

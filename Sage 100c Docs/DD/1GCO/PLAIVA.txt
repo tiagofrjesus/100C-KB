@@ -1,0 +1,45 @@
+PLAIVA — Plano IVA  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIVA [primary, unique]: EXERCICIO+CODIVA
+
+Columns (39):
+  AANEX1B             Integer   Base Anual 1ºAnexo
+  AANEX1I             Integer   IVA Anual 1ºAnexo
+  AANEX2B             Integer   Base Anual 2ºAnexo
+  AANEX2I             Integer   IVA Anual 2ºAnexo
+  ANEXO_40            Integer   Anexo 40 da declaração períodica
+  ANEXO_41            Integer   Anexo 41 da declaração períodica
+  AUTOLIQ             Text(6)   Autoliquidação
+  CNTIVA              Text(15)  Conta IVA
+  CODIVA              Text(6)   Código IVA
+  CONTA_NAO_EXIGIVEL  Text(15)  Conta de I.V.A. não exigível
+  DESCR               Text(50)  Descrição
+  DTLIMIT             Date      Data limite
+  ESPFIS              Integer   Espaço Fiscal
+  EXERCICIO           Integer   Exercício
+  GRAU                Integer   Grau
+  IVA                 Integer   Regime de IVA
+  IVASUP              Text(15)  Conta Iva Suportado
+  MERC                Integer   Mercado
+  OF1AN               Integer   IVA Ofertas 1º Anexo
+  OF2AN               Integer   IVA Ofertas 2º Anexo
+  OFPER               Integer   IVA Ofertas Per.
+  PANEX1B             Integer   Base Per. 1ºAnexo
+  PANEX1I             Integer   IVA Per. 1ºAnexo
+  PANEX2B             Integer   Base Per. 2ºAnexo
+  PANEX2I             Integer   IVA Per. 2ºAnexo
+  POSBA               Integer   Pos. Base Anual
+  POSBM               Integer   Pos. Base Mensal
+  POSBO               Integer   Pos. Base Outros
+  POSIA               Integer   Pos. IVA Anual
+  POSIM               Integer   Pos. IVA Mensal
+  POSIO               Integer   Pos. IVA Outros
+  Q06_ANEXO1          Integer   Quadro 06 do 1º anexo da periódica
+  Q06_ANEXO2          Integer   Quadro 06 do 2º anexo da periódica
+  Q06_PERIODICA       Integer   Quadro 06 da periódica
+  RECAP               Integer   Recapitulativo
+  TAXA                Currency  Taxa IVA
+  TPBEM               Integer   Tipo Bem
+  TPIVA               Integer   Regime de IVA
+  TXNDED              Currency  Taxa Não Dedutível

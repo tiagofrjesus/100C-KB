@@ -1,0 +1,27 @@
+ALERT — Alertas Programados GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXALERT [primary, unique]: NREG
+
+Columns (21):
+  CEVE       Text(20)   
+  DESCR      Memo       
+  DTALERTA   Date       
+  EINACT     Boolean    
+  EMAILFROM  Text(50)   
+  EMAILSBJ   Text(50)   
+  EMAILTO    Text(50)   
+  EMAILWHEN  Text(2)    
+  EMALERTA   Boolean    
+  LIMTSSTR   Memo       
+  MESAG      Memo       
+  MSGBXTO    Text(255)  
+  MSGBXWHEN  Text(2)    
+  NOSQLSEL   Integer    
+  NOSQLSELA  Integer    
+  NREG       Integer    
+  PAINELTO   Text(255)  
+  SQLSEL     Memo       
+  USAEMAIL   Boolean    
+  USAMSGBX   Boolean    
+  USAPAINEL  Boolean    

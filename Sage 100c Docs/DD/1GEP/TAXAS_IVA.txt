@@ -1,0 +1,16 @@
+TAXAS_IVA — Taxas de I.V.A.  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  DATA [primary, unique]: DTINICIOVIGORTAXAS
+
+Columns (10):
+  DTINICIOVIGORTAXAS  Date      Data de início de entrada em vigor das taxas
+  TXACOINT            Currency  Taxa intermédia - Açores
+  TXACONOR            Currency  Taxa normal - Açores
+  TXACORED            Currency  Taxa reduzida - Açores
+  TXCONINT            Currency  Taxa intermédia - Continente
+  TXCONNOR            Currency  Taxa normal - Continente
+  TXCONRED            Currency  Taxa reduzida - Continente
+  TXMADINT            Currency  Taxa intermédia - Madeira
+  TXMADNOR            Currency  Taxa normal - Madeira
+  TXMADRED            Currency  Taxa reduzida - Madeira

@@ -1,0 +1,19 @@
+DIARIO — Diários  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (13):
+  AJUSTES_SNC  Integer   Diário de ajuste SNC
+  BALCL9       Integer   Tipo Bal. Classe 9
+  CODIGO       Text(3)   Código
+  DESCR        Text(50)  Descrição
+  IMPAUT       Integer   Impressão Aut.
+  JNLCONF      Integer   Janela Confirmação
+  MODEL        Text(30)  Modelo Impressão #1
+  MODIMP2      Text(30)  Modelo Impressão #2
+  MODIMP3      Text(30)  Modelo Impressão #3
+  MODIMP4      Text(30)  Modelo Impressão #4
+  ORIG         Integer   Origem
+  TIPO         Integer   Tipo
+  TPNUM        Integer   Numeração

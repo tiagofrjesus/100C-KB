@@ -1,0 +1,11 @@
+MEIOIMP — Meios Imp  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  MEIOIMP [primary, unique]: MEIOPGT+BANCO
+
+Columns (5):
+  BANCO    Text(3)   Banco
+  EMAIL    Text(35)  EMail Banco
+  MEIOPGT  Text(3)   Meio Pgto
+  MODFICH  Text(15)  Modelo Ficheiro
+  MODIMP   Text(20)  Modelo Imp

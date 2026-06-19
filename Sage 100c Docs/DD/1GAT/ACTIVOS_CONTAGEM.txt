@@ -1,0 +1,14 @@
+ACTIVOS_CONTAGEM — Activos na contagem  [1GAT · Sage Gestao de Ativos]
+
+Columns (11):
+  CBARRAS           Text(15)   Código de barras
+  CODIGO            Text(20)   Código do activo
+  CONTA_POC         Text(15)   Conta POC
+  DATA_ABATE        Date       Data de abate
+  DATA_AQUISICAO    Date       Data de aquisição
+  DESCRICAO         Text(100)  Descrição
+  ESTABELECIMENTO   Text(5)    Estabelecimento
+  ESTADO            Integer    Estado
+  LOCALIZACAO       Text(13)   Localização
+  NUMERO_ELEMENTOS  Integer    Número de elementos
+  UTILIZADOR        Text(15)   Utilizador

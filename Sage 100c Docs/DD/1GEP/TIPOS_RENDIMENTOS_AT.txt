@@ -1,0 +1,9 @@
+TIPOS_RENDIMENTOS_AT — Tipos de rendimentos para a declaração de remunerações mensal  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  REFERENCE [primary, unique]: REFERENCE
+
+Columns (3):
+  NAME       Text(250)  Descrição
+  REFERENCE  Text(3)    Código
+  RTYPE      Integer    Tipo de rendimento

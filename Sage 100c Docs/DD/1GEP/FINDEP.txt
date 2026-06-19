@@ -1,0 +1,93 @@
+FINDEP — Tabela de prestadores de serviços  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (87):
+  AUTORIZACAO_RESIDENCIA         Text(10)  Autorização de residência
+  BIC                            Text(11)  B.I.C.
+  CACT                           Text(6)   Cód. Atividade
+  CAE                            Text(6)   CAE
+  CBALC                          Text(4)   Código Balcão
+  CBALCI                         Text(4)   Cód. Balcão O.P.
+  CBANC                          Text(4)   Código Banco
+  CBANCI                         Text(4)   Cód. Banco O.P.
+  CCTB                           Text(15)  Conta Contabilidade
+  CCUST                          Text(6)   Centro Custo
+  COD                            Text(10)  Código
+  CODPROF                        Text(6)   Código Profissão
+  CODTAR                         Text(3)   Código Tarefa
+  CONCE                          Text(2)   Concelho
+  CONSENTIMENTO_DATA_HORA        Date      Consentimento data hora
+  CONSENTIMENTO_UTILIZADOR       Text(20)  Consentimento utilizador
+  CPOST                          Text(8)   Código Postal
+  DATAF                          Date      Data Fim
+  DATAI                          Date      Data Inicio
+  DEPARTAMENTO                   Text(10)  Departamento
+  DFISC                          Integer   Domicilio Fiscal
+  DISTR                          Text(2)   Distrito
+  DTEMI                          Date      Data Emissão
+  DTNESC                         Date      Dt Nascimento
+  EMAIL                          Text(50)  Endereço Mail
+  ESQUECIMENTO                   Integer   Pedido de esquecimento de dados pessoais
+  ESQUECIMENTO_DATA_HORA         Date      Esquecimento data hora
+  ESQUECIMENTO_UTILIZADOR        Text(20)  Esquecimento utilizador
+  ESTB                           Text(4)   Estabelecimento
+  ESTCIV                         Integer   Estado Civil
+  EXCLUSIVIDADE                  Integer   Prestador em exclusividade
+  FAX                            Text(9)   Fax
+  FUNC                           Text(4)   Função
+  HORASACTIVIDADE                Integer   Horas de Atividade
+  IBAN                           Text(34)  I.B.A.N
+  INACT                          Integer   Inativo
+  INCLUIR_ANEXOF                 Integer   Incluir prestador de serviços no anexo F do Relatório único
+  IVA                            Single    Iva
+  LCEMI                          Text(20)  Local Emissão
+  LOCAL                          Text(40)  Localidade
+  MORAD                          Text(50)  Morada
+  MPAG                           Integer   Modo Pagamento
+  NACIO                          Integer   Nacionalidade
+  NATURALIDADE_CONCELHO          Text(2)   Naturalidade - concelho
+  NATURALIDADE_DISTRITO          Text(2)   Naturalidade - distrito
+  NBI                            Text(10)  Nº Bilhete Ident.
+  NCONT                          Text(10)  Nº Contribuinte
+  NFUNC                          Text(10)  Código do funcionário (regime acumulação)
+  NIB                            Text(21)  N.I.B.
+  NIBI                           Text(21)  Nib O.P.
+  NIF_PAIS_RESIDENCIA            Text(20)  Número identificação fiscal no pais de residência
+  NOMBCI                         Text(50)  Balcão O.P.
+  NOMBNI                         Text(50)  Banco O.P.
+  NOME                           Text(50)  Nome
+  NOME_PREFERIDO                 Text(80)  Nome de tratamento preferido
+  NSSOC                          Text(11)  Nº Seg. Social
+  NUMERO_CARTAO_CIDADAO          Text(13)  Nº Cartão Cidadão
+  OBS                            Memo      Observações
+  PAIS                           Integer   País
+  PAIS_ISO3166                   Text(3)   País ISO3166
+  PAIS_RESIDENCIA                Text(3)   País de residência
+  PASSP                          Text(20)  Passaporte
+  PPDEF                          Integer   Pag. p/ Defeito
+  REGIME_REFORMA_APLICADO        Text(1)   Regime de reforma aplicado (reduzido)
+  REGIME_TRIBUTACAO              Text(2)   Código de regime de tributação
+  RETC                           Single    Retenção
+  RGPD_CONSENTIMENTO_TRAT_DADOS  Integer   Consentimento de tratamento de dados pessoais
+  RGPD_ESTADO                    Integer   Estado do consentimento
+  SECCAO                         Text(10)  Secção
+  SECT                           Text(4)   Setor
+  SERVICEPROVIDERS               Text(1)   Tipo de prestador
+  SEXO                           Text(1)   Sexo
+  TELEF                          Text(15)  Telefone
+  TELEM                          Text(15)  Telemóvel
+  TEMIVA                         Integer   Líquida IVA
+  TIMP                           Integer   Tipo Imposto
+  TIPO_CODIGO_ACTIVIDADE         Text(1)   Tipo de código de atividade
+  TPER                           Integer   Tipo Periodo
+  TRABALHADORES                  Integer   Número Trabalhadores
+  TREND                          Text(3)   Tipo Rendimento
+  UPDATEDATE                     Date      Data da última alteração
+  VALIDADE_AR                    Date      Data de validade da autorização de residência
+  VALIDADE_BI                    Date      Data de validade do bilhete de identidade
+  VALIDADE_CC                    Date      Data de validade do cartão de cidadão
+  VALIDADE_P                     Date      Data de validade do passaporte
+  VLR                            Currency  Valor
+  WEBS                           Text(50)  Página WEB

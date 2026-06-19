@@ -1,0 +1,16 @@
+SIMULLIN — Simulação Linhas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  COMPONEN [primary]: COMPONEN
+
+Columns (10):
+  COMPONEN  Text(15)  Componente
+  COMPOSTO  Text(15)  COMPOSTO
+  DESCRICA  Text(80)  Descrição
+  NIVEL     Integer   Nivel
+  QTEXIST   Currency  Existencia
+  QTFALTA   Currency  Falta
+  QTNECESS  Currency  Necessário
+  QTPROD    Currency  Produzir
+  QTTEORIC  Currency  Teorico
+  TIPOPROD  Text(20)  Tipo Produto

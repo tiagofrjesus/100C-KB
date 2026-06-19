@@ -1,0 +1,20 @@
+CCUST — Centros de Custo  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+  CCTB: CCTB
+
+Columns (13):
+  CCTB   Text(6)   Corres. Contab.
+  COD    Text(6)   Código
+  DESCR  Text(25)  Descrição
+  P1     Text(13)  P1
+  P10    Text(13)  P10
+  P2     Text(13)  P2
+  P3     Text(13)  P3
+  P4     Text(13)  P4
+  P5     Text(13)  P5
+  P6     Text(13)  P6
+  P7     Text(13)  P7
+  P8     Text(13)  P8
+  P9     Text(13)  P9

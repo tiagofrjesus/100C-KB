@@ -1,0 +1,17 @@
+COBRA — Custos de obra  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: NUM_LANC
+  IDX1: COD_OBRA+DATAREGISTO
+
+Columns (10):
+  COD_FAM      Text(6)   
+  COD_OBRA     Text(6)   
+  COD_SUB      Text(6)   
+  DATAREGISTO  Date      
+  DESCRICAO    Text(80)  
+  GRUPO        Text(6)   
+  NUM_LANC     Long      
+  OPERARIO     Text(6)   
+  ORIGEM       Text(32)  
+  VALOR        Currency  

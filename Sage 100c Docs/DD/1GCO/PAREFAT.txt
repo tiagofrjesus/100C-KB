@@ -1,0 +1,18 @@
+PAREFAT — Parametros do e-Fatura  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: EXERCICIO+CODIGO
+
+Columns (12):
+  CCONTABASI    Text(15)  Conta base incidência intermédia
+  CCONTABASISE  Text(15)  Conta base incidência isenta
+  CCONTABASN    Text(15)  Conta base incidência normal
+  CCONTABASR    Text(15)  Conta base incidência reduzida
+  CODIGO        Text(4)   Código de parametrização
+  DESCRICAO     Text(50)  Descrição da parametrização
+  DIARIO        Text(3)   Diário
+  D_C           Integer   Natureza (débito/crédito)
+  EXERCICIO     Integer   Exercicio
+  SERIE         Integer   Série
+  SETOR         Text(3)   Setor
+  TPDOC         Text(3)   Tipo de documento

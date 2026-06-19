@@ -1,0 +1,22 @@
+SERVICOSEQUIPAMENTO — Serviços de equipamento  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: NUM_LANC
+  IDX1: COD_OBRA+DATAREGISTO
+
+Columns (15):
+  CODIGO       Text(13)  
+  COD_OBRA     Text(7)   
+  DATAFIM      Date      
+  DATAINICIO   Date      
+  DATAPREV     Date      
+  DATAREGISTO  Date      
+  HORAS        Double    
+  HORASORDEM   Double    
+  KMS          Long      
+  NUM_LANC     Long      
+  PRECO_DIA    Currency  
+  QUANT        Double    
+  RESPONSAVEL  Text(33)  
+  TP_EQUIP     Integer   
+  VALOR        Currency  

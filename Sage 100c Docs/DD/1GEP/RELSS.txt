@@ -1,0 +1,12 @@
+RELSS — Relat. Seg. Social  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary]: NFUNC+NAT+ID
+
+Columns (6):
+  ESTAB  Text(4)   Estabelecimento
+  FICH   Text(30)  Ficheiro
+  ID     Long      ID
+  NAT    Integer   Natureza
+  NFUNC  Text(10)  Nº Func.
+  VALOR  Currency  Valor

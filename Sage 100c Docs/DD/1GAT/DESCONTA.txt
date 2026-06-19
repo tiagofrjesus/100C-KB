@@ -1,0 +1,11 @@
+DESCONTA — Descrição de Contas  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (5):
+  CODIGO    Text(15)  Código
+  DESCRICA  Text(50)  Descrição
+  REAVALIA  Integer   Reavaliavel
+  RUBRICA   Text(6)   Rubrica
+  TPIMO     Integer   Tipo activo

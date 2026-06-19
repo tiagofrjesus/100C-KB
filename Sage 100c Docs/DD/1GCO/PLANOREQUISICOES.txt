@@ -1,0 +1,20 @@
+PLANOREQUISICOES — Plano de Requisições  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD_ORC+NOME
+
+Columns (14):
+  ARTIGO     Text(15)   
+  COD_ORC    Text(6)    
+  DESCRICAO  Text(80)   
+  NOME       Long       
+  ORDEM      Integer    
+  PLANO      Text(255)  
+  PREC       Text(255)  
+  PRECO_O    Currency   
+  PRINT      Boolean    
+  PRINTDC    Boolean    
+  QUANT      Double     
+  TIPOPRECO  Integer    
+  UNID_O     Text(3)    
+  VALORES    Memo       

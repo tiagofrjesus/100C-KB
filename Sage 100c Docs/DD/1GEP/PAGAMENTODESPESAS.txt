@@ -1,0 +1,17 @@
+PAGAMENTODESPESAS — Pagamento de despesas  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NFUNC [primary, unique]: NFUNC+REGISTO
+
+Columns (11):
+  BALCAO       Text(4)    Código do Balcão
+  BANCO        Text(4)    Código do banco
+  DATA         Date       Data
+  NFUNC        Text(10)   Código do funcionário
+  NIB          Text(21)   N.I.B.
+  NUMDOC       Text(10)   Número do documento
+  OBSERVACOES  Text(100)  Observações
+  OPERADOR     Text(20)   Operador
+  REGISTO      Integer    Número do registo
+  TPDOC        Text(5)    Tipo de documento
+  VALOR        Currency   Valor

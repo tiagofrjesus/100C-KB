@@ -1,0 +1,55 @@
+AUTOS_CONTROL — Controlo de Autos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD_ORC+TIPO_AUTO+ORC_SE+SITUACAO
+
+Columns (49):
+  COD_ORC              Text(6)   Código do Processo
+  DA_TMENOS            Date      Dt. Apr. Tr. Menos
+  DA_TMNPREVISTOS      Date      Dt. Apr. Tr. M.N.Pr.
+  DA_TMPREVISTOS       Date      Dt. Apr. Tr. M.Pr.
+  DA_TNORMAIS          Date      Dt. Apr. Tr. N.
+  DE_TMENOS            Date      Dt. Emi. Tr. Menos
+  DE_TMNPREVISTOS      Date      Dt. Emi. Tr. M.N.Pr.
+  DE_TMPREVISTOS       Date      Dt. Emi. Tr. M.Pr.
+  DE_TNORMAIS          Date      Dt. Emi. Tr. N.
+  FAC_TMENOS           Text(25)  Fact. Tr. Menos
+  FAC_TMNPREVISTOS     Text(25)  Fact. Tr. M.N.Prev.
+  FAC_TMPREVISTOS      Text(25)  Fact. Tr. M.Prev.
+  FAC_TNORMAIS         Text(25)  Fact. Tr. Normais
+  INCID1_TMENOS        Currency  
+  INCID1_TMNPREVISTOS  Currency  
+  INCID1_TMPREVISTOS   Currency  
+  INCID1_TNORMAIS      Currency  
+  INCID2_TMENOS        Currency  
+  INCID2_TMNPREVISTOS  Currency  
+  INCID2_TMPREVISTOS   Currency  
+  INCID2_TNORMAIS      Currency  
+  INCID3_TMENOS        Currency  
+  INCID3_TMNPREVISTOS  Currency  
+  INCID3_TMPREVISTOS   Currency  
+  INCID3_TNORMAIS      Currency  
+  INCID4_TMENOS        Currency  
+  INCID4_TMNPREVISTOS  Currency  
+  INCID4_TMPREVISTOS   Currency  
+  INCID4_TNORMAIS      Currency  
+  NR_TMENOS            Text(15)  Nº Auto Tr. Menos
+  NR_TMNPREVISTOS      Text(15)  Nº Auto Tr. M.N.Pr.
+  NR_TMPREVISTOS       Text(15)  Nº Auto Tr. M.Pr.
+  NR_TNORMAIS          Text(15)  Nº Auto Tr. N.
+  ORC_SE               Long      Nº Orçamento Subemp.
+  RIVA                 Text(3)   Tipo de IVA
+  SITUACAO             Integer   Situação
+  TIPO_AUTO            Text(1)   Tipo de Auto
+  TOTAL_ACUMULADOS     Currency  Total Acumulado
+  TOTAL_ADJUDICADOS    Currency  Total Adjudicado
+  TOTAL_ANTERIORES     Currency  Total Anteriores
+  TOTAL_DIFERENCAS     Currency  Total Diferenças
+  TOTAL_TEXECUTADOS    Currency  Total Executado
+  TOTAL_TMENOS         Currency  Total Tr. Menos
+  TOTAL_TMNPREVISTOS   Currency  Total Tr. M.N.Prev.
+  TOTAL_TMPREVISTOS    Currency  Total Tr. M.Prev.
+  VALOR_TMENOS         Currency  Valor Tr. Menos
+  VALOR_TMNPREVISTOS   Currency  Valor Tr. M.N.Prev.
+  VALOR_TMPREVISTOS    Currency  Valor Tr. M.Prev.
+  VALOR_TNORMAIS       Currency  Valor Tr. N.

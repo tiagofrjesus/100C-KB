@@ -1,0 +1,19 @@
+PALETLIN — Paletes Linhas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  SSCC [primary, unique]: SSCC+LINHA
+
+Columns (13):
+  ARMAZEM   Text(6)   Armazém
+  ARTIGO    Text(15)  Artigo
+  DATAMAX   Date      Data máxima validade
+  DATAPROD  Date      Data de produção
+  DATAVAL   Date      Data mínima validade
+  GTIN      Text(14)  Código GTIN
+  IDSSCC    16        Identificador SSCC
+  LINHA     Integer   Número da Linha
+  LOTE      Text(16)  Código do Lote
+  NOTAENC   Text(29)  Nº. Ordem Compra
+  PESO      Currency  Peso
+  QTD       Currency  Quantidade
+  SSCC      Text(18)  Código SSCC

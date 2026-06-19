@@ -1,0 +1,13 @@
+IMOPI_FORMULAS — Fórmulas para revisão de preços  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDS [primary, unique]: COD
+
+Columns (7):
+  COD             Text(6)   COD
+  COEF_CONSTANTE  Double    COEF_CONSTANTE
+  COEF_SALARIOS   Double    COEF_SALARIOS
+  DESCRICAO       Text(80)  DESCRICAO
+  DL              Boolean   DL
+  DL_TIMESTAMP    Date      DL_TIMESTAMP
+  TIPO_FORMULA    Text(1)   TIPO_FORMULA

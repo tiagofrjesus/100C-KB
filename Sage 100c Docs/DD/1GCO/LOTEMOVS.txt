@@ -1,0 +1,26 @@
+LOTEMOVS — Lotes Movs  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CHAVE [primary, unique]: ANO+TPDOCUM+SERIE+NNUMDOC+NUMLINHA+CODLOT+VOSSLOTE
+
+Columns (20):
+  ANO                 Integer   Ano
+  ARMAZEM             Text(6)   Armazém
+  ARTIGO              Text(15)  Artigo
+  BD_CONTROL          Integer   Controlo Divisao BD
+  CODLOT              Text(16)  Código lote
+  DATA                Date      Data movimento
+  IDLOTE              16        ID do Lote
+  NNUMDOC             Long      Número Documento
+  NUMLINHA            Integer   Numero linha
+  QTDPAL              Currency  Quantidade da U. L.
+  QUANT               Currency  Quantidade
+  QUANT_REMANESCENTE  Currency  Quantidade remanescente
+  SERIE               Integer   Série
+  TERCEIRO            Text(15)  Terceiro
+  TPDOCUM             Text(3)   Tipo Documento
+  TPFSTC              Integer   Tipificação stock
+  TPTERC              Integer   Tipo Terceiro
+  VALIDADE            Date      Data Validade
+  VALOR               Currency  Valor do movimento
+  VOSSLOTE            Text(25)  Vosso Lote

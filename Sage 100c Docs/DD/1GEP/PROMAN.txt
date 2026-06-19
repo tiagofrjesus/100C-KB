@@ -1,0 +1,13 @@
+PROMAN — Processamentos Manua  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: NFUNC+CDALT
+
+Columns (7):
+  BASIRS           Currency  Base para IRS
+  CDALT            Text(10)  Cód. Rubrica
+  ENCARGO_EMPRESA  Currency  Valor do encargo para a empresa
+  NFUNC            Text(10)  Nº Funcionário
+  QTD              Single    Quantidade
+  TOTREN           Currency  Valor Base
+  VALOR            Currency  Valor

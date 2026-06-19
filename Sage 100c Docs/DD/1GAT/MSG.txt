@@ -1,0 +1,9 @@
+MSG — BlocoNotas  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  IDX1 [primary, unique]: TAB+IDX
+
+Columns (3):
+  IDX   Text(100)  IDX
+  MSG   Memo       MSG
+  TAB   Integer    TAB

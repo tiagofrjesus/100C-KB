@@ -1,0 +1,10 @@
+RELIMP — Relatório Importação  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: IDX
+
+Columns (4):
+  IDX     Long       IDX
+  MSG     Text(150)  Mensagem
+  TABIMP  Text(30)   Tabela importação
+  TIPMSG  Long       Tipo Mensagem

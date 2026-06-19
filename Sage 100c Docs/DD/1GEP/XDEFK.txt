@@ -1,0 +1,9 @@
+XDEFK — Def.Constantes  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  REF [primary]: REF
+
+Columns (3):
+  DEF    Double     Valor
+  DESCR  Text(100)  Descrição
+  REF    Text(50)   Referência

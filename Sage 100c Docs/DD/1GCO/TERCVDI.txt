@@ -1,0 +1,16 @@
+TERCVDI — Terceiros VDI  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPDOC [primary, unique]: ANO+TPDOC+SERIE+NUMDOC
+
+Columns (10):
+  ANO       Integer   Ano
+  CODPOST   Text(8)   CodPost
+  LOCALIDA  Text(40)  Localida
+  MORADA    Text(80)  Morada
+  MORADA2   Text(80)  Morada 2
+  NOME      Text(80)  Nome
+  NUMDOC    Long      NumDoc
+  PAIS      Text(3)   País
+  SERIE     Integer   Serie
+  TPDOC     Text(3)   TpDoc

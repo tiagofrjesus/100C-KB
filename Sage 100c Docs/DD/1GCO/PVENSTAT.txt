@@ -1,0 +1,8 @@
+PVENSTAT — PosVen Status  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (2):
+  CODIGO  Text(5)   Código
+  STATUS  Text(30)  Status Reparação

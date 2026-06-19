@@ -1,0 +1,9 @@
+ISO4217 — Tabela das Moedas conforme norma ISO4217  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (3):
+  CODIGO     Text(3)   Código da Moeda
+  DECIMAIS   Integer   Decimais da Moeda
+  DESCRICAO  Text(50)  Descrição da Moeda

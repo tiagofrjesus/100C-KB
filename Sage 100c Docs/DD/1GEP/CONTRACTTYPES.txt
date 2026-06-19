@@ -1,0 +1,9 @@
+CONTRACTTYPES — Tipo de contrato  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  INDEX [primary, unique]: REFERENCE
+
+Columns (3):
+  COMMENTS   Memo       Observações
+  NAME       Text(100)  Descrição
+  REFERENCE  Text(2)    Código

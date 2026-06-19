@@ -1,0 +1,8 @@
+PROFESSIONALDISEASERISKAGENTS — Doenças Profissionais Factores de risco  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  INDEX [primary, unique]: REFERENCE
+
+Columns (2):
+  NAME       Memo     Descrição
+  REFERENCE  Text(4)  Código

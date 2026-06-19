@@ -1,0 +1,15 @@
+TIPODESPESAS — Tipo de despesas  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (9):
+  ABONO                 Text(10)   Códigoda remuneração para conversão de despesas a recibos vencimento
+  CODIGO                Text(15)   Código do tipo de despesa
+  DESCRICAO             Text(100)  Descrição
+  LIMITEMAXIMOTOTAL     Currency   Indica um limite máximo do valor total da despesa (c/Iva)
+  LIMITEMAXIMOUNITARIO  Currency   Valor unitário máximo suportado pela empresa (c/Iva)
+  OBSERVACOES           Text(255)  Observações
+  REGIMEIVA             Integer    Regime de I.V.A.
+  SUJEITAAPROVACAO      Integer    Indica se a despesa é geralmente sujeita a aprovação
+  TEMUNIDADES           Integer    Indica se se registam unidades no lançamento da despesa

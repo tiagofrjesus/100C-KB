@@ -1,0 +1,9 @@
+TIPOS_DOCUMENTO — Tipos de documento  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  REFERENCE [primary, unique]: REFERENCE
+
+Columns (3):
+  MODOPAGAMENTO  Integer   Modo de pagamento
+  NAME           Text(50)  Descrição
+  REFERENCE      Text(5)   Código

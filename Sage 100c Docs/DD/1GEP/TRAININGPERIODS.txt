@@ -1,0 +1,8 @@
+TRAININGPERIODS — Periodo de Referência da Formação  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  INDEX [primary, unique]: REFERENCE
+
+Columns (2):
+  NAME       Text(150)  Descrição
+  REFERENCE  Text(2)    Código

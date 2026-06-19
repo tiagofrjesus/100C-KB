@@ -1,0 +1,10 @@
+XDEFQ — Def.Queries  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  REF [primary, unique]: REF
+
+Columns (4):
+  DESCR  Text(100)  Descrição
+  REF    Text(50)   Referência
+  SQL1   Memo       SQL
+  SQL2   Memo       SQL SqlServer

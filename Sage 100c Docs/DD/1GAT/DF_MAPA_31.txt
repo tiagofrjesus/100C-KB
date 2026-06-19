@@ -1,0 +1,20 @@
+DF_MAPA_31 — Dossier fiscal - Mapa 31  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  ACTIVO [primary, unique]: EXERCICIO+CODIGO+NATUREZA
+
+Columns (14):
+  ANO_AQUISICAO               Integer    Ano de aquisição
+  CODIGO                      Text(20)   Código do activo
+  CODIGO_TABELA               Text(5)    Código de tabela
+  COEFICIENTE                 Currency   Coeficiente de desvalorização da moeda
+  DEPRECIACOES_FISCAIS        Currency   Depreciações/amortizações e perdas por imparidade aceites fiscalmente
+  DEPRECIACOES_REGISTADAS     Currency   Depreciações/amortizações e perdas por imparidade registadas
+  DESCRICAO                   Text(100)  Descrição
+  EXERCICIO                   Integer    Exercício
+  MAIS_VALIAS_NAO_TRIBUTADAS  Currency   Mais-valias não tributadas
+  NATUREZA                    Integer    Natureza do activo
+  VALOR_AQUISICAO             Currency   Valor de aquisição
+  VALOR_CONTABILISTICO        Currency   Valor de aquisição para efeitos contabilísticos
+  VALOR_LIMITE                Currency   Valor limite para efeitos fiscais
+  VALOR_REALIZACAO            Currency   Valor de realização

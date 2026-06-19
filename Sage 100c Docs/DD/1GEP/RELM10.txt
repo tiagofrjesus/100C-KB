@@ -1,0 +1,13 @@
+RELM10 — Relatório Mod. 10  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary]: NFISC+TPREND
+
+Columns (7):
+  ANO     Integer   ANO
+  FICH    Text(30)  FICH
+  ID      Long      ID
+  NFISC   Text(9)   NFISC
+  TPDEC   Integer   TPDEC
+  TPREND  Text(3)   TPREND
+  VALOR   Currency  VALOR

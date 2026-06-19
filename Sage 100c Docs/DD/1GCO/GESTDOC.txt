@@ -1,0 +1,11 @@
+GESTDOC — Gestão Documental  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  MOV [primary, unique]: ANO+TPDOC+SERIE+NUMDOC
+
+Columns (5):
+  ANO     Integer    Ano
+  CHAVE   Text(200)  Chave
+  NUMDOC  Long       Nº documento
+  SERIE   Integer    Série
+  TPDOC   Text(3)    Tipo de documento

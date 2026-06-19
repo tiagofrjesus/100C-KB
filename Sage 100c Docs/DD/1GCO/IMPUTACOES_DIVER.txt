@@ -1,0 +1,10 @@
+IMPUTACOES_DIVER — Imputações custos diversos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: NUM_LANC+COD_ORC+NOME
+
+Columns (4):
+  COD_ORC   Text(6)   
+  NOME      Long      
+  NUM_LANC  Long      
+  VALOR     Currency  

@@ -1,0 +1,20 @@
+CLLOTES — Campos Livres Lotes  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRIM [primary, unique]: ARTIGO+CODLOTE+ARMAZEM+VOSSLOTE
+
+Columns (14):
+  ARMAZEM   Text(6)   Armazém
+  ARTIGO    Text(15)  Artigo
+  CL01      Text(50)  Campo Livre 1
+  CL02      Text(50)  Campo Livre 2
+  CL03      Text(50)  Campo Livre 3
+  CL04      Text(50)  Campo Livre 4
+  CL05      Text(50)  Campo Livre 5
+  CL06      Text(50)  Campo Livre 6
+  CL07      Text(50)  Campo Livre 7
+  CL08      Text(50)  Campo Livre 8
+  CL09      Text(50)  Campo Livre 9
+  CL10      Text(50)  Campo Livre 10
+  CODLOTE   Text(16)  Código Lote
+  VOSSLOTE  Text(16)  Vosso Lote

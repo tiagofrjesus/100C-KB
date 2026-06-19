@@ -1,0 +1,14 @@
+BANRECON — Reconciliações  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CHAVES [primary, unique]: BANCO+BALCAO+CONTA+CODEXTBA
+
+Columns (8):
+  BALCAO    Text(4)   Balcão
+  BANCO     Text(4)   Banco
+  CODEXTBA  Text(15)  Cod. Ext. Banc.
+  CONTA     Text(21)  Conta
+  DTFIM     Date      Data Fim
+  DTINICIO  Date      Data início
+  SALDO     Currency  Saldo Banco
+  SINAL     Integer   Sinal

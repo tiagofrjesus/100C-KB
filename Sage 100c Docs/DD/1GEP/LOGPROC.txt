@@ -1,0 +1,117 @@
+LOGPROC — Histórico de processamento  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  FUNC [primary, unique]: ANO+MES+NFUNC
+
+Columns (111):
+  ACERTO_FERIAS             Integer    Acerto do subsídio de férias
+  ACERTO_NATAL              Integer    Acerto do subsídio de Natal
+  ADSE                      Text(6)    Código ADSE
+  ANO                       Integer    Ano de processamento
+  AUTOMATICO                Integer    Registo criado automaticamente
+  AUTORIZACAO_RESIDENCIA    Text(10)   Autorização de residência
+  BALFUN                    Text(4)    Balcão funcionário
+  BANCO_CR                  Text(4)    Banco cartão refeição
+  BASEPROC                  Integer    Base de processamento
+  BI                        Text(10)   Nº B. I.
+  BNCFUN                    Text(4)    Banco funcionário
+  CALENDARIO                Text(4)    Calendário
+  CCUSTO                    Text(6)    Centro de custo
+  CDBALCAO                  Text(4)    Código balcão
+  CDBANCO                   Text(4)    Código banco
+  CDCATEG                   Text(5)    Categoria
+  CDHORA                    Text(6)    Horário
+  CDPAGAM                   Integer    Modo de pagamento
+  CDPROFIS                  Text(6)    Código profissão
+  CDSEGSOG                  Text(4)    Código Segurança Social
+  CDSEGURO                  Text(4)    Código seguro
+  CDSINDIC                  Text(4)    Código sindicato
+  CDSITUAC                  Text(4)    Código situação
+  CGA                       Text(6)    Código CGA
+  CNJDEFIC                  Integer    Cônjuge deficiente
+  DEFIC                     Integer    Deficiente
+  DEMITIDO                  Integer    Demitido
+  DEPARTAMENTO              Text(10)   Departamento
+  DEPEND                    Integer    Número de dependentes
+  DESCONTA_SUBSALIMENTACAO  Integer    Desconta subsidio de alimentação nos dias indicados como períodos de férias
+  DIASSBFE                  Single     Dias de férias
+  DIASSBNA                  Single     Dias subsídio de natal
+  DIUTURN                   Currency   Diuturnidades
+  DOMFIS                    Integer    Domicílio fiscal
+  DTADMI                    Date       Data de admissão
+  DTBI                      Date       Data B. I.
+  DTDEMIT                   Date       Data da cessação de contrato
+  DTFERIAS                  Date       Data de início de férias
+  DTFIMREGSS                Date       Data de fim do regime da segurança social
+  DTNASC                    Date       Data de nascimento
+  DTTERMO                   Date       Data de termo
+  ECDU                      Integer    Subscritores abrangidos pelo ECDU
+  EMISSAO                   Text(20)   Emissão
+  ENQAJC                    Integer    Enquadramento de ajudas de custo
+  ESTABEL                   Text(4)    Estabelecimento
+  ESTFISCA                  Integer    Estado fiscal
+  ESTSOCG                   Integer    Estatuto sócio gerente
+  EXCLUSIVIDADE             Integer    Trabalhador em exclusividade
+  FCT                       Text(6)    Fundo de compensação do trabalho
+  FGCT                      Text(6)    Fundo de garantia de compensação do trabalho
+  FUNCAO                    Text(4)    Função
+  GRUPOS_ESPECIFICOS_SS     Integer    Grupos especificos para a Segurança Social
+  HORASSEM                  Single     Horas semanais
+  INDICE_ECDU               Text(3)    Índices do ensino superior e investigação
+  INSREGTR                  Text(5)    Inst. Reg. Trab.
+  MARCADO                   Long       Marcado (para processamento declarações de remunerações)
+  MES                       Integer    Mês de processamento
+  MONTAJCU                  Text(4)    Montante ajudas de custo
+  MOTADMI                   Text(3)    Motivo da admissão
+  MOTDEMI                   Text(3)    Motivo da demissão
+  MOTPROM                   Integer    Motivo da promoção
+  NADSE                     Text(15)   Nº A.D.S.E.
+  NATURALIDADE_CONCELHO     Text(2)    Naturalidade - concelho
+  NATURALIDADE_DISTRITO     Text(2)    Naturalidade - distrito
+  NBALFU                    Text(50)   Nome do balcão do funcionário
+  NBNCFU                    Text(50)   Nome do banco do funcionário
+  NCGA                      Text(7)    Nº C.G.A.
+  NFISCAL                   Text(9)    Nº de identificação fiscal
+  NFUNC                     Text(10)   Número funcionário
+  NIB                       Text(21)   N.I.B.
+  NIBFUN                    Text(21)   N.I.B. funcionário
+  NIF_PAIS_RESIDENCIA       Text(20)   Número identificação fiscal no pais de residência
+  NOME                      Text(60)   Nome do funcionário
+  NPDDEFIC                  Integer    Número de dependentes deficientes
+  NRIBAN                    Text(34)   Número IBAN
+  NRSWIFT                   Text(11)   Número SWIFT
+  NSEGSOC                   Text(11)   Nº identificação segurança social
+  NSINDIC                   Text(10)   Nº sindicato
+  NUMERO_CARTAO_CIDADAO     Text(13)   Nº Cartão Cidadão
+  NUMERO_CARTAO_REFEICAO    Text(34)   Número cartão refeição
+  OBS                       Text(250)  Observações
+  PAIS_ISO3166              Text(3)    País
+  PAIS_RESIDENCIA           Text(3)    País de residência
+  PASSPO                    Text(13)   Passaporte
+  PENSION                   Integer    Pensionista
+  REGIME_TRIBUTACAO         Text(2)    Código de regime de tributação
+  SECCAO                    Text(10)   Secção
+  SECTOR                    Text(6)    Setor
+  SITPROF                   Text(1)    Situação Profissão
+  SUBSIDIOS_FRACCIONADOS    Integer    Subsídio de Férias e Natal pagos fracionadamente
+  SUBTURNO                  Text(4)    Subsídio de turno
+  TABELAIRS                 Integer    Tabelas de IRS a aplicar
+  TAXAIRS                   Double     Taxa IRS a aplicar em período normal/especial
+  TAXAIRS_EXTRAORDINARIA    Double     Taxa IRS a aplicar em período extraordinário
+  TAXASEGSOC                Double     Percentagem base de incidência contributiva para a segurança social
+  TEMINDEM                  Integer    Motivo da demissão confere direito a compensação
+  TICKET                    Integer    Ticket de refeição
+  TIPOTICKET                Integer    Tipo de ticket refeição
+  TIPO_REGIME_CGA           Integer    Tipo de regime de tempo
+  TPCONTR                   Text(4)    Tipo de contrato
+  TPFERIAS                  Integer    Tipo de subsídio de férias
+  TPFUNC                    Integer    Tipo funcionário
+  TPPROC                    Integer    Tipo de processamento
+  TPSALIM                   Text(4)    Subsídio alimentação
+  TPSUBSNA                  Integer    Tipo de subsídio de natal
+  VALIDADE_AR               Date       Data de validade da autorização de residência
+  VALIDADE_BI               Date       Data de validade do bilhete de identidade
+  VALIDADE_CC               Date       Data de validade do cartão de cidadão
+  VALIDADE_P                Date       Data de validade do passaporte
+  VENCIM                    Currency   Vencimento
+  VLRKM                     Text(4)    Valor KM

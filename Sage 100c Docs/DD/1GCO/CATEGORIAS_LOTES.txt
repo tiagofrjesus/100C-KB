@@ -1,0 +1,12 @@
+CATEGORIAS_LOTES — Categorias de lotes  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: CATEGORIA
+
+Columns (6):
+  CATEGORIA  Text(10)  Categoria de lotes
+  CONTADOR   Long      Contador
+  DESCRICAO  Text(60)  Descrição de categoria de lotes
+  MASCARA    Text(32)  Mascara
+  MODO       Integer   Modo de controlo de lotes
+  VALIDADE   Integer   Controla validade

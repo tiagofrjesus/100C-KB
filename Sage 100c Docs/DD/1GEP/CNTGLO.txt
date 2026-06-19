@@ -1,0 +1,27 @@
+CNTGLO — Contas Gerais  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: NUMREG
+
+Columns (21):
+  AFLX     Text(6)   Adiant. Cód. Flx.
+  AJUSTES  Text(15)  Ajustes
+  AOS      Text(15)  livre
+  AOU      Text(15)  livre
+  ASP      Text(15)  livre
+  ASS      Text(15)  Arred. Seg. Social
+  CCAX     Text(15)  Conta Caixa Dsp
+  DOS      Text(15)  livre
+  DOUTS    Text(15)  livre
+  DSP      Text(15)  livre
+  IRS      Text(15)  I.R.S.
+  NUMREG   Integer   Tipo de mês
+  OS       Text(15)  livre
+  OUTDES   Text(15)  Outros Descontos
+  OUTS     Text(15)  livre
+  RASS     Text(15)  Rub.Arred.Seg.Social
+  RDOS     Text(6)   livre
+  RDOUTS   Text(6)   livre
+  RDSP     Text(6)   livre
+  SP       Text(15)  livre
+  TREF     Text(15)  Ticket Refeição

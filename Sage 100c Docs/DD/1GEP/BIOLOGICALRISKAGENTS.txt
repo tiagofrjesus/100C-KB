@@ -1,0 +1,10 @@
+BIOLOGICALRISKAGENTS — Factores de Risco Biológico  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  INDEX [primary, unique]: REFERENCE
+
+Columns (4):
+  BIOLOGICALRISKAGENTGROUP  Text(1)    Grupo
+  CLASSIFICATION            Text(1)    Classificação
+  NAME                      Text(100)  Descrição
+  REFERENCE                 Text(4)    Código

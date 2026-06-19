@@ -1,0 +1,19 @@
+MOEDAS — Moedas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (13):
+  ARRDOC    Integer   Arredondamento Doc.
+  CAMBIOC   Currency  Câmbio Compra
+  CAMBIOM   Currency  Câmbio Médio
+  CAMBIOV   Currency  Câmbio Venda
+  CASASDEC  Integer   Casas Décimais
+  CODIGO    Text(3)   Código
+  DBTS      23        
+  DESCR     Text(30)  Descrição
+  DTCAMBIO  Date      Data Câmbio
+  DTLIMT    Date      Data Limite
+  FTEURO    Double    Factor Euro
+  ISO4217   Text(3)   Código ISO4217
+  MINIMO    Double    Valor Minimo

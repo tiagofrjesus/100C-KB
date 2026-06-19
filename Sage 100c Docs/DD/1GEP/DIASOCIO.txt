@@ -1,0 +1,9 @@
+DIASOCIO — Dias de Ócio  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: COD+NUMERO+DATA
+
+Columns (3):
+  COD     Text(4)  Código
+  DATA    Date     Data
+  NUMERO  Integer  Número

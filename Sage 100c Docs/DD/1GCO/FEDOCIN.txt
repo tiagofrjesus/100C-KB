@@ -1,0 +1,18 @@
+FEDOCIN — F.E. Docs Entrada  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  DOC [primary, unique]: TPDOC+ANO+SERIE+NUMERO
+  ELEDOC: DOCREFNC+DOCREFNU+MSGREFID+GLN
+
+Columns (11):
+  ANO       Integer   Ano
+  ANULADO   Boolean   Doc. Anulado
+  DOCREFNC  Text(3)   Doc. Ref. Type Code
+  DOCREFNU  Text(20)  Doc. Ref. Number
+  GLN       Text(20)  GLN
+  MSGREFID  Text(50)  Message Ref. ID
+  NUMERO    Long      Número de Documento
+  REPORT    Memo      Relatório Integração
+  SERIE     Integer   Série
+  TPDOC     Text(3)   Tipo Documento
+  XML       Memo      XML Integração

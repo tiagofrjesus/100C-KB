@@ -1,0 +1,10 @@
+FUNXDEF — Expressões de Func.  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: NFUNC+ADF
+
+Columns (4):
+  ADF     Text(10)  A.D.F.
+  EQTD    Text(50)  Expressão Qtd.
+  EVALOR  Text(50)  Expressão Valor
+  NFUNC   Text(10)  Nº Funcionário

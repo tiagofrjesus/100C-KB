@@ -1,0 +1,12 @@
+PDOCUM — Painel Empresa Documentos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINCIPAL [primary, unique]: ANO+MES+OPERADOR
+
+Columns (6):
+  ANO       Integer  Ano
+  DIA       Integer  Dia
+  DIARIO    Text(3)  Diario
+  MES       Integer  Mês
+  NREG      Long     Número de registos
+  OPERADOR  Text(9)  Operador

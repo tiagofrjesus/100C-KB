@@ -1,0 +1,25 @@
+ENTIDADESEXTERNAS — Entidades Externas  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO
+
+Columns (19):
+  CODIGO                         Text(10)   Código da entidade externa
+  CODIGOPOSTAL                   Text(8)    Código postal
+  CONSENTIMENTO_DATA_HORA        Date       Consentimento data hora
+  CONSENTIMENTO_UTILIZADOR       Text(20)   Consentimento utilizador
+  CONTACTO                       Text(9)    Contacto
+  DENOMINACAO                    Text(100)  Denominação da entidade externa
+  EMAIL                          Text(100)  Endereço eletrónico
+  ESQUECIMENTO                   Integer    Pedido de esquecimento de dados pessoais
+  ESQUECIMENTO_DATA_HORA         Date       Esquecimento data hora
+  ESQUECIMENTO_UTILIZADOR        Text(20)   Esquecimento utilizador
+  LOCALIDADE                     Text(50)   Localidade
+  MORADA                         Text(100)  Morada
+  NIF                            Text(9)    NIF
+  NIF_RESPONSAVEL                Text(9)    NIF do diretor responsável
+  RESPONSAVEL                    Text(50)   Nome do diretor responsável pelos serviços
+  RGPD_CONSENTIMENTO_TRAT_DADOS  Integer    Consentimento de tratamento de dados pessoais
+  RGPD_ESTADO                    Integer    Estado do consentimento
+  TIPOEMPRESA                    Text(1)    Tipo de empresa prestadora
+  TIPOSERVICO                    Integer    Tipo de serviço

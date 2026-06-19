@@ -1,0 +1,17 @@
+CONTENC — Contencioso  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CLIENTE [primary, unique]: CLIENTE+NPROC
+
+Columns (11):
+  ADVOGADO  Text(30)  Advogado
+  CLIENTE   Text(15)  Cliente
+  JUROS     Currency  Juros
+  MEMO1     Memo      Memo1
+  MEMO2     Memo      Memo2
+  MEMO3     Memo      Memo3
+  NPROC     Text(15)  Processo
+  OUTROSV   Currency  Outros Valores
+  TRIBUNAL  Text(50)  Tribunal
+  VALORCO   Currency  Valor Contab.
+  VALORES   Currency  Valor Esperado

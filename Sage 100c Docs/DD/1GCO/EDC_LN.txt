@@ -1,0 +1,12 @@
+EDC_LN — Documentos Gerados do Encontro de Contas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  INDICE [primary, unique]: EXEREDC+NUMEDC+TPDOC+SERIE+EXERCICIO+NUMERO
+
+Columns (6):
+  EXERCICIO  Integer  Exercicio
+  EXEREDC    Integer  Exercicio Encontro de Contas
+  NUMEDC     Long     Número Encontro de Contas
+  NUMERO     Long     Número
+  SERIE      Integer  Série
+  TPDOC      Text(3)  Tipo Documento

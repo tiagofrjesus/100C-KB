@@ -1,0 +1,11 @@
+ACCOES_CONSULTA — Acções de consulta  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NFUNC [primary, unique]: NFUNC+DATA+ACCAO
+
+Columns (5):
+  ACCAO        Text(5)    Código da acção
+  DATA         Date       Data
+  NFUNC        Text(10)   Nº do funcionário
+  OBSERVACOES  Text(100)  Observações
+  RAZAO        Text(2)    Código da razão

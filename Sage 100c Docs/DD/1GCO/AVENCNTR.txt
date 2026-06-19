@@ -1,0 +1,11 @@
+AVENCNTR — Avenças Contratos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (5):
+  AUTO      Integer   Numeração Automática
+  CODIGO    Text(5)   Código da Avença
+  DESCRICA  Text(35)  Descrição da Avença
+  DURACAO   Integer   Duração
+  PERIODO   Integer   Periodo

@@ -1,0 +1,12 @@
+IREGCOL — Instrumento de regul  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (6):
+  COD     Text(5)   Código
+  DATAEF  Date      Data eficácia
+  DATAMT  Date      Data Bol. Min. Trab.
+  DESCR   Text(60)  Descrição
+  HE14    Integer   Número de meses hora extra (14)
+  NBMTRA  Integer   Núm. Bol. Trab.

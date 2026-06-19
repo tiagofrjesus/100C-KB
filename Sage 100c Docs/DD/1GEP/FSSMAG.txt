@@ -1,0 +1,15 @@
+FSSMAG — Ficha S.S.Mag.  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: ANO+MES+MES_REAL+ESTAB+SEGSOC+ANO_REAL
+
+Columns (9):
+  ANO       Integer   Ano
+  ANO_REAL  Integer   Ano
+  ESTAB     Text(4)   Estabelecimento
+  MES       Integer   MES
+  MES_REAL  Integer   Mês
+  SEGSOC    Text(4)   Seg.Social
+  TAXA      Single    Taxa
+  TOTCON    Currency  Tot. Contribuições
+  TOTREM    Currency  Tot. Remunerações

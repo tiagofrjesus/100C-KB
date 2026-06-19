@@ -1,0 +1,9 @@
+EXERC — Exercício  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  EXERC [primary, unique]: EXERC
+
+Columns (3):
+  DTFIM  Date     Data Final
+  DTINI  Date     Data Inicial
+  EXERC  Integer  Exercicio

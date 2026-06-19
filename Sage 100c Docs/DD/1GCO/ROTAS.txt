@@ -1,0 +1,11 @@
+ROTAS — Rotas Por Terminal  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ROTAS [primary, unique]: CODROT+VENDEDOR+ORDVIS
+
+Columns (5):
+  CODCLI    Text(15)  Código do Cliente
+  CODROT    Integer   Código da Rota
+  FLAGVIS   Integer   Se Foi Visitado
+  ORDVIS    Integer   Ordem de Visita
+  VENDEDOR  Text(10)  Vendedor

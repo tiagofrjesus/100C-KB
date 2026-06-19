@@ -1,0 +1,20 @@
+BANCABDP — Cabeçalhos Talões  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CHAVES [primary, unique]: TPDOCBAN+NUMDBAN
+
+Columns (14):
+  BALCAO    Text(4)   Balcão
+  BANCO     Text(4)   Banco
+  CAMBIO    Double    Cambio
+  CONTA     Text(21)  Conta
+  DATA      Date      Data
+  DTVALOR   Date      Data Valor
+  MOEDA     Text(3)   Moeda
+  NIB       Text(34)  IBAN
+  NUMDBAN   Long      Número doc. bancário
+  NUMERARI  Currency  Numerário
+  SECTOR    Text(3)   Sector
+  SITUACAO  Integer   Situação
+  TITULOS   Currency  Títulos
+  TPDOCBAN  Text(3)   Tipo Doc. Banc.

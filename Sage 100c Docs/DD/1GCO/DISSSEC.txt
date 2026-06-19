@@ -1,0 +1,9 @@
+DISSSEC — Dist. Séries/Sector  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  SDOCS [primary, unique]: SECTOR+TPDOC
+
+Columns (3):
+  SECTOR  Text(3)  Sector
+  SERIE   Integer  Série
+  TPDOC   Text(3)  Tipo de Documento

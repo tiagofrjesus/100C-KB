@@ -1,0 +1,8 @@
+UPDATES — Update Via Web  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  IDX [primary, unique]: ID
+
+Columns (2):
+  DATA  Date     
+  ID    Integer  

@@ -1,0 +1,9 @@
+OBRIGACOES_TIPOS — Tipos de Obrigações  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: ID
+
+Columns (3):
+  CATEGORIA  Text(50)   Categoria
+  DESCRICAO  Text(255)  Descrição
+  ID         Text(20)   Identificador

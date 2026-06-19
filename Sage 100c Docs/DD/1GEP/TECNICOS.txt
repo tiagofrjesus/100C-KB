@@ -1,0 +1,25 @@
+TECNICOS — Técnicos  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO
+
+Columns (19):
+  CANDIDATURA02012009            Integer    Candidatura > 02/Jan/2009
+  CERTIFICADO                    Text(14)   Nº Cédula/Certificado
+  CODIGO                         Text(10)   Código do Técnico
+  CODPOST                        Text(8)    Código Postal
+  CONSENTIMENTO_DATA_HORA        Date       Consentimento data hora
+  CONSENTIMENTO_UTILIZADOR       Text(20)   Consentimento utilizador
+  EMAIL                          Text(50)   E-Mail
+  ESQUECIMENTO                   Integer    Pedido de esquecimento de dados pessoais
+  ESQUECIMENTO_DATA_HORA         Date       Esquecimento data hora
+  ESQUECIMENTO_UTILIZADOR        Text(20)   Esquecimento utilizador
+  GRUPO                          Integer    Grupo Profissional
+  LOCALIDADE                     Text(100)  Localidade
+  MORADA                         Text(100)  Morada
+  NIF                            Text(9)    NIF
+  NOME                           Text(100)  Nome do Técnico
+  RESPOSNSAVEL                   Integer    Responsável
+  RGPD_CONSENTIMENTO_TRAT_DADOS  Integer    Consentimento de tratamento de dados pessoais
+  RGPD_ESTADO                    Integer    Estado do consentimento
+  TELEMOVEL                      Text(9)    Telemóvel

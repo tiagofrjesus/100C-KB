@@ -1,0 +1,15 @@
+ACUMPOC — Acumulados Poc  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  ACPOC [primary, unique]: ANO+MES+STATAC+NAT+CONTA
+
+Columns (9):
+  ANO       Integer   Ano
+  CONTA     Text(15)  Conta
+  MES       Integer   Mes
+  NAT       Integer   Nat
+  STATAC    Integer   StatAc
+  TERC      Text(15)  Terceiro
+  TPTERCEI  Integer   TpTerceiro
+  VLCRED    Currency  VlCred
+  VLDEB     Currency  VlDeb

@@ -1,0 +1,11 @@
+GRUPOS_HOMOGENEOS — Grupos Homogeneos  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (5):
+  AGRUPA          Integer    Agrupamento
+  AJUSTE_FISCAL1  Integer    Ajuste Fiscal 1
+  AJUSTE_FISCAL2  Integer    Ajuste Fiscal 2
+  CODIGO          Text(5)    Código
+  DESCRICAO       Text(100)  Descrição

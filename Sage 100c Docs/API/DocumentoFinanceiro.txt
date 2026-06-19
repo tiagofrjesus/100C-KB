@@ -1,0 +1,125 @@
+DocumentoFinanceiro
+Documentos financeiros - Principal
+
+Membros (35):
+
+  [Function] AdicionaLinha
+    Input : ByVal Linha As DocumentosCcLin
+    Output: Integer
+    => Adiciona uma linha ao documento
+
+  [Function] Alterar
+    Output: Long - Se <>0 deu erro
+    => Alterar registo existente desta entidade na base de dados
+
+  [Function] Inserir
+    => Insere novo documento
+
+  [Function] Ler
+    Input : ByVal Tipodoc As String, ByVal NumDoc As Long, ByVal Serie As Integer, ByVal Ano As Integer, Optional ByVal FichXML As String = ""
+    Output: Long - <>0 = Erro
+    => Lê o registo da entidade da base de dados, opcionalmente pode ser passado um fx (percurso\nome) XML com os dados e a aplicação lê desse fx.
+
+  [Function] Remover
+    Output: Long - Se <>0 deu erro
+    => Anular documento a base de dados, não apaga.
+
+  [Function] RetiraLinha
+    Input : ByVal NumLinha As Integer
+    Output: Integer
+    => Retira uma linha ao documento
+
+  [Function] UltimaMensagem
+    Output: String
+    => Retorna a ultima mensagem emitida pela API
+
+  [Function] UltimoErro
+    Output: String
+    => Retorna o ultimo Erro emitido pela API
+
+  [Function] Validar
+    Input : Optional ByVal Operacao As Integer
+    Output: integer - -1 = Erro
+    => Verifica se os dados que constam nas propriedades são válidos para de seguida se poder efectuar inserção, alteração, anulação
+
+  [Sub] Class_Initialize
+    Output: Loga erro se não conseguir ligar á base de dados
+    => Ligar as camada de dados
+
+  [Sub] Class_Terminate
+    => Desligar as camadas de dados
+
+  [Sub] Actualizar_Numerador
+    => Actualzia a tabela de numeradores de documento
+
+  [Function] ActualizaTerceiro
+    => Actualiza os totais de cliente
+
+  [Function] AjustaDataPagamento
+    => Auxilio ao calculo de datas
+
+  [Sub] CopiaDados
+    => Passa a informação do interface para a camada de dados para posterior inserção, alteração, remoção. Pode ter algum processamnto, transformação da informação
+
+  [Function] DataPagamento
+    => Atribui data de pagamento
+
+  [Function] DataVto
+    => Calcula a data de vencimento
+
+  [Function] DiaFixo
+    => Auxilio ao calculo de datas
+
+  [Function] GravaTotCli
+    => Actualiza os totais de cliente
+
+  [Sub] LigarGCCT_Anular
+    => Anular a ligação á contabilidade
+
+  [Function] NumeroDiasMes
+    => Auxilio ao calculo de datas
+
+  [Function] Sacar_Cambio
+    => Vai buscar o cambio de venda á moeda
+
+  [Function] Sacar_CambiodeCompra
+    => Vai buscar o cambio de compra á moeda
+
+  [Function] Sacar_Conta_Tesouraria
+    => Conta de tesouraria do sector
+
+  [Function] Sacar_Diario
+    => Vai buscar o diário
+
+  [Function] Sacar_Dias
+    => Auxilio ao calculo de datas
+
+  [Function] Sacar_Mercado
+    => Vai buscar o mercado ao regime de iva
+
+  [Function] Sacar_NumDoc
+    Input : TpDoc As String, Ano As Integer, Serie As Integer
+    Output: Long
+    => Atribui o numero ao documento
+
+  [Function] Sacar_ODia
+    => Auxilio ao calculo de datas
+
+  [Function] UpdateGcCab
+    => Actualiza os cabelalhos dos documentos liquidados
+
+  [Function] UpdatePendentes
+    => Actualiza os pendentes
+
+  [Sub] Valores_Defeito_Cab
+    => Sugere alguns valores por defeito
+
+  [Sub] Valores_Defeito_Lin
+    => Sugere alguns valores por defeito
+
+  [Function] Verifica_Data
+    => Auxilio ao calculo de datas
+
+  [Function] XML
+    Output: Long
+    => Lê entidade para memória a partir de fx xml

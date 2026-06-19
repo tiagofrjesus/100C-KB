@@ -1,0 +1,4 @@
+LotesLinha
+Lotes, dados de cada linha de lotes que está associada a cada linha de documento também faz acesso a dados para escrita
+
+Membros (0):

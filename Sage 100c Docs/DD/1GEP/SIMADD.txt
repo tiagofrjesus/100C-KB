@@ -1,0 +1,9 @@
+SIMADD — Simulação - Ab. Desc  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: NFUNC+CODABDES
+
+Columns (3):
+  CODABDES  Text(10)  Abonos e Desconto
+  NFUNC     Text(10)  Nº Funcionário
+  VALOR     Currency  Valor

@@ -1,0 +1,16 @@
+DOCUMENTSUBMISSIONLOG — Log de submissão de documentos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: TPDOC+SERIE+NNUMDOC+ANO+SUBMISSIONDATE
+
+Columns (10):
+  ANO                   Integer    Ano
+  NNUMDOC               Long       Número
+  SERIE                 Integer    Série
+  SUBMISSIONDATE        Date       Data de submissão
+  SUBMISSIONRETURNCODE  Integer    Código de resposta da submissão
+  SUBMISSIONRETURNTEXT  Text(300)  Texto de resposta da submissão
+  SUBMISSIONSTATE       Integer    Estado resultante da submissão
+  SUBMISSIONTYPE        Integer    Tipo de submissão
+  SUBMISSIONUSER        Text(20)   Utilizador que submeteu
+  TPDOC                 Text(3)    Tipo

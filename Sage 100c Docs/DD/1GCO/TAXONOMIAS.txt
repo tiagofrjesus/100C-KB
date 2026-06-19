@@ -1,0 +1,11 @@
+TAXONOMIAS — Codigo das Taxonomias  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: ANO+TIPOEMPRESA+CONTA+TAXONOMIA
+
+Columns (5):
+  ANO          Integer    Ano de entrada em vigor
+  CONTA        Text(20)   Conta
+  DESCRICAO    Text(512)  Descrição taxonomia
+  TAXONOMIA    Integer    Código da taxonomia
+  TIPOEMPRESA  Integer    Tipo de empresa

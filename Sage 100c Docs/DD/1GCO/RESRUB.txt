@@ -1,0 +1,9 @@
+RESRUB — Restrição Rubricas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  RESRUB [primary, unique]: EXERCICIO+CONTA+RUB
+
+Columns (3):
+  CONTA      Text(15)  Conta
+  EXERCICIO  Integer   Exercício
+  RUB        Text(6)   Rúbrica Orçamental

@@ -1,0 +1,8 @@
+TABLIV03 — Tabela Livre 3  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRIM [primary, unique]: CHAVE
+
+Columns (2):
+  CHAVE  Text(4)   Código
+  DESCR  Text(50)  Descrição

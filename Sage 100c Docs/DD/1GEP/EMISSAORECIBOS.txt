@@ -1,0 +1,16 @@
+EMISSAORECIBOS — Emissão de recibos  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  RECIBO [primary, unique]: ANO+MES+NFUNC+TPREC+NORDEMRE
+
+Columns (10):
+  ANO              Integer    Ano
+  ESTADO           Integer    Estado
+  EXTENSO          Text(255)  Valoe em extenso
+  MENSAGEM         Text(255)  Mensagem
+  MES              Integer    Mês
+  NFUNC            Text(10)   Código do funcionário
+  NORDEMRE         Integer    Ordem do recibo
+  TOTAL_ABONOS     Currency   Total de abonos
+  TOTAL_DESCONTOS  Currency   Total de descontos
+  TPREC            Integer    Tipo de recibo

@@ -1,0 +1,9 @@
+CUSTEIO — Custeio  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CUSTEIO [primary, unique]: CUSTEIO
+
+Columns (3):
+  CUSTEIO  Text(6)   Custeio
+  DESCR    Text(50)  Descrição
+  ENQCUST  Text(6)   Cód.Enq. Custeio

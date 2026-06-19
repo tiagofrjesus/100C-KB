@@ -1,0 +1,7 @@
+RAZOES — Razoes  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  RAZAO [primary, unique]: RAZAO
+
+Columns (1):
+  RAZAO  Text(2)  Razão

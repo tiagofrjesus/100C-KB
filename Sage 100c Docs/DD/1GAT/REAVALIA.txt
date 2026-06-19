@@ -1,0 +1,16 @@
+REAVALIA — Reavaliacoes  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  REGISTO [primary, unique]: REGISTO+FICHA
+  FICHADAT: FICHA+DATA
+
+Columns (9):
+  ANOACTU   Integer   Ano Actualização
+  DATA      Date      Data
+  DECRETO   Integer   Decreto
+  FICHA     Text(15)  Ficha
+  REGISTO   Long      REGISTO
+  VAQARV    Currency  Val.Aquisi.Ant.Reava
+  VAQREAV   Currency  Val.AquiReav
+  VREACAAR  Currency  V. dep. ac.antes re.
+  VREACRV   Currency  V. dep. ac. act. rea

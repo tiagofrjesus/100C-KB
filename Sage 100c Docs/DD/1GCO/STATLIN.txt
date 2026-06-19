@@ -1,0 +1,14 @@
+STATLIN — Lin Proc Intrastat  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINCIPA [primary, unique]: TPDOC+SERIE+ANO+NNUMDOC+NUMLIN
+  DATA: ANO+MES
+
+Columns (7):
+  ANO      Integer  ANO
+  MES      Integer  MES
+  NNUMDOC  Double   NNUMDOC
+  NUMLIN   Integer  NUMLIN
+  SERIE    Integer  SERIE
+  TPDOC    Text(3)  TPDOC
+  UNIDSUP  Double   UNIDSUP

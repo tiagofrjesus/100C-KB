@@ -1,0 +1,33 @@
+BEM — Bens GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXBEM [primary, unique]: CBEM
+  LXIMO [unique]: CODIGO+CBEM
+
+Columns (26):
+  CBAR      Text(15)   Código de Barras
+  CBEM      Text(20)   I - CÒDIGO / Código do Bem
+  CLOC      Text(13)   Localização actual (auto)
+  CODIGO    Text(20)   Código do Imóvel ao qual o bem está associado
+  CRES      Text(15)   Responsável actual (auto)
+  CSEC      Text(15)   Código da Secção a que está adjudicado
+  CTBEM     Text(5)    III - CARACTERIZAÇÂO FIXA - CLASSIFICAÇÔES / Tipo de Bem
+  DESCR     Text(100)  II - DESCRICAO / Designação do Bem
+  DIMALT    Single     Altura
+  DIMCOMP   Single     Comprimento
+  DIMLARG   Single     Largura
+  DIMPESO   Single     Peso
+  DTCLOC    Date       Data em que mudou para este local (auto)
+  DTFIM     Date       Data de Inactividade (Fim de utilização ou abate)
+  DTREG     Date       IV - CARACTERIZAÇÂO FIXA - DATAS / Data de Registo da Ficha
+  ETIQ      Text(15)   Texto para etiquetas
+  FOTO      Text(50)   Imagem do Bem
+  MARCA     Text(40)   Marca do Bem
+  MODEL     Text(40)   Modelo do Bem
+  NETIQ     Integer    Nº de etiquetas a imprimir para o Bem
+  NOTAS     Memo       VI - DIVERSOS / Descrição extensa do Bem
+  QTD       Single     V - CARACTERIZAÇÂO FIXA GERAL / Quantidade de objectos incluidos no bem
+  REFER     Text(40)   Referencia do Bem
+  VALACT    Currency   Valor de mercado actual do Bem
+  VALREP    Currency   Valor de Reposição do Bem (muitas vezes é o valor do novo)
+  VALREPDT  Date       Data da última actualização dos valores actual/reposição

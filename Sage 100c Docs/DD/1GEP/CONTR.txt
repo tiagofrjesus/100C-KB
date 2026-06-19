@@ -1,0 +1,11 @@
+CONTR — Contratos  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (5):
+  COD      Text(4)   Código
+  DESCR    Text(30)  Descrição
+  FORPROC  Integer   Tipo Processamento
+  TERMO    Integer   Termo do contrato
+  TIPO     Text(2)   Tipo

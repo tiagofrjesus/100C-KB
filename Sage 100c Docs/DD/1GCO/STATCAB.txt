@@ -1,0 +1,21 @@
+STATCAB — Cab Proc Intrastat  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINCIPA [primary, unique]: TPDOC+NNUMDOC+SERIE+ANO
+  DATA: ANO+MES
+
+Columns (14):
+  ADQNIF   Text(20)  ADQNIF
+  ANO      Integer   ANO
+  ENTREGA  Text(3)   ENTREGA
+  MES      Integer   MES
+  NATA     Integer   NATA
+  NATB     Integer   NATB
+  NNUMDOC  Double    NNUMDOC
+  PAIS     Text(2)   PAIS
+  PAISORI  Text(2)   
+  REGIAO   Integer   REGIAO
+  SERIE    Integer   SERIE
+  TPDOC    Text(3)   TPDOC
+  TRANS    Text(3)   TRANS
+  TTRANS   Text(10)  TTRANS

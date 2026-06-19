@@ -1,0 +1,89 @@
+ACTIVOS — Activos  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (83):
+  ACIMA_QUOTA_MAXIMA           Integer    Depreciação acima da quota máxima aceites fiscalmente
+  AJUSTE_VALOR_AQUISICAO       Currency   Ajuste do Valor da Aquisição
+  AJUSTE_VALOR_DEPRECIACOES    Currency   Ajuste do Valor das Depreciações
+  BEM_REDUZIDO_VALOR           Integer    Activo de Reduzido Valor
+  BEM_REINVESTIMENTO           Integer    Bem de Reinvestimento
+  BLOCO_NOTAS                  Memo       Bloco de Notas
+  CCECU1                       Long       Código c/custo / Rateio a c/custo da tabela 1
+  CCECU2                       Long       Código c/custo / Rateio a c/custo da tabela 2
+  CCECU3                       Long       Código c/custo / Rateio a c/custo da tabela 3
+  CCECU4                       Long       Código c/custo / Rateio a c/custo da tabela 4
+  CLASSIFICACAO                Text(15)   Classificação
+  CLIENTE                      Text(28)   Vendido ao cliente
+  CODIGO                       Text(20)   Código
+  CODIGO_BARRAS                Text(13)   Código de Barras
+  CODIGO_MODELO_MENSURACAO     Integer    Modelo de Mensuração
+  CODIGO_TABELA                Text(5)    Código de Tabela
+  CORRECCAO_FISCAL_1           Integer    Ajuste Fiscal 1
+  CORRECCAO_FISCAL_2           Integer    Ajuste Fiscal 2
+  CTB_DESRECONHECER            Integer    CTB Desreconhecer
+  CTB_RECLASSIFICAR            Integer    CTB Reclassificar
+  DATA_FIM                     Date       Data Fim
+  DATA_INICIO                  Date       Data Inicio
+  DECRETO_PROXIMA_REAVALIACAO  Integer    Decreto da Próxima Reavaliação
+  DEPRECIACAO_ANUAL            Single     Depreciação Anual
+  DESCRICAO                    Text(100)  Descrição
+  DESCRICAO_INDIVIDUAL         Integer    Descrição Individual
+  DIMALT                       Currency   Altura
+  DIMCOMP                      Currency   Comprimento
+  DIMLARG                      Currency   Largura
+  DIMPESO                      Currency   Peso
+  DTREG                        Date       IV - CARACTERIZAÇÂO FIXA - DATAS / Data de Registo da Ficha
+  ESTABELECIMENTO              Text(15)   Código do Estabelecimento
+  ESTADO                       Integer    Estado
+  ETIQ                         Text(15)   Texto para etiquetas
+  EXCLUIDO_REAVALIACOES        Integer    Excluido Reavaliações
+  FICHA_ASSOCIADA              Text(20)   Ficha Associada
+  FORNECEDOR                   Text(30)   Fornecedor
+  GRANDE_GRUPO                 Text(5)    Grande Grupo
+  GRUPO_ACTIVOS                Text(10)   Grupo de Activos
+  GRUPO_HOMOGENEO              Text(5)    Grupo Homogéneo
+  GR_REPARACAO                 Integer    Grande reparação/beneficiação
+  ICECU1                       Text(1)    Tipo de Imputação c/custo Tabela 1: F=Fixa; V=Variável p/Dias calendário D=Variável Directa
+  ICECU2                       Text(1)    Tipo de Imputação c/custo Tabela 2: F=Fixa; V=Variável p/Dias calendário D=Variável Directa
+  ICECU3                       Text(1)    Tipo de Imputação c/custo Tabela 3: F=Fixa; V=Variável p/Dias calendário D=Variável Directa
+  ICECU4                       Text(1)    Tipo de Imputação c/custo Tabela 4: F=Fixa; V=Variável p/Dias calendário D=Variável Directa
+  INCLUIR_MAPA_31              Integer    Incluir Mapa 31
+  INDICADOR_TAXA               Integer    Indicador de Taxa
+  LIVRE1                       Text(1)    Livre
+  LIVRE2                       Text(1)    Livre
+  LOCALIZACAO                  Text(13)   Localização
+  MARCA                        Text(40)   Marca do Bem
+  METODO                       Integer    Método
+  MODEL                        Text(40)   Modelo do Bem
+  NOTAS                        Memo       VI - DIVERSOS / Descrição extensa do Bem
+  NOVO                         Integer    Novo
+  NUMERO_CONTRIBUINTE          Text(15)   Número de Contribuinte
+  NUMERO_DOCUMENTO             Text(15)   Número de Documento
+  NUMERO_ELEMENTOS             Long       Número de Elementos
+  OBRAS_EDIFICIOS_ALHEIOS      Integer    Obras em Edificios Alheios
+  OBSERVACOES                  Text(35)   Observações
+  OBSERVACOES_ESPECIAIS        Text(5)    Observações Especiais
+  PERCENTAGEM_NAO_DEPRECIAVEL  Double     % residual (% não depreciável)
+  REFER                        Text(40)   Referencia do Bem
+  REGIME                       Integer    Regime
+  REGIME_INTENSIVO_UTILIZACAO  Integer    Activo em regime intensivo de utilização
+  REPORTAR_MENOSVALIA_MAPA31   Integer    Reportar menos valia fiscal no mapa31
+  RESPONSAVEL                  Text(15)   Responsável
+  SECCAO                       Text(15)   Secção
+  SECTOR                       Text(3)    Sector
+  SUB_GRUPO                    Text(5)    Sub-Grupo
+  TAXA_DEPRECIACAO             Single     Taxa Depreciação
+  TAXA_DEPRECIACAO_SIMULACAO   Single     Taxa Depreciação de Simulação
+  TIPO_ACTIVO                  Integer    Tipo de Activo
+  UPDATEDATE                   Date       Data da última alteração
+  UTILIZADOR                   Text(15)   Utilizador
+  VALOR_LIQUIDO_AJUSTADO       Currency   Valor Líquido Ajustado
+  VALOR_NAO_DEPRECIAVEL        Double     Valor residual (valor não depreciável)
+  VALOR_RESIDUAL               Currency   Valor estimado final
+  VALREPDT                     Date       Data da última atualização dos valores atual/reposição
+  VIDA_ADICIONAL_ATRIBUIDA     Integer    Vida Adicional Atribuida
+  VIDA_ADICIONAL_REAVALIADA    Integer    Vida Adicional Reavaliada
+  VIDA_FISCAL                  Integer    Vida Fiscal
+  VIDA_REAL                    Integer    Vida Real

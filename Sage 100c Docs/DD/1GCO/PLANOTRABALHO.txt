@@ -1,0 +1,13 @@
+PLANOTRABALHO — Plano de Trabalhos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD_ORC+NOME
+
+Columns (7):
+  COD_ORC  Text(6)    
+  NOME     Long       
+  PLANO    Text(255)  
+  PREC     Text(255)  
+  PRINT    Boolean    
+  PRINTDC  Boolean    
+  VALORES  Memo       

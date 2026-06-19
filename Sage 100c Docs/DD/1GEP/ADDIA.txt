@@ -1,0 +1,9 @@
+ADDIA — Abonos e desontos diários  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: NFUNC+CODABDES
+
+Columns (3):
+  CODABDES  Text(10)  Código Abono Desc.
+  NFUNC     Text(10)  Número Funcionário
+  VALOR     Currency  Valor

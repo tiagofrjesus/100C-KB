@@ -1,0 +1,7 @@
+DTFRECON — Data Fecho Recon  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINCIPA [primary, unique]: DATA
+
+Columns (1):
+  DATA  Date  Data Fecho

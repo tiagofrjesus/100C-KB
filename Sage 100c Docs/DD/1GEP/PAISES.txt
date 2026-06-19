@@ -1,0 +1,11 @@
+PAISES — Países  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  CODIGO [primary, unique]: COD
+
+Columns (5):
+  COD       Text(3)   Código
+  CODINTRA  Text(2)   Código ISO
+  COMUNID   Text(3)   Comunidade
+  DBTS      23        
+  DESCR     Text(50)  Descrição

@@ -1,0 +1,14 @@
+IMPUTACOES_MAT — Imputações materiais  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: TPDOC+NNUMDOC+SERIE+ANO+NUMLINHA+COD_ORC+NOME
+
+Columns (8):
+  ANO         Integer   
+  COD_ORC     Text(6)   
+  NNUMDOC     Long      
+  NOME        Long      
+  NUMLINHA    Integer   
+  QUANTIDADE  Currency  
+  SERIE       Integer   
+  TPDOC       Text(3)   

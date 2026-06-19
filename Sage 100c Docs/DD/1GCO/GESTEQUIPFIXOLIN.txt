@@ -1,0 +1,28 @@
+GESTEQUIPFIXOLIN — Gestão de equipamento fixo lin.  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: DATA+DOC_REF+REF+CODIGO+AUX
+  IDX1: COD_OBRA+ARM+CODIGO+DATA+DOC_REF+REF+AUX
+  IDX2: DATA+DOC_REF+REF+AUX
+  IDX3: COD_OBRA+ARM+CODIGO+DATA+DOC_REF
+
+Columns (19):
+  ANULADA      Boolean   
+  ARM          Text(12)  
+  ARM_ANT      Text(12)  
+  AUX          Text(1)   
+  CODIGO       Text(13)  
+  COD_OBRA     Text(6)   
+  DATA         Date      
+  DESCRICAO    Text(80)  
+  DOC_REF      Long      
+  OBRA_ANT     Text(6)   
+  PRECO_UNI    Currency  
+  QUANTIDADE   Double    
+  REF          Long      
+  RESPONSAVEL  Text(32)  
+  STOCK        Double    
+  STOCK_CPM    Currency  
+  STOCK_VAL    Currency  
+  TRANSF_COD   Text(4)   
+  TRANSF_NUM   Long      

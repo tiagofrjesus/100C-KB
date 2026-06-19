@@ -1,0 +1,11 @@
+ORCAMCARGA — Carga de Orçamentos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD_ORC+ARTIGO+TIPOPRECO
+
+Columns (5):
+  ARTIGO     Text(15)  
+  CARGA      Memo      
+  COD_ORC    Text(32)  
+  DESCRICAO  Text(80)  
+  TIPOPRECO  Integer   

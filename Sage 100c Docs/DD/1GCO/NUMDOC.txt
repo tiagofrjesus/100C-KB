@@ -1,0 +1,12 @@
+NUMDOC — Numeradores Docum.  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  DOC [primary, unique]: DOC+ANO+SERIE
+
+Columns (6):
+  ANO      Integer  Ano
+  DBTS     23       
+  DOC      Text(3)  Documento
+  FECHADO  Integer  Numerador fechado
+  NUM      Long     Número
+  SERIE    Integer  Série

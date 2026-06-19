@@ -1,0 +1,10 @@
+REPFIN — Rep. de Finananças  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (4):
+  BAIRFIS  Text(4)   Bairro Fiscal
+  COD      Text(4)   Código
+  CODREP   Text(4)   Código da Repartição
+  DESCR    Text(35)  Descrição

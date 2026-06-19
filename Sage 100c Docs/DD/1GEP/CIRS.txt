@@ -1,0 +1,8 @@
+CIRS — C.I.R.S.  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  REFERENCE [primary, unique]: REFERENCE
+
+Columns (2):
+  NAME       Text(100)  Descrição
+  REFERENCE  Text(5)    Código

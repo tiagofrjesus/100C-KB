@@ -1,0 +1,4 @@
+BancosWriter
+Ligação ao módulo de bancos. Não usado. Acesso a dados para escrita
+
+Membros (0):

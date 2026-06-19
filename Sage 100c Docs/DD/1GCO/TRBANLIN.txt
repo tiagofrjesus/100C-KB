@@ -1,0 +1,25 @@
+TRBANLIN — Tranf Ban Lin  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CHAVE [primary, unique]: TPDOC+NUMDOC+SERIE+ANO+LINHA
+
+Columns (19):
+  ANO       Integer   Ano
+  BIC       Text(11)  BIC
+  LINHA     Integer   Linha
+  NUMDOC    Long      Número Documento
+  PENANO    Integer   Pendente Ano
+  PENCAMBI  Double    Câmbio
+  PENDATA   Date      Data Pendente
+  PENDOC    Text(3)   Documento Pendente
+  PENDTVAL  Date      Data Valor
+  PENMOEDA  Text(3)   Moeda
+  PENNIB    Text(34)  Nib
+  PENNUM    Long      Numero Pendente
+  PENORIG   Text(3)   Pendente Original
+  PENSERIE  Integer   Série Pendente
+  PENTERC   Text(15)  Terceiro
+  PENTES    Text(15)  Pendente Tesouraria
+  PENVALOR  Currency  Valor
+  SERIE     Integer   Série
+  TPDOC     Text(3)   Tipo Documento

@@ -1,0 +1,10 @@
+TRFPAG — Transferência Pagamentos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Columns (7):
+  BANCOTER  Text(4)   Banco Terceiro
+  DATA      Date      Data
+  NIBTERC   Text(25)  NIB Terceiro
+  NOMEFICH  Text(60)  Nome Ficheiro
+  NOMETERC  Text(80)  Nome Terceiro
+  NOSSONIB  Text(25)  Nosso NIB
+  VALOR     Currency  Valor Trf.

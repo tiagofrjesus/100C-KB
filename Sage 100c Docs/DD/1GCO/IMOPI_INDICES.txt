@@ -1,0 +1,18 @@
+IMOPI_INDICES — Índices para revisão de preços  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: ANO+MES+COD_MATERIAL+COD_FORMULA+COD_DISTRITO
+  IDX1: ANO+MES+COD_FORMULA+COD_MATERIAL
+  IDX2: ANO+MES+COD_MATERIAL
+  IDX3: ANO+MES+COD_DISTRITO
+
+Columns (9):
+  ANO           Integer  ANO
+  COD_DISTRITO  Text(3)  COD_DISTRITO
+  COD_FORMULA   Text(6)  COD_FORMULA
+  COD_MATERIAL  Text(6)  COD_MATERIAL
+  DL            Boolean  DL
+  DL_TIMESTAMP  Date     DL_TIMESTAMP
+  GRUPO         Text(1)  GRUPO
+  INDICE        Double   INDICE
+  MES           Integer  MES

@@ -1,0 +1,19 @@
+SLDMED — Saldos Medios  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Columns (16):
+  ABREVIAT  Text(5)   Abreviat.
+  ABRIL     Currency  Abril
+  AGOSTO    Currency  Agosto
+  CODBANCO  Text(15)  Cód. Banco
+  DEZEMBRO  Currency  Dezembro
+  FEVEREIR  Currency  Fevereiro
+  FLAG      Integer   FLAG
+  GRUPO     Text(4)   Grupo
+  JANEIRO   Currency  Janeiro
+  JULHO     Currency  Julho
+  JUNHO     Currency  Junho
+  MAIO      Currency  Maio
+  MARCO     Currency  Março
+  NOVEMBRO  Currency  Novembro
+  OUTUBRO   Currency  Outubro
+  SETEMBRO  Currency  Setembro

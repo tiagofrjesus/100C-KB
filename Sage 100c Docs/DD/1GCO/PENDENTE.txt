@@ -1,0 +1,48 @@
+PENDENTE — Pendentes  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPDOC [primary, unique]: ANO+TPDOC+SERIE+NNUMDOC
+  TERMDT: TPTERC+TERCEIRO+MOEDA+TPCNT+DATAVENC
+  TPTERC: TPTERC+TERCEIRO+TPDOC
+  DTMARC: TPTERC+MOEDA+DTBOMPGT
+
+Columns (39):
+  ANO                   Integer   Ano
+  AREAGES               Integer   Area Gestão
+  BANCOPGT              Text(4)   Banco para Pgt
+  CNTRESP               Text(15)  Conta Resp.
+  COMISSAO              Currency  Comissão Vendedor
+  CONTATER              Text(15)  Conta Terceiro
+  DATADOC               Date      Data documento
+  DATAPGT               Date      Data Pagamento
+  DATAVENC              Date      Data vencimento
+  DEBCRED               Integer   Movimentação
+  DESCPGT               Text(3)   Desconto Pgt
+  DTBOMPGT              Date      Data Bom p/Pagamento
+  FACTORIN              Text(4)   Factoring
+  INDBOMPG              Integer   Indicador Bom Pag.
+  MODOPGT               Text(3)   Modo Pagamento
+  MOEDA                 Text(3)   Moeda
+  NNUMDOC               Long      Número Documento
+  OBRA                  Text(6)   Obra
+  PROVISAO              Currency  Provisão
+  REFEXT                Text(32)  Referencia Externa
+  REGIME_IVA_CAIXA      Integer   Regime de I.V.A. de caixa
+  RGIVA                 Text(3)   Tipo de IVA
+  SECTOR                Text(3)   Sector
+  SERIE                 Integer   Série
+  TERCEIRO              Text(15)  Terceiro
+  TIPO_SUJEITO_PASSIVO  Integer   Tipo de Sujeito passivo
+  TPCNT                 Integer   Carteira
+  TPDOC                 Text(3)   Documento
+  TPTERC                Integer   Tipo Terceiro
+  VENDEDOR              Text(10)  Vendedor
+  VLDOC                 Currency  Valor original
+  VLDOCCV               Currency  V. Doc. Contra Valor
+  VLDOCESC              Currency  Valor da base
+  VLFINAN               Currency  Valor Financiado
+  VLPENDE               Currency  Valor pendente
+  VLPENESC              Currency  Desconto
+  VLPNDCV               Currency  V. Pen. Contra Valor
+  VLTIT                 Currency  Valor Titulado
+  VNUM                  Text(32)  Vosso Número

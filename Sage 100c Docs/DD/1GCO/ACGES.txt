@@ -1,0 +1,17 @@
+ACGES — Acumulados Gestão  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ACGES [primary, unique]: ANO+MES+STATUS+SECTOR+RUB+CCUS+CUSTEIO+CONTA
+
+Columns (11):
+  ANO        Integer   Ano
+  CCUS       Text(6)   Centro Custo
+  CONTA      Text(15)  Conta
+  CUSTEIO    Text(6)   Custeio
+  EXERCICIO  Integer   Exercício
+  MES        Integer   Mês
+  RUB        Text(6)   Rúbrica
+  SECTOR     Text(3)   Sector
+  STATUS     Integer   Status Acumulados
+  VLCRED     Currency  Valor Crédito
+  VLDEB      Currency  Valor Débito

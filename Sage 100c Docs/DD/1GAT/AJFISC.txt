@@ -1,0 +1,12 @@
+AJFISC — Ajustes Fiscais  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (6):
+  AJUSEXCE  Double     Ajuste Excesso
+  AJUSPER   Double     Ajuste Percentual
+  CODIGO    Integer    Código
+  DESCRICA  Text(150)  Descrição
+  ICNMAPA   Integer    Depreciação N/Aceite
+  TIPOAJ    Integer    Tipo Ajuste

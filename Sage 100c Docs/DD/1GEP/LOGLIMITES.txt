@@ -1,0 +1,26 @@
+LOGLIMITES — Histórico limites isenção  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  PROC [primary, unique]: ANO+MES
+
+Columns (20):
+  AJC18E19EST            Currency  Limite isenção ajudas de custo nível remuneratório 18 e 9 estrangeiro
+  AJC18E19NAC            Currency  Limite isenção ajudas de custo nível remuneratório 18 e 9 nacionais
+  AJCGOVEST              Currency  Limite isenção ajudas de custo membros governo estrangeiro
+  AJCMAIS18EST           Currency  Limite isenção ajudas de custo nível remuneratório >18 estrangeiro
+  AJCMAIS18NAC           Currency  Limite isenção ajudas de custo nível remuneratório >18
+  AJCOUTROSEST           Currency  Limite isenção ajudas de custo outros estrangeiro
+  AJCOUTROSNAC           Currency  Limite isenção ajudas de custo outros nacionais
+  ANO                    Integer   Ano de processamento
+  IAS                    Currency  IAS
+  ISENDSA                Currency  Isenção subsídio alimentação
+  ISSATI                 Currency  Isenção ticket refeição
+  KM_ALUGUER_1           Currency  Valor isento Km em veículo aluguer 1
+  KM_ALUGUER_2           Currency  Valor isento Km em veículo aluguer 2
+  KM_ALUGUER_3           Currency  Valor isento Km em veículo aluguer 3
+  KM_PERCURSO_PE         Currency  Valor isento Km em percurso a pé
+  KM_TRANSPORTE_PROPRIO  Currency  Valor isento Km em transporte próprio
+  KM_TRANSPORTE_PUBLICO  Currency  Valor isento Km em transporte público
+  MEMGOVNA               Currency  Limite isenção ajudas de custo membros governo nacionais
+  MES                    Integer   Mês de processamento
+  SALMIN                 Currency  Salário mínimo

@@ -1,0 +1,10 @@
+ARMAZEM_OBRA — Reservas de obra por armazém  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ARTARM [primary, unique]: ARTIGO+ARMAZEM+OBRA
+
+Columns (4):
+  ARMAZEM     Text(6)   Armazém
+  ARTIGO      Text(15)  Artigo
+  EXISTENCIA  Currency  Existência
+  OBRA        Text(6)   Obra

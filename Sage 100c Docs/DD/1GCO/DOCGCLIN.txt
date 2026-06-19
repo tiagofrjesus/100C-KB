@@ -1,0 +1,96 @@
+DOCGCLIN — Documentos GC Lin  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPDOC [primary, unique]: ANO+TPDOCUM+SERIE+NNUMDOC+NUMLINHA
+  ARTDATA: ARTIGO+DATA+MOVSTC+TPOPER
+  ARTDTARM: ARTIGO+ARMAZEM+DATA
+  ARTIGO: ARTIGO
+  TPDOCV: ANO+TPDOCUM+SERIE+NNUMDOC+ORDENACA
+  ORIG: ORANO+ORDOC+ORSERIE+ORNUM+ORLIN
+  ID: IDLINDOC
+
+Columns (84):
+  ANO                        Integer   Ano
+  ARMAZEM                    Text(6)   Armazem
+  ARTIGEAN                   Text(20)  Código EAN Artigo
+  ARTIGO                     Text(15)  Artigo ou Descritor
+  CATEGORIA_RETENCAO         Integer   Categoria retenção
+  CODLOT                     Text(10)  Código Lote
+  DATA                       Date      Data de Entrada
+  DATENEW                    Date      Data criação
+  DATEUPD                    Date      Data alteração
+  DESCONTO                   Text(12)  Desconto
+  DESCR                      Text(80)  Descrição
+  DESCRRTF                   Text(0)   Descrição RTF
+  DESCVAL                    Currency  Desconto Valor
+  DESCVO                     Currency  Desc.Valor Or.
+  ECOEMBAL                   Currency  Total de Ecovalor associado a Embalagens da linha
+  ECOOUTRO                   Currency  Total de Outros Ecovalores da linha
+  ECOPILHA                   Currency  Total de Ecovalor associado a pilhas da linha
+  ECOPNEU                    Currency  Total de Ecovalor associado a Pneus da linha
+  ECOREEE                    Currency  Total de REEE da linha
+  ENCARGOS                   Double    Encargos
+  FACTOR                     Currency  Factor
+  FORMUL                     Integer   Linha com fórmula
+  HOURNEW                    Text(8)   Hora criação
+  HOURUPD                    Text(8)   Hora alteração
+  IDLINDOC                   16        Id linha Documento
+  IMPOSTO_ALCOOL             Currency  Total de imposto sobre o alcool da linha
+  IMPRIME                    Integer   Imprime Declarações
+  INCOER                     Integer   Nº de incoêrencias
+  IVA                        Currency  IVA
+  LINANU                     Integer   Linha Anulada
+  LINHAARRED                 Integer   Linha de arredondamento
+  LINHAREL                   Integer   Linha Relaccionada
+  LINHA_RETIFICADA           Integer   Linha retificada
+  MOTIVOISENCAOSAFT          Text(3)   Motivo de isenção para o SAFT
+  MOVIMENTA_SO_VALOR         Integer   Nota Cred.Financeira
+  MOVSTC                     Integer   Movimento Stock
+  NNUMDOC                    Long      Número Documento
+  NUMERO_AUTORIZACAO         Text(20)  Número de autorização de venda
+  NUMERO_ORIGINAL            Long      Número Original do documento
+  NUMLINHA                   Integer   Número da Linha
+  N_IVA_LINHA                Currency  Valor Iva
+  N_PRECO_LINHA_INTRODUZIDO  Double    Preco Unitario Intro
+  N_TIPO_IVA                 Integer   Regime de IVA Linha
+  N_VALOR_LINHA_INTRODUZIDO  Currency  Valor Linha Intro
+  N_VALOR_TOTAL_DESCONTO     Currency  Valor total desconto
+  OPERNEW                    Text(20)  Operador criação
+  OPERUPD                    Text(20)  Operador alteração
+  ORANO                      Integer   OrAno
+  ORDENACA                   Integer   Ordenação
+  ORDGER                     Integer   Ordem de Geração
+  ORDOC                      Text(3)   OrDoc
+  ORLIN                      Integer   Linha Original
+  ORNUM                      Long      OrNum
+  ORSERIE                    Integer   OrSerie
+  PROCNEW                    Integer   Origem criação
+  PROCUPD                    Integer   Origem alteração
+  PRUNIT                     Double    Preço
+  QTDORIG                    Currency  Quantidade Origem
+  QTDRES                     Currency  Reserva
+  QTDRESOR                   Currency  Reserva Original
+  QUANT                      Double    Quantidade
+  QUANTIDADE_RETIFICADA      Currency  Quantidade retificada
+  RESERVA_OBRA               Text(6)   Reserva de Obra
+  RUBRICA                    Text(15)  Descritor
+  SECTOR                     Text(3)   Sector
+  SERIE                      Integer   Serie
+  SERIE_ORIGINAL             Integer   Série Original do Documento
+  SIGNATUR                   Text(32)  Signature
+  TAXA_RETENCAO              Currency  Taxa de retenção
+  TPDOCUM                    Text(3)   Tipo Documento
+  TPLINHA                    Integer   Tipo de Linha
+  TPOPER                     Integer   Tipo Operação
+  TXDESC                     Currency  Taxa Desconto
+  UNIDADE                    Text(3)   Unidade
+  VALOR                      Currency  Valor
+  VALORO                     Currency  Valor Original
+  VALOR_RETENCAO             Currency  Valor da retenção
+  VALOR_SAIDA_STOCK          Currency  Valor Saída Stock
+  VENDEDOR                   Text(10)  Vendedor
+  VLINTROR                   Currency  Valor Introduzido Original
+  VLIVAOR                    Currency  Valor IVA Original
+  VLMOVORI                   Currency  Valor Stock Original
+  VLMOVSTK                   Currency  Vl Movimento Stock
+  VLTOTDESCOR                Currency  Valor Total Desconto Original

@@ -1,0 +1,21 @@
+ORC_SE — Orçamentos de Subempreiteiro Adjudicados  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD_OBRA+COD_SE+NR_ORCAM
+
+Columns (15):
+  AUTO        Boolean   Cálculo Automático
+  COD         Text(15)  Código
+  COD_OBRA    Text(6)   Código Obra
+  COD_SE      Text(15)  Cód. Subempreiteiro
+  DESCRICAO   Text(40)  Descrição
+  D_ORCAM     Date      Data Orçamento
+  F_DIVIDA    Currency  Facturas Dívida
+  INTERNAL    Boolean   Orçamento Interno
+  NR_ORCAM    Text(32)  Número Orçamento
+  TEMIVA      Boolean   IVA Incluído
+  V_DIVIDA    Currency  Valor Dívida
+  V_FACTURAS  Currency  Valor Facturas
+  V_ORCAM     Currency  Valor Orçamento
+  V_PAGO      Currency  Valor pago
+  V_PAGO2     Currency  Vl. Pago Utilizador

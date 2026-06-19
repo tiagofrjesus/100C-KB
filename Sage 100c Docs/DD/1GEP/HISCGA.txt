@@ -1,0 +1,25 @@
+HISCGA — Hist. CGA  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: ANO+MES+NFUNC+CODSIT+ESTORN+DATAEF
+
+Columns (19):
+  ANO               Integer    Ano
+  CATEG             Text(25)   Categoria
+  CODSIT            Text(2)    Cód. Situação
+  DATAEF            Date       Data Efeito
+  DES               Currency   Descontos
+  ESTORN            Integer    Tipo Movimento
+  HORARIO_COMPLETO  Single     Horário Completo
+  HORPAR            Single     Hor.Parcial
+  MES               Integer    Mês
+  NCGA              Text(7)    Nº CGA
+  NDIU              Integer    Nº Diuturnidades
+  NFUNC             Text(10)   Nº Func.
+  NIVREM            Text(3)    Nív.Remuneração
+  NOME              Text(50)   Nome
+  OBS               Text(100)  Observações
+  PERCAC            Single     % Acrescimo
+  PERDEF            Single     Número de dias
+  REM               Currency   Remuneração
+  TPREL             Text(2)    Tipo Relação

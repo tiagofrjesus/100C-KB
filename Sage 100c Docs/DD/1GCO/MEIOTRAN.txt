@@ -1,0 +1,8 @@
+MEIOTRAN — Meios Transporte  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (2):
+  COD    Text(3)   Codigo
+  DESCR  Text(20)  Descrição

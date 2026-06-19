@@ -1,0 +1,12 @@
+SIMULCAB — Simulação Cabecalho  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Columns (9):
+  COMPOSTO  Text(15)  Composto
+  DESCRICA  Text(80)  Descrição
+  ENCFIM    Date      DataFim
+  ENCINICI  Date      DataInicio
+  QTEXIST   Currency  Qtd Exist
+  QTNESS    Currency  QtdNecessaria
+  QTPRETEN  Currency  Qtd Pedido
+  TEXTLIVR  Text(70)  TextoLivre
+  TIPOPROD  Text(15)  TipoComposto

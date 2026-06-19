@@ -1,0 +1,31 @@
+EDC_CONFIGURACAO — Configuração de Encontro de Contas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (25):
+  ACERTO_DOCUMENTO_PAGAMENTO_CLI      Text(3)   Documento de Pagamento de Cliente
+  ACERTO_DOCUMENTO_PAGAMENTO_SERIE    Integer   Documento de Pagamento Série
+  ACERTO_DOCUMENTO_RECEBIMENTO_CLI    Text(3)   Documento de Recebimento de Cliente
+  ACERTO_DOCUMENTO_RECEBIMENTO_SERIE  Integer   Documento de Recebimento Série
+  ACERTO_MEIO_PAGAMENTO               Text(3)   Meio de Pagamento
+  CODIGO                              Text(2)   Código
+  DESCRICAO                           Text(30)  Descrição
+  PAG_BALCAO                          Text(4)   Balcão
+  PAG_BANCO                           Text(4)   Banco
+  PAG_CONTA                           Text(21)  Conta
+  PAG_DOCUMENTO_PAGAMENTO_CLI         Text(3)   Documento de Pagamento de Cliente
+  PAG_DOCUMENTO_PAGAMENTO_SERIE       Integer   Documento de Pagamento Série
+  PAG_DOCUMENTO_RECEBIMENTO_CLI       Text(3)   Documento de Recebimento de Cliente
+  PAG_DOCUMENTO_RECEBIMENTO_SERIE     Integer   Documento de Recebimento Série
+  PAG_MEIO_PAGAMENTO                  Text(3)   Meio de Pagamento
+  REC_BALCAO                          Text(4)   Balcão
+  REC_BANCO                           Text(4)   Banco
+  REC_CONTA                           Text(21)  Conta
+  REC_DOCUMENTO_PAGAMENTO_CLI         Text(3)   Documento de Pagamento de Cliente
+  REC_DOCUMENTO_PAGAMENTO_SERIE       Integer   Documento de Pagamento Série
+  REC_DOCUMENTO_RECEBIMENTO_CLI       Text(3)   Documento de Recebimento de Cliente
+  REC_DOCUMENTO_RECEBIMENTO_SERIE     Integer   Documento de Recebimento Série
+  REC_MEIO_PAGAMENTO                  Text(3)   Meio de Pagamento
+  SETOR                               Text(3)   Setor
+  TIPO_EDC                            Integer   Tipo de Encontro de Contas

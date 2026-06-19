@@ -1,0 +1,13 @@
+ORC_SE_ADIT — Aditamentos de Orçamentos de Subempreiteiro Ajudic  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD_OBRA+COD_SE+NR_ORCAM+D_ADIT
+
+Columns (7):
+  COD_OBRA   Text(6)   Código Obra
+  COD_SE     Text(15)  Cód. Subempreiteiro
+  DOCUMENTO  Text(20)  Documento
+  D_ADIT     Date      Data Aditamento
+  D_ORCAM    Date      Data Orçamento
+  NR_ORCAM   Text(20)  Número Orçamento
+  V_ADIT     Currency  Valor Aditamento

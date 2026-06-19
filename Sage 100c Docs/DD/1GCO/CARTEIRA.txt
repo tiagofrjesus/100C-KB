@@ -1,0 +1,9 @@
+CARTEIRA — Carteiras  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (3):
+  ACTIVO  Integer   Activo
+  CODIGO  Integer   Código
+  DESCRI  Text(15)  Descrição

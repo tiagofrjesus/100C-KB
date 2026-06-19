@@ -1,0 +1,16 @@
+METAP — Tabela com as permissões existentes GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXMETAP [primary, unique]: CTAB+CLS+CPAR
+
+Columns (10):
+  CGRP      Integer    
+  CLS       Text(10)   
+  CPAR      Text(20)   
+  CTAB      Text(10)   
+  DESCR     Text(255)  
+  NORD      Integer    
+  SQLCHECK  Text(255)  
+  TIPO      Text(255)  
+  TITUL     Text(50)   
+  VALOR     Text(50)   

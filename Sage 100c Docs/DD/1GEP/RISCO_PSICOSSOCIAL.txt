@@ -1,0 +1,11 @@
+RISCO_PSICOSSOCIAL — Risco psicossocial organizacional  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NFUNC [primary, unique]: NFUNC+DATA+FACTOR_RISCO
+
+Columns (5):
+  DATA                 Date       Data
+  FACTOR_RISCO         Text(2)    Código do factor de risco
+  NFUNC                Text(10)   Nº do funcionário
+  OBSERVACOES          Text(100)  Observações
+  TRABALHADOR_EXPOSTO  Integer    Indicação se o trabalhador esteve exposto

@@ -1,0 +1,34 @@
+EXPCB — Listagens configuradas - Cabeçalhos GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXEXPCB [primary, unique]: CEXP
+
+Columns (28):
+  CEXP       Text(20)   Código de exportação
+  CLS        Text(3)    Classe utilização em Menu: NOP-Não figura em Menus; GER-Menu utilitários
+  CTAB       Text(20)   Código de tabela associada
+  DESCR      Text(255)  Descrição
+  ECNS       Boolean    Formato para Consulta?
+  EEXP       Boolean    Formato para Exportação?
+  ERPT       Boolean    Formato para Relatório?
+  ETITULO    Boolean    
+  FOR1LIN    Text(1)    Caracter especial de início de linha
+  FORDELM    Text(1)    Caracter delimitação de campos
+  FORDIR     Text(50)   Directoria de exportação
+  FORFILE    Text(20)   Nome ficheiro exportação
+  FORQUOTES  Text(1)    Caracter inicial/final de linha
+  FORTIPO    Text(1)    Formato do ficheiro exportação: D-Texto Delimitado; C-Texto Colunas; X-XML
+  GRPBRK1    Boolean    Quebra de Grupo 1
+  GRPBRK2    Boolean    Quebra de Grupo 2
+  GRPBRK3    Boolean    Quebra de Grupo 3
+  GRPCNT     Integer    Número agrupamentos em instrução SQL
+  GRPDSC     Integer    
+  GRPLEG1    Text(50)   Legenda Quebra de Grupo 1
+  GRPLEG2    Text(50)   Legenda Quebra de Grupo 2
+  GRPLEG3    Text(50)   Legenda Quebra de Grupo 3
+  GRPSUPDT   Boolean    Suprime detalhes?
+  NORD       Text(5)    
+  OBS        Memo       Observações
+  SIGLA      Text(30)   Sigla
+  SQLIXPRI   Text(255)  
+  SQLWHERE   Text(255)  Instrução SQL para limites fixos

@@ -1,0 +1,9 @@
+BICIDENTIFIER — Códigos BIC  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  REFERENCE [primary, unique]: REFERENCE
+
+Columns (3):
+  BANK       Text(4)    Código do banco
+  NAME       Text(200)  Descrição
+  REFERENCE  Text(11)   Código

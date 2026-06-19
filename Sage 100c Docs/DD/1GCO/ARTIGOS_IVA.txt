@@ -1,0 +1,10 @@
+ARTIGOS_IVA — Historico de tipos de IVA  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: ARTIGO+TIPO_IVA+DATA_LIMITE
+
+Columns (4):
+  ARTIGO       Text(15)  Código do artigo
+  DATA_LIMITE  Date      Data limite
+  IVA          Integer   Regime de IVA
+  TIPO_IVA     Integer   Tipo de Iva (Compras/Vendas)

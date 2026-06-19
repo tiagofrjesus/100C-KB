@@ -1,0 +1,9 @@
+CENCU3 — Tabelas de Centros de Custo 3  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  IXCENCU [primary, unique]: CCECU
+
+Columns (3):
+  CCECU  Long      Código do Centro de Custo
+  DESCR  Text(30)  Descrição
+  SIGLA  Text(12)  Sigla

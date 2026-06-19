@@ -1,0 +1,8 @@
+NAT_CUSTO — Naturezas de Custos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  INDEX [primary, unique]: CODIGO
+
+Columns (2):
+  CODIGO     Text(6)   Código
+  DESCRICAO  Text(80)  Descrição

@@ -1,0 +1,18 @@
+ACARTMES — Acumul. Artigo Mês  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ARAMOPAR [primary, unique]: ARTIGO+ANO+MES+ESTATIST+ARMAZEM
+  ARANMEAR: ARTIGO+ANO+MES+ARMAZEM
+
+Columns (11):
+  ANO       Integer   Ano
+  ARMAZEM   Text(6)   Armazém
+  ARTIGO    Text(15)  Código do Artigo
+  ESTATIST  Text(3)   Cod. Estatistico
+  MES       Integer   Mês
+  QTDENT    Currency  Quantidade Entrada
+  QTDSAIDA  Currency  Quantidade Saída
+  VLEXTENT  Currency  Valor Externo Entrad
+  VLEXTSAI  Currency  Valor Externo Saída
+  VLSTKENT  Currency  Valor Stock Entrada
+  VLSTKSAI  Currency  Valor Stock Saída

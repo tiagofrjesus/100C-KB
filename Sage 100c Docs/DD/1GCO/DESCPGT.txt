@@ -1,0 +1,21 @@
+DESCPGT — Descontos de Pagamen  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (15):
+  APLVENC  Integer   Aplicar Vencidos
+  CODIGO   Text(3)   Código
+  DESCR    Text(50)  Descrição
+  DINDIAS  Integer   Livre
+  DINTAXA  Currency  Taxa Din.
+  NDIAS1   Integer   Número de dias 1
+  NDIAS2   Integer   Número de dias 2
+  NDIAS3   Integer   Número de dias 3
+  NDIAS4   Integer   Número de dias 4
+  NDIAS5   Integer   Número de dias 5
+  TAXA1    Currency  Taxa 1
+  TAXA2    Currency  Taxa 2
+  TAXA3    Currency  Taxa 3
+  TAXA4    Currency  Taxa 4
+  TAXA5    Currency  Taxa 5

@@ -1,0 +1,27 @@
+TRANSF — Emissão Transferenci  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: ORDEM
+
+Columns (21):
+  BALCAO_ORIGEM    Text(4)   Código do balcão origem
+  BIC_ORIGEM       Text(11)  Código B.I.C. do banco da empresa
+  BNCB             Text(50)  Banco Beneficiário
+  COD              Text(10)  Código
+  CODBNC           Text(4)   Cód. Banco
+  CODOP            Text(2)   Cód. OP.
+  DATA             Date      Data
+  DATAP            Date      Data P.
+  ESTABELECIMENTO  Text(4)   Estabelecimento
+  FORMATO          Integer   Código do formato de exportação
+  IBAN             Text(34)  IBAN Beneficiário
+  IBAN_ORIGEM      Text(34)  Código I.B.A.N. do banco da empresa
+  NIBB             Text(34)  NIB Beneficiario
+  NIBE             Text(34)  NIB Empresa
+  NOME             Text(50)  Nome
+  ORDEM            Integer   Ordem
+  ORIG             Integer   Origem
+  REF              Text(20)  Ref. Empresa
+  SWIFT            Text(11)  Código SWIFT
+  TPREC            Integer   Tipo Recibo
+  VALOR            Currency  Valor

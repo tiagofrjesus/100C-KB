@@ -1,0 +1,11 @@
+XDEFAL — Def.Alertas  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  REF [primary, unique]: REF
+
+Columns (5):
+  ACTIVO  Integer    Ativo
+  DESCR   Text(100)  Descrição
+  QR      Text(50)   SQL Detalhe
+  QT      Text(50)   SQL Alerta
+  REF     Text(50)   Referência

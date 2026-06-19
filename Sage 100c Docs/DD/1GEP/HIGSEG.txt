@@ -1,0 +1,15 @@
+HIGSEG — Higiene Segurança  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: NFUNC+DATA
+
+Columns (9):
+  DATA     Date      Data Acidente
+  DATFIM   Date      Data Fim Baixa
+  DATINI   Date      Data Inicio Baixa
+  LOCAL    Integer   Tipo
+  NDBXA    Integer   
+  NFUNC    Text(10)  Número Funcionário
+  OBS      Text(50)  Observações
+  RECOLO   Integer   Recolocação
+  TPINCAP  Integer   Tipo Incapacidade

@@ -1,0 +1,27 @@
+GESTEQUIPFIXOCAB — Gestão de equipamento fixo cab.  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: TRANSF_NUM+TRANSF_COD
+
+Columns (21):
+  ARM          Text(12)  
+  ARM_ANT      Text(12)  
+  COD_OBRA     Text(6)   
+  CPOSTAL1     Text(13)  
+  CPOSTAL2     Text(13)  
+  DATA         Date      
+  D_CHEGADA    Date      
+  D_PARTIDA    Date      
+  H_CHEGADA    Date      
+  H_PARTIDA    Date      
+  LOCALIDADE1  Text(65)  
+  LOCALIDADE2  Text(65)  
+  MORADA1      Text(81)  
+  MORADA2      Text(81)  
+  OBRA_ANT     Text(7)   
+  REF          Long      
+  RESPONSAVEL  Text(33)  
+  TIPO_ABATE   Text(33)  
+  TRANSF_COD   Text(4)   
+  TRANSF_NUM   Long      
+  VIATURA      Text(13)  

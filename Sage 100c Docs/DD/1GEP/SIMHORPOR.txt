@@ -1,0 +1,10 @@
+SIMHORPOR — Simulação - Horas para processamento  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: NFUNC+DATA
+
+Columns (4):
+  DATA    Date      Data
+  NFUNC   Text(10)  Nº Funcionário
+  NHORAS  Single    Nº de Horas
+  VENCIM  Currency  Vencimento Hora

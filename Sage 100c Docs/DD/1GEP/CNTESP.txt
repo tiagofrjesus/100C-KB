@@ -1,0 +1,24 @@
+CNTESP — Contas Especificas  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: RUB+TPFUNC+TPMES
+
+Columns (18):
+  CDIVAC  Text(6)   Cód. IVA Custos
+  CDIVAD  Text(6)   Cód. IVA dedut.
+  CDIVAN  Text(6)   Cód. IVA n dedut.
+  CNTC    Text(15)  Conta Custos
+  CNTD    Text(15)  C. IVA dedutível
+  CNTEMP  Text(15)  Conta Encargos
+  CNTFUN  Text(15)  Conta Func.
+  CNTND   Text(15)  C. IVA n dedutível
+  IVA     Double    IVA
+  PERDED  Double    % Dedutível
+  RCNTE   Text(6)   Rub. Conta Enc.
+  RCNTF   Text(6)   Rub. Conta Func.
+  RUB     Text(10)  Abono Desc. Falta
+  RUBC    Text(6)   Rubrica de Custos
+  RUBD    Text(6)   Rub. IVA dedutível
+  RUBND   Text(6)   Rub. IVA n dedut.
+  TPFUNC  Integer   Tipo Funcionário
+  TPMES   Integer   Tipo de Mês

@@ -1,0 +1,35 @@
+SIMALT — Simulação - Alterações  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: NFUNC+DTALT+GRP+AUX+CDALT
+
+Columns (29):
+  ANOMESFI    Date       Data de Fim
+  ANOMESIN    Date       Data de inicio
+  AUX         Text(30)   Cmp. Auxiliar
+  CDALT       Text(10)   Cód. Alteração
+  DFALCOMP    Currency   Nº de dias úteis completos faltados
+  DFALDESCA   Currency   Nº de dias de descanso faltados
+  DFALIMEIO   Currency   Nº de dias úteis faltados inferoir a meio dia
+  DFALMMEIO   Currency   Nº de dias úteis faltados mais de meio dia
+  DTALT       Date       Data de alteração
+  DTCHEGAD    Date       Data de Chegada
+  DTPART      Date       Data Partida
+  DTREF       Date       Data Ref.
+  FUNDAMENTO  Text(5)    Código do fundamento
+  GRP         Integer    Grupo de introdução
+  HORACHEG    Text(5)    Hora de Chegada
+  HORAPART    Text(5)    Hora de Partida
+  IDDESPESA   Text(200)  Número de registo da(s) despesa(s)
+  MESFIM      Integer    Mês de Fim
+  MESINIC     Integer    Mês de inicio
+  MOTIVO      Text(30)   Motivo
+  NFUNC       Text(10)   Nº Funcionário
+  NISENT      Single     % Não isenta
+  OBS         Text(50)   Observações
+  ORI         Integer    Origem movimento
+  QTD         Double     Quantidade
+  QTDINT      Single     Quantidade Introd.
+  TAXA        Single     Taxa
+  UPDATEDATE  Date       Data da última alteração
+  VALUNIT     Currency   Valor unitário

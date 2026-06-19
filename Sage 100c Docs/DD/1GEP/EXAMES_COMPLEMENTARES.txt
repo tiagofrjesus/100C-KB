@@ -1,0 +1,10 @@
+EXAMES_COMPLEMENTARES — Exames complementares  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NFUNC [primary, unique]: NFUNC+DATA+EXAME
+
+Columns (4):
+  DATA         Date       Data
+  EXAME        Text(2)    Código do exame
+  NFUNC        Text(10)   Nº do funcionário
+  OBSERVACOES  Text(100)  Observações

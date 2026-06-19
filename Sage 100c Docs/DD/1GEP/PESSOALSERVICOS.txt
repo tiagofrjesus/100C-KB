@@ -1,0 +1,29 @@
+PESSOALSERVICOS — Pessoal serviços  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  ESTAB [primary, unique]: ANO+ESTAB
+
+Columns (23):
+  ANO                                    Integer   Ano
+  CONSENTIMENTO_DATA_HORA_SAU            Date      Consentimento data hora
+  CONSENTIMENTO_DATA_HORA_SEG            Date      Consentimento data hora
+  CONSENTIMENTO_UTILIZADOR_SAU           Text(20)  Consentimento utilizador
+  CONSENTIMENTO_UTILIZADOR_SEG           Text(20)  Consentimento utilizador
+  ESQUECIMENTO_DATA_HORA_SAU             Date      Esquecimento data hora
+  ESQUECIMENTO_DATA_HORA_SEG             Date      Esquecimento data hora
+  ESQUECIMENTO_SAUDE                     Integer   Pedido de esquecimento de dados pessoais
+  ESQUECIMENTO_SEGURANCA                 Integer   Pedido de esquecimento de dados pessoais
+  ESQUECIMENTO_UTILIZADOR_SAU            Text(20)  Esquecimento utilizador
+  ESQUECIMENTO_UTILIZADOR_SEG            Text(20)  Esquecimento utilizador
+  ESTAB                                  Text(4)   Estabelecimento
+  NFUNC                                  Text(10)  Nº do funcionário
+  NFUNC_AUTORIZACAO                      Text(8)   Nº da autorização do funcionário
+  NFUNC_DESIGNADO                        Text(10)  Nº do funcionário designado
+  NFUNC_DESIGNADO_AUTORIZACAO            Text(8)   Nº da autorização do funcionário designado
+  NFUNC_REPRESENTANTE                    Text(10)  Nº do funcionário representante
+  NIF_SAUDE                              Text(9)   NIF do diretor saúde
+  NIF_SEGURANCA                          Text(9)   NIF do diretor segurança
+  RESPONSAVEL_SAUDE                      Text(60)  Nome do diretor do serviço de saúde
+  RESPONSAVEL_SEGURANCA                  Text(60)  Nome do diretor responsável pela segurança
+  RGPD_CONSENTIMENTO_TRAT_DADOS_RESPSAU  Integer   Consentimento de tratamento de dados pessoais Responsável Saúde
+  RGPD_CONSENTIMENTO_TRAT_DADOS_RESPSEG  Integer   Consentimento de tratamento de dados pessoais Responsável Segurança

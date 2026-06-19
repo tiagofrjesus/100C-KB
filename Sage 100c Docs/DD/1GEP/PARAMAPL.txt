@@ -1,0 +1,121 @@
+PARAMAPL — Parâmetros de configuração da aplicação  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NUMREG [primary, unique]: NUMREG
+
+Columns (115):
+  ABDDSP                           Text(3)    Ligação contabilidade - Tipo de documento
+  ACCAO                            Text(50)   Acção depois de comptabilizar
+  ACTUALIZAR_EMPRESA_ANO_SEGUINTE  Integer    Atualizar empresa para o ano seguinte (Linha 50)
+  ADMDSP                           Text(15)   Ligação contabilidade - Referência
+  AJCUSTSA                         Integer    Aj.Custo Sub.Alim
+  ALERT                            Integer    Ver Alertas
+  ALIMENT                          Text(4)    Subsídio Alimentação
+  ALUG1                            Currency   Aluguer 1
+  ALUG2                            Currency   Aluguer 2
+  ALUG3                            Currency   Aluguer 3
+  ANO_MARCACAO_DIAS_OCIO           Integer    Ano Marc. Dias Ócio
+  APLIC                            Text(15)   APLIC
+  APPFIELD1                        Text(50)   SAGE SEARCH
+  ASSUNTO                          Text(100)  Assunto da mensagem
+  AUX                              Integer    Auxiliar
+  BASEPROC                         Integer    Base Processamento
+  BDDSP                            Text(200)  Ligação contabilidade - Descritivo
+  CABONT1                          Text(4)    Ligação contabilidade - Série
+  CABONT2                          Text(4)    CABONT2
+  CABONT3                          Text(4)    CABONT3
+  CAMPO_PALAVRA_CHAVE_RECIBOS      Integer    Campo utilizado para a palavra chave nos recibos por email
+  CODEMP                           Text(3)    Cód Empresa
+  CONDICIONAR_ENVIO_DOCS           Integer    Condicionar envio de documentos conforme consentimento
+  CTBMF                            Integer    Lig. CTB Mês Férias
+  DATA_CONSTITUICAO                Date       Data de constituição
+  DATA_EXECUCAO                    Text(100)  Data de execução do Sage IVA
+  DATA_FECHADA                     Date       Data fechada
+  DATA_PROCESSAMENTO               Date       Data de processamento atual
+  DATA_SS                          Date       Data novo método mapa da segurança social
+  DIA_DESCARGACTB                  Integer    Dia para a descarga da contabilidade
+  DOC_ASSINADOS_ARQ_DIGITAL        Integer    Doc. Ass. Arquivo Di
+  DR_ASSUNTO                       Text(100)  DR- Assunto da mensagem
+  DR_TEXTO                         Memo       DR - texto do corpo da mensagem
+  DTDSP                            Date       Data de conversão BGEP
+  EMISSAO1                         Text(100)  Recibo 1
+  EMISSAO2                         Text(100)  Recibo 2
+  EMISSAO3                         Text(100)  Recibo 3
+  EMISSAO4                         Text(100)  Recibo 4
+  EMISSAO5                         Text(100)  Recibo 5
+  EMISSAO6                         Text(100)  Recibo 6
+  ENDERECO_REMETENTE               Text(50)   Endereço do email do remetente da mensagem
+  ENVIAR_MESMO_EMAIL               Integer    Enviar todos os documentos para um mesmo endereço
+  ENVIAR_POR_ESTABELECIMENTO       Integer    Enviar todos os documentos para endereço do estabelecimento
+  ENVIAR_POR_FUNCIONARIO           Integer    Enviar cada documento para o endereço do funcionário correspondente
+  ENVIAR_SEM_INTERVENCAO           Integer    Enviar sem intervenção do utilizador
+  ESTAB                            Text(4)    Estabelecimento
+  EXE                              Text(50)   
+  EXTCTB                           Text(3)    Extenção CTB
+  F260405E                         Currency   Indice 260 405 Est
+  F260405N                         Currency   Indice 260 405 Nac
+  FALTAS_TIPO_PROCESSAMENTO        Integer    Faltas Tipo Process.
+  FASEEURO                         Integer    Modo Trabalho
+  FCT                              Text(6)    Fundo de compensação do trabalho
+  FGCT                             Text(6)    Fundo de garantia compensação do trabalho
+  FLTRET                           Text(10)   Ret. (Valor Faltas)
+  FSSOC                            Integer    Mapa de S.Social
+  FVS405ES                         Currency   Indice Sup.405 Est
+  FVS405NA                         Currency   Indice Sup.405 Nac
+  FXALIM                           Integer    Fixo Subs. Aliment.
+  FXBASE                           Integer    Fixo Base Processame
+  FXESTAB                          Integer    Fixo Estabelecimento
+  FXFCT                            Integer    Fixo fundo de compensação do trabalho
+  FXFERIAS                         Integer    Fixo método pagamento de sub. férias
+  FXFGCT                           Integer    Fixo fundo de garantia compensação do trabalho
+  FXHORAS                          Integer    Fixo Horas Semanais
+  FXNATAL                          Integer    Fixo método pagamento de sub. Natal
+  FXSITUA                          Integer    Fixo Sit. Profission
+  FXTPPRO                          Integer    Fixo Tipo Processame
+  HORAS                            Single     Horas Semanais
+  IAS                              Currency   IAS
+  IRS_SUBSIDIO_NATAL               Integer    Valores de IRS do subsídio de Natal declarados em Dezembro na declaração de retenção na fonte
+  ISENDSA                          Currency   Isenção Alimentação
+  ISSATI                           Currency   Isenção Ticket Ref.
+  LIGDSP                           Text(3)    Ligação contabilidade - Diário
+  MARCAR_DIAS_OCIO_ANO             Integer    Marcar dias ócio
+  MEMGOVES                         Currency   Membros Governo Est.
+  MEMGOVNA                         Currency   Membros Governo Nac.
+  MESNAT                           Integer    Mês Sub. Natal
+  MOEDABAS                         Text(3)    Moeda Base
+  MOEDAEUR                         Text(3)    Moeda Euro
+  MSGIDNUMBER                      Long       Message Id Number
+  MULTIEMPRESA                     Integer    Multi Empresa
+  NATAL                            Integer    Método pagamento de sub. Natal
+  NHDFSA                           Currency   Nº Horas Falta S.A.
+  NMESDUO                          Integer    Nº Meses Duodécimos
+  NOME_RECIBO                      Text(20)   Nome do recibo para envio via email
+  NOME_REMETENTE                   Text(100)  Nome do remetente da mensagem
+  NUMREG                           Integer    NUMREG
+  OUTROSES                         Currency   Outros Est.
+  OUTROSNA                         Currency   Outros Nac.
+  PALETE                           Text(2)    Palete de cores para listagens
+  PERCPE                           Currency   Percurso Pé
+  PERCREL                          Text(200)  Fich. Relógio Ponto
+  PERC_INC_SS                      Currency   Percentagem sobre base de Incidência contributiva para Seg. Social
+  PGTSEGUR                         Integer    Pgt. Seguro
+  PROCESSAR_DIAS_ADMI_CESS         Integer    Proc. Dias Adm.Cess.
+  REPORTAR_RENDIMENTOS_M10         Integer    Reportar rendimentos do tipo A no modelo 10
+  SALMIN                           Currency   Salário Minimo
+  SECTOR                           Text(3)    Setor
+  SITPROF                          Text(1)    Situação Profissiona
+  SLHPER                           Integer    SLH parcelar
+  SSNDEZ                           Integer    SS Mês Sub. Nat.
+  TABELA_IRS_APLICAR               Integer    Tabela de IRS a aplicar
+  TAXACO                           Single     Abat. Taxa IRS Açore
+  TEXTO_MENSAGEM                   Text(200)  Texto do corpo da mensagem
+  TIPO_ENVIO_EMAIL                 Integer    Tipo de envio por email
+  TIPO_INTRODUCAO_AUTOMATICA       Integer    Tipo de ficheiro para a introdução automática
+  TIPO_NOME_RECIBO                 Integer    Tipo de nome do recibo para envio via email
+  TPCTB                            Integer    Formato Lig. CTB
+  TPFERIAS                         Integer    Método pagamento de sub. férias
+  TPPROC                           Integer    Tipo Processamento
+  TRANSPRO                         Currency   Transp. Próprio
+  TRANSPUB                         Currency   Transp. Público
+  VALOR_LIQUIDO_SA_CR              Integer    Transferência do Valor Liquido de Subsídio de Alimentação para o Cartão Refeição
+  VERSAOX                          Integer    VERSAOX

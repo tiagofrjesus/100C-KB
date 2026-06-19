@@ -1,0 +1,11 @@
+IMOCC — Centros de Custo de Imóveis  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  IXIMOCC [primary, unique]: TCECU+CIMO+DATA+CCECU
+
+Columns (5):
+  CCECU  Long      Código do Centro de Custo
+  CIMO   Text(20)  I - CÒDIGO / Código do Imóvel
+  DATA   Date      I. Directa -> Data de Imputação; I. Dias -> Data de mudança C/Custo
+  TCECU  Byte      Código da Tabela de Centros de Custo
+  UNID   Double    Nº de unidades imputadas (Imputação directa)

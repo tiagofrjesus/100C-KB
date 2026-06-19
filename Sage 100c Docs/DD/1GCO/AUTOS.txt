@@ -1,0 +1,31 @@
+AUTOS — Autos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD_ORC+TIPO_AUTO+ORC_SE+AUTO+NOME
+
+Columns (25):
+  ACUMULADO            Currency  
+  ANTERIORES           Currency  
+  AUTO                 Integer   
+  A_MEDICOES           Memo      
+  CALCULADO            Boolean   
+  COD_ORC              Text(6)   
+  CONTRATUAL           Boolean   
+  DIFERENCA            Currency  
+  EDITAVEL             Text(1)   
+  EXECUTADO            Currency  
+  NOME                 Long      
+  ORC_SE               Integer   
+  QT_TMENOS            Currency  
+  QT_TMNPREVISTOS      Currency  
+  QT_TMPREVISTOS       Currency  
+  QT_TNORMAIS          Currency  
+  SUBEMPIMPORT         Boolean   
+  TIPO_AUTO            Text(1)   
+  TM_NPREVISTOS        Currency  
+  TM_PREVISTOS         Currency  
+  TVALOR_TMENOS        Currency  
+  TVALOR_TMNPREVISTOS  Currency  
+  TVALOR_TMPREVISTOS   Currency  
+  TVALOR_TNORMAIS      Currency  
+  T_MENOS              Currency  

@@ -1,0 +1,21 @@
+FORPRO — Formação Profissional  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: NFUNC+DATA+HORA+TIPO
+
+Columns (15):
+  AREAEDUC    Text(3)    Área Educação/Formação
+  CERTDIP     Text(2)    Certificado/Diploma
+  CUSTO       Currency   Custo
+  DATA        Date       Data
+  HORA        Text(5)    Hora
+  HORARIO     Text(2)    Horário
+  INICIATIVA  Text(2)    Iniciativa
+  MODALIDADE  Text(2)    Modalidade
+  NFUNC       Text(10)   Nº Func
+  NHORAS      Currency   Número Horas
+  NIVQUAL     Text(2)    Nível Qualificação
+  OBS         Text(100)  Observações
+  PERIODO     Text(2)    Periodo
+  SITFREQ     Text(2)    Situação Frequência
+  TIPO        Text(2)    Entidade Formadora

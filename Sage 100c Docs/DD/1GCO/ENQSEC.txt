@@ -1,0 +1,10 @@
+ENQSEC — Plano Enq. Sectores  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ENQSEC [primary, unique]: ENQSECT
+
+Columns (4):
+  DESCR    Text(50)  Descrição
+  ENQSECT  Text(6)   Cód. Enq. Sector
+  GRAU     Integer   Grau
+  RESP     Text(30)  Responsável

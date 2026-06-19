@@ -1,0 +1,10 @@
+RUBRORC — Rubricas Orçamentais  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (4):
+  COD     Text(6)   Código
+  CODENQ  Text(6)   Cód. Enq. Rubrica
+  DESCR   Text(50)  Descrição
+  OBRI    Integer   Obriga Custeio

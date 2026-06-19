@@ -1,0 +1,8 @@
+CHEMICALRISKPHRASES — Menção ou frase de risco  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  INDEX [primary, unique]: REFERENCE
+
+Columns (2):
+  NAME       Text(250)  Descrição
+  REFERENCE  Text(20)   Código

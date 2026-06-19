@@ -1,0 +1,29 @@
+M3319 — Mapa 33.19  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  NOVO1 [primary, unique]: LINHA+ANO
+
+Columns (23):
+  ANO      Integer    
+  CAMPO01  Text(4)    CAMPO01
+  CAMPO02  Text(102)  CAMPO02
+  CAMPO03  Integer    CAMPO03
+  CAMPO04  Integer    CAMPO04
+  CAMPO05  Currency   CAMPO05
+  CAMPO06  Currency   CAMPO06
+  CAMPO07  Currency   CAMPO07
+  CAMPO08  Double     CAMPO08
+  CAMPO09  Currency   CAMPO09
+  CAMPO10  Currency   CAMPO10
+  CAMPO11  Currency   CAMPO11
+  CAMPO12  Currency   CAMPO12
+  CAMPO13  Currency   CAMPO13
+  CAMPO14  Currency   CAMPO14
+  CAMPO15  Double     CAMPO15
+  LINHA    Long       LINHA
+  OBS      Text(50)   OBS
+  PAGINA   Integer    PAGINA
+  PROV     Integer    prov
+  STATUS   Integer    STATUS
+  TIPOIMO  Integer    TIPOIMO
+  TITULO   Text(50)   TITULO

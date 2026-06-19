@@ -1,0 +1,13 @@
+XDEFT — Tarefas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINCIPA [primary, unique]: REF
+
+Columns (7):
+  ACTIVO  Integer    Activo
+  APLIC   Integer    Aplicação
+  DATA    Date       Data
+  DESCR   Text(100)  Descrição
+  DIAS    Integer    Núm. Dias Aviso
+  HORA    Text(5)    Hora
+  REF     Long       Referência

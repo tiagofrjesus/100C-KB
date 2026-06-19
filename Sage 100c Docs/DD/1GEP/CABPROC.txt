@@ -1,0 +1,46 @@
+CABPROC — Cab. Processamento  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD0 [primary, unique]: ANO+NFUNC+DATA+TPREC+NORDEMRE
+  COD2: ANO+MES+NFUNC+TPREC+NORDEMRE
+
+Columns (39):
+  AJANT                   Currency   Ajuste Anterior
+  AJSEG                   Currency   Ajuste Seguinte
+  ANO                     Integer    Ano
+  CODIGO_OP               Text(10)   Código prestador de serviços
+  DATA                    Date       Data Processamento
+  DATADE                  Date       Data inicial de Proc
+  DATA_TRANSFERENCIA      Date       Data da transferência bancária
+  DFALCOMPL               Integer    Dias úteis completos faltados
+  DFALCOMPLNR             Integer    Dias úteis completos faltados e não remunerados
+  DFALDESCA               Integer    Dias faltados em dias de descanso
+  DFALDESCANR             Integer    Dias faltados em dias de descanso e não remunerados
+  DFALIMEIO               Integer    Dias faltadas inferiores a 1/2 dia útil
+  DFALMMEIO               Integer    Dias faltados mais de 1/2 dia útil
+  DFALMMEIONR             Integer    Dias faltados mais de 1/2 dia útil e não remunerados
+  DIAS_FCT                Single     Número dias para o cálculo do F.C.T.
+  DIAS_PERIODO            Single     Número de dias do periodo
+  DTPROCE                 Date       Data pedida para processamento
+  HFALTA                  Single     Horas faltadas
+  HUTEIS                  Single     Horas trabalhadas
+  MES                     Integer    Mês
+  NDIASCALEND             Single     Nº de dias de calendário processados
+  NDIASPRO                Single     Número Dias Proc.
+  NFUNC                   Text(10)   Número Funcionário
+  NORDEMRE                Integer    Núm. Ordem Recibo
+  NVIAS                   Integer    Número de vias
+  ORIGEM                  Integer    Origem do processamento
+  RETMES                  Currency   Retribuição mensal
+  SALHOREX                Currency   Salário Hora Extra
+  SALHORFE                Currency   Salário Hora Férias
+  SALHORTO                Currency   Salário Hora Total
+  SH_NORMALIZADO          Currency   Salário hora para tipo de processamento normalizado
+  SITFUN                  Integer    Sit.Func.
+  TOTLIQ                  Currency   Total Liquido
+  TOTPAG                  Currency   Total Pago
+  TPREC                   Integer    Tipo Recibo
+  TRANSFERENCIA_BANCARIA  Integer    Tipo de transferência bancária efetuada
+  TXMED                   Double     Taxa Média IRS
+  TXTPAGA                 Text(200)  TXTPAGA
+  VALOR_SA                Currency   Valor do subsídio de alimentação

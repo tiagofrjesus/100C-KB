@@ -1,0 +1,13 @@
+CODTAB — Codigos de tabelas  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+  DESCRICA: DESCRICA
+
+Columns (6):
+  CODIGO    Text(5)   Código
+  DESCIND   Integer   Desc.Ind.
+  DESCRICA  Text(40)  Descrição
+  TX252009  Double    TX25/09
+  TX290     Double    TX2/90
+  TX73781   Double    TX737/81

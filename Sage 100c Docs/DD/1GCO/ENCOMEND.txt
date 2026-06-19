@@ -1,0 +1,49 @@
+ENCOMEND — Preparação de encomendas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary]: NOME
+
+Columns (43):
+  ANULADA           Boolean   
+  ARTIGO            Text(32)  
+  AUTORIZADO        Boolean   
+  CHECK1            Boolean   
+  CHECK2            Boolean   
+  CHECK3            Boolean   
+  CHECK4            Boolean   
+  CHECK5            Boolean   
+  CHECK6            Boolean   
+  COD_ENT1          Text(15)  
+  COD_ENT2          Text(15)  
+  COD_ENT3          Text(15)  
+  COD_ENT4          Text(15)  
+  COD_ENT5          Text(15)  
+  COD_ENT6          Text(15)  
+  COD_OBRA          Text(6)   
+  DATA              Date      
+  DESCRICAO         Text(80)  
+  DESTINO           Text(32)  
+  ENTREGUE          Boolean   
+  IMP               Boolean   
+  IVA               Integer   
+  NOME              Long      
+  PRAZO_ENTREGA1    Long      
+  PRAZO_ENTREGA2    Long      
+  PRAZO_ENTREGA3    Long      
+  PRAZO_ENTREGA4    Long      
+  PRAZO_ENTREGA5    Long      
+  PRAZO_ENTREGA6    Long      
+  PRECO1            Currency  
+  PRECO2            Currency  
+  PRECO3            Currency  
+  PRECO4            Currency  
+  PRECO5            Currency  
+  PRECO6            Currency  
+  QUANTIDADE        Currency  
+  QUANT_ENTREGUE    Currency  
+  REQUIS_NUM        Long      
+  RESPONSAVEL       Text(32)  
+  RESPONSAVEL_AUTO  Text(32)  
+  RESPONSAVEL_CONS  Text(32)  
+  RESPONSAVEL_MAPA  Text(32)  
+  UNID_T            Text(4)   

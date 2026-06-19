@@ -1,0 +1,40 @@
+EMPRESA — Empresa  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  NUMREG [primary, unique]: NUMREG
+
+Columns (34):
+  ACTPRINC          Text(60)   Actividade Príncipal
+  APARTADO          Text(30)   Apartado
+  BAIFISCA          Text(30)   Bairro Fiscal
+  BAIRROFI          Text(4)    Bairro Fiscal
+  CAE               Text(6)    CAE
+  CAPSOCIA          Currency   Capital Social
+  CODCON            Text(3)    Código Conservatória
+  CODIGO            Integer    Código
+  CODPOSTA          Text(8)    Código Postal
+  CONCELHO          Text(50)   Concelho
+  CREGCOM           Text(30)   Conserv. Reg. Comer.
+  DIASVALIDADE      Text(2)    Número de dias de validade de pedido de consentimento
+  DISTRITO          Text(30)   Distrito
+  EMAIL             Text(100)  Email
+  FAX               Text(15)   Fax
+  FOLHAS            Text(10)   Folhas
+  FORMGEST          Text(30)   Forma Gestão
+  FREGUESIA         Text(30)   Freguesia
+  LIVRO             Text(10)   Livro
+  LOCALIDA          Text(50)   Localidade
+  MORADA            Text(60)   Morada
+  NANOSDADOSFICAIS  Text(2)    Número de anos a manter dados fiscais
+  NATJURID          Text(2)    Natureza Júridica
+  NOME              Text(60)   Nome
+  NUMCONTR          Text(11)   Num. Contribuinte
+  NUMMATRI          Text(20)   Num. Matricula
+  NUMPESSC          Text(15)   Num. Pes. Colectiva
+  NUMREG            Long       Número Registo
+  PAIS              Text(3)    País
+  SEDE              Byte       Sede
+  SIGLA             Text(30)   Sigla
+  TELEF             Text(15)   Telefone
+  TELEMOVEL         Text(15)   Telemóvel
+  TELEX             Text(15)   Telex

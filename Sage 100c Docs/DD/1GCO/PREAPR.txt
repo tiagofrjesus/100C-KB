@@ -1,0 +1,31 @@
+PREAPR — Aprovisionamentos pr  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  APRIDX [primary, unique]: NUMER+LINHA
+
+Columns (25):
+  ARMAZ                     Text(6)   Armazém
+  ARMAZEM                   Text(6)   Armazém
+  ARTIFIN                   Text(15)  Artigo Final
+  ARTIGO                    Text(15)  Código do Artigo
+  ARTINI                    Text(15)  Artigo Inicial
+  DATA                      Date      Data Preparação
+  DATAEN                    Date      Data de Entrega
+  DESCON                    Currency  Desconto
+  DESCRI                    Text(50)  Descrição
+  ENCOMENDAS_NAO_APROVADAS  Integer   Encomendas não aprov
+  FORFIN                    Text(15)  Fornecedor Final
+  FORINI                    Text(15)  Fornecedor Inicial
+  FORNEC                    Text(15)  Fornecedor
+  LINHA                     Integer   Número da Linha
+  MOEDA                     Text(3)   Moeda
+  NUMER                     Integer   Número Preparação
+  PRECO                     Currency  Preco
+  QNTENC                    Integer   Quantidades a Enc.
+  QUANTI                    Currency  Quantidade
+  SELEC                     Integer   Selecionada
+  STKPZ                     Currency  Stock a Prazo
+  STKRL                     Currency  Stock Real
+  TPAPRO                    Integer   Tp. Aprovisionamento
+  TPFORN                    Integer   Tipo Fornecedor
+  UNVND                     Text(3)   Unidade de Venda

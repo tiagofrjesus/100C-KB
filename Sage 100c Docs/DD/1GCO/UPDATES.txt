@@ -1,0 +1,8 @@
+UPDATES — Registo de Updates  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: ID
+
+Columns (2):
+  DATA  Date     
+  ID    Integer  

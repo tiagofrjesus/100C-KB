@@ -1,0 +1,13 @@
+DESPESAS — Despesas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPDOC [primary, unique]: ANO+TPDOC+SERIE+NUMDOC
+
+Columns (7):
+  ANO     Integer   
+  CONTVL  Currency  
+  ENCBAN  Currency  
+  JUROS   Currency  
+  NUMDOC  Long      
+  SERIE   Integer   
+  TPDOC   Text(3)   

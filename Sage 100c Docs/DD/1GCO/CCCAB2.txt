@@ -1,0 +1,57 @@
+CCCAB2 — Cópia de DocCcCab  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  DOC [primary, unique]: ANO+TPDOC+SERIEPGT+NUMDOC
+  TERC: TPTERC+TERCEIRO
+  CT2: ANO+DIARIO+NUMDIAR
+  DATA: TPDOC+SERIEPGT+DATA+NUMDOC
+  ENVBANCO: TPDOCMVB+SEMVBN+DTMVBN+NDOCMVBN
+  LIGACAO [unique]: LIGACT+DATA+TPDOC+SERIEPGT+NUMDOC
+  SODATA: DATA
+  INTEGRA: INTEGRAC
+
+Columns (44):
+  AGEBEMP   Text(4)   Agencia Empresa
+  AGEVC     Text(4)   Agência Vossa Conta
+  ANO       Integer   Ano
+  AREAG     Integer   Area Gestão
+  BANCOVC   Text(4)   Banco
+  BNCEMP    Text(4)   Banco Empresa
+  CAMBIO    Double    Câmbio
+  CARTORIG  Integer   Carteira Origem
+  CNBNEMP   Text(21)  Conta Bnc Empresa
+  CNTTES    Text(10)  Conta Tesouraria
+  CNTVC     Text(21)  V/ Conta Banco
+  COMISS    Integer   Comiss
+  DATA      Date      Data
+  DIARIO    Text(3)   Diário
+  DIFARR    Currency  Diferenças de Arred.
+  DIFCAMB   Currency  Diferença Cambial
+  DTMVBN    Date      Data Mv Banco
+  DTVALOR   Date      Data Valor
+  INTEGRAC  Text(4)   INTEGRAC
+  LIGACT    Integer   Ligação CTB
+  MODOPGT   Text(3)   Modo de Pagamento
+  MOEDA     Text(3)   Moeda
+  NATCONTA  Integer   NatConta
+  NDOCMVBN  Long      No.Doc. Mv. Bnc
+  NUMDIAR   Long      Número Diário
+  NUMDOC    Long      Número Documento
+  NUMDOCBN  Text(12)  Nº Doc. Bancário
+  NVIAS     Integer   Número Vias
+  PRACAB    Text(30)  Praça Banco
+  RECPAG    Integer   Tipo
+  SECTOR    Text(3)   Sector
+  SEMVBN    Integer   Serie Mv Bnc
+  SERIEPGT  Integer   Série
+  SINALCT   Integer   Sinal Contab
+  TERCEIRO  Text(15)  Terceiro
+  TPDOC     Text(3)   Tipo Documento
+  TPDOCMVB  Text(3)   Tp Doc Mv Bnc
+  TPFSTC    Integer   TpfStc
+  TPOPER    Integer   TpOper
+  TPTERC    Integer   Tipo Terceiro
+  VLDESC    Currency  Valor Desconto
+  VLREGCV   Currency  V. Reg. Contra Valor
+  VLREGMB   Currency  V. Reg. Moeda Base
+  VLREGUL   Currency  Valor Regularizado

@@ -1,0 +1,14 @@
+FEDOCIDS — F.E. Identificadores do documento  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PK_FEDOCIS [primary, unique]: ANO+TPDOC+SERIE+NUMDOC+LINHA
+  IX_FEDOCID01: ANO+TPDOC+SERIE+NUMDOC
+
+Columns (7):
+  ANO                        Integer   Ano
+  DOCREFNUMBERCODE_ORIGINAL  Integer   DocRefNumberCodeOrig
+  DOCREFNUMBER_ORIGINAL      Text(30)  DocRefNumberOriginal
+  LINHA                      Integer   Número da linha
+  NUMDOC                     Long      Número do documento
+  SERIE                      Integer   Série
+  TPDOC                      Text(3)   Tipo de documento

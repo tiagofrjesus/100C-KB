@@ -1,0 +1,13 @@
+HISTCORF — historico de correcc  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  FICHA [primary, unique]: FICHA+SITUACAO+ANO
+
+Columns (7):
+  ANO       Integer   Ano
+  CORRECCA  Currency  Correcção
+  FICHA     Text(15)  Ficha
+  LIVRE     Integer   LIVRE
+  REINTCAL  Currency  Depre. calculada
+  SITUACAO  Integer   Situação
+  VALAQUI   Currency  Val. Aquisição

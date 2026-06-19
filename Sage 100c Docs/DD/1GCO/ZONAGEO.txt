@@ -1,0 +1,12 @@
+ZONAGEO — Zonas geográficas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ZONA [primary, unique]: ZONA
+
+Columns (6):
+  DBTS      23        
+  DESCR     Text(35)  Descrição
+  PAIS      Text(3)   País
+  VENDEDOR  Text(10)  Vendedor
+  ZONA      Text(3)   Código
+  ZONAVND   Text(3)   Área de Venda

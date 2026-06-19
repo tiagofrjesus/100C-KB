@@ -1,0 +1,9 @@
+CHEMICALRISKAGENTS — Factores de Risco Químico  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  INDEX [primary, unique]: REFERENCE
+
+Columns (3):
+  EINECS     Text(15)  EINECS
+  NAME       Memo      Descrição
+  REFERENCE  Text(4)   Código

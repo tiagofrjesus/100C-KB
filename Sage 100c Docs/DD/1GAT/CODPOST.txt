@@ -1,0 +1,8 @@
+CODPOST — Código Postal  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (2):
+  COD    Text(8)   Código
+  DESCR  Text(50)  Descrição

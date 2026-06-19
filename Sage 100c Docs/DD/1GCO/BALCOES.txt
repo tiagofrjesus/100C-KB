@@ -1,0 +1,20 @@
+BALCOES — Balcões  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: BANCO+CODIGO
+
+Columns (14):
+  AGENCIA   Text(50)  Descrição
+  BANCO     Text(4)   Banco
+  CODIGO    Text(4)   Código
+  CODPOST   Text(8)   Código Postal
+  DBTS      23        
+  EMAILGES  Text(30)  EMail Gestor
+  FAXGERAL  Text(20)  FAX Geral
+  FAXGESTO  Text(20)  FAX Gestor
+  GESTORCN  Text(45)  Gestor de Conta
+  LOCAL     Text(35)  Localidade
+  MORADA    Text(50)  Morada
+  MOVELGES  Text(20)  Telemóvel Gestor
+  TELEFGER  Text(20)  Telefone Geral
+  TELEFGES  Text(20)  Telefone Gestor

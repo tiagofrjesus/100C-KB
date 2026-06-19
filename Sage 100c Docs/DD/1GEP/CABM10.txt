@@ -1,0 +1,22 @@
+CABM10 — Cabeçalho MOD10  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: TIPOM+ANODEC+TPDECL
+
+Columns (16):
+  ANODEC     Integer   Ano da Declaração
+  CAP        Currency  Capitais
+  CMPIRS     Currency  Compensação IRS/IRC
+  COM        Currency  Comissões
+  DEP        Currency  Trabalho Dependente
+  IND        Currency  Trab. Independente
+  MAIVAL     Currency  Mais - Valias
+  OUT        Currency  Outros Rend. de Cap.
+  PENS       Currency  Pensões
+  PRED       Currency  Prediais
+  RETIRC     Currency  Retenção de IRC
+  RETTAX     Currency  Ret. Taxas Liberat.
+  SALCRE     Currency  Saldos Credores
+  SOBRETAXA  Currency  Sobretaxa extraordinária IRS
+  TIPOM      Integer   Tipo de Modelo
+  TPDECL     Integer   Tipo de Declaração

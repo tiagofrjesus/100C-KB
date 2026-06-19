@@ -1,0 +1,12 @@
+TABST — Tabela I.R.S. sobretaxa  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  ANO [primary]: ANO+DATA+TAB+LIMSUP
+
+Columns (6):
+  ANO              Integer   Ano
+  DATA             Date      Data de entrada em vigor
+  LIMSUP           Currency  Limite superior
+  LST_MESES_PROCE  Text(50)  Meses dos rendimentos auferidos até à qual de aplica a sobretaxa em 2017
+  TAB              Integer   Tabela
+  TAXA             Currency  Taxa

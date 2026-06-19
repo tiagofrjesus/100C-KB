@@ -1,0 +1,13 @@
+ECOEXCEP — Excepção de Taxas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINCIPA [primary, unique]: GRUPO+FAMILIA+SUBFAM+ARTIGO+ECOVALOR
+
+Columns (7):
+  ARTIGO    Text(15)  Artigo Afecto
+  ECOVALOR  Text(15)  Taxa Adicional
+  FAMILIA   Text(6)   Família Afecta
+  GRUPO     Text(6)   Grupo Afecto
+  NINCDECL  Integer   Não Incluir Declara
+  QTDEXCEP  Currency  Quantidade
+  SUBFAM    Text(6)   SubFamília Afecta

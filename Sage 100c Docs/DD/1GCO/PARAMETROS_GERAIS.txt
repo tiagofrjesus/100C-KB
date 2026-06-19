@@ -1,0 +1,8 @@
+PARAMETROS_GERAIS — Parâmetros gerais da aplicação  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (2):
+  CODIGO     Integer  
+  PARAMETRO  Memo     

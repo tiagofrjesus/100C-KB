@@ -1,0 +1,21 @@
+ACTIVOS_RECLASSIFICACAO — Activos na reclassificação  [1GAT · Sage Gestao de Ativos]
+
+Columns (18):
+  CODIGO                      Text(20)   Código do activo
+  CODIGO_TABELA               Text(5)    Código de tabela
+  CONTA_POC                   Text(15)   Conta POC
+  DATA_ABATE                  Date       Data de abate
+  DATA_RECLASSIFICACAO        Date       Data da Reclassificação
+  DBTS                        23         
+  DECRETO_ULTIMA_REAVALIACAO  Integer    Decreto da última reavaliação
+  DEPRECIACOES_ACUM_REAVAL    Currency   Depreciações acumuladas reavaliadas
+  DESCRICAO                   Text(100)  Descrição
+  GRUPO_ACTIVO                Text(10)   Grupo do Activo
+  LIGACAO_CTB                 Integer    Ligação á Contabilidade
+  NOVO_GRUPO_ACTIVO           Text(10)   Novo Grupo do Activo
+  NOVO_TIPO_ACTIVO            Integer    Novo Tipo do Activo
+  REGIME                      Integer    Regime
+  SITUACAO_DESCARGA           Integer    Descarga efectuada
+  TIPO_ACTIVO                 Integer    Tipo de activo
+  UTILIZADOR                  Text(15)   Utilizador
+  VALOR_AQUISICAO_ACTUAL      Currency   Valor de aquisição actual

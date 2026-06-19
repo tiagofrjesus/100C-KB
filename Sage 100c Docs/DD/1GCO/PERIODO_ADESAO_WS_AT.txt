@@ -1,0 +1,10 @@
+PERIODO_ADESAO_WS_AT — Período de adesão ao Webservice da AT  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary]: TIPO+DATA+ATIVO
+
+Columns (4):
+  ATIVO  Integer   Estado de registo
+  DATA   Date      Data de registo
+  TIPO   Text(1)   Tipo de registo
+  USER   Text(20)  Utilizador

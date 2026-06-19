@@ -1,0 +1,28 @@
+AJUDACMP — Ajuda à Compra  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ARTFORN [primary, unique]: ARTIGO+FORNECED
+  REFFORN: REFART+FORNECED
+
+Columns (21):
+  ARTIGO    Text(15)  Artigo
+  CUSTAD1   Text(15)  Custo adicional 1
+  CUSTAD2   Text(15)  Custo adicional 2
+  CUSTAD3   Text(15)  Custo adicional 3
+  CUSTAD4   Text(15)  Custo adicional 4
+  CUSTAD5   Text(15)  Livre
+  DATA      Date      Data do último Preço
+  DATAPART  Date      Data Próximo Preço
+  DESCONTO  Text(15)  Desconto Últ.Compra
+  DESCPROX  Text(15)  Próximo Desc. Compra
+  DESCR     Text(50)  Descrição
+  DOC       Text(15)  Último doc de Compra
+  EANART    Text(20)  EAN Artigo
+  ENCULTCP  Currency  Encargos Ult. Compra
+  FORNECED  Text(15)  Fornecedor
+  MOEDA     Text(3)   Moeda Últ. Compra
+  PRAZOENT  Integer   Prazo de entrega
+  PRPROX    Currency  Próximo Preço Compra
+  PRULTFOR  Currency  Preço Último Compra
+  QTD       Currency  Qtd da última Compra
+  REFART    Text(20)  Referência Fornec.

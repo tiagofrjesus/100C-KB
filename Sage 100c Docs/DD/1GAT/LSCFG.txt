@@ -1,0 +1,10 @@
+LSCFG — Configuração de listagens GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXLSCFG [primary, unique]: LISTAGEM+NREG
+
+Columns (4):
+  LISTAGEM  Text(20)   
+  NOME      Text(50)   
+  NREG      16         
+  PATH      Text(100)  Nota: $=ProgDir (dir.de sistema); @=Dir.de dados; &=ProgDir\reports; #SysDir

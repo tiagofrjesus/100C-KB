@@ -1,0 +1,15 @@
+CBARRAS — Códigos de Barras  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ARTIGO [primary, unique]: ARTIGO+IMPRIME+CODIGO
+  CODIGO: CODIGO
+
+Columns (8):
+  AGRUPA   Integer   Agrupa
+  ARTIGO   Text(15)  ARTIGO
+  CODIGO   Text(40)  CODIGO
+  DBTS     23        
+  IMPRIME  Integer   IMPRIME
+  QTD      Currency  Quantidade
+  TIPO     Integer   Tipo Código Barras
+  UNID     Text(3)   Unidade

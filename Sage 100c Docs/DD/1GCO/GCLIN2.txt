@@ -1,0 +1,45 @@
+GCLIN2 — Cópia de DocGcLin  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPDOC [primary]: ANO+TPDOCUM+SERIE+NNUMDOC+NUMLINHA
+  ARTDATA: ARTIGO+DATA+MOVSTC+TPOPER
+  ARTDTARM: ARTIGO+ARMAZEM+DATA
+
+Columns (37):
+  ANO       Integer   Ano
+  ARMAZEM   Text(6)   Armazém
+  ARTIGO    Text(15)  Artigo
+  CODLOT    Text(10)  Código de Lote
+  DATA      Date      Data Mv. Stock
+  DESCONTO  Text(0)   Desconto
+  DESCR     Text(50)  Descrição
+  DESCVAL   Currency  Desconto Valor
+  DESCVO    Currency  Desc.Valor Or.
+  ENCARGOS  Currency  Encargos
+  FACTOR    Currency  Factor
+  FORMUL    Integer   Linha com fórmula
+  IVA       Currency  Taxa I.V.A.
+  LINANU    Integer   Linha Anulada
+  MOVSTC    Integer   Movimento Stock
+  NNUMDOC   Long      Número Documento
+  NUMLINHA  Integer   Número da Linha
+  ORANO     Integer   OrAno
+  ORDOC     Text(3)   OrDoc
+  ORLIN     Integer   Linha Original
+  ORNUM     Long      OrNum
+  ORSERIE   Integer   OrSerie
+  PRUNIT    Currency  Preço Unitário
+  QTDORIG   Currency  Quantidade Origem
+  QUANT     Currency  Quantidade
+  RUBRICA   Text(15)  Descritor
+  SECTOR    Text(3)   Sector
+  SERIE     Integer   Série
+  TPDOCUM   Text(3)   Tipo Documento
+  TPLINHA   Integer   Tipo de Linha
+  TPOPER    Integer   Tipo Operação
+  TXDESC    Currency  Taxa Desconto
+  UNIDADE   Text(3)   Unidade
+  VALOR     Currency  Valor
+  VALORO    Currency  Valor Original
+  VLMOVORI  Currency  Valor MvSt Original
+  VLMOVSTK  Currency  Vl Movimento Stock

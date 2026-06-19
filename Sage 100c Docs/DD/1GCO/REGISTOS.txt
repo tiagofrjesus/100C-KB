@@ -1,0 +1,12 @@
+REGISTOS — Registo de Acções  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDENTIFICADOR [primary, unique]: IDENTIFICADOR
+
+Columns (6):
+  ACCAO          Text(100)  Acção
+  DATA           Date       Data
+  HORA           Text(5)    Hora
+  IDENTIFICADOR  16         Identificador
+  PARAMETROS     Memo       Parâmetros utilizados
+  UTILIZADOR     Text(20)   Utilizador

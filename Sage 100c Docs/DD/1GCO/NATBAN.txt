@@ -1,0 +1,17 @@
+NATBAN — Naturezas Bancárias  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINCIPA [primary, unique]: CODIGO
+
+Columns (11):
+  AGREGA    Integer   Agregada
+  CNTIVADE  Text(15)  Conta iva dedutivel
+  CNTIVANA  Text(15)  Conta iva não ded.
+  CODFLU    Text(6)   Código do fluxo
+  CODIGO    Text(3)   Código
+  CODIVA    Text(6)   Código de iva
+  CODRUB    Text(6)   Código da rubrica
+  CONTAPOC  Text(15)  Conta POC
+  DESCRICA  Text(50)  Descrição
+  IVANAODE  Currency  IVA não dedutivel
+  TAXAIVA   Currency  Taxa de iva

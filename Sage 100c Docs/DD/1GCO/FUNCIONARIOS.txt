@@ -1,0 +1,41 @@
+FUNCIONARIOS — Cadastro Funcionários  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO
+
+Columns (35):
+  AJUDA            Double    
+  APOLICE          Text(13)  
+  ARTIGO           Text(15)  
+  CATEGORIA        Text(31)  
+  CODIGO           Text(7)   
+  CODPOSTAL        Text(8)   
+  CONTRIB          Text(20)  
+  DENTRADA         Date      
+  DESLOC           Double    
+  DNASCIMENTO      Date      
+  HABILITACOES     Text(3)   
+  ISENCAO          Double    
+  IVA              Long      
+  LOCALIDADE       Text(36)  
+  MORADA           Text(36)  
+  MOTREQ           Text(16)  
+  NOME             Text(36)  
+  PERCENCADIC      Double    
+  PROPRIO          Boolean   
+  RETENCAO         Currency  
+  SITPROFISSIONAL  Long      
+  TELEFONE         Text(16)  
+  ULT_ACT          Date      
+  UNID_CONV        Double    
+  UNID_T           Text(7)   
+  VADICVEN         Currency  
+  VAENCARGOS       Boolean   
+  VALCUSTOHORA     Currency  
+  VC_TRAB          Currency  
+  VENCARGOS        Boolean   
+  VENCIMENTO       Currency  
+  VHORAEXT1        Currency  
+  VHORAEXT2        Currency  
+  VHORAEXT3        Currency  
+  VHORAEXT4        Currency  

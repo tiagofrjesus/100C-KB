@@ -1,0 +1,19 @@
+ENCARGOS — Encargos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPDOC [primary, unique]: ANO+TPDOC+SERIE+NUMDOC+LINHA
+
+Columns (13):
+  ANO        Integer   Ano
+  ANOORI     Integer   Ano documento origem
+  CAMBIO     Currency  Câmbio
+  DIST       Integer   Tipo de distribuição
+  LINHA      Integer   Linha
+  MOEDA      Text(3)   Moeda
+  NUMDOC     Long      Nº. Documento
+  NUMDOCORI  Long      Num.doc.origem
+  SERIE      Integer   Série
+  SERIEORI   Integer   Serie Origem
+  TPDOC      Text(3)   Tipo de documento
+  TPDOCORI   Text(3)   Tipo Doc. Origem
+  VALOR      Currency  Valor

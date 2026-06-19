@@ -1,0 +1,20 @@
+ETPDOC — Tipo Doc. Electrónic  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: ETPDOC+GLN
+  TPDOC: TPDOC+SERIE+SECTOR
+  EXTPDOC: EXTPDOC+EXSERIE+EXSECTOR
+
+Columns (12):
+  ARMAZEM     Text(6)   Armazém 100C
+  DESCR       Text(25)  Descrição
+  ETPDOC      Text(10)  Cod. Tipo Doc. Elec.
+  EXFTSRVUN   Text(3)   Facturação de serviços - Unidade de exportação
+  EXSECTOR    Text(3)   Sector 100C Exp.
+  EXSERIE     Integer   Série 100C Exp.
+  EXTPDOC     Text(3)   Tipo Doc. 100C Exp.
+  GLN         Text(20)  GLN
+  SECTOR      Text(3)   Sector 100C
+  SERIE       Integer   Série 100C
+  TPDOC       Text(3)   Tipo Documento Next
+  TPDOCOUTRO  Text(10)  Outro código doc. - InvoiceTypeCodeOther

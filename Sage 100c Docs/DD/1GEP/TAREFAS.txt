@@ -1,0 +1,27 @@
+TAREFAS — Tarefas  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  OPDTCT [primary, unique]: OUTPRO+DATA+ORIG+CODTAR
+  IDPROC: IDPROC
+
+Columns (20):
+  AUX              Text(15)   AUX
+  CODTAR           Text(3)    Tipo de serviço
+  DATA             Date       Data
+  DOCORIG_DATA     Date       Data do documento original
+  DOCORIG_NDOC     Text(10)   Número do documento original
+  ESPACOFISCAL     Integer    Espaço fiscal
+  HORASACTIVIDADE  Integer    Horas de Atividade
+  IDPROC           Long       IDPROC
+  NOTA             Text(200)  Nota
+  ORIG             Integer    ORIG
+  OUTPRO           Text(10)   Prestador de serviços
+  QNT              Single     Quantidade
+  STATUS           Integer    Status
+  TAXAIVA          Currency   Taxa do IVA
+  TRABALHADORES    Integer    Número Trabalhadores
+  TREND            Text(3)    Tipo de rendimento
+  UPDATEDATE       Date       Data da última alteração
+  VALORIVA         Currency   Valor do IVA
+  VALORSEMIVA      Currency   Valor sem IVA
+  VLRUNI           Currency   Valor

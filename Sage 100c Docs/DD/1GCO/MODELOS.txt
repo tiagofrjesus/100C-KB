@@ -1,0 +1,30 @@
+MODELOS — Modelos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODMOD [primary, unique]: CODMOD+NOLIN
+  CODIGO: CODMOD
+
+Columns (23):
+  CCUSTO   Text(6)   Centro Custo
+  CODFLUX  Text(6)   Código Fluxo
+  CODIVA   Text(6)   Código IVA
+  CODMOD   Text(10)  Modelo
+  CONTA    Text(15)  Conta
+  CTRESP   Integer   CTRESP
+  CUSTEIO  Text(6)   Custeio
+  DATA     Text(11)  Data
+  DESCR    Text(35)  Descrição
+  DIAR     Text(3)   Diário
+  DSCR     Text(30)  Descritivo
+  FORCC    Text(20)  Fórmula CCusto
+  FORM     Text(40)  Fórmula
+  LINCC    Integer   Lin CC
+  MODFIN   Integer   Documento finalizado
+  NOLIN    Integer   No. Linha
+  POSIC    Integer   Posicionamento
+  REF      Text(15)  Referência
+  RUB      Text(6)   Rúbrica
+  SECT     Text(3)   Sector
+  SENT     Integer   Sentido
+  SERIE    Integer   Série
+  TPDOC    Text(3)   Documento

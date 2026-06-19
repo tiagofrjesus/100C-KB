@@ -1,0 +1,15 @@
+CNTIND — Param. Contab. Indep  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: CODTAR+TPTAR+TPREND
+
+Columns (9):
+  CODIVA  Text(6)   Cód. IVA
+  CODTAR  Text(3)   Cód. Tarefa
+  CUSTOS  Text(15)  Conta Custos
+  IRC     Text(15)  Conta IRC
+  IRS     Text(15)  Conta IRS
+  IVA     Text(15)  Conta IVA
+  RUB     Text(6)   Rubrica
+  TPREND  Text(3)   Tipo Rendimento
+  TPTAR   Integer   Tipo Tarefa

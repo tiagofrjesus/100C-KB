@@ -1,0 +1,124 @@
+CLIENTES — Clientes  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+  NUMERO: NUMERO
+  EAN: CODEAN
+  IDELEC: IDELECTR
+  GLN: CODGLN
+
+Columns (114):
+  AJUSTPGT                       Text(12)  Livre
+  ALTMOR                         Integer   Livre
+  ALTORC                         Integer   Altera morada Orc.
+  AUTESP                         Integer   Aut. Esp.
+  BALCAO                         Text(4)   Balcão
+  BANCO                          Text(4)   Banco
+  BASEM                          Integer   Livre
+  BLNOTAS                        Memo      Bloco de Notas
+  C1EMAIL                        Text(40)  Email C1
+  C1NOME                         Text(40)  Contacto 1
+  C1TELM                         Text(15)  Telemóvel C1
+  C2EMAIL                        Text(40)  Email C2
+  C2NOME                         Text(40)  Contacto 2
+  C2TELM                         Text(15)  Telemóvel C2
+  CAE                            Text(5)   C.A.E.
+  CDPOSTAL                       Text(8)   Cód. Postal
+  CNVENDAS                       Text(5)   Conta vendas
+  CODEAN                         Text(20)  Nosso Código
+  CODEDI                         Text(20)  Código EDI
+  CODGLN                         Text(20)  Código GLN
+  CODIGO                         Text(15)  Codigo
+  CODIGO_INTERNO                 Text(40)  Código Interno
+  CONS                           Text(5)   Cod Consolidação
+  CONSENTIMENTO_DATA_HORA        Date      Consentimento data hora
+  CONSENTIMENTO_UTILIZADOR       Text(20)  Consentimento utilizador
+  CONTACTO                       Text(25)  Contacto
+  CONTCOME                       Text(30)  Contacto Comercial
+  CONTFIN                        Text(30)  Contacto Financeiro
+  CONTGER                        Text(30)  Contacto Gerência
+  CTRLDT                         Integer   Livre
+  CTRLPLF                        Integer   Livre
+  DATACRI                        Date      Data de criação
+  DBTS                           23        
+  DESCCAB                        Currency  Desconto Cabeçalho
+  DESCCOMP                       Text(15)  Desconto Cab.
+  DESCPGT                        Text(3)   Descont Pgt
+  DIASTOL                        Integer   Livre
+  EMAIL                          Text(50)  E- Mail
+  EMITAV                         Integer   Livre
+  ENTCONS                        Memo      Livre
+  ENVFELEC                       Integer   Env.Fac. Electrónica
+  ESQUECIMENTO                   Integer   Pedido de esquecimento de dados pessoais
+  ESQUECIMENTO_DATA_HORA         Date      Esquecimento data hora
+  ESQUECIMENTO_UTILIZADOR        Text(20)  Esquecimento utilizador
+  EXPEDIR                        Text(3)   Modo de Expedição
+  FACTORIN                       Text(4)   Livre
+  FACTRES                        Integer   Factura Resumo
+  FAX                            Text(15)  Fax
+  FETPREG                        Text(3)   
+  GESCNT                         Text(10)  Livre
+  GRUPO_EMPRESA                  Text(3)   Grupo de Empresa
+  IDELECTR                       Text(50)  ID Electrónico
+  IDIOMA                         Text(3)   Idioma
+  IMR                            Currency  Livre
+  IMRTRF                         Currency  Livre
+  INACTIVO                       Integer   Inactivo
+  INCIDENT                       Integer   Livre
+  INCRELEV                       Integer   Livre
+  IVAINC                         Integer   Iva Incluído
+  LIVRE                          Integer   
+  LOCAL                          Text(35)  Localidade
+  MAXDOC                         Currency  Livre
+  MEIOE                          Integer   Livre
+  MODOPGT                        Text(3)   Modo de Pagamento
+  MOEDA                          Text(3)   Moeda
+  MORADA                         Text(50)  Morada
+  MORADA2                        Text(50)  Morada 2
+  MORCOB                         Text(3)   Morada Onde Cobrar
+  MORDESC                        Integer   Local Desc.=Localid.
+  MORDOC                         Text(3)   Morada Documento
+  MORENT                         Text(3)   Morada Entrega
+  NCONTRIB                       Text(15)  No.Contribuinte
+  NDIAAVVE                       Integer   Livre
+  NIB                            Text(23)  N.I.B.
+  NOME                           Text(80)  Nome
+  NUMERO                         Long      Número
+  OBS2                           Memo      Observações Extra
+  OBSERV                         Text(35)  Observações
+  PAIS                           Text(3)   País
+  PASSIVO                        Integer   Sujeito Passivo
+  PLAFOND                        Currency  Plafond
+  RAT                            Text(10)  Rating
+  REGIVA                         Text(3)   Regime de IVA
+  REGVCT                         Text(3)   Regras Vencimento
+  RGPD_CONSENTIMENTO_TRAT_DADOS  Integer   Consentimento de tratamento de dados pessoais
+  RGPD_ESTADO                    Integer   Estado do consentimento
+  SITIO                          Text(30)  Sítio da empresa
+  SUFCT                          Text(6)   Sufixo de CTB
+  SUJPROV                        Integer   Sujeito Provisão
+  TELCOM                         Text(15)  Telefone Comercial
+  TELEF                          Text(15)  Telefone
+  TELEX                          Text(15)  Telemóvel
+  TELFIN                         Text(15)  Telefone Financeiro
+  TELGER                         Text(15)  Telefone Gerência
+  TIPOA                          Text(3)   Tipificação A
+  TIPOB                          Text(3)   Tipificação B
+  TIPO_RELACAO                   Integer   Relação Terceiro
+  TIPO_SUJEITO                   Integer   Tipo de Sujeito
+  TOTENC                         Currency  Total Encomendas
+  TOTENCAP                       Currency  Total Encomendas Ap.
+  TOTFOLOB                       Currency  Total Folhas Obra
+  TOTGR                          Currency  Total Guias
+  TOTPEND                        Currency  Total Pendente
+  TOTTEMPO                       Integer   Total Tempo
+  TPCRED                         Integer   Livre
+  TPPRE                          Integer   Tipo Preço
+  TPPRECO                        Integer   Livre
+  VENDEDOR                       Text(10)  Vendedor
+  VLDTFIM                        Date      Livre
+  VLDTINI                        Date      Livre
+  VLRESP                         Text(30)  Validação Resp.
+  VLTOTREG                       Currency  Vl Tot Registado
+  VTRTRF                         Currency  Valor Total Tit.
+  ZONAGEO                        Text(3)   Zona Geográfica

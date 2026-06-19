@@ -1,0 +1,25 @@
+ARMAZENS — Armazens  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (19):
+  CARGO1               Text(15)  Cargo 1
+  CARGO2               Text(15)  Cargo 2
+  CCUSTO               Text(6)   Centro de Custo
+  CODIGO               Text(6)   Código
+  CODPOST              Text(8)   Código Postal
+  CONTACTO             Text(30)  Contacto
+  CONTACTO2            Text(30)  Contacto 2
+  DBTS                 23        
+  EMAIL                Text(35)  Email
+  FAX                  Text(15)  Fax
+  INACTIVO             Integer   Encerrada
+  LOCALIDA             Text(80)  Localidade
+  MORADA               Text(80)  Morada
+  NOME                 Text(80)  Descrição
+  PAIS                 Text(3)   Pais do Armazem
+  PRODUCTCATEGORYCODE  Text(1)   Código de Categoria de Produto
+  TELEFONE             Text(15)  Telefone
+  TELEMOVEL            Text(15)  Telemóvel
+  TIPO                 Integer   Tipo de Armazém

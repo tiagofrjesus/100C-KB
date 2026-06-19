@@ -1,0 +1,10 @@
+NOTAS — Notas  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NOTAS [primary, unique]: ANO+MES+VALOR
+
+Columns (4):
+  ANO    Integer   Ano
+  MES    Integer   Mês
+  QTD    Integer   Quantidade
+  VALOR  Currency  Valor

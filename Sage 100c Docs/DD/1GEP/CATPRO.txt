@@ -1,0 +1,8 @@
+CATPRO — Categ. Profissionais  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (2):
+  COD    Text(5)    Código
+  DESCR  Text(100)  Descrição

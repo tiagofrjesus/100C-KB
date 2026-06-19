@@ -1,0 +1,10 @@
+EXERC — Exercicios  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  EXERC [primary, unique]: EXERC
+
+Columns (4):
+  DTFIM        Date     Data Final
+  DTINI        Date     Data Início
+  EXERC        Integer  Exercício
+  POC_FECHADO  Integer  Poc fechado

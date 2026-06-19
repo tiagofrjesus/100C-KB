@@ -1,0 +1,20 @@
+RESPO — Responsáveis  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXRESPO [primary, unique]: CRES
+
+Columns (14):
+  CARGO                          Text(40)   Cargo na empresa ou associação à empresa
+  CEST                           Text(15)   Código do estabelecimento associado (mesmo q/n/seja funcionário)
+  CONSENTIMENTO_DATA_HORA        Date       Consentimento data hora
+  CONSENTIMENTO_UTILIZADOR       Text(20)   Consentimento utilizador
+  CRES                           Text(15)   Código do Responsável
+  EMAIL                          Text(40)   Endereço de E-Mail
+  ESQUECIMENTO                   Integer    Pedido de esquecimento de dados pessoais
+  ESQUECIMENTO_DATA_HORA         Date       Esquecimento data hora
+  ESQUECIMENTO_UTILIZADOR        Text(20)   Esquecimento utilizador
+  NOME                           Text(40)   Nome do Responsável
+  OBS                            Text(255)  Observações
+  RGPD_CONSENTIMENTO_TRAT_DADOS  Integer    Consentimento de tratamento de dados pessoais
+  RGPD_ESTADO                    Integer    Estado do consentimento
+  TELM                           Text(15)   Telemóvel do Responsável

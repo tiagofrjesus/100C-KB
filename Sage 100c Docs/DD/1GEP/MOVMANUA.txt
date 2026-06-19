@@ -1,0 +1,35 @@
+MOVMANUA — Mov. Manuais  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: NFUNC+DTALT+GRP+AUX+CDALT
+
+Columns (29):
+  ANOMESFI    Date       Ano Mês Fim Ret.
+  ANOMESIN    Date       Ano Mês Inicio Ret.
+  AUX         Text(30)   Cmp. Auxiliar
+  CDALT       Text(10)   Código Alteração
+  DFALCOMP    Single     Nº de dias úteis completos faltados
+  DFALDESCA   Single     Nº de dias de descanso faltados
+  DFALIMEIO   Single     Nº de dias úteis faltados inferoir a meio dia
+  DFALMMEIO   Single     Nº de dias úteis faltados mais de meio dia
+  DTALT       Date       Data Alteração
+  DTCHEGAD    Date       Data Chegada
+  DTPART      Date       Data Partida
+  DTREF       Date       Data Ref.
+  FUNDAMENTO  Text(5)    Código do fundamento
+  GRP         Integer    Grupo de introdução
+  HORACHEG    Text(5)    Hora Chegada
+  HORAPART    Text(5)    Hora Partida
+  IDDESPESA   Text(200)  Número de registo da(s) despesa(s)
+  MESFIM      Integer    Mês Fim Ret.
+  MESINIC     Integer    Mês Inicio Ret.
+  MOTIVO      Text(30)   Motivo
+  NFUNC       Text(10)   Número Funcionário
+  NISENT      Single     Isenção
+  OBS         Text(50)   Observações
+  ORI         Integer    Origem movimento
+  QTD         Double     Quantidade
+  QTDINT      Single     Quantidade Introd.
+  TAXA        Single     Taxa
+  UPDATEDATE  Date       Data da última alteração
+  VALUNIT     Currency   Valor Unitário

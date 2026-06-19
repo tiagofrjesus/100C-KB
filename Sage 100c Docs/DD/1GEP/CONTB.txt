@@ -1,0 +1,8 @@
+CONTB — Tabela de Contas  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (2):
+  COD    Text(15)   Código Conta
+  DESCR  Text(100)  Descrição

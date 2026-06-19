@@ -1,0 +1,10 @@
+FEREGRAS — F.E. Regras Conversã  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  COD [primary, unique]: CODIGO
+
+Columns (4):
+  CODIGO  Text(3)    Código
+  DESCR   Text(100)  Descrição
+  REGRAS  Memo       REGRAS
+  TIPO    Integer    Tipo de Regra

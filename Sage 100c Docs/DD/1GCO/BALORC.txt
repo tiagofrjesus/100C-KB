@@ -1,0 +1,17 @@
+BALORC — Balancetes Orçamenta  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary]: EXERC+MES+SECTOR+RUBRICA+CCUSTO+CUSTEIO+CONTA
+
+Columns (11):
+  CCUSTO   Text(6)   Centro de Custo
+  CONTA    Text(15)  Conta
+  CUSTEIO  Text(6)   Custeio
+  DESCR    Text(50)  Descrição
+  EXERC    Integer   Exercicio
+  MES      Integer   Mês
+  NIVINT   Integer   Nivel Integradora
+  ORCAM    Currency  Vl. Orçamentado
+  RUBRICA  Text(6)   Rubrica
+  SALDO    Currency  Saldo
+  SECTOR   Text(3)   Sector

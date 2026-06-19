@@ -1,0 +1,9 @@
+OBRIGACOES_FASES — Fases de Obrigações  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: ID_TIPO+ID
+
+Columns (3):
+  DESCRICAO  Text(255)  Descrição
+  ID         Text(20)   Identificador
+  ID_TIPO    Text(20)   Id. Tipo Obrigação

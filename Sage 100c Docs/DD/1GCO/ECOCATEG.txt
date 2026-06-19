@@ -1,0 +1,9 @@
+ECOCATEG — Categorias  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINCIPA [primary, unique]: ECOTAXA+CODIGO
+
+Columns (3):
+  CODIGO    Text(10)   Código da Categoria
+  DESCRICA  Text(100)  Descrição
+  ECOTAXA   Text(10)   Ecotaxa

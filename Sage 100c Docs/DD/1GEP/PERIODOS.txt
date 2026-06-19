@@ -1,0 +1,10 @@
+PERIODOS — Per. Extraordinários  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+  TPREC [unique]: TIPO_RECIBO
+
+Columns (3):
+  CODIGO       Text(5)   Código
+  DESCRICAO    Text(15)  Descrição
+  TIPO_RECIBO  Integer   Tipo de Recibo

@@ -1,0 +1,25 @@
+EXTHIS — Extracto histórico  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  UTIL [primary, unique]: UTIL+NUM
+
+Columns (19):
+  ANO       Integer   
+  CAMBIO    Double    
+  CARTEIRA  Integer   
+  DATA      Date      
+  DEBCRE    Integer   
+  DESCMB    Double    
+  DESCMO    Double    
+  HORA      Text(5)   
+  MOEDA     Text(3)   
+  NUM       Long      
+  NUMERO    Long      
+  SERIE     Integer   
+  TERCEIRO  Text(15)  
+  TPDOC     Text(3)   
+  TPTERC    Integer   
+  UTIL      Text(30)  
+  VALORMB   Double    
+  VALORMO   Double    
+  VNUM      Text(32)  

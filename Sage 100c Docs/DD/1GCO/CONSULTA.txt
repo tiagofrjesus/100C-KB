@@ -1,0 +1,21 @@
+CONSULTA — Consulta a fornecedores  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: REQUIS_NUM+COD_OBRA+DESTINO+COD_ENT
+
+Columns (15):
+  ANULADA           Boolean    
+  AUTORIZADO        Boolean    
+  COD_ENT           Text(15)   
+  COD_OBRA          Text(6)    
+  COD_POSTAL        Text(8)    
+  COMENT            Text(255)  
+  DATA              Date       
+  DESTINO           Text(32)   
+  ENTREGUE          Boolean    
+  IMP               Boolean    
+  LOCALIDADE        Text(40)   
+  MORADA            Text(80)   
+  REQUIS_NUM        Long       
+  RESPONSAVEL       Text(32)   
+  RESPONSAVEL_AUTO  Text(32)   

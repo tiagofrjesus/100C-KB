@@ -1,0 +1,8 @@
+TRAININGSITUATIONS — Situação Face à Frequência de Formação Profissional  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  INDEX [primary, unique]: REFERENCE
+
+Columns (2):
+  NAME       Memo     Descrição
+  REFERENCE  Text(2)  Código

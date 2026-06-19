@@ -1,0 +1,13 @@
+TPIMO — Classificação de Activos  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  IXTPIMO [primary, unique]: TIMO
+
+Columns (7):
+  DESCR     Text(50)   Descrição abreviada
+  ETITULO   Integer    Indica que é titulo, não pode ser usado em Imobl
+  INICIMO   Text(20)   Iniciar o código de imobilizado com (Sigla+[Ano])
+  INICTBEM  Text(5)    Tipo de bem usualmente associado
+  OBS       Text(255)  Descrição extensa
+  TEMBENS   Integer    É habitual este tipo de imoveis terem bens associados?
+  TIMO      Text(15)   Tipo de Imobilizado

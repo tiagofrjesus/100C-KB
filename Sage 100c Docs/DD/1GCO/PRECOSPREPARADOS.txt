@@ -1,0 +1,11 @@
+PRECOSPREPARADOS — Preços preparados para correr com o SageIva  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: ARTIGO+PRECO+TIPO
+
+Columns (5):
+  ARTIGO       Text(15)  Código do artigo
+  IVAINCLUIDO  Integer   Iva Incluido
+  PRECO        Text(10)  Tipo de Preço
+  TIPO         Integer   Tipo (Novo/Antigo)
+  VALOR        Currency  Valor do preço

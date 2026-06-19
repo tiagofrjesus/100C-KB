@@ -1,0 +1,16 @@
+ESTAB — Estabelecimentos  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXESTAB [primary, unique]: CEST
+
+Columns (10):
+  CEST        Text(15)  Código do Estabelecimento
+  CPOSTAL     Text(40)  Código Postal do Estabelecimento
+  CRES1       Text(15)  Código do 1º responsável do estabelecimento
+  CRES2       Text(15)  Código do 2º responsável do estabelecimento
+  EMAIL       Text(35)  Email do estabelecimento
+  FAX         Text(15)  Nº de Fax geral do Estabelecimento
+  LOCALIDADE  Text(40)  Localidade do Estabelecimento
+  MORADA      Text(40)  Morada do Estabelecimento
+  NOME        Text(40)  Nome do Estabelecimento
+  TEL         Text(15)  Nº de telefone geral do Estabelecimento

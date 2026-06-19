@@ -1,0 +1,8 @@
+DOCNEXTC — Equivalência Documen  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  DOCNEXT [primary, unique]: DOCNEXT
+
+Columns (2):
+  DOCCTB   Integer  Documento Ctb
+  DOCNEXT  Text(3)  Documento Next

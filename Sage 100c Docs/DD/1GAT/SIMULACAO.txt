@@ -1,0 +1,30 @@
+SIMULACAO — Simulação de Activos  [1GAT · Sage Gestao de Ativos]
+
+Columns (27):
+  ANOFI        Integer    Ano de Fim de funcionamento
+  ANOIN        Integer    Ano de Inicio de Funcionamento
+  CGRPH        Integer    Código do Grupo homogeneo
+  CODIGO       Text(20)   Código Activo
+  CODIGOD      Text(100)  Designação do Imóvel
+  CSITE        Text(7)    Código de Situação especial
+  DATAREA      Date       Data da última Reavaliação compl.Reint
+  MESFI        Integer    Mes de Fim de funcionamento
+  METREISIM    Text(1)    Método de Reintegração a usar na simulação
+  REACREI      Integer    True=Se Vida Fiscal do imóvel foi estendida (i.e. se foi reavaliado compl.reintegrado)
+  TIMOD        Text(31)   Tipo de Imobilizado + ' ' + Descrição Tipo de Imobilizado
+  TREIAC       Double     Taxas de Reintegrações efectivas acumuladas
+  TXPER        Double     Taxa perdida na reintegração
+  TXREI        Double     Taxa de Reintegração da ficha do imóvel
+  TXREIEFEC    Double     Taxa de Reintegração efectiva
+  TXREIMAX     Double     Taxa de reintegração máxima
+  TXREIMIN     Double     Taxa de reintegração mínima
+  TXREISIM     Double     Taxa de Reintegração a usar na simulação
+  USAVUTILMIN  Integer    Usa vida útil mínima? (aplicável caso MetRei=3)
+  VCUSAC       Currency   Custo actual do activo
+  VIDAF        Integer    Vida Útil Fiscal (=1/Taxa de Reintegração)
+  VIDAFREA     Integer    Vida Fiscal estendida se foi reavaliado compl.reintegrado ou 0
+  VREIAC       Currency   Valor actual Reintegrado
+  VREIFIC      Currency   Valor da Reintegração à taxa da ficha
+  VREIMAX      Currency   Valor da Reintegração à taxa máxima
+  VREIMIN      Currency   Valor da Reintegração à taxa mínima
+  VREISIM      Currency   Valor da Reintegração simulado

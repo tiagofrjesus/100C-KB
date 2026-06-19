@@ -1,0 +1,72 @@
+EMPRESA — Identificação Emp.  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NUMRE [primary, unique]: NUMREG
+  COD [unique]: COD
+
+Columns (65):
+  ACTPRINC             Text(60)   Atividade Principal
+  ANDAR                Text(15)   Andar
+  ANOEMP               Integer    Ano Const. Empresa
+  APARTADO             Text(30)   Apartado
+  ASSPAT               Text(60)   Associação Patronal
+  CAE                  Text(6)    C. A.E.
+  CAPPUB               Single     Público
+  CAPSOCIA             Currency   Capital Social
+  CDAPAT               Text(4)    Cód. Ass. Patronal
+  CDBF                 Text(4)    Bairro Fiscal
+  CDFREG               Text(2)    Cód. Freguesia
+  CDPOSTAL             Text(8)    Código Postal
+  CERTIFICADO_DIGITAL  Text(64)   Certificado Digital
+  COD                  Text(3)    Código
+  CODACT               Text(5)    Cód. Act. Principal
+  CONCELHO             Text(2)    Concelho
+  CONSREGC             Text(30)   C. Reg. Com
+  DATA_CONSTITUICAO    Date       Data de constituição
+  DIASVALIDADE         Text(2)    Número de dias de validade de pedido de consentimento
+  DISTR                Text(2)    Distrito
+  DREG                 Text(30)   Dir. Regional
+  EMAIL                Text(100)  Email
+  ESPACO_FISCAL        Integer    Espaço fiscal
+  ESTACO               Integer    Nº Estab. Açores
+  ESTCONT              Integer    Nº Estab. Cont.
+  ESTMAD               Integer    Nº Estab. Madeira
+  ESTRAN               Single     Estrangeiro
+  FAX                  Text(15)   Fax
+  FGESTAO              Text(30)   Forma Gestão
+  FOLHAS               Text(10)   Secção
+  FREGUE               Text(2)    Freguesia
+  ID_GEP               Text(10)   Identificador G.E.P.
+  LIVRO                Text(10)   Pasta
+  LOCALID              Text(50)   Localidade
+  MINIST               Text(30)   Ministério
+  MORADA               Text(60)   Morada
+  NANOSDADOSFISCAIS    Text(2)    Número de anos a manter dados fiscais
+  NATJUR               Text(30)   Natureza Jurídica
+  NCGA                 Long       Nº C.G.A.
+  NIFREPL              Text(15)   N.I.F. Repres. Legal
+  NIFTOC               Text(15)   N.I.F. T.O.C.
+  NOME                 Text(60)   Nome
+  NSEGSOC              Text(11)   Nº de identificação Segurança Social
+  NUMCONTR             Text(11)   Número Contribuinte
+  NUMMATRI             Text(20)   Número Matricula
+  NUMPECOL             Text(9)    Nº Pessoa Coletiva
+  NUMPORTA             Text(6)    Nº Porta
+  NUMREG               Long       Número Registo
+  PAIS                 Text(20)   País
+  PAISISO_3166         Text(3)    Pais ISO 3166
+  PESOUT               Integer    Núm. Pessoas Out.
+  PRINAC               Single     Privado Nacional
+  QPAP2                Text(4)    Ass.Pat.2
+  QPAP3                Text(4)    Ass.Pat.3
+  QPEMAIL              Text(60)   QP.E-Mail
+  QPFAX                Text(9)    QP.Fax
+  QPNOME               Text(100)  QP.Nome
+  QPTELE1              Text(9)    QP.Telef. 1
+  QPTELE2              Text(9)    QP.Telef. 2
+  REPFIN               Text(4)    Rep. Finanças
+  SIGLA                Text(30)   Sigla
+  TELEFONE             Text(15)   Telefone
+  TELEX                Text(15)   Telex
+  TOCPOD               Integer    TOC Plenos Poderes
+  VOLVEN               Currency   Volume Vendas

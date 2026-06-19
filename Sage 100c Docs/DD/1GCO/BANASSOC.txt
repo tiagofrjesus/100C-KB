@@ -1,0 +1,13 @@
+BANASSOC — Bancos Associados  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  LIN [primary, unique]: ASSOCIAD+LINHA
+
+Columns (7):
+  ASSOCIAD  Text(3)   Associado
+  DEBCRE    Integer   Deb/Cre
+  DESCRICA  Text(50)  Descrição
+  FORMULA   Text(20)  Fórmula
+  LINHA     Integer   Linha
+  NATUREZA  Text(3)   Natureza
+  VALOR     Currency  Valor

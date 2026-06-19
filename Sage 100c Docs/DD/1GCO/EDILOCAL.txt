@@ -1,0 +1,14 @@
+EDILOCAL — EDI Locais  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRIMARIA [primary, unique]: CENTRO
+
+Columns (8):
+  CENTRO    Integer   Centro -Armaz -Loja
+  CODPOS    Text(8)   Código Postal
+  DESIGNAC  Text(50)  Designação
+  EANLOCAL  Text(20)  EAN do Local
+  EMPRESA   Integer   Empresa
+  LOCALIDA  Text(35)  Localidade
+  MORADA    Text(50)  Morada
+  NIF       Text(20)  Número Contribuinte

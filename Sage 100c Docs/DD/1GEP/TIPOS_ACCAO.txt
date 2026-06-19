@@ -1,0 +1,10 @@
+TIPOS_ACCAO — Tipos de acções  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  REFERENCE [primary, unique]: REFERENCE
+
+Columns (4):
+  NAME         Text(50)   Descrição
+  OBSERVACOES  Text(100)  Observações
+  REFERENCE    Text(5)    Código
+  TIPO         Integer    Tipo de acção

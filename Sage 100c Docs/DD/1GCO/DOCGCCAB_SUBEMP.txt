@@ -1,0 +1,13 @@
+DOCGCCAB_SUBEMP — Documentos Subempreitadas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPDOC [primary, unique]: TPDOC+NNUMDOC+SERIE+ANO
+
+Columns (7):
+  ANO       Integer   Ano
+  COD_OBRA  Text(6)   Código de Obra
+  COD_SE    Text(15)  Cód. Subempreteiro
+  NNUMDOC   Long      Número de Documento
+  NR_ORCAM  Text(20)  Número de Orçamento
+  SERIE     Integer   Série
+  TPDOC     Text(3)   Tipo de Documento

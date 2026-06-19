@@ -1,0 +1,11 @@
+RGPD_CATALOGO — Catalogo  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  RGPD_CATALOGOS_KEY [primary, unique]: TABELA+CAMPO
+
+Columns (5):
+  CAMPO             Text(50)   Campo
+  CAMPO_DESCRICAO   Text(100)  Descrição Nome
+  DADOFISCAL        Integer    Dado Fiscal
+  TABELA            Text(50)   Tabela
+  TABELA_DESCRICAO  Text(100)  Descrição Entidade

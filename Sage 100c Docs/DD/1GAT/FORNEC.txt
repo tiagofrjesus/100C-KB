@@ -1,0 +1,66 @@
+FORNEC — Fornecedores  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+  NUMERO [unique]: NUMERO
+
+Columns (59):
+  BALCAO                         Text(3)   Balcão
+  BANCO                          Text(3)   Banco
+  BLNOTAS                        Memo      BLNOTAS
+  C1EMAIL                        Text(40)  Email
+  C1NOME                         Text(40)  Contacto 1
+  C1TELM                         Text(15)  Telefone
+  C2EMAIL                        Text(40)  Email
+  C2NOME                         Text(40)  Contacto 2
+  C2TELM                         Text(15)  Telefone
+  CAE                            Text(4)   CAE
+  CDPOSTAL                       Text(8)   Código Postal
+  CNCOMPRA                       Text(5)   Condições Compra
+  CODIGO                         Text(30)  Fornecedor
+  CONSENTIMENTO_DATA_HORA        Date      Consentimento data hora
+  CONSENTIMENTO_UTILIZADOR       Text(20)  Consentimento utilizador
+  CONTACTO                       Text(25)  Contacto
+  CONTCOM                        Text(25)  CONTCOM
+  CONTFIM                        Text(25)  CONTFIM
+  CONTGER                        Text(25)  CONTGER
+  DATACRI                        Date      Data criação
+  DESCCAB                        Currency  Desconto Cab.
+  DESCCOM                        Text(15)  DESCCOM
+  DESCPGT                        Text(3)   Desconto Pagamento
+  EMAIL                          Text(35)  Email
+  ESQUECIMENTO                   Integer   Pedido de esquecimento de dados pessoais
+  ESQUECIMENTO_DATA_HORA         Date      Esquecimento data hora
+  ESQUECIMENTO_UTILIZADOR        Text(20)  Esquecimento utilizador
+  EXPEDIR                        Text(3)   EXPEDIR
+  FAX                            Text(15)  Fax
+  IDIOMA                         Text(3)   Idioma
+  INACTIVO                       Integer   Inactivo
+  LIVRE                          Integer   LIVRE
+  LOCAL                          Text(35)  Localidade
+  MODOPGT                        Text(3)   Modo pagamento
+  MOEDA                          Text(3)   Moeda
+  MORADA                         Text(50)  Morada
+  NCONTRIB                       Text(15)  Número Contribuinte
+  NIB                            Text(21)  Nib
+  NOME                           Text(50)  Nome
+  NUMERO                         Long      Numero
+  OBSERV                         Text(35)  Observações
+  PAIS                           Text(3)   País
+  PLAFOND                        Currency  Plafond
+  REGIVA                         Text(3)   Regime IVA
+  REGVCT                         Text(3)   REGVCT
+  RGPD_CONSENTIMENTO_TRAT_DADOS  Integer   Consentimento de tratamento de dados pessoais
+  RGPD_ESTADO                    Integer   Estado do consentimento
+  SUFCT                          Text(6)   Nº.Contabilístico
+  TELCOM                         Text(15)  TELCOM
+  TELEF                          Text(15)  Telefone
+  TELEMOVEL                      Text(15)  Telemóvel
+  TELEX                          Text(15)  Telex
+  TELFIN                         Text(15)  TELFIN
+  TELGER                         Text(15)  TELGER
+  TIPOA                          Text(3)   TIPOA
+  TIPOB                          Text(3)   TIPOB
+  TIPO_RELACAO                   Integer   Relação Terceiro
+  TPTERC                         Integer   Tipo de Terceiro
+  ZONAGEO                        Text(3)   Zona Geográfica

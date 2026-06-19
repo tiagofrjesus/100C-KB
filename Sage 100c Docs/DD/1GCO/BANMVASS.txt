@@ -1,0 +1,13 @@
+BANMVASS — Bancos Mov Assoc  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CHAVE [primary, unique]: CHVPRIM+LINHA
+
+Columns (7):
+  CHVPRIM  Long      Chave
+  DEBCRE   Integer   Deb/Cre
+  DESCR    Text(50)  Descrição
+  FORMULA  Text(0)   Fórmula
+  LINHA    Integer   Linha
+  NAT      Text(3)   Natureza
+  VALOR    Currency  Valor

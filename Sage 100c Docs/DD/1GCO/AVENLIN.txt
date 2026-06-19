@@ -1,0 +1,20 @@
+AVENLIN — Avenças Linhas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  LINHA [primary, unique]: TIPOCNTR+NUMCNTR+ANO+LINHA
+  ARTIGO: TIPOCNTR+NUMCNTR+ANO+ARTIGO
+
+Columns (13):
+  ACTIVO    Integer   Activo
+  ANO       Integer   Ano
+  ARTIGO    Text(15)  Artigo ou Descritor
+  DESCLIN   Currency  Desconto Linha
+  FACTOR    Currency  Factor
+  LINHA     Integer   Linha
+  NUMCNTR   Long      Número Contrato
+  PRUNIT    Currency  Preço Unitàrio
+  QUANT     Currency  Quantidade
+  TIPOCNTR  Text(5)   Tipo Contrato
+  TPLINHA   Integer   Tipo de linha
+  UNID      Text(3)   Unidade
+  VENDEDOR  Text(10)  VENDEDOR

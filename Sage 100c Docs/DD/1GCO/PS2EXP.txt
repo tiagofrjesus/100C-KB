@@ -1,0 +1,7 @@
+PS2EXP — PS2 EXPORTADOS  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CHAVE [primary, unique]: CHAVE
+
+Columns (1):
+  CHAVE  Text(25)  

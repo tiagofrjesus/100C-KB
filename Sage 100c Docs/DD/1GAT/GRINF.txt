@@ -1,0 +1,11 @@
+GRINF — Grupos de Informação  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXGRINF [primary, unique]: CGINF
+
+Columns (5):
+  CGINF    Text(5)   Código do Grupo de Informação
+  DESCR    Text(15)  Descrição do Grupo de Informação
+  ETITULO  Boolean   Indica que é título
+  OBS      Text(60)  Descrição extensa
+  TIPO     Text(1)   Grupo de 0=Recolha e Resumo, 1=Recolha, 2=Resumo

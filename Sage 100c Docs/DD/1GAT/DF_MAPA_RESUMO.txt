@@ -1,0 +1,19 @@
+DF_MAPA_RESUMO — Mapa resumo  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  EXERCICIO [primary, unique]: EXERCICIO+LINHA+NATUREZA
+
+Columns (13):
+  DEPRECIACOES_AUMENTOS                     Currency   Aumento de depreciações / amortizações resultante de reavaliações
+  DEPRECIACOES_NAO_ACEITES                  Currency   Depreciações / amortizações e perdas por imparidade não aceites
+  DEPRECIACOES_PERIODO                      Currency   Depreciações / amortizações e perdas por imparidade contabilizadas no período
+  DEPRECIACOES_PERIODOS_ANTERIORES_ACEITES  Currency   Depreciações e amortizações aceites em períodos anteriores
+  DEPRECIACOES_PERIODO_RECUPERADAS          Currency   Depreciações / amortizações e perdas por imparidade recuperadas no período
+  DESCRICAO                                 Text(100)  Descrição
+  EXERCICIO                                 Integer    Exercício
+  IMPARIDADES_PERIODO_ACEITES               Currency   Perdas por imparidade aceites no período
+  LINHA                                     Long       Linha
+  NATUREZA                                  Integer    Natureza do activo
+  VALOR_AQUISICAO                           Currency   Valor de aquisição
+  VALOR_AQUISICAO_M33                       Currency   Valor de aquisição (mapas 33)
+  VALOR_CONTABILISTICO                      Currency   Valor contabilístico

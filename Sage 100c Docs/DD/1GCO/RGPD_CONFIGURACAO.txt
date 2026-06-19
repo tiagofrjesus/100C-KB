@@ -1,0 +1,9 @@
+RGPD_CONFIGURACAO — Configuração  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CONFIGURACAO_KEY [primary, unique]: ENTIDADE+Finalidade+CAMPO
+
+Columns (3):
+  CAMPO       Text(50)  Campo
+  ENTIDADE    Text(50)  Entidade
+  FINALIDADE  Text(50)  Finalidade

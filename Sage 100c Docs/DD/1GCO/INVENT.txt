@@ -1,0 +1,23 @@
+INVENT — Inventario  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  INV [primary, unique]: ARMAZ+DTINV+CODART
+  ARTIGO: ARMAZ+CODART
+
+Columns (16):
+  ARMAZ     Text(6)   Armazém
+  CODART    Text(15)  Código Artigo
+  CONTFISI  Currency  Contagem
+  DIFER     Currency  Diferença
+  DTCONT    Date      Data Contagem
+  DTINV     Date      Data Inventário
+  DTREF     Date      Data Referência
+  EXITEOR   Currency  Existência Teórica
+  FAMILIA   Text(6)   Família
+  GRUPO     Text(6)   Grupo
+  LOCAL     Text(20)  Localização
+  OBS       Text(40)  Observações
+  QTAJUS    Currency  Qt Ajustamento
+  QTDREAL   Currency  QtdReal
+  RESP      Text(20)  Responsável
+  SUBFAM    Text(6)   Sub-Fam.

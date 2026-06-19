@@ -1,0 +1,11 @@
+DESTACAMENTOS — Destacamentos  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  INDEX [primary, unique]: NFUNC+DATAINI
+
+Columns (5):
+  DATAFIM      Date       Data Fim
+  DATAINI      Date       Data Ínicio
+  NFUNC        Text(10)   Funcionário
+  OBSERVACOES  Text(100)  Observações
+  PAIS         Text(2)    País de Destacamento

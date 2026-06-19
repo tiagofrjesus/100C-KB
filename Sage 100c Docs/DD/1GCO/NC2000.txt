@@ -1,0 +1,10 @@
+NC2000 — Pautal Intrastat  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINCIPA [primary, unique]: NC
+  NOVO2: UNSUP
+
+Columns (3):
+  DSG    Memo      Descrição
+  NC     Text(10)  Pautal
+  UNSUP  Text(50)  Un. Suplmentar

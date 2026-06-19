@@ -1,0 +1,8 @@
+DESHOR — Horários  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (2):
+  COD    Text(6)   Código
+  DESCR  Text(50)  Descrição

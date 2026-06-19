@@ -1,0 +1,10 @@
+APCAB — Apuramentos Cab  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  APCAB [primary, unique]: CODAP+TIPO_PLANO
+
+Columns (4):
+  CODAP       Text(5)   Código Movimento
+  DESCR       Text(50)  Descrição
+  TIPO_PLANO  Integer   Tipo código de contas
+  TPAP        Integer   Tipo Apuramento

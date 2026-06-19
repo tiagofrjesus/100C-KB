@@ -1,0 +1,14 @@
+EcoValRules
+
+
+Membros (2):
+
+  [Function] ProcessarLinhaTaxa
+    Input : Taxa As Collection, NewLine As EcoValLinha
+    Output: Vai alterar newline
+    => esta função processa uma taxa de cada vez
+
+  [Function] ReProcessarLinhaTaxa
+    Input : oldline
+    Output: Vai recalcular oldline - quantidadeaplicavel, precounitarioaplicavel e tipodelinhaaplicavel
+    => esta função processa uma taxa de cada vez

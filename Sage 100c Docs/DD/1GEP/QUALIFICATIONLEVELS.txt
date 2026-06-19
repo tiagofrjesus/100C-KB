@@ -1,0 +1,8 @@
+QUALIFICATIONLEVELS — Nível de Qualificação  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  INDEX [primary, unique]: REFERENCE
+
+Columns (2):
+  NAME       Text(100)  Descrição
+  REFERENCE  Text(1)    Código

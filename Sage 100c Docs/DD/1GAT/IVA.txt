@@ -1,0 +1,9 @@
+IVA — Tabela de Iva  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (3):
+  CODIGO    Integer   Código
+  DESCRICA  Text(50)  Descrição
+  TAXA      Double    Taxa

@@ -1,0 +1,17 @@
+BANORIG — Banco Docs Originais  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CHAVES [primary, unique]: BANCO+BALCAO+CONTA+TPDOCBAN+NDOCBAN
+  DOCORIG: ORIGANO+ORIGDOC+ORISERIE+ORIGNUM
+
+Columns (10):
+  BALCAO    Text(4)   BALCAO
+  BANCO     Text(4)   BANCO
+  CONTA     Text(21)  CONTA
+  NDOCBAN   Text(24)  NDOCBAN
+  ORIGANO   Integer   ORIGANO
+  ORIGDOC   Text(3)   ORIGDOC
+  ORIGNUM   Long      ORIGNUM
+  ORILIN    Integer   ORILIN
+  ORISERIE  Integer   ORISERIE
+  TPDOCBAN  Text(3)   TPDOCBAN

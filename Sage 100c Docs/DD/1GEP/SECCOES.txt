@@ -1,0 +1,9 @@
+SECCOES — Secções  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  REFERENCE [primary, unique]: DEPARTAMENTO+REFERENCE
+
+Columns (3):
+  DEPARTAMENTO  Text(10)   Código do departamento
+  NAME          Text(100)  Designação da secção
+  REFERENCE     Text(10)   Código da secção

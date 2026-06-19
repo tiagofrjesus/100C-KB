@@ -1,0 +1,10 @@
+NUMDIAR — Numerador Diários  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRI [primary, unique]: DIARIO+ANO+MES
+
+Columns (4):
+  ANO       Integer  Ano
+  DIARIO    Text(3)  Diário
+  MES       Integer  Mês
+  NUMERADO  Long     Numerador

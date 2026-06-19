@@ -1,0 +1,23 @@
+LININD — Linhas Processamento  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: IDPROC+OUTPRO+DATAT+TAREFA+ORIG
+
+Columns (17):
+  DATAP            Date      DATAP
+  DATAT            Date      DATAT
+  HORASACTIVIDADE  Integer   Horas de Atividade
+  IDPROC           Long      IDPROC
+  IRC              Currency  IRC
+  IRS              Currency  IRS
+  IVA              Currency  IVA
+  ORIG             Integer   ORIG
+  OUTPRO           Text(10)  OUTPRO
+  QNT              Single    QNT
+  STATUS           Integer   STATUS
+  TAREFA           Text(3)   TAREFA
+  TAXAIVA          Currency  Taxa IVA
+  TIPO             Integer   TIPO
+  TRABALHADORES    Integer   Número Trabalhadores
+  VALORSEMIVA      Currency  Valor sem IVA
+  VUNIT            Currency  VUNIT

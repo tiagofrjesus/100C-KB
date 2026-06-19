@@ -1,0 +1,12 @@
+FE_CONFIGURACAO_IDS — Configuração de Identificadores F.E.  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: ID_ELECTRONICO
+
+Columns (6):
+  DESCRICAO                  Text(255)  Descrição
+  ID_ELECTRONICO             Text(50)   Id. Electrónico
+  REGRAS                     Text(3)    Regras
+  TIPO_PESQUISA_ENCOMENDA    Integer    Pesquisa Encomendas
+  TIPO_PESQUISA_FACTURA      Integer    Pesquisa Facturas
+  TIPO_PESQUISA_NOTA_DEBITO  Integer    Pesquisa Nota Débito

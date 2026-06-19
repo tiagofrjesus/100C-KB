@@ -1,0 +1,10 @@
+MODELOSIMPRESSAO — Modelos de impressão crystal (VCON)  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: GRUPO+ORDEM
+
+Columns (4):
+  DESCRICAO  Text(50)   
+  FICHEIRO   Text(100)  
+  GRUPO      Text(10)   
+  ORDEM      Integer    

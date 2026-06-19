@@ -1,0 +1,12 @@
+ERROSL10 — Erros Ligação L100  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  DOC [primary]: ANO+TPDOC+SERIE+NUMDOC
+
+Columns (6):
+  ANO     Integer   
+  DESCR   Text(60)  
+  ERRO    Long      
+  NUMDOC  Long      
+  SERIE   Integer   
+  TPDOC   Text(3)   

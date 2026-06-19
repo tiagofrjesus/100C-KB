@@ -1,0 +1,16 @@
+ACTIVOS_REAVALIA_ESPECIAL — Activos no cálculo de reavaliações especiais  [1GAT · Sage Gestao de Ativos]
+
+Columns (13):
+  CODIGO                      Text(20)  Código do activo
+  CONTA_POC                   Text(15)  Conta POC
+  DATA_AQUISICAO              Date      Data de aquisição
+  DATA_INICIO                 Date      Data de inicio de utilização
+  DECRETO_PROXIMA_REAVA       Integer   Decreto da próxima reavaliação
+  DECRETO_ULTIMA_REAVALIACAO  Integer   Decreto da útima reavaliação
+  DEPRECIACOES_ACUM_NREAVAL   Currency  Depreciações acumuladas não reavaliadas
+  DEPRECIACOES_ACUM_REAVAL    Currency  Depreciações acumuladas reavaliadas
+  REGIME                      Integer   Regime
+  UTILIZADOR                  Text(15)  Utilizador
+  VALOR_AQUISICAO             Currency  Valor de aquisição
+  VALOR_AQUISICAO_ACTUAL      Currency  Valor de aquisição actual
+  VIDA_ADICIONAL_ATRIBUIDA    Integer   Vida adicional atribuida.

@@ -1,0 +1,35 @@
+ESTAB — Estabelecimentos  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (29):
+  ACTPRIN        Text(35)   Atividade Principal
+  CALEND         Text(4)    Calendário
+  CDFREG         Text(2)    Cód. Freguesia
+  CDPOSTAL       Text(8)    Código Postal
+  COD            Text(4)    Código
+  CODACT         Text(5)    Cód. atividade
+  CONCELHO       Text(2)    Concelho
+  CRSS           Text(15)   C.D.S.S.S.
+  DESCR          Text(50)   Descrição
+  DISTR          Text(2)    Distrito
+  EMAIL          Text(60)   E - Mail
+  ESPACO_FISCAL  Integer    Espaço fiscal
+  FAX            Text(9)    Fax
+  FREGUESI       Text(35)   Freguesia
+  ID_GEP         Text(10)   ID. G.E.P.
+  LOCALIDA       Text(40)   Localidade
+  MORADA         Text(40)   Morada
+  NCONTR         Text(9)    Número Contribuinte
+  NSEGSOC        Text(11)   Nº Ident.Seg.Social
+  NUMEST         Integer    Nº Estabelecimento
+  NUMPECOL       Text(9)    Núm. Pessoa Coletiva
+  PAIS           Text(3)    País
+  PESOUT         Integer    Núm. Pessoas Out.
+  REPFIN         Text(4)    Repartição Finanças
+  SEDE           Integer    Sede
+  SSCARGO        Text(50)   Cargo Contacto SS
+  SSNOME         Text(100)  Nome Contacto SS
+  SSTELF         Text(9)    Telef. Cantacto SS
+  TELEFONE       Text(9)    Telefone

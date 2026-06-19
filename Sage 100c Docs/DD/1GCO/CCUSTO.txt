@@ -1,0 +1,9 @@
+CCUSTO — Centros Custo  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (3):
+  COD     Text(6)   Código
+  DESCR   Text(50)  Descrição
+  ENQCUS  Text(6)   Cód. Enq. CCusto

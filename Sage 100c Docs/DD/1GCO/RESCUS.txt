@@ -1,0 +1,9 @@
+RESCUS — Restrição Custeio  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  RESCUS [primary, unique]: EXERCICIO+CONTA+CUSTEIO
+
+Columns (3):
+  CONTA      Text(15)  Conta
+  CUSTEIO    Text(6)   Custeio
+  EXERCICIO  Integer   Exercício

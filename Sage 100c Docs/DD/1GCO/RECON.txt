@@ -1,0 +1,7 @@
+RECON — Indica se existem artigos para reconstruir depois de uma importacao  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: RECON
+
+Columns (1):
+  RECON  Text(10)  Quando existe indica que necessita reconstruir

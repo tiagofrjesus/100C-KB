@@ -1,0 +1,8 @@
+ARTCT — Artigos CT  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  SIGLA [primary, unique]: SIGLA
+
+Columns (2):
+  DESCR  Text(50)  Descrição
+  SIGLA  Text(5)   Código

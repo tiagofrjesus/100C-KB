@@ -1,0 +1,9 @@
+COEFDM — Coeficientes de desvalorização monetária  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  IDX [primary, unique]: CPORT+ANO
+
+Columns (3):
+  ANO    Integer  Ano até ao qual vigora o coeficiente
+  COEF   Double   Coeficiente de desvalorização
+  CPORT  Long     Código da portaria

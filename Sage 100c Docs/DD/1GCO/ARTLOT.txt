@@ -1,0 +1,23 @@
+ARTLOT — Artigos Lotes  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CHAVEP [primary, unique]: ARTIGO+CODLOTE+ARMAZEM+VOSSLOTE
+  VOSSOL: ARMAZEM+VOSSLOTE+ARTIGO
+  ART: ARTIGO+ARMAZEM
+
+Columns (15):
+  ARMAZEM   Text(6)   Armazem
+  ARTIGO    Text(15)  Artigo
+  CODLOTE   Text(16)  Lote
+  DTAENTRA  Date      Data Entrada
+  DTAPRIMS  Date      Data Primeira Saida
+  DTAULTS   Date      Data Ultima Saida
+  DTAVALPR  Date      Validade
+  ESGOTADO  Integer   Esgotado
+  FORNECED  Text(15)  Fornecedor
+  HORENT    Text(8)   Hora Entrada
+  QTDINICI  Currency  Quantidade Inicial
+  QTDSATR   Currency  Qtd. Saida Atribuída
+  QTDSID    Currency  Qtd. Saida Indent
+  STRESENC  Currency  Stock Reservado
+  VOSSLOTE  Text(25)  Vosso Lote

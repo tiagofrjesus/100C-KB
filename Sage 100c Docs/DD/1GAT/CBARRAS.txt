@@ -1,0 +1,14 @@
+CBARRAS — Código de Barras da  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  IDX [primary, unique]: FICHA+CBARRAS
+  FICHA [primary]: FICHA
+
+Columns (7):
+  CBARRAS   Text(26)   Código de Barras
+  DTCNTG    Date       Data Contagem
+  EXCLUIR   Integer    Excluir da Contagem
+  FICHA     Text(20)   Código da Ficha
+  LOCALIZ   Text(13)   Localização
+  NUMSERIE  Text(20)   Número de Série
+  OBS       Text(100)  Observações

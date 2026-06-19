@@ -1,0 +1,7 @@
+CNTANA — Contas com analitica  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CONTA [primary, unique]: CONTA
+
+Columns (1):
+  CONTA  Text(15)  Conta

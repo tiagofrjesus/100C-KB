@@ -1,0 +1,22 @@
+SEGUR — Seguradoras GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXSEGUR [primary, unique]: CSEG
+
+Columns (16):
+  AGENC    Text(20)  Nome da Agência
+  C1EMAIL  Text(40)  Endereço Email do 1º contacto
+  C1NOME   Text(40)  Nome do 1º contacto
+  C1TELM   Text(15)  Nº Telemóvel do 1º contacto
+  C2EMAIL  Text(40)  Endereço Email do 2º contacto
+  C2NOME   Text(40)  Nome do funcionário 2 da companhia de contacto preferêncial
+  C2TELM   Text(15)  Nº Telemovel do 2º contacto
+  CPOSTAL  Text(40)  Código Postal da Agência
+  CSEG     Text(7)   Código da Companhia de Seguros
+  FAX      Text(15)  Nº Fax da Agência
+  LOCAL    Text(40)  Localidade da Agência
+  MORADA   Text(40)  Morada da Agência
+  NOME     Text(40)  Nome da companhia
+  TEL      Text(15)  Nº Telefone da Agência
+  VCCLI    Text(15)  Vosso código de cliente na seguradora
+  WEB      Text(50)  Endereço Web da companhia

@@ -1,0 +1,18 @@
+PALETCAB — Paletes Cabeçalho  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  SSCC [primary, unique]: SSCC
+
+Columns (12):
+  DATAEMB  Date       Data de embalagem
+  DATAREG  Date       Data de Registo
+  EADQ     Boolean    Origem da unidade
+  EEXP     Boolean    Unidade expedida
+  NENC     Text(10)   Encomenda Fornecedor
+  OBSERV   Text(255)  
+  PEXP     Boolean    Destino da unidade
+  SECTOR   Text(3)    Sector
+  SSCC     Text(18)   Código SSCC
+  UDESAS   Boolean    Un. desassemblada
+  UPROD    Boolean    Unidade produzida
+  VENC     Text(10)   Encomenda Cliente

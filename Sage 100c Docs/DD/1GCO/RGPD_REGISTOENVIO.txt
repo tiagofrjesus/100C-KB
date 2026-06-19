@@ -1,0 +1,13 @@
+RGPD_REGISTOENVIO — Registo de envio de Consentimento  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  REGISTOENVIO_KEY [primary, unique]: ENTIDADE+REGISTO
+
+Columns (7):
+  DATADOC    Date      Data Doc
+  DATAEMAIL  Date      Data Email
+  EMAIL      Text(50)  Email
+  ENTIDADE   Text(50)  Entidade
+  REGISTO    Text(50)  Registo
+  USERDOC    Text(50)  User DOC
+  USEREMAIL  Text(50)  User Email

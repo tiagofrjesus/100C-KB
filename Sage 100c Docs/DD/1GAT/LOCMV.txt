@@ -1,0 +1,12 @@
+LOCMV — Movimentos de Localizações de Bens  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXLOCMV [primary, unique]: CBEM+DATA
+
+Columns (6):
+  CBEM   Text(20)  Código do Bem
+  CLOC   Text(13)  Código do Local
+  COPER  Text(8)   Operador que efectuou o registo
+  CRES   Text(15)  Código do Responsável
+  DATA   Date      Data da nova localização
+  OBS    Text(40)  Observações

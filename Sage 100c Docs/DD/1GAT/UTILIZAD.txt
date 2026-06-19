@@ -1,0 +1,10 @@
+UTILIZAD — Utilizadores  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (4):
+  CGR     Text(5)   Código do Grupo GEST
+  CODIGO  Text(5)   Código
+  DESCR   Text(50)  Descrição
+  RESP    Integer   Responsável

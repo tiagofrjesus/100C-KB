@@ -1,0 +1,12 @@
+RELAT — Relatório genérico  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: FICH+TPMSG+IDXMSG+ID
+
+Columns (6):
+  FICH    Text(100)  Ficheiro
+  ID      Long       ID
+  IDXMSG  Integer    IDXMSG
+  MSG     Text(250)  MSG
+  TITREL  Text(100)  Titulo
+  TPMSG   Integer    TPMSG

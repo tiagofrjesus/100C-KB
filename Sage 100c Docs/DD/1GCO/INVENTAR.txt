@@ -1,0 +1,20 @@
+INVENTAR — Inv. Preparados  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  DATAINV [primary, unique]: DATAINV+ARMAZEM
+
+Columns (14):
+  ARMAZEM  Text(6)   ARMAZEM
+  ARTFIN   Text(15)  ARTFIN
+  ARTINI   Text(15)  ARTINI
+  CTRSTK   Integer   CTRSTK
+  DATAINV  Date      DATAINV
+  FAMILIA  Text(6)   FAMILIA
+  GRUPO    Text(6)   GRUPO
+  LOCFIN   Text(20)  LOCFIN
+  LOCINI   Text(20)  LOCINI
+  QTDFIN   Text(15)  QTDFIN
+  QTDINI   Text(15)  QTDINI
+  SUBFAMI  Text(6)   
+  VALFIN   Text(15)  VALFIN
+  VALINI   Text(15)  VALINI

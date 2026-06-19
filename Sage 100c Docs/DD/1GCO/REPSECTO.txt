@@ -1,0 +1,11 @@
+REPSECTO — Rep. Sect Custo  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  REP [primary, unique]: RUBRICA+SECTOR+CCUSTO
+
+Columns (5):
+  AUTOM    Integer   Automático
+  CCUSTO   Text(6)   Centro Custo
+  PERC     Currency  Percentagem
+  RUBRICA  Text(6)   Rubrica
+  SECTOR   Text(3)   Sector

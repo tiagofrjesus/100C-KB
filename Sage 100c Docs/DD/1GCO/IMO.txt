@@ -1,0 +1,38 @@
+IMO — Tabela de Imobilizad  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX1 [primary, unique]: ANO+TPDOC+SERIE+NUMDOC+NUMLINHA
+
+Columns (32):
+  ANO       Integer   Ano
+  BEMREINV  Integer   Bem Reinvestimento
+  CONTAPOC  Text(15)  Conta POC
+  CONTAREC  Text(15)  Conta Cred. Reint.
+  CONTARED  Text(15)  Conta Déb. Reint.
+  CTABELA   Text(5)   Código de Tabela
+  DATA      Date      Data
+  DESCADIC  Integer   Descr. Individual
+  DESCRI    Text(50)  Descrição
+  DTAQUISI  Date      Data de Aquisição
+  DTUTILIZ  Date      Data de Utilização
+  FICHA     Text(15)  Ficha de Imobilizado
+  FORNEC    Text(15)  Fornecedor
+  INDTAXA   Integer   Indicador Taxa
+  IVADEDUT  Currency  Iva Dedutivel
+  IVANDEDU  Currency  Iva n dedutivel
+  METODO    Integer   Metodo
+  NELEM     Integer   Num. Elementos
+  NOVO      Integer   Novo ou Usado
+  NUMDOC    Long      Num. Documento
+  NUMLINHA  Integer   Numero Linha
+  OBRASIDA  Integer   Obras Edif. Alheios
+  REAVALIA  Integer   Excl. Reavaliação
+  REDVALOR  Integer   Reduzido Valor
+  REFER     Text(15)  Referencia
+  REGIME    Integer   Regime
+  RT1ANO    Integer   Reintegração Anual
+  SECTOR    Text(3)   Sector
+  SERIE     Integer   Série
+  TPDOC     Text(3)   Tipo Documento
+  VALAQUIS  Currency  Valor Aquisição
+  VAQACTUA  Currency  Valor Actualizado

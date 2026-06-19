@@ -1,0 +1,20 @@
+APOLI — Ficha de Apólices (Cabeçalhos) GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXAPOLI [primary, unique]: CAPO
+
+Columns (14):
+  CAPITAL    Currency  Valor do Capital seguro pela apólice 0=N.A.
+  CAPO       Text(10)  I - CÓDIGO/Código da Apólice
+  CPRO       Text(15)  Código do Produto
+  CSEG       Text(7)   II - CARACTERIZAÇÃO/Código da Seguradora
+  DTCAPITAL  Date      Data em que foi revisto o valor
+  DTCAPPRO   Date      Próxima data de revisão do capital
+  DTINI      Date      Data de inicio do contrato
+  DTTERMO    Date      Data em que termina ou terminou o contrato
+  DTULTREN   Date      III - TERMO E RENOVAÇÃO/Data da última renovação efectuada
+  FORPAG     Text(1)   Forma Pag.: M=Mensal,S=Semestral,T=Trim.A=Anual O=Outra
+  OBS        Text(50)  Observação
+  PREMIO     Currency  Prémio anual a pagar
+  TPTERMO    Text(1)   A data termo é a data de: C=Cancelamento (data em q/empresa cancelou apólice), U=Caducidade (data q/contrato cessa,ou cessou, p/caducidade) R=Renovação (data em q/contrato deve, ou devia, ser renovado)
+  TXCAPPRO   Double    Taxa a aplicar na próxima revisão 0=N.A.

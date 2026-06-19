@@ -1,0 +1,12 @@
+PERFER — Periodos de Férias  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: NFUNC+PERIODO
+
+Columns (6):
+  DTFIM     Date      Data Fim
+  DTINICIO  Date      Data Início
+  NDIAS     Currency  Número de Dias
+  NFUNC     Text(10)  Número Funcionário
+  OBSERV    Memo      Observações
+  PERIODO   Integer   Período

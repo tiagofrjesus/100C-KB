@@ -1,0 +1,22 @@
+RECAPI — Recapitulativos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ANO [primary, unique]: ANO+TPDOC+SERIE+NUMDOC+NTERC+NCONT
+  NCONT: NCONT
+
+Columns (15):
+  ANO      Integer   
+  CONTA    Text(15)  
+  DATA     Date      
+  DBCR     Integer   
+  DIARIO   Text(3)   
+  NCONT    Text(20)  
+  NDIARIO  Long      
+  NOME     Text(80)  
+  NTERC    Long      
+  NUMDOC   Long      
+  REF      Text(50)  
+  SERIE    Integer   
+  TPDOC    Text(3)   
+  VLIVA    Currency  
+  VLLIQ    Currency  

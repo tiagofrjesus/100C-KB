@@ -1,0 +1,85 @@
+IMO — Ficha de Activos  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  FICHA [primary, unique]: FICHA
+  FICHAASS: FICHAASS
+
+Columns (78):
+  AJFIS1                       Integer   Ajuste Fiscal 1
+  AJFIS2                       Integer   Ajuste Fiscal 2
+  AJVLAQUI                     Double    Aj.Valor Aquisição
+  AJVLREIN                     Double    Aj.Valor depreciação
+  ANOMVALI                     Integer   Ano mais valia
+  BEMREINV                     Integer   Bem Reinvestido
+  BLNOTA                       Text(35)  Notas
+  CLIENTE                      Text(15)  Código do Cliente
+  CODBARRA                     Text(13)  Código de barras
+  CODCLASS                     Text(15)  Cód. Classificação
+  CODDECES                     Text(5)   Cód.Dec.Espec.
+  CONTAPOC                     Text(15)  Conta Poc
+  CONTAREC                     Text(15)  Conta depreciação CR
+  CONTARED                     Text(15)  Conta depreciação DB
+  CONTA_DEPRECIACAO_CR_ANTIGA  Text(15)  C. depr. CR antiga
+  CONTA_DEPRECIACAO_DB_ANTIGA  Text(15)  C. depr. DB antiga
+  CONTA_DESRECONHECIMENTO      Text(15)  
+  CONTA_POC_ANTIGA             Text(15)  Conta POC antiga
+  CTABELA                      Text(5)   Código de Tabela
+  CUSTEIOA                     Text(10)  Custeio Anterior
+  DATAFIM                      Date      Data Fim
+  DECULRV                      Integer   Dec. Ult Reavaliação
+  DEPART                       Text(5)   Departamento
+  DESCADIC                     Integer   Descrição Individual
+  DESCRI                       Text(50)  Descrição
+  DESCSUBG                     Text(5)   Desc.Sub.Grupo
+  DESGGRUP                     Text(5)   Descrição Gr.Grupo
+  DTABATE                      Date      Data Abate
+  DTAQUISI                     Date      Data Aquisição
+  DTPRRV                       Integer   Dec.Prox.Reavaliação
+  DTUTILIZ                     Date      Data de Utilização
+  FICHA                        Text(15)  Ficha
+  FICHAASS                     Text(15)  Ficha Associadas
+  FORNEC                       Text(30)  Fornecedor
+  GRUPO_ACTIVOS_ANTIGO         Text(5)   Grupo activos antigo
+  INDTAXA                      Integer   Indicador Taxa
+  LOCAL                        Text(5)   Localização
+  MAPA31                       Integer   Inc. Mapa 31
+  METODO                       Integer   Método
+  NELEM                        Integer   Num. Elementos
+  NOVO                         Integer   Novo
+  NUMERO_CONTRIBUINTE          Text(15)  Núm. Contribuinte
+  NUMERO_DOCUMENTO             Text(15)  Número de Documento
+  OBRASIDA                     Integer   Obras Edif. Alheios
+  OBS                          Memo      OBS
+  OBSSVESP                     Text(5)   Obser.Especiais
+  PERNREIN                     Double    Perc. não depreciada
+  QUOTPERD                     Double    Quotas Perdidas
+  REAVALIA                     Integer   Reavalia
+  REDVALOR                     Integer   Reduzido Valor
+  REGIME                       Integer   Regime
+  RESPON                       Text(5)   Responsável
+  RREEXACT                     Currency  V. de. ex. act
+  RT1ANO                       Integer   Opção depre. anual
+  SECTOR                       Text(3)   Sector
+  TIPO_ACTIVO_ANTIGO           Integer   Tipo de Activo
+  TPABATE                      Integer   Tipo de Abate
+  TXREAC                       Single    Taxa depreciação Ac.
+  TXRESIMU                     Single    Taxa depreciação S.
+  TXREUTIL                     Single    Taxa depreciação ut.
+  UTILESP                      Integer   Ind.Ut.Esper
+  UTILIZ                       Text(5)   Utilizador
+  VALAQUIS                     Currency  Valor Aquisição
+  VALMAT                       Currency  Valor Matricial
+  VALMVALI                     Currency  Valor da mais valia
+  VALRESID                     Currency  Valor Residual
+  VAQACTUA                     Currency  Valor Aq. Actual
+  VDADICAT                     Integer   Vida Adicional Atrib
+  VDADRV                       Integer   Vida Adicional Rv
+  VENDIDO_A                    Text(28)  Vendido a
+  VIDAFISC                     Integer   Vida Fiscal
+  VIDAREAL                     Integer   Vida Real
+  VLLIQAJU                     Currency  Valor líquido ajuste
+  VLREAL                       Currency  Valor da Venda
+  VREACACT                     Currency  V. de. ac. act.
+  VREACNR                      Currency  V. de. ac. n/reav.
+  VREEXNR                      Currency  V. de. ex. n/ Reav.
+  VUTILAT                      Integer   Vida Útil Atribuida

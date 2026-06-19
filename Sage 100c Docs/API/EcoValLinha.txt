@@ -1,0 +1,7 @@
+EcoValLinha
+Ecovalores - Linha de dados de ecovalores assciada a cada linha de documento, cada linha de documento pode ter várias destas associadas
+
+Membros (1):
+
+  [Sub] Class_Terminate
+    => Desligar as camadas de dados

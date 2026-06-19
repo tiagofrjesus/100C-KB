@@ -1,0 +1,14 @@
+TPDESPESAS — Tipos de despesas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary]: CODIGO
+
+Columns (8):
+  ARTIGO       Text(15)  
+  CODIGO       Text(32)  
+  COMBUSTIVEL  Boolean   
+  DESCRICAO    Text(32)  
+  GARANTIA     Boolean   
+  SECTOR       Text(3)   
+  SERIE        Integer   
+  TPDOC        Text(3)   

@@ -1,0 +1,9 @@
+ENCUST — Plano Enq.Custeio  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ENCUST [primary, unique]: ENCUST
+
+Columns (3):
+  DESCR   Text(50)  Descrição
+  ENCUST  Text(6)   Cód. Enq.Custeio
+  GRAU    Integer   Grau

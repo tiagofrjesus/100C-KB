@@ -1,0 +1,8 @@
+NATJUR — Naturezas Jurídicas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (2):
+  COD    Text(2)   Código
+  DESCR  Text(40)  Descrição

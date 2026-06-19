@@ -1,0 +1,10 @@
+PVENDESG — PosVen Artigos Desga  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  GRFMSBAR [primary, unique]: GRUPO+FAMILIA+SUBFAM+ARTIGO
+
+Columns (4):
+  ARTIGO   Text(15)  Artigo
+  FAMILIA  Text(6)   Familia
+  GRUPO    Text(6)   Grupo
+  SUBFAM   Text(6)   SubFamilia

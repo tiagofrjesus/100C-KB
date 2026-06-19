@@ -1,0 +1,11 @@
+INDICE_ECDU — Índice para subscritores abrangidos pelo ECDU  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  REFERENCE [primary, unique]: REFERENCE
+
+Columns (5):
+  EXCLUSIVITY  Currency   Valor para exclusividade
+  FULLTIME     Currency   Valor para tempo integral
+  NAME         Text(200)  Índice
+  PARTTIME     Currency   Valor para tempo parcial
+  REFERENCE    Text(3)    Índice

@@ -1,0 +1,10 @@
+SUBACTIVIDADE — Subactividades  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  INDEX [primary, unique]: COD_ACTIV+CODIGO
+
+Columns (4):
+  CODIGO     Text(3)    Código
+  COD_ACTIV  Text(3)    Código de Actividade
+  DESCRICAO  Text(35)   Descrição
+  OBS        Text(255)  Observações

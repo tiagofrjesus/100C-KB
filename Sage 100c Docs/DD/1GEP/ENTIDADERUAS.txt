@@ -1,0 +1,31 @@
+ENTIDADERUAS — Dados Entidade Empregadora  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: ANO
+
+Columns (25):
+  AMORTIZACOES              Currency  Amortizações do exercício
+  ANO                       Integer   Exercício
+  AQUISICAO                 Currency  Valor de aquisição de bens e equipamentos
+  CUSTOPESSOAL              Currency  Custos com o pessoal
+  CUSTOSPERDAS              Currency  Custos e perdas do exercício
+  ENCARGOSSOCIAL            Currency  Encargos de acção e apoio social
+  FORMACAO                  Currency  Valor de formação, informação e consulta
+  FSEFINANCIAMENTO          Currency  Valor do financiamento do Fundo Social Europeu
+  IMPOSTORENDIMENTO         Currency  Imposto sobre o rendimento
+  MONTANTEHORASDESPENDIDAS  Currency  Valor do montante de remuneração de horas despendidas
+  ORGANIZACAOESPACOS        Currency  Valor de organização dos espaços
+  ORGANIZACAOSERVICOS       Currency  Valor de organização dos serviços
+  ORIGEMEMCARGODOENCA       Text(1)   Origem do encargo de subsídio doença e doença profissional
+  ORIGEMEMCARGOOUTRAS       Text(1)   Origem do encargo de outras prestações
+  ORIGEMEMCARGOPENSOES      Text(1)   Origem do encargo de pensões de velhice, invalidez e sobrevivência
+  OUTRASFONTES              Currency  Valor de outras fontes de financiamento
+  OUTRASPRESTACOES          Currency  Outras prestações
+  OUTROS                    Currency  Valor de outros
+  PENSOES                   Currency  Pensões de velhice, invalidez e sobrevivência
+  PROVISOES                 Currency  Provisões do exercício
+  RESTANTEFINANCIAMENTO     Currency  Valor do restante financiamento
+  RESULTADOS                Currency  Resultado liquido do exercício
+  SUBSIDIODOENCA            Currency  Subsídio doença e doença profissional
+  VALORVAB                  Currency  Valor acrescentado bruto
+  VOLUMENEGOCIOS            Currency  Volume de negócios

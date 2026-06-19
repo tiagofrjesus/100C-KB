@@ -1,0 +1,679 @@
+DocumentosGcLin
+Documentos Comerciais - Linhas
+
+Membros (224):
+
+  [Get] Alterado
+    => Sinaliza se houveram valores alterados na linha
+
+  [Get] AltereiEcotaxa
+    => Verifica se houveram alterações á linha que implicam recalculo das ecotaxas
+
+  [Let] AltereiEcotaxa
+    => Sinaliza que houveram alterações á linha que implicam recalculo das ecotaxas
+
+  [Get] AltereiModuloAdicional
+    => Verifica se a linha sofreu aletrações á informação dos módulos adicionais associados á linha
+
+  [Let] AltereiModuloAdicional
+    => Sinaliza que a linha sofreu aletrações á informação dos módulos adicionais associados á linha
+
+  [Get] AltereiPropriedadeCritica
+    => Flag usada pelos introdutores de movimentos
+
+  [Let] AltereiPropriedadeCritica
+    => Flag usada pelos introdutores de movimentos
+
+  [Get] Ano
+    => Ano do documento
+
+  [Let] Ano
+    => Ano do documento
+
+  [Get] Armazem
+    => Armazém
+
+  [Let] Armazem
+    => Armazém
+
+  [Get] ArmazemProp
+    Output: Objecto do tipo ArtigosArmazem
+    => Retorna propriedades de artigos / armazém associado a esta linha
+
+  [Get] Artigo
+    => Código do artigo
+
+  [Let] Artigo
+    => Código do artigo
+
+  [Get] ArtigoProp
+    Output: Objecto do tipo Artigos
+    => Retorna propriedades do artigo associado a esta linha
+
+  [Get] ChaveLock
+    => Interna, usada em Locks da aplicação ás tabelas de artifgos e artigos armazém
+
+  [Let] ChaveLock
+    => Interna, usada em Locks da aplicação ás tabelas de artifgos e artigos armazém
+
+  [Get] CodigoDeLote
+    => não usada
+
+  [Let] CodigoDeLote
+    => não usada
+
+  [Get] CodigoEANArtigo
+    => Código de barras do artigo
+
+  [Let] CodigoEANArtigo
+    => Código de barras do artigo
+
+  [Get] Conta
+    => interno, usado na ligação á contabilidade
+
+  [Let] Conta
+    => interno, usado na ligação á contabilidade
+
+  [Get] DataDeAlteracao
+    => Ultima data de alteração da linha
+
+  [Let] DataDeAlteracao
+    => Ultima data de alteração da linha
+
+  [Get] DataDeCriacao
+    => Data de criação da linha
+
+  [Let] DataDeCriacao
+    => Data de criação da linha
+
+  [Get] DataDeValidade
+    => não usada
+
+  [Let] DataDeValidade
+    => não usada
+
+  [Get] DataMvStock
+    => Data das linhas (se for numa encomenda é a data prevista de entrega)
+
+  [Let] DataMvStock
+    => Data das linhas (se for numa encomenda é a data prevista de entrega)
+
+  [Get] Descadiantamentos
+    => Descrição das linhas de adiantamentos
+
+  [Let] Descadiantamentos
+    => Descrição das linhas de adiantamentos
+
+  [Get] Desccreditos
+    => não usada
+
+  [Let] Desccreditos
+    => não usada
+
+  [Get] Desconto
+    => Desconto composto
+
+  [Let] Desconto
+    => Desconto composto
+
+  [Get] DescontoValor
+    => valor de desconto
+
+  [Let] DescontoValor
+    => valor de desconto
+
+  [Get] Descrdebitos
+    => não usada
+
+  [Let] Descrdebitos
+    => não usada
+
+  [Get] Descrdespesas
+    => Descrição das linhas de despesas
+
+  [Let] Descrdespesas
+    => Descrição das linhas de despesas
+
+  [Get] Descricao
+    => Descrição
+
+  [Let] Descricao
+    => Descrição
+
+  [Get] DescricaoAdiantamen
+    => não usada
+
+  [Let] DescricaoAdiantamen
+    => não usada
+
+  [Get] DescricaoCredit
+    => não usada
+
+  [Let] DescricaoCredit
+    => não usada
+
+  [Get] DescricaoDebitos
+    => não usada
+
+  [Let] DescricaoDebitos
+    => não usada
+
+  [Get] DescricaoDespesas
+    => não usada
+
+  [Let] DescricaoDespesas
+    => não usada
+
+  [Get] DescricaoRtf
+    => Descrição RTF associada á linha
+
+  [Let] DescricaoRtf
+    => Descrição RTF associada á linha
+
+  [Get] Descritor
+    => Sinaliza se é artigo ou descritor
+
+  [Let] Descritor
+    => Sinaliza se é artigo ou descritor
+
+  [Get] DescvalorOr
+    => Valor de desconto original
+
+  [Let] DescvalorOr
+    => Valor de desconto original
+
+  [Get] EcotaxaCarregada
+    => verifica se a linha de ecotaxa foi carregada da base de dados ou se é nova
+
+  [Let] EcotaxaCarregada
+    => Sinaliza que a linha de ecotaxa foi carregada da base de dados ou se é nova
+
+  [Get] EcotaxaProcessada
+    => Verifica se Ecotaxa já foi processada
+
+  [Let] EcotaxaProcessada
+    => Ecotaxa já processada
+
+  [Get] Encargos
+    => Valor de encargos
+
+  [Let] Encargos
+    => Valor de encargos
+
+  [Get] Estado
+    => Estado da linha
+
+  [Let] Estado
+    => Estado da linha
+
+  [Get] Extendida
+    => Sinaliza se a linha tem extensões de SDK
+
+  [Get] Extensao
+    => Retorna a tabela extendida associada á linha
+
+  [Get] Factor
+    => Factor de conversão para a unidade base
+
+  [Let] Factor
+    => Factor de conversão para a unidade base
+
+  [Get] FlagLinhaProcessadaOriginais
+    => uso interno durante a actualização de documentos importados
+
+  [Get] Fornecedor
+    => não usada
+
+  [Let] Fornecedor
+    => não usada
+
+  [Get] HoradeAlteracao
+    => Ultima hora de alteração da linha
+
+  [Let] HoradeAlteracao
+    => Ultima hora de alteração da linha
+
+  [Get] HoradeCriacao
+    => Hora de criação da linha
+
+  [Let] HoradeCriacao
+    => Hora de criação da linha
+
+  [Get] IdLinhaDocumento
+    => ID da linha de documento
+
+  [Let] IdLinhaDocumento
+    => ID da linha de documento
+
+  [Get] Importada
+    => Sinaliza se a linha foi importada
+
+  [Get] ImprimeDeclaracoes
+    => Interna não usar
+
+  [Let] ImprimeDeclaracoes
+    => Interna não usar
+
+  [Get] Incoerencias
+    => Incoerências na linha
+
+  [Let] Incoerencias
+    => Incoerências na linha
+
+  [Get] IntrodGtc
+    => interna não usar
+
+  [Let] IntrodGtc
+    => interna não usar
+
+  [Get] IntrodGtc2
+    => interna não usar
+
+  [Let] IntrodGtc2
+    => interna não usar
+
+  [Get] IntrodGtc3
+    => interna não usar
+
+  [Let] IntrodGtc3
+    => interna não usar
+
+  [Get] IvaAdiantamento
+    => não usada
+
+  [Let] IvaAdiantamento
+    => não usada
+
+  [Get] IvaDespesas
+    => não usada
+
+  [Let] IvaDespesas
+    => não usada
+
+  [Get] IvaLinhas
+    => Taxa de iva das linhas
+
+  [Let] IvaLinhas
+    => Taxa de iva das linhas
+
+  [Get] LinhaAnulada
+    => Marcador de linha anulada
+
+  [Let] LinhaAnulada
+    => Marcador de linha anulada
+
+  [Get] LinhaBonus
+    => Verifica se a linha é uma linha de bonus atribuida pela grelha de documento
+
+  [Let] LinhaBonus
+    => Sinaliza que a linha é uma linha de bonus atribuida pela grelha de documento
+
+  [Get] LinhaComFormula
+    => Se o artigo tem uma formula associada
+
+  [Let] LinhaComFormula
+    => Se o artigo tem uma formula associada
+
+  [Get] LinhaOriginal
+    => Numero da linha do documento de origem
+
+  [Let] LinhaOriginal
+    => Numero da linha do documento de origem
+
+  [Get] LinhaRelacionada
+    => Esta linha está relacionada com outra, é dependente da outra com o numero linharelacionada
+
+  [Let] LinhaRelacionada
+    => Esta linha está relacionada com outra, é dependente da outra com o numero linharelacionada
+
+  [Get] ModuloAdicional
+    => Tipo de módulo adicional associado á linha
+
+  [Let] ModuloAdicional
+    => Tipo de módulo adicional associado á linha
+
+  [Get] MovimentoStock
+    => Sinal de movimento de stock
+
+  [Let] MovimentoStock
+    => Sinal de movimento de stock
+
+  [Get] NaGrelha
+    => Interna, sinaliza se a linha já passou paraa grelha de movimentação ou se ainda só está em memória
+
+  [Get] NumeroDaLinha
+    => Numero da linha
+
+  [Let] NumeroDaLinha
+    => Numero da linha
+
+  [Get] NumeroDocumento
+    => Numero do documento
+
+  [Let] NumeroDocumento
+    => Numero do documento
+
+  [Get] NumeroSerie
+    => não usada
+
+  [Let] NumeroSerie
+    => não usada
+
+  [Get] OperadorAlteracao
+    => Ultimo operador a alterar a linha
+
+  [Let] OperadorAlteracao
+    => Ultimo operador a alterar a linha
+
+  [Get] OperadorCriacao
+    => Operador que criou a linha
+
+  [Let] OperadorCriacao
+    => Operador que criou a linha
+
+  [Get] Orano
+    => Ano do documento de origem
+
+  [Let] Orano
+    => Ano do documento de origem
+
+  [Get] OrAreaGestao
+    => Àrea de gestão do documento de origem
+
+  [Let] OrAreaGestao
+    => Àrea de gestão do documento de origem
+
+  [Get] OrdemGeracao
+    => Oredenação para linha geradas automaticamente
+
+  [Let] OrdemGeracao
+    => Oredenação para linha geradas automaticamente
+
+  [Get] Ordenacao
+    => Numero de ordem usado na ordenação das linhas no ecrã
+
+  [Let] Ordenacao
+    => Numero de ordem usado na ordenação das linhas no ecrã
+
+  [Get] Ordoc
+    => Tipo de documento de origem
+
+  [Let] Ordoc
+    => Tipo de documento de origem
+
+  [Get] OrigemAlteracao
+    => Origem da ultima alteração
+
+  [Let] OrigemAlteracao
+    => Origem da ultima alteração
+
+  [Get] OrigemCriacao
+    => Origem de criação da linha
+
+  [Let] OrigemCriacao
+    => Origem de criação da linha
+
+  [Get] Ornum
+    => Numero do documento de origem
+
+  [Let] Ornum
+    => Numero do documento de origem
+
+  [Get] Orserie
+    => Serie do documento de origem
+
+  [Let] Orserie
+    => Serie do documento de origem
+
+  [Get] PmpCusto
+    => Preço de custo médio unitário da linha
+
+  [Let] PmpCusto
+    => Preço de custo médio unitário da linha
+
+  [Get] PrecoUnitario
+    => Preço Unitário
+
+  [Let] PrecoUnitario
+    => Preço Unitário
+
+  [Let] Processado
+    => Interna sinaliza que a linha está completamente processada
+
+  [Get] PrunitAdiantamentos
+    => não usada
+
+  [Let] PrunitAdiantamentos
+    => não usada
+
+  [Get] PrunitCreditos
+    => não usada
+
+  [Let] PrunitCreditos
+    => não usada
+
+  [Get] PrunitDebitosExtr
+    => não usada
+
+  [Let] PrunitDebitosExtr
+    => não usada
+
+  [Get] PrunitDespesas
+    => não usada
+
+  [Let] PrunitDespesas
+    => não usada
+
+  [Get] QuantCreditos
+    => não usada
+
+  [Let] QuantCreditos
+    => não usada
+
+  [Get] QuantDebitosExtra
+    => não usada
+
+  [Let] QuantDebitosExtra
+    => não usada
+
+  [Get] QuantDespesas
+    => não usada
+
+  [Let] QuantDespesas
+    => não usada
+
+  [Get] QuantdidadeAdianta
+    => não usada
+
+  [Let] QuantdidadeAdianta
+    => não usada
+
+  [Get] Quantidade
+    => Quantidade da linha
+
+  [Let] Quantidade
+    => Quantidade da linha
+
+  [Get] QuantidadeAnterior
+    => Actualizado na leitura do documento na base de dados, não deve ser alterado programaticamente excepto em situações muito específicas, usado para regravação do documento
+
+  [Let] QuantidadeAnterior
+    => Actualizado na leitura do documento na base de dados, não deve ser alterado programaticamente excepto em situações muito específicas, usado para regravação do documento
+
+  [Get] QuantidadeImportada
+    => Quantidade da linha que foi alvo de importação
+
+  [Let] QuantidadeImportada
+    => Quantidade da linha que foi alvo de importação
+
+  [Get] QuantidadeOrigem
+    => Quantidade original da linha
+
+  [Let] QuantidadeOrigem
+    => Quantidade original da linha
+
+  [Get] QuantLote
+    => não usada
+
+  [Let] QuantLote
+    => não usada
+
+  [Get] Referencia
+    => não usada
+
+  [Let] Referencia
+    => não usada
+
+  [Get] reserva
+    => Quantidade reservada
+
+  [Let] reserva
+    => Quantidade reservada
+
+  [Get] ReservaAnterior
+    => Quantidade reservada lida da base de dados não alterar
+
+  [Let] ReservaAnterior
+    => Quantidade reservada lida da base de dados não alterar
+
+  [Get] ReservaOriginal
+    => Quantidade reservada original
+
+  [Let] ReservaOriginal
+    => Quantidade reservada original
+
+  [Get] Sector
+    => Sector
+
+  [Let] Sector
+    => Sector
+
+  [Get] Serie
+    => Serie do documento
+
+  [Let] Serie
+    => Serie do documento
+
+  [Get] Signature
+    => Assinatura da linha
+
+  [Let] Signature
+    => Assinatura da linha
+
+  [Get] TaxaDesconto
+    => Taxa de desconto
+
+  [Let] TaxaDesconto
+    => Taxa de desconto
+
+  [Get] TaxaIva
+    => Taxa de Iva
+
+  [Let] TaxaIva
+    => Taxa de Iva
+
+  [Get] TaxValue
+    => Facturação electrónica
+
+  [Get] TemDependentes
+    => Verifica se a linha tem outras linhas associadas (ecotaxas, bonus, artigos associados)
+
+  [Let] TemDependentes
+    => Sinaliza que a linha tem outras linhas associadas (ecotaxas, bonus, artigos associados)
+
+  [Get] TemReserva
+    Input : Cliente As String, grupoClientes As String, Data As String
+    Output: Boolean true se a linha pode ter reservas de stocks
+
+  [Get] TipoComposicao
+    => Verifica tipo de composto associado a esta linha (compostos e componentes)
+
+  [Let] TipoComposicao
+    => Atribui tipo de composto associado a esta linha (compostos e componentes)
+
+  [Get] TipoDeLinha
+    => Tipo de linha
+
+  [Let] TipoDeLinha
+    => Tipo de linha
+
+  [Get] TipoDesconto
+    => Tipo de grelha de desconto associado á linha (exclusiva, não usa, usa)
+
+  [Let] TipoDesconto
+    => Tipo de grelha de desconto associado á linha (exclusiva, não usa, usa)
+
+  [Get] TipoDocumento
+    => Tipo de documento
+
+  [Let] TipoDocumento
+    => Tipo de documento
+
+  [Get] TipoEcotaxa
+    Output: integer
+    => Ler o tipo de ecotaxa associado á linha de documento
+
+  [Let] TipoEcotaxa
+    Input : ByVal valor As Integer
+    => Atribuir o tipo de ecotaxa á linha de documento
+
+  [Get] TipoOperacao
+    => Tipo de operação
+
+  [Let] TipoOperacao
+    => Tipo de operação
+
+  [Get] TipoTerceiro
+    => Tipo de terceiro do documento
+
+  [Let] TipoTerceiro
+    => Tipo de terceiro do documento
+
+  [Get] Unidade
+    => Código da unidade
+
+  [Let] Unidade
+    => Código da unidade
+
+  [Get] valor
+    => Valor da linha
+
+  [Let] valor
+    => Valor da linha
+
+  [Get] ValorMvstOriginal
+    => Valor original de movimento de stock da linha
+
+  [Let] ValorMvstOriginal
+    => Valor original de movimento de stock da linha
+
+  [Get] ValorOriginal
+    => Valor original da linha
+
+  [Get] VlMovimentoStock
+    => valor de movimento de stock da linha (valorizado ao custo médio)
+
+  [Let] VlMovimentoStock
+    => valor de movimento de stock da linha (valorizado ao custo médio)
+
+  [Get] VossoLote
+    => não usada
+
+  [Let] VossoLote
+    => não usada
+
+  [Sub] Clona
+    => Clona ese objecto para outro que é passado como parâmetro (copia todo o seu conteúdo)
+
+  [Sub] CopiaDe
+    => Interna, usada na gravação e regravação dos documentos
+
+  [Sub] CopiaPara
+    => Interna, usada na gravação e regravação dos documentos
+
+  [Sub] LancarErro
+    => Interna, usada na gravação e regravação dos documentos
+
+  [Sub] Class_Initialize
+
+  [Sub] Class_Terminate

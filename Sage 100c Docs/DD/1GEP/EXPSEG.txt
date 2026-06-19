@@ -1,0 +1,15 @@
+EXPSEG — Exportação Seguro  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: CODSEG+DATA+NFUNC
+
+Columns (9):
+  CDIAS   Single    CDIAS
+  CODCAT  Text(5)   CODCAT
+  CODSEG  Text(4)   CODSEG
+  DATA    Date      Data
+  NFUNC   Text(10)  Nº Funcionário
+  OUTREM  Currency  OUTREM
+  PDIAS   Integer   PDIAS
+  REMILI  Currency  REMILI
+  SUBALI  Currency  SUBALI

@@ -1,0 +1,11 @@
+TECNICOS_ACTIVIDADES — Atividades técnicos  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  TECNICO [primary, unique]: ANO+ESTAB+TECNICO
+
+Columns (5):
+  ANO             Integer    Ano
+  ESTAB           Text(4)    Estabelecimento
+  HORAS_SEMANAIS  Currency   Nº. de horas semanais
+  OBSERVACOES     Text(100)  Observações
+  TECNICO         Text(10)   Técnico

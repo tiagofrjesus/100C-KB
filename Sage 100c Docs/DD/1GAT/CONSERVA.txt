@@ -1,0 +1,15 @@
+CONSERVA — Conservacao/Reparaca  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LINHA [primary, unique]: NLINHA+FICHA
+  FICHA: FICHA
+
+Columns (8):
+  CLASSE    Text(8)   Classe
+  CODFORN   Text(30)  Cód. Fornecedor
+  DATA      Date      Data
+  DESCRICA  Text(24)  Descrição
+  FACTURA   Text(8)   Número Factura
+  FICHA     Text(15)  Ficha
+  NLINHA    Long      Nlinha
+  VALOR     Currency  Valor

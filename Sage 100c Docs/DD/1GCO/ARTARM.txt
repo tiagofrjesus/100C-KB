@@ -1,0 +1,37 @@
+ARTARM — Artigos por Armazém  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ARTARMAZ [primary, unique]: ARTIGO+ARMAZEM
+
+Columns (31):
+  ARMAZEM             Text(6)   Armazém
+  ARMENCCL            Currency  Enc. Clie. Armazém
+  ARMENCFO            Currency  Enc. Forn. Armazém
+  ARTIGO              Text(15)  Artigo
+  CNTINV              Text(15)  Conta Inventário
+  CUSTOSAD            Currency  Encargos
+  DATA_ACERTO_STOCKS  Date      Data acerto stocks
+  DATCONTG            Date      Data Contagem
+  DBTS                23        
+  DIFAPURA            Currency  Diferença Apurada
+  DTENTR              Date      Data Última Entrada
+  DTEXISMI            Date      Data Exist Minima
+  DTSAID              Date      Data Última Saída
+  DTULTCP             Date      Data Última Compra
+  EXISMINP            Currency  Existência Min Prev
+  EXISTENC            Currency  Stock real
+  EXISTENCIAZERAR     Currency  Quantidade de existencias a Zerar
+  LOCAL               Text(90)  Localização Artigo
+  QTDCONT             Currency  Quantidade Contada
+  QTD_APLICADO        Currency  Qtd. em Aplicado
+  RESERVA_OBRA        Currency  Reserva de Obra
+  STCMAXAR            Currency  Stock Máximo
+  STCMINAR            Currency  Stock Min. Armazém
+  STCREPAR            Currency  Stock Reposição
+  STRESENC            Currency  Stock Reserva enc.
+  STRESOBR            Currency  Stock Reserva Obras
+  ULTPCM              Currency  Último PCM
+  ULTPRCBR            Currency  Último Pr Compra Bru
+  ULTPRCLI            Currency  Último Pr Compra Líq
+  VLREXIST            Currency  Valor da Existência
+  VLREXISTZERAR       Currency  Valor das existencias a Zerar

@@ -1,0 +1,4 @@
+MovCTBCab
+Ligação á contabilidade, classe que tem os dados da contabilidade geral que são comuns a todas as linhas de movimento do documento
+
+Membros (0):

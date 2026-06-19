@@ -1,0 +1,22 @@
+MODOPGT — Modo Pagamento  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (16):
+  BNCDEST     Integer   Banco Destino
+  CODIGO      Text(3)   Código
+  CONTVLR     Integer   Contravalor
+  DBTS        23        
+  DESCR       Text(50)  Descrição
+  DESPBNC     Integer   Despesas Bancárias
+  DOCBAF      Text(0)   Doc. Ban. Fornecedor
+  DOCBAN      Text(3)   Doc. Ban. Cliente
+  FMTIMP1     Text(20)  Modelo 1
+  FMTIMP2     Text(20)  Modelo 2
+  FMTIMP3     Text(20)  Modelo 3
+  FMTIMP4     Text(20)  Modelo 4
+  JUROS       Integer   Juros
+  LANCBNC     Integer   Lançamento Bnc
+  LISTANEGRA  Integer   Controla SCCI
+  TIPOSAFT    Integer   PaymentMechanism SAFT 1.01

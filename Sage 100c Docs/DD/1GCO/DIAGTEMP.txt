@@ -1,0 +1,16 @@
+DIAGTEMP — Diagnósticos GA  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  DOC [primary]: IDDIAG+ANO+TPDOC+SERIE+NUMDOC
+
+Columns (10):
+  ANO     Integer    Ano
+  CONSEQ  Text(200)  CONSEQ
+  CORREC  Text(200)  CORRECCAO
+  DESCR   Text(200)  DESCR
+  IDDIAG  Integer    
+  MOVCOD  Text(50)   MOVCODIGO
+  NUMDOC  Long       Número documento
+  SERIE   Integer    Série
+  TABCOD  Text(50)   TABCODIGO
+  TPDOC   Text(3)    Tipo de Documento

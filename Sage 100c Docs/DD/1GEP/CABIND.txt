@@ -1,0 +1,31 @@
+CABIND — Cabeçalho Processame  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: IDPROC+OUTPRO+DATA
+
+Columns (25):
+  CODBAL                  Text(4)   CODBAL
+  CODBNC                  Text(4)   CODBNC
+  CONTA                   Text(21)  CONTA
+  CONTAI                  Text(21)  CONTAI
+  DATA                    Date      DATA
+  DATA_TRANSFERENCIA      Date      Data da transferência bancária
+  DTPAGO                  Date      Data Pagamento
+  DTREC                   Date      Data Recibo
+  EMITID                  Integer   EMITID
+  ESPACOFISCAL            Integer   Espaço fiscal
+  IDPROC                  Long      IDPROC
+  MPAG                    Integer   Modo Pagamento
+  NDOC                    Text(25)  Nº Documento
+  NREC                    Text(25)  Nº Recibo
+  OUTPRO                  Text(10)  OUTPRO
+  STATUS                  Integer   STATUS
+  TIPO                    Integer   TIPO
+  TRANSFERENCIA_BANCARIA  Integer   Efetuada transferência bancária
+  TREND                   Text(3)   Tipo de rendimento
+  TXIMP                   Single    TXIMP
+  TXIVA                   Single    TXIVA
+  VALILIQ                 Currency  VALILIQ
+  VIRC                    Currency  VIRC
+  VIRS                    Currency  VIRS
+  VIVA                    Currency  VIVA

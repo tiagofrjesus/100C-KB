@@ -1,0 +1,11 @@
+PERPAG — Periodos Pagamento  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: OP+MES+DIA
+
+Columns (5):
+  DIA    Integer   Dia
+  MES    Integer   Mês
+  OP     Text(10)  Profissional
+  TIPO   Integer   Tipo Periodo
+  VALOR  Currency  Valor

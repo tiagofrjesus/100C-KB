@@ -1,0 +1,24 @@
+M345 — Mapa 34.5  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LINHA [primary, unique]: LINHA+ANO
+
+Columns (18):
+  ANO      Integer    
+  CAMPO01  Text(4)    Campo01
+  CAMPO02  Text(102)  Campo02
+  CAMPO03  Integer    Campo03
+  CAMPO04  Integer    Campo04
+  CAMPO05  Currency   Campo05
+  CAMPO06  Currency   Campo06
+  CAMPO07  Double     Campo07
+  CAMPO08  Currency   Campo08
+  CAMPO09  Currency   Campo09
+  CAMPO10  Currency   Campo10
+  CAMPO11  Currency   Campo11
+  FE       Long       FichaEmpresa
+  LINHA    Long       Linha
+  PAGINA   Integer    PAGINA
+  STATUS   Integer    Status
+  TIPOIMO  Integer    TIPOIMO
+  TITULO   Text(75)   TITULO

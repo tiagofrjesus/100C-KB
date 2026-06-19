@@ -1,0 +1,12 @@
+OPERACOE — Operações de Produçã  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (6):
+  CAPACPRO  Currency  Capacidade Produção
+  CODIGO    Text(3)   Código
+  DESCRICA  Text(50)  Descrição
+  SECTOR    Text(3)   Sector
+  TEMPO     Long      Tempo
+  UNITEMPO  Text(3)   Unidade de Tempo

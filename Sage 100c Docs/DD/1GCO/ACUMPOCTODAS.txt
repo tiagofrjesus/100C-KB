@@ -1,0 +1,16 @@
+ACUMPOCTODAS — Acumulados Contas (Todas as contas)  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ACPOC [primary, unique]: ANO+MES+STATAC+NAT+CONTA
+
+Columns (10):
+  ANO        Integer   Ano
+  CONTA      Text(15)  Conta
+  EXERCICIO  Integer   Exercício
+  MES        Integer   Mes
+  NAT        Integer   Natureza
+  STATAC     Integer   Status Acumulado
+  TERC       Text(15)  Terceiro
+  TPTERCEI   Integer   Tipo Terceiro
+  VLCRED     Currency  Valor Crédito
+  VLDEB      Currency  Valor Débito

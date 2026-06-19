@@ -1,0 +1,14 @@
+PREVISAO — Previsao de depreciações  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  FICHA [primary, unique]: FICHA+ANO
+
+Columns (8):
+  ANO       Integer   Ano
+  FICHA     Text(15)  Ficha
+  TAXACORR  Double    TAXACORRIGIDA
+  VLREACNR  Currency  VLREACNRV
+  VLREACRV  Currency  VLREACRV
+  VLREEXNR  Currency  VLREEXNRV
+  VLREEXRV  Currency  VLREEXRV
+  VRESIDUA  Currency  VRESIDUAL

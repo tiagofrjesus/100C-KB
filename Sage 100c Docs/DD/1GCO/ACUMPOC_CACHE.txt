@@ -1,0 +1,16 @@
+ACUMPOC_CACHE — Acumulados POC (Cache)  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ACPOC [primary, unique]: EXERCICIO+ANO+MES+STATAC+NAT+CONTA
+
+Columns (10):
+  ANO        Integer   
+  CONTA      Text(15)  
+  EXERCICIO  Integer   
+  MES        Integer   
+  NAT        Integer   
+  STATAC     Integer   
+  TERC       Text(15)  
+  TPTERC     Integer   
+  VLCRED     Currency  
+  VLDEB      Currency  

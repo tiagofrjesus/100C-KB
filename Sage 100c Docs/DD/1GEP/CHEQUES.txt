@@ -1,0 +1,17 @@
+CHEQUES — Emissão Cheques  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: ORDEM
+
+Columns (11):
+  BNCB    Text(50)  Banco Beneficário
+  COD     Text(10)  Código
+  CODBNC  Text(4)   Cód. Banco
+  DATA    Date      Data
+  DATAP   Date      Data P.
+  LOCALI  Text(40)  Localidade
+  NOME    Text(50)  Nome
+  ORDEM   Integer   Ordem
+  ORIG    Integer   Origem
+  TPREC   Integer   Tipo Recibo
+  VALOR   Currency  Valor

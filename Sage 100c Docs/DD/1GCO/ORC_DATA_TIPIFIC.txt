@@ -1,0 +1,16 @@
+ORC_DATA_TIPIFIC — Tipificação de datas de processo  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: ID
+
+Columns (10):
+  ABSINDEX       Integer    
+  DESCR          Text(90)   
+  DESC_COMP      Text(150)  
+  EDATA          Boolean    
+  FORCA_VISIVEL  Boolean    
+  ID             Integer    
+  NIVEL          Integer    
+  NOME           Long       
+  NOME_PAI       Long       
+  ORDEM          Integer    

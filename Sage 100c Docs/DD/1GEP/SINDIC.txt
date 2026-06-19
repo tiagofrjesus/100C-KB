@@ -1,0 +1,13 @@
+SINDIC — Sindicatos  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (7):
+  COD      Text(4)   Código
+  CSIND    Text(15)  Conta do Sindicato
+  CSINMF   Text(15)  C. do Sindicato M.F.
+  DESCR    Text(35)  Descrição
+  PERCVAL  Currency  Percentagem ou Valor
+  PV       Integer   PercValor
+  VMIN     Currency  Valor Mínimo

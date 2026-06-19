@@ -1,0 +1,15 @@
+DESCRIT — Descritores  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (9):
+  COD       Text(15)  
+  CONTAB    Text(5)   
+  CONTAF    Integer   
+  DESCCONT  Integer   
+  DESCR     Text(50)  
+  PVPCIVA   Currency  
+  PVPSIVA   Currency  
+  TIPOIVA   Integer   
+  TXIVA     Integer   

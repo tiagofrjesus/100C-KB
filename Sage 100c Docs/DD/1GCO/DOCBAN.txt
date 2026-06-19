@@ -1,0 +1,17 @@
+DOCBAN — Documentos Bancários  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINCIPA [primary, unique]: CODIGO
+
+Columns (11):
+  ABREV     Text(5)   Abreviatura
+  CODIGO    Text(3)   Código
+  DESCRICA  Text(50)  Descrição
+  DOCCONTA  Text(3)   Documento contab
+  NATUREZA  Text(3)   Natureza
+  NUMERADO  Long      Numerador
+  SERIE     Integer   Série
+  SINAL     Integer   Sinal
+  TALAODEP  Integer   Talão Depósito
+  TIPIFICA  Integer   Tipificação Banca
+  TRANFBAN  Integer   Transf. Bancária

@@ -1,0 +1,15 @@
+CNTDES — Parametrização contabilística das despesas  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  CONTA [primary, unique]: TIPODESPESA+ESPACOFISCAL+REGIMEIVA
+
+Columns (9):
+  CODIVA        Text(6)   Cód. IVA
+  CONTA         Text(15)  Conta débito
+  CONTACUSTOS   Text(15)  Conta custos
+  CONTAIVA      Text(15)  Conta I.V.A.
+  ESPACOFISCAL  Integer   Espaço fiscal
+  REGIMEIVA     Integer   Regime de I.V.A.
+  RUBRICA       Text(6)   Rubrica
+  TEMCC         Integer   Tem imputação a centros de custos?
+  TIPODESPESA   Text(15)  Código do tipo de despesa

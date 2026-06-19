@@ -1,0 +1,118 @@
+DOCOBCAB — Documentos Obras Cab  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPDOC [primary, unique]: ANO+TPDOC+SERIE+NNUMDOC
+  TERCEIRO [unique]: TPTERC+TERCEIRO+DATA+TPDOC+SERIE+NNUMDOC
+  CONVTDOC: CONVERT+TPDOC+SERIE+DATA
+  LIGACAO: LIGCT+DATA+TPDOC+SERIE+NNUMDOC
+  VNUMDOC: TPDOC+TERCEIRO+VNUMDOC+ANO
+  PROCESS [unique]: TPDOC+NNUMDOC+SERIE+ANO+PROCESSO
+  SODATA: DATA
+  DATA: TPDOC+SERIE+DATA+NNUMDOC
+
+Columns (105):
+  ACREDITO         Integer    Credito
+  ANO              Integer    Ano
+  ANOMALIA         Text(5)    Anomalia
+  APROVADO         Integer    Obra Aprovada
+  AREAG            Integer    Area Gestão
+  ARREDDOC         Currency   Arredondamento Doc.
+  ARREDIVA         Currency   Arredondamento IVA
+  ARTIGO           Text(15)   Artigo
+  AVARDESC         Text(100)  Descrição Avaria
+  BASE1            Currency   Base 1
+  BASE2            Currency   Base 2
+  BASE3            Currency   Base 3
+  BASE4            Currency   Base 4
+  BOMPAG           Integer    
+  COMISS           Integer    Comissões
+  COMVEND          Currency   Comissão Vendedor
+  CONVERT          Integer    Convertido
+  DATA             Date       Data
+  DATAAPRO         Date       Data Aprovação
+  DATARECE         Date       Data Recepção
+  DATENEW          Date       Data criação
+  DATEUPD          Date       Data alteração
+  DBTS             23         
+  DESCABVL         Currency   Desconto Cab. Valor
+  DESCCAB          Currency   Desconto Cabeçalho
+  DESCLIN          Currency   Desconto Linhas
+  DESCPP           Text(3)    Desconto Pagamento
+  DESCR            Text(50)   Descrição Artigo
+  DESCVAL          Currency   Desconto Valor
+  DESCVALT         Currency   Desconto Valor Total
+  DIARIO           Text(3)    Diário
+  DOCFINAL         Text(25)   Documento Final
+  DTFIM            Date       Data Conclusão
+  DTVENC           Date       Data Vencimento
+  ESTADFIS         Text(100)  Estado Físico
+  FIMOBRA          Date       Data Fim Obra
+  GARAFIM          Date       Fim Garantia
+  GARAINI          Date       Inicio Garantia
+  GESCNT           Text(10)   Gestor de Conta
+  HASHCERTIFICATE  Integer    Número de certificação
+  HASHCONTROL      Text(40)   Versão da assinatura digital
+  HASHSIGN         Text(172)  Assinatura digital sem encriptação
+  HORARECE         Text(5)    Hora Recepção
+  HOURNEW          Text(8)    Hora criação
+  HOURUPD          Text(8)    Hora alteração
+  INSTAL           Date       Data Instalação
+  INTEGRAC         Text(4)    Integração
+  IVAINC           Integer    I.V.A. Incluído
+  JALIQ            Integer    Liquidado
+  LIGCC            Integer    Ligação Cnt Corrente
+  LIGCT            Integer    Class.Efectuada
+  LIGST            Integer    Ligação Stocks
+  LIVRE046         Text(1)    
+  LIVRE063         Text(1)    
+  MODOPGT          Text(3)    Modo de Pagamento
+  MOEDA            Text(0)    Moeda
+  MOVSTC           Integer    Movimento Stocks
+  NATCONTA         Integer    Natureza Contab.
+  NCONTRIB         Text(20)   Número Contribuinte
+  NNUMDOC          Long       Nosso Nº Documento
+  NUMDIA           Long       Número Diário
+  NUMSER           Text(20)   Número Série
+  NVIAS            Integer    Número Vias Emitidas
+  N_CAMBIO         Currency   Câmbio
+  OBSERV           Memo       Observações
+  OPERNEW          Text(20)   Operador criação
+  OPERUPD          Text(20)   Operador alteração
+  PRAZOPGT         Text(3)    Prazo de Pagamento
+  PROCESSO         Text(15)   Processo
+  PROCNEW          Integer    Origem criação
+  PROCUPD          Integer    Origem alteração
+  QUEMPED          Text(40)   Quem Pediu
+  RELSERV          Memo       Relatorio Serviço
+  RESAPRO          Text(20)   Responsável Apro.
+  RGIVA            Text(3)    Tipo de IVA
+  SECTOR           Text(3)    Sector
+  SERIE            Integer    Série
+  SINALCT          Integer    Sinal Contab
+  STANDBY          Boolean    
+  STARTGAR         Boolean    Iniciar Garantia
+  STATUS           Text(5)    Status Reparação
+  SYSTEMENTRYDATE  Text(20)   Data e hora da gravação
+  TELEFONE         Text(15)   Telefone
+  TERCEIRO         Text(15)   Terceiro
+  TIPOPEDI         Text(5)    Tipo Pedido
+  TOTCOM           Currency   
+  TOTDCPT          Currency   Total Descriptores
+  TOTDESP          Currency   Total Despesas
+  TOTDOC           Currency   Total Documento
+  TOTDOCMB         Currency   Total Doc Moeda Naci
+  TOTIVA1          Currency   Total I.V.A. 1
+  TOTIVA2          Currency   Total I.V.A. 2
+  TOTIVA3          Currency   Total I.V.A. 3
+  TOTIVA4          Currency   Total I.V.A. 4
+  TOTMERC          Currency   Total Mercadoria
+  TOTMOBR          Currency   Total Mão de Obra
+  TOTOUTRO         Currency   Total Outros
+  TOTPECA          Currency   Total Peças
+  TPDOC            Text(3)    Tipo Documento
+  TPFSTCK          Integer    Tipificação Stcoks
+  TPOPER           Integer    Tipo Operação
+  TPTERC           Integer    Tipo Terceiro
+  VENDEDOR         Text(10)   Vendedor
+  VLDESCPG         Currency   Valor Desconto Pgt
+  VNUMDOC          Text(32)   Vosso Nº Documento

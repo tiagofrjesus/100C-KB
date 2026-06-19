@@ -1,0 +1,11 @@
+GRELHA_NATUREZAS — Grelha de naturezas bancárias  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  NAT [primary, unique]: EXERCICIO+NATUREZA
+
+Columns (5):
+  CODFLUX    Text(6)  Código do fluxo
+  CODIVA     Text(6)  Código do IVA
+  EXERCICIO  Integer  Exercício
+  NATUREZA   Text(3)  Natureza
+  RUBRICA    Text(6)  Rubrica

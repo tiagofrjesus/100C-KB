@@ -1,0 +1,12 @@
+CFGUTIL — Configuração Utiliza  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  UTIL [primary, unique]: UTIL+PARAM+CHAVE
+
+Columns (6):
+  CHAVE   Text(20)    Chave
+  PARAM   Integer     Parâmetro
+  UTIL    Text(20)    Utilizador
+  VALOR   Text(2048)  Valor
+  VALOR2  Text(20)    
+  VALOR3  Text(80)    

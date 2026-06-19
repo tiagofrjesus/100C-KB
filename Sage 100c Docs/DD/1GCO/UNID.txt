@@ -1,0 +1,11 @@
+UNID — Unidades  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+  CODISO: CODISO
+
+Columns (4):
+  COD     Text(3)   Código
+  CODISO  Text(3)   Código ISO 3676
+  DBTS    23        
+  DESCR   Text(35)  Descrição

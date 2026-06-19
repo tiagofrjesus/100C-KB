@@ -1,0 +1,82 @@
+FORNEC — Fornecedores  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+  NUMERO [unique]: NUMERO
+  CODEAN: CODEAN
+  IDELEC: IDELECTR
+  GLN: CODGLN
+
+Columns (72):
+  ALTMORGT                       Integer    Altera Morada Guias Transporte
+  AUTOFACTURACAO                 Integer    Fornecedor para autofacturação
+  BALCAO                         Text(4)    Balcão
+  BANCO                          Text(4)    Banco
+  BIC                            Text(11)   BIC do banco do fornecedor
+  BLNOTAS                        Memo       Bloco de Notas
+  CAE                            Text(5)    C.A.E.
+  CDPOSTAL                       Text(8)    Cód.Postal
+  CNCOMPRA                       Text(5)    Conta compras
+  CODEAN                         Text(20)   Nosso Código
+  CODGLN                         Text(20)   Código GLN
+  CODIGO                         Text(15)   Código
+  CODIGO_INTERNO                 Text(40)   Código Interno
+  CONSENTIMENTO_DATA_HORA        Date       Consentimento data hora
+  CONSENTIMENTO_UTILIZADOR       Text(20)   Consentimento utilizador
+  CONTACTO                       Text(25)   Contacto
+  CONTCOM                        Text(30)   Contacto Comercial
+  CONTFIN                        Text(30)   Contacto Finan.
+  CONTGER                        Text(30)   Contacto Gerência
+  DATACRI                        Date       Data Criação
+  DBTS                           23         
+  DESCCAB                        Currency   Desconto Cab.
+  DESCCOM                        Text(15)   Desconto Composto
+  DESCPGT                        Text(3)    Desconto Pagamento
+  EMAIL                          Text(500)  E-Mail
+  ESQUECIMENTO                   Integer    Pedido de esquecimento de dados pessoais
+  ESQUECIMENTO_DATA_HORA         Date       Esquecimento data hora
+  ESQUECIMENTO_UTILIZADOR        Text(20)   Esquecimento utilizador
+  EXPEDIR                        Text(3)    Modo de expedição
+  FAX                            Text(15)   Fax
+  FECOMPMAXNUMDOC                Integer    FE Comprimento Max. Num. Doc
+  FETPREG                        Text(3)    
+  GRUPO_EMPRESA                  Text(3)    Grupo de Empresas
+  IBAN                           Text(34)   IBAN do fornecedor
+  IDELECTR                       Text(50)   ID Electrónico
+  IDIOMA                         Text(3)    Idioma
+  INACTIVO                       Integer    Inactivo
+  IVAINC                         Integer    Iva Incluído
+  LIVRE                          Integer    livre
+  LOCAL                          Text(35)   Localidade
+  MODOPGT                        Text(3)    Modo de pagamento
+  MOEDA                          Text(3)    Moeda
+  MORADA                         Text(50)   Morada
+  MORADA2                        Text(50)   Morada 2
+  NCONTRIB                       Text(20)   Número Contribuinte
+  NIB                            Text(23)   NIB
+  NOME                           Text(80)   Nome
+  NOME2                          Text(80)   Nome 2
+  NUMERO                         Long       Número
+  NUMERO_AUTORIZACAO             Text(20)   Número de autorização de exercício de actividade
+  OBS2                           Memo       Observações Extra
+  OBSERV                         Text(35)   Observações
+  PAIS                           Text(3)    País
+  PLAFOND                        Currency   Plafond
+  REGIVA                         Text(3)    Tipo de IVA
+  REGVCT                         Text(3)    Regras Vencimento
+  RGPD_CONSENTIMENTO_TRAT_DADOS  Integer    Consentimento de tratamento de dados pessoais
+  RGPD_ESTADO                    Integer    Estado do consentimento
+  SITIO                          Text(30)   Sitio da empresa
+  SUBEMP                         Integer    Sub
+  SUFCT                          Text(7)    Sufixo contabilidade
+  SUJEITO_FATURASIMPLIFICADA     Integer    Tipo de sujeito para factura simplificada
+  TELCOM                         Text(15)   Telefone Comercial
+  TELEF                          Text(15)   Telefone
+  TELEX                          Text(15)   Telemóvel
+  TELFIN                         Text(15)   Telefone Finan.
+  TELGER                         Text(15)   Telefone Gerência
+  TIPOA                          Text(3)    Tipificação A
+  TIPOB                          Text(3)    Tipificação B
+  TIPO_RELACAO                   Integer    Relação Terceiro
+  TIPO_SUJEITO                   Integer    Tipo sujeito
+  ZONAGEO                        Text(3)    Zona Geográfica

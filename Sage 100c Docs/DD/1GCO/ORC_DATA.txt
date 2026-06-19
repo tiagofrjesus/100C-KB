@@ -1,0 +1,9 @@
+ORC_DATA — Datas associadas a processos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD_ORC+ID
+
+Columns (3):
+  COD_ORC  Text(60)  
+  DATA     Date      
+  ID       Integer   

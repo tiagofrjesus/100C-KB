@@ -1,0 +1,9 @@
+EQUIVALENCIA_PLANO_CONTAS — Equivalências entre planos de contas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CONTA [primary, unique]: EXERCICIO+CONTA_EXERCICIO+CONTA_EXERCICIO_ANTERIOR
+
+Columns (3):
+  CONTA_EXERCICIO           Text(15)  Conta do exercício
+  CONTA_EXERCICIO_ANTERIOR  Text(15)  Conta exercício anterior
+  EXERCICIO                 Integer   Exercício

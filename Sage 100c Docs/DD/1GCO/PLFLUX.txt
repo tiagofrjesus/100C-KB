@@ -1,0 +1,13 @@
+PLFLUX — Plano Fluxos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODFLUX [primary, unique]: EXERCICIO+CODFLUX
+
+Columns (7):
+  CODFLUX    Text(6)   Código Fluxo
+  DESCR      Text(80)  Descrição
+  ENTSAI     Integer   Entrada/Saída
+  EXERCICIO  Integer   Exercício
+  GRAU       Integer   Grau
+  NAT        Integer   Natureza
+  TPENT      Integer   Tipo Entidade

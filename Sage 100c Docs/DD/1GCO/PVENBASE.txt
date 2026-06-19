@@ -1,0 +1,20 @@
+PVENBASE — PosVen Base  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  NUMSER [primary, unique]: ARTIGO+NUMSER
+  CLIENTE [unique]: TERCEIRO+ARTIGO+NUMSER
+
+Columns (13):
+  ARTIGO    Text(15)  Código Artigo
+  DATACMP   Date      
+  DATAVEN   Date      Data de Venda
+  DOCCMP    Text(25)  
+  DOCVEN    Text(25)  Documento Venda
+  FORNEC    Text(15)  
+  GARAFIM   Date      Fim Garantia
+  GARAINI   Date      Início Garantia
+  INSTAL    Date      Data de Instalação
+  NUMSER    Text(20)  Número de Série
+  OBSERV    Memo      Observações
+  ROUBADO   Date      Roubado
+  TERCEIRO  Text(15)  Cliente

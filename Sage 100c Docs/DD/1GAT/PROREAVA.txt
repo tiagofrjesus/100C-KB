@@ -1,0 +1,24 @@
+PROREAVA — Provisorio de reaval  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  FICHA [primary, unique]: FICHA
+
+Columns (18):
+  ANOAQUIS  Integer   Ano Aquisicao
+  ANOULTRV  Integer   Ano Última Reavaliaç
+  ANOUTILI  Integer   Ano Utilização
+  CODTABEL  Text(5)   Código Tabela
+  COEFICIE  Double    Coeficiente
+  CONTAPOC  Double    Conta Poc
+  DESCIND   Integer   Descrição Individual
+  FICHA     Text(15)  Ficha
+  GRANDEGR  Text(5)   Grande Grupo
+  RVNRV     Integer   Dec. Ult. Reav.
+  SUBGRUPO  Text(5)   Sub Grupo
+  TOTREAVA  Integer   Indicador total dep.
+  VAQACTUA  Double    V.Aq.Actual
+  VAQVURV   Double    V.Aq.V.U.Rv.
+  VIDAADIC  Integer   Vida Adicional
+  VIDAUTDE  Text(2)   Vida.Ut.Dec
+  VREAC     Double    V. dep .acumuladas
+  VREACTUA  Double    V.dep. actualizadas

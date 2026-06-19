@@ -1,0 +1,4 @@
+NumSerieLinha
+Numeros de serie, Linha de numero de serie associada a linha de documento comercial 1 1
+
+Membros (0):

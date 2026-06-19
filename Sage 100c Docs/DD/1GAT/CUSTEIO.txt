@@ -1,0 +1,9 @@
+CUSTEIO — Custeio  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CUSTEIO [primary, unique]: CUSTEIO
+
+Columns (3):
+  CUSTEIO  Text(6)   
+  DESCR    Text(50)  
+  ENQCUST  Text(6)   

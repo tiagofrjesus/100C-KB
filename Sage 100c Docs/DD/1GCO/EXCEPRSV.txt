@@ -1,0 +1,14 @@
+EXCEPRSV — Inibição de Reservas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CLI [primary, unique]: CLIENTE+GRUPO+FAMILIA+SUBFAMIL+ARTIGO
+
+Columns (8):
+  ARTIGO    Text(15)  Artigo
+  CLASSE    Text(3)   Classe de desconto
+  CLIENTE   Text(15)  Cliente
+  DATAFIN   Date      Data final
+  DATAINI   Date      Data inicial
+  FAMILIA   Text(6)   Família
+  GRUPO     Text(6)   Grupo
+  SUBFAMIL  Text(6)   Sub Família

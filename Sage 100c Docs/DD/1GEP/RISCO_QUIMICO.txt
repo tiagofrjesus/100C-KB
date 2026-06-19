@@ -1,0 +1,12 @@
+RISCO_QUIMICO — Risco químico  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NFUNC [primary, unique]: NFUNC+DATA+FACTOR_RISCO
+
+Columns (6):
+  DATA                 Date       Data
+  FACTOR_RISCO         Text(4)    Código do factor de risco
+  MENCAO               Text(20)   Código mensão ou frase de risco
+  NFUNC                Text(10)   Nº do funcionário
+  OBSERVACOES          Text(100)  Observações
+  TRABALHADOR_EXPOSTO  Integer    Indicação se o trabalhador esteve exposto

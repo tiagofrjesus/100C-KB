@@ -1,0 +1,15 @@
+FEDOCOUT — F.E. Docs Saída  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  MSGREFID [primary, unique]: MSGREFID
+  DOC: TPDOC+ANO+SERIE+NUMERO
+
+Columns (8):
+  ANO       Integer   Ano
+  ANULADO   Boolean   Doc. Anulado
+  MSGREFID  Text(50)  Message Reference ID
+  NUMERO    Long      Número de Documento
+  REPORT    Memo      Relatório Exportação
+  SERIE     Integer   Série
+  TPDOC     Text(3)   Tipo Document
+  XML       Memo      XML Exportação

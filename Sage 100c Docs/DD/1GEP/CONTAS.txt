@@ -1,0 +1,15 @@
+CONTAS — Contas  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NCONTA [primary, unique]: BANCO+CODBAL+NCONTA
+  IDX2: NCONTA+CODBAL
+
+Columns (8):
+  BANCO           Text(4)   Código do Banco
+  BIC_IDENTIFIER  Text(11)  B.I.C.
+  CODBAL          Text(4)   Código do Balcão
+  CORDEM          Text(15)  Conta CTB ordem
+  DESCRICAO       Text(50)  Descrição
+  IBAN            Text(34)  I.B.A.N.
+  NCONTA          Text(21)  Conta Bancária
+  ORGID           Text(35)  Identificação adicional

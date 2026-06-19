@@ -1,0 +1,132 @@
+Artigos
+Entidade Artigos. Manutenção directa á tabela.
+
+Membros (31):
+
+  [Get] ARTOUD
+    Output: Integer
+    => Lê a propriedade artigo ou descritor
+
+  [Let] ARTOUD
+    Input : ByVal value As Integer
+    => Força a propriedade artigo ou descritor ao valor introduzido
+
+  [Get] DescricaoNoIdioma
+    Input : idioma As String
+    Output: String
+    => Vai buscar a descrição do artigo em determinado idioma
+
+  [Get] FORMUL
+    Output: String
+    => Propriedade que retorna a formula do artigo
+
+  [Let] FORMUL
+    Input : ByVal value As String
+    => Permite associar uma fórmula ao artigo
+
+  [Get] ModuloAdicional
+    Output: etb_Modulo
+    => Diz se artigo é abrnagido por algum módulo adicional, lotes, compostos e componentes, numeros de serie, grelhas de tamanhos e cores
+
+  [Get] TCOMPO
+    Output: integer
+    => Propriedade que retorna o tipo de composição do artigo (compostos e componentes)
+
+  [Let] TCOMPO
+    Input : ByVal value As Integer
+    => Propriedade que atribui o valor ao tipo de composição do artigo
+
+  [Get] TemEcoValor
+    Output: Boolean
+    => Vai ver se o artigo está abrangido por grelha de Ecovalores
+
+  [Let] TemEcoValor
+    Input : ByVal valor As Boolean
+    => Sinaliza que artigo tem ecovalores
+
+  [Get] TemNumerosSerie
+    Input : Artigo As String
+    Output: Boolean
+    => Não usada
+
+  [Get] TenhoDescontoExclusivo
+    Output: Boolean
+    => Sinalização em memória que este artigo está abrangido por grelha de desconto que não pode ter desconto de cabeçalho
+
+  [Let] TenhoDescontoExclusivo
+    Input : ByVal valor As Boolean
+    => Sinalização em memória que este artigo está abrangido por grelha de desconto que não pode ter desconto de cabeçalho
+
+  [Function] Alterar
+    Output: Long - Se <>0 deu erro
+    => Alterar registo existente desta entidade na base de dados
+
+  [Function] HerdarPropriedades
+    Input : Optional ByVal OutroArtigo As String = ""
+    => Clona os dados da entidade passada por parâmetro (lê a outra entidade e passa as suas propriedades para esta)
+
+  [Function] Inserir
+    Output: Long - Se <>0 deu erro
+    => Insere registo desta entidade na base de dados
+
+  [Function] Ler
+    Input : ByVal Cod As String, ByVal Armazem As String, Optional ByVal FichXML As String = ""
+    Output: Long - <>0 = Erro
+    => Lê o registo da entidade da base de dados, opcionalmente pode ser passado um fx (percurso\nome) XML com os dados e a aplicação lê desse fx.
+
+  [Function] LerporVossosCodigos
+    Input : ByVal Cod As String, Fornecedor As String
+    Output: Long
+    => Ler artigo, através do código do fornecedor (armazenado na tabela ajuda á compra)
+
+  [Function] NavegarAnterior
+    Output: Integer = -1 quando não consegue navegar
+    => Lê o registo anterior desta entidade
+
+  [Function] NavegarPrimeiro
+    Output: Integer = -1 quando não consegue navegar
+    => Lê o primeiro registo desta entidade
+
+  [Function] NavegarProximo
+    Output: Integer = -1 quando não consegue navegar
+    => Lê o registo seguinte desta entidade
+
+  [Function] NavegarUltimo
+    Output: Integer = -1 quando não consegue navegar
+    => Lê o último registo desta entidade
+
+  [Function] Remover
+    Output: Long - Se <>0 deu erro
+    => Remover (apagar) registo existente desta entidade na base de dados
+
+  [Function] UltimaMensagem
+    Output: String
+    => Retorna a ultima mensagem emitida pela API
+
+  [Function] UltimoErro
+    Output: String
+    => Retorna o ultimo Erro emitido pela API
+
+  [Function] Validar
+    Input : Optional ByVal Operacao As Integer
+    Output: integer -1 = Erro
+    => Verifica se os dados que constam nas propriedades são válidos para de seguida se poder efectuar inserção, alteração, anulação
+
+  [Sub] Class_Initialize
+    Output: Loga erro se não conseguir ligar á base de dados
+    => Ligar as camada de dados
+
+  [Sub] Class_Terminate
+    => Desligar as camadas de dados
+
+  [Function] ArtigoPeloCodigoBarras
+    Input : Cod As String
+    Output: String
+    => Retorna o código de artigo para o código de barras passado em parâmetro
+
+  [Sub] CopiaDados
+    => Passa a informação do interface para a camada de dados para posterior inserção, alteração, remoção. Pode ter algum processamnto, transformação da informação
+
+  [Function] XML
+    Output: Long
+    => Lê entidade para memória a partir de fx xml

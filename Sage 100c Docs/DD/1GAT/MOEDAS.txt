@@ -1,0 +1,14 @@
+MOEDAS — Moedas  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (8):
+  CAMBIOC   Currency  Câmbio Compra
+  CAMBIOM   Currency  Câmbio Médio
+  CAMBIOV   Currency  Câmbio Venda
+  CASADEC   Integer   Casas Decimais
+  CODIGO    Text(3)   Código
+  DESCRICA  Text(20)  Descrição
+  DTCAMBIO  Date      Data Câmbio
+  FACTOREU  Double    Factor Euro

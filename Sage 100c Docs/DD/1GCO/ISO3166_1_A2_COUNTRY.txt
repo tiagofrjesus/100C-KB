@@ -1,0 +1,8 @@
+ISO3166_1_A2_COUNTRY — Tabela dos Países conforme norma ISSO 3166-1 Alpha2  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (2):
+  CODIGO     Text(2)   Código do País
+  DESCRICAO  Text(50)  Descrição do País

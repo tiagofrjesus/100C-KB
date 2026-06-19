@@ -1,0 +1,31 @@
+AGRFAM — Agregado Familiar  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NFUNC [primary, unique]: NFUNC+NOME
+
+Columns (25):
+  BI                     Text(10)  Nº B.I.
+  CODIGO_POSTAL          Text(8)   Código postal
+  CRECHE                 Integer   Creche
+  DEF                    Integer   Deficiente
+  DTEMI                  Date      Data Emissão
+  DTNASC                 Date      Dt. Nascimento
+  EMAIL                  Text(50)  Endereço eletrónico
+  ESCOLA                 Text(20)  Escola
+  HABILI                 Integer   Niv.Habilitações
+  LOCALIDADE             Text(50)  Localidade
+  LOCEMI                 Text(20)  Local Emissão
+  MORADA                 Text(60)  Morada
+  NFUNC                  Text(10)  Nº Funcionários
+  NIF                    Text(9)   N.I.F.
+  NOME                   Text(50)  Nome
+  NOTAS                  Memo      Bloco de notas
+  NUMERO_CARTAO_CIDADAO  Text(13)  Nº do cartão de cidadão
+  PARENT                 Integer   Parentesco
+  SEGSOC                 Text(11)  Nº Seg. Social
+  SEXO                   Text(1)   Sexo
+  TELEFONE               Text(15)  Telefone
+  TELEMOVEL              Text(15)  Telemóvel
+  TPDEF                  Text(20)  Tipo Deficiência
+  VALIDADE_BI            Date      Data de validade do B.I.
+  VALIDADE_CC            Date      Validade cartão cidadão

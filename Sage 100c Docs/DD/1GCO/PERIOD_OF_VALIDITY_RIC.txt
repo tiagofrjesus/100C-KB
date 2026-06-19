@@ -1,0 +1,9 @@
+PERIOD_OF_VALIDITY_RIC — Período de vigência do Regime de IVA de caixa  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  DATA [primary, unique]: REFERENCE
+
+Columns (3):
+  END_DATE    Date  Data final
+  REFERENCE   Long  Código
+  START_DATE  Date  Data inícial

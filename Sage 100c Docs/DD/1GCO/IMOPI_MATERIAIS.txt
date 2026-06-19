@@ -1,0 +1,12 @@
+IMOPI_MATERIAIS — Materiais para revisão de preços  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD
+
+Columns (6):
+  COD           Text(6)   COD
+  COD_DES       Text(3)   COD_DES
+  DESCRICAO     Text(80)  DESCRICAO
+  DL            Boolean   DL
+  DL_TIMESTAMP  Date      DL_TIMESTAMP
+  GRUPO         Text(1)   GRUPO

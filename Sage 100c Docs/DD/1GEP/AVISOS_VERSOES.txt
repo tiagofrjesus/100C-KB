@@ -1,0 +1,10 @@
+AVISOS_VERSOES — Avisos de Versões  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: VERSAO
+
+Columns (4):
+  APLIC     Text(10)  Aplicação
+  LIDO      Integer   Aviso Lido?
+  MENSAGEM  Memo      Mensagem
+  VERSAO    Text(10)  Versão

@@ -1,0 +1,17 @@
+ESTIMATECONFIG — Orçamentação  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: ANO+SECTOR+CLIENTE+TIPOORCAMENTO+ARTIGO+GRUPO+MES+FAMILIA+SUBFAMILIA
+
+Columns (11):
+  ANO              Integer   Ano
+  ARTIGO           Text(0)   Artigo
+  CLIENTE          Text(15)  Cliente
+  FAMILIA          Text(6)   Família
+  GRUPO            Text(6)   Grupo
+  MES              Integer   Mês
+  RAPEL            Double    Rapel
+  SECTOR           Text(3)   Sector
+  SUBFAMILIA       Text(6)   Sub-Família
+  TIPOORCAMENTO    Integer   Tipo Orçamento
+  VALORQUANTIDADE  Double    Valor/Quantidade

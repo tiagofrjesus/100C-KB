@@ -1,0 +1,83 @@
+DOCCCCAB — Documentos CC Cab  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  DOC [primary, unique]: ANO+TPDOC+SERIEPGT+NUMDOC
+  TERC: TPTERC+TERCEIRO
+  CT2: ANO+DIARIO+NUMDIAR
+  DATA: TPDOC+SERIEPGT+DATA+NUMDOC
+  ENVBANCO: TPDOCMVB+SEMVBN+DTMVBN+NDOCMVBN
+  LIGACAO [unique]: LIGACT+DATA+TPDOC+SERIEPGT+NUMDOC
+  SODATA: DATA
+  INTEGRA: INTEGRAC
+
+Columns (70):
+  AGEBEMP               Text(4)   Agencia Empresa
+  AGEVC                 Text(4)   Agência V/ Conta
+  ANO                   Integer   Ano
+  AREAG                 Integer   Area Gestão
+  BANCOVC               Text(4)   Banco
+  BDDEL                 Boolean   BDDEL
+  BIC                   Text(11)  BIC
+  BNCEMP                Text(4)   Banco Empresa
+  CAMBIO                Double    Câmbio
+  CARTDES               Integer   Carteira destino
+  CARTORIG              Integer   CARTORIG
+  CNBNEMP               Text(21)  Conta Bnc Empresa
+  CNTTES                Text(15)  Conta Tesouraria
+  CNTVC                 Text(21)  V/ Conta Banco
+  COMISS                Integer   Comiss
+  DATA                  Date      Data
+  DATA_VOSSO_DOCUMENTO  Date      Data vosso documento
+  DIARIO                Text(3)   Diário
+  DIFARR                Currency  DIFARR
+  DIFCAMB               Currency  Diferença Cambial
+  DTMVBN                Date      Data Mv Banco
+  DTVALOR               Date      Data Valor
+  HORA                  Text(5)   Hora
+  IBAN                  Text(34)  IBAN
+  INTEGRAC              Text(4)   INTEGRAC
+  LIGACT                Integer   Ligação CTB
+  MODOPGT               Text(3)   Modo de Pagamento
+  MOEDA                 Text(3)   Moeda
+  MOTIVO_ANULACAO       Text(50)  Motivo de anulação
+  NATCONTA              Integer   NatConta
+  NDOCMVBN              Long      No.Doc. Mv. Bnc
+  NUMDIAR               Long      Número Diário
+  NUMDOC                Long      Número Documento
+  NUMDOCBN              Text(24)  No. Título
+  NVIAS                 Integer   Número Vias
+  OBSERVACOES           Memo      OBSERVACOES
+  OPERNEW               Text(20)  Operador criação
+  OPERUPD               Text(20)  Opeador alteração
+  PAYMENT_STATUS_DATE   Text(20)  Data da última gravação do estado do recibo ao segundo.
+  PRACAB                Text(30)  Praça Banco
+  PROCNEW               Integer   Origem criação
+  PROCUPD               Integer   Origem alteração
+  RECPAG                Integer   Tipo
+  REFEXT                Text(32)  Referencia Externa
+  REGIME_IVA_CAIXA      Integer   Regime de I.V.A. de caixa
+  RGIVA                 Text(3)   Tipo de IVA
+  SECTOR                Text(3)   Sector
+  SEMVBN                Integer   Serie Mv Bnc
+  SERIEPGT              Integer   Série
+  SINALCT               Integer   Sinal Contab
+  SYSTEM_ENTRY_DATE     Text(20)  Data de gravação do registo ao segundo
+  TERCEIRO              Text(15)  Terceiro
+  TPDOC                 Text(3)   Tipo Documento
+  TPDOCMVB              Text(3)   Tp Doc Mv Bnc
+  TPFSTC                Integer   TpfStc
+  TPOPER                Integer   TpOper
+  TPTERC                Integer   Tipo Terceiro
+  VLDESC                Currency  Valor Desconto
+  VLREGCV               Currency  V. Reg. Contra Valor
+  VLREGMB               Currency  V. Reg. Moeda Base
+  VLREGUL               Currency  Valor Regularizado
+  VLREGULBASEIVA1       Currency  Valor regularizado base IVA 1
+  VLREGULBASEIVA2       Currency  Valor regularizado base IVA 2
+  VLREGULBASEIVA3       Currency  Valor regularizado base IVA 3
+  VLREGULBASEIVA4       Currency  Valor regularizado base IVA 4
+  VLREGULTOTIVA1        Currency  Valor regularizado IVA 1
+  VLREGULTOTIVA2        Currency  Valor regularizado IVA 2
+  VLREGULTOTIVA3        Currency  Valor regularizado IVA 3
+  VLREGULTOTIVA4        Currency  Valor regularizado IVA 4
+  VOSSO_NUMERO          Text(50)  Vosso número do documento

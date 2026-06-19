@@ -1,0 +1,4 @@
+FormulasMovLinha
+Formulas de movimentação - Entidade associada a cada linha de documento com artigo com formulas de movimentação configuradas, também faz acesso a dados para escrita
+
+Membros (0):

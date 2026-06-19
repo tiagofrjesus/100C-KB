@@ -1,0 +1,26 @@
+DESPESAS — Despesas  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NFUNC [primary, unique]: NFUNC+REGISTO
+
+Columns (20):
+  DATA                 Date       Data
+  DATADOCUMENTO        Date       Data do documento
+  DATAESTADO           Date       Data de alteração de estado
+  ESPACOFISCAL         Integer    Espaço fiscal
+  ESTADO               Integer    Estado da despesa
+  IDPAGAMENTO          Integer    Identificação do pagamento onde a despesa foi incluída
+  NFUNC                Text(10)   Código do funcionário
+  NUMERO               Text(10)   Número do documento
+  OBSERVACOES          Text(100)  Observações
+  OBSERVACOESESTADO    Text(30)   Observações referentes ao estado
+  OPERADOR             Text(20)   Código do operador
+  REGISTO              Integer    Número sequencial
+  SERIE                Integer    Série do documento
+  TAXAIVA              Currency   Taxa de I.V.A.
+  TIPODESPESA          Text(15)   Código do tipo de despesa
+  TPDOC                Text(5)    Tipo de documento
+  UNIDADES             Currency   Número de unidades
+  VALOR                Currency   Valor
+  VALORCOMPARTICIPADO  Currency   Valor comparticipado
+  VALORIVA             Currency   Valor do I.V.A.

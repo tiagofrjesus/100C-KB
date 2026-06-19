@@ -1,0 +1,20 @@
+TRBANCAB — Tranf Ban Cab  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CHAVE [primary, unique]: TPDOC+NUMDOC+SERIE+ANO
+
+Columns (14):
+  ANO      Integer   Ano
+  BALCAO   Text(4)   Balcão
+  BANCO    Text(4)   Banco
+  CONTA    Text(21)  Conta bancária
+  DATA     Date      Data Lançamento
+  DATAFIM  Date      Data Fim
+  DATAINI  Date      Data Início
+  MODOPGT  Text(3)   Meio Pagamento
+  MOEDA    Text(3)   Moeda
+  NUMDOC   Long      Número Documento
+  SECTOR   Text(3)   Sector
+  SEPA     Integer   Exportação SEPA
+  SERIE    Integer   Série
+  TPDOC    Text(3)   Tipo Documento

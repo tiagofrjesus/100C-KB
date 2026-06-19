@@ -1,0 +1,13 @@
+BEMPC — Bens - Peças GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXBEMPC [primary, unique]: CBEM+NSERIE
+
+Columns (7):
+  CBEM     Text(20)   Código Bem
+  DESCR    Text(40)   Descrição da Peça
+  DTESTAD  Date       Data do estado da Peça
+  DTGARAN  Date       Data até à qual é válida a garantia da peça
+  ESTAD    Text(1)    Estado da peça: I= Inicial, A=Abatido (avariou ou saiu por qq razão), P=Inserido (inserida posterior/por substituição ou qq razão)
+  NOTAS    Text(255)  Observações sobre garantia ou sobre a peça
+  NSERIE   Text(20)   Nº de Série da Peça

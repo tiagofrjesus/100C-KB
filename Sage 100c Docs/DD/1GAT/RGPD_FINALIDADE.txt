@@ -1,0 +1,11 @@
+RGPD_FINALIDADE — Finalidade  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  FINALIDADES_KEY [primary, unique]: ID
+
+Columns (5):
+  DESCRICAO         Memo      Descrição
+  FINALIDADE        Text(50)  Finalidade
+  ID                Text(4)   ID
+  PRAZOCONSERVACAO  Integer   Prazo de Conservação dias
+  RESERVADO         Integer   Reservado

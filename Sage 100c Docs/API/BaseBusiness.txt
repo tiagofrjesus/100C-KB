@@ -1,0 +1,4 @@
+BaseBusiness
+BACKBONE da Api, tem as propriedades de ligação, efectua a ligação e termina a Api
+
+Membros (0):

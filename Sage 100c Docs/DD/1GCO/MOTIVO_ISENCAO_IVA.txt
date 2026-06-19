@@ -1,0 +1,10 @@
+MOTIVO_ISENCAO_IVA — Motivos de Isenção de IVA  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (4):
+  CODIGO     Text(3)    Código
+  CODSAFT    Text(3)    Motivos de Isenção
+  DESCRICAO  Text(100)  Descrição
+  TIPO       Integer    Tipo (Isento/Não sujeito)

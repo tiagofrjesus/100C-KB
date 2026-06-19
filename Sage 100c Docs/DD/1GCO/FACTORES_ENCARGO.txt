@@ -1,0 +1,9 @@
+FACTORES_ENCARGO — Factores de Encargo  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO
+
+Columns (3):
+  CODIGO     Text(3)   Código
+  DESCRICAO  Text(80)  Descrição
+  FACTOR     Double    Factor de Encargo

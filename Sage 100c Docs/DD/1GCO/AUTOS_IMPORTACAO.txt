@@ -1,0 +1,15 @@
+AUTOS_IMPORTACAO — Importação de Autos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: COD_ORC+ORC_SE+SITUACAO+TIPO_TRABALHO
+
+Columns (9):
+  COD_ORC         Text(6)   Código do Processo
+  DATA_APROVACAO  Date      Data Aprovação
+  DATA_EMISSAO    Date      Data Emissão
+  NUMERO_AUTO     Text(15)  Nº do Auto Realizado
+  NUMERO_FACTURA  Text(15)  Número de Factura
+  ORC_SE          Long      Nº Orç. Subemp.
+  SITUACAO        Integer   Situação
+  TIPO_TRABALHO   Integer   Tipo de Trabalho
+  VALOR           Currency  Valor

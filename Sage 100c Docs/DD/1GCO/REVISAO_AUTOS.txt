@@ -1,0 +1,15 @@
+REVISAO_AUTOS — Autos para revisão de preços  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO
+
+Columns (9):
+  ANO_BASE               Integer   
+  ANO_REVISAO            Integer   
+  CODIGO                 Long      
+  COD_FORMULA            Text(6)   
+  COD_OBRA               Text(6)   
+  DESCRICAO              Text(7)   
+  MES_BASE               Integer   
+  MES_REVISAO            Integer   
+  VALOR_SUJEITO_REVISAO  Currency  

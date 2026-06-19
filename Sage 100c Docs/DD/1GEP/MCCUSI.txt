@@ -1,0 +1,11 @@
+MCCUSI — Multiplos C. Custo I  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary, unique]: OP+ANO+MES+CENTR
+
+Columns (5):
+  ANO    Integer   Ano
+  CENTR  Text(6)   Centro de Custo
+  MES    Integer   Mês
+  OP     Text(10)  Número Profissional
+  PERC   Single    Percentagem

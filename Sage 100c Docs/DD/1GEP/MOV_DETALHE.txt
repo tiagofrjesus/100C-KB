@@ -1,0 +1,25 @@
+MOV_DETALHE — Movimentos (Detalhe)  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: ANO+MES+TPREC+NORDEMRE+NFUNC+CDALT+ORIG+LINHA
+
+Columns (19):
+  ANO              Integer   Ano de processamento
+  CDALT            Text(10)  Código da alteração
+  DATA             Date      Data de processamento
+  DATA_REFERENCIA  Date      Data de referência da alteração
+  DFALCOMP         Integer   Nº de dias úteis completos faltados
+  DFALDESCA        Integer   Nº de dias de descanso faltados
+  DFALIMEIO        Integer   Nº de dias úteis faltados inferoir a meio dia
+  DFALMMEIO        Integer   Nº de dias úteis faltados mais de meio dia
+  DIAS             Currency  Número de dias
+  LINHA            Integer   Número de ordem da linha
+  MES              Integer   Mês de processamento
+  NATUREZA         Integer   Natureza do movimento
+  NFUNC            Text(10)  Número funcionário
+  NORDEMRE         Integer   Número de ordem do recibo
+  ORIG             Integer   Origem dos valores
+  QTD              Currency  Quantidade
+  TAXA             Double    Taxa
+  TPREC            Integer   Tipo de recibo
+  VALOR            Currency  Valor

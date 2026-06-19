@@ -1,0 +1,11 @@
+FE_CONFIGURACAO_IDS_CAMPOS — Configuração dos campos dos IDs F.E.  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: ID_ELECTRONICO+TIPO_DOCUMENTO+CAMPO_NEXT+CAMPO_XML
+
+Columns (5):
+  CAMPO_NEXT      Integer    Campo Next
+  CAMPO_XML       Text(255)  Campo XML
+  ID_ELECTRONICO  Text(50)   ID Electrónico
+  PRIORIDADE      Integer    Prioridade
+  TIPO_DOCUMENTO  Integer    Tipo de Documento

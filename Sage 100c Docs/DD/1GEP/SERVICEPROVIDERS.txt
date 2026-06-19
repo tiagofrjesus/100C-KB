@@ -1,0 +1,8 @@
+SERVICEPROVIDERS — Tipo de prestador  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  INDEX [primary, unique]: REFERENCE
+
+Columns (2):
+  NAME       Text(50)  Descrição
+  REFERENCE  Text(1)   Código

@@ -1,0 +1,11 @@
+INTHOR — Intervalo Horário  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD+DIASEM+IDX
+
+Columns (5):
+  COD     Text(6)  COD
+  DIASEM  Integer  DIASEM
+  HORADE  Single   HORADE
+  HORATE  Single   HORATE
+  IDX     Integer  IDX

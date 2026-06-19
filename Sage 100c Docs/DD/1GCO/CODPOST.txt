@@ -1,0 +1,8 @@
+CODPOST — Códigos Postais  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (2):
+  COD    Text(8)   Código
+  DESCR  Text(50)  Localidade

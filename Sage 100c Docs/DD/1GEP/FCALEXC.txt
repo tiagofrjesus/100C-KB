@@ -1,0 +1,8 @@
+FCALEXC — Lista de abonos ou faltas cuja existência exclui o valor fixo  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  CABONO [primary, unique]: ABONO+FALTA
+
+Columns (2):
+  ABONO  Text(10)  Código do abono
+  FALTA  Text(10)  Código da falta

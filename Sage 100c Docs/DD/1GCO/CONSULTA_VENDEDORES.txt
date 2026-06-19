@@ -1,0 +1,14 @@
+CONSULTA_VENDEDORES — Consulta de Vendedores  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary]: ANO+MES+VENDEDOR
+
+Columns (8):
+  ANO                Integer   ANO
+  COMISSAO_COBRANCA  Currency  COMISSAO_COBRANCA
+  COMISSAO_VENDAS    Currency  COMISSAO_VENDAS
+  MES                Integer   MES
+  TOTAL_COMISSAO     Currency  TOTAL_COMISSAO
+  VALOR_COBRADO      Currency  VALOR_COBRADO
+  VALOR_LIQUIDO      Currency  VALOR_LIQUIDO
+  VENDEDOR           Text(10)  VENDEDOR

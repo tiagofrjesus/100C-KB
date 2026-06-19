@@ -1,0 +1,12 @@
+ACTIVOS_DESRECONHECIMENTO — Activos no desreconhecimento  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  ACTIVO [primary, unique]: CODIGO
+
+Columns (6):
+  CODIGO                   Text(20)   Código do activo
+  CODIGO_TABELA            Text(5)    Código de tabela
+  CONTA_DESRECONHECIMENTO  Text(15)   Conta de desreconhecimento
+  DESCRICAO                Text(100)  Descrição do activo
+  TIPO_ACTIVO              Integer    Tipo de activo
+  UTILIZADOR               Text(15)   Utilizador

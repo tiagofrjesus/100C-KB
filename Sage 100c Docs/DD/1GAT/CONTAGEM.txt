@@ -1,0 +1,9 @@
+CONTAGEM — Tabela de Contagem  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  FICHA [primary, unique]: FICHA+LOCALIZA
+
+Columns (3):
+  FICHA     Text(20)  Ficha
+  LOCALIZA  Text(5)   Localização
+  QUANTIDA  Long      Quantidade

@@ -1,0 +1,48 @@
+PROREINT — provisorio de reinte  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CONTADOR [primary, unique]: CONTADOR
+  FICHA: FICHA
+
+Columns (41):
+  ANOMVALI  Integer    AnoMValia
+  BEMLEASI  Integer    Bem em Leasing
+  BENREINV  Integer    Bem Reinvestido
+  CODTABEL  Text(5)    Código Tabela
+  COEF      Double     COEF
+  CONTADOR  Long       Contador
+  CONTAPOC  Text(16)   Conta Poc
+  DATAAQUI  Date       Data Aquisição
+  DATAINUT  Date       Data Inic.Utilização
+  DATAORD   Text(36)   DATAORD
+  DCLEIULR  Text(5)    Dec.Ult.Reavaliação
+  DESCIND   Integer    Descrição Individual
+  FICHA     Text(15)   Ficha
+  GRANDEGR  Text(5)    Grande Grupo
+  IDTOTREI  Integer    Id.Tot.depreciado
+  IDVIDAAD  Integer    IndiceVidaAdicional
+  METODO    Integer    Método
+  MULTILIN  Integer    Multilinha
+  NOVO      Integer    Novo
+  OBSERVAC  Text(100)  Observações
+  QUOTASPE  Text(8)    Quotas Perdidas
+  QUOTASPR  Currency   QuotasPrecisao
+  REDVAL    Integer    REDVAL
+  REGIME    Integer    Regime
+  REINTNAC  Double     Deprec. não aceites
+  REPERDRV  Double     Depreciações perd.Rv
+  RETOTACE  Double     Dep. tot. aceites
+  SUBGRUPO  Text(5)    Sub. Grupo
+  TXREBASE  Double     Tx.Dep. base
+  TXREUTIL  Double     Taxa depreciação ut.
+  VALMVALI  Double     ValorMValia
+  VAQNRV    Double     V.Aq.N/Rv
+  VAQRV     Double     V.Aq.Rv
+  VDADICRV  Integer    VidaAdicionalRv
+  VIDAFISC  Integer    Vida Fiscal
+  VREACNRV  Double     V.dep. ac. não Reav.
+  VREACRV   Double     V. dep. ac. reav.
+  VREEXNRV  Double     V. de. ex. não reav
+  VREEXRV   Double     V.dep. ex. reav.
+  VRVDC100  Double     V.Rv.Dc.100%
+  VRVDCPAR  Double     V.Rv.Dc.Par

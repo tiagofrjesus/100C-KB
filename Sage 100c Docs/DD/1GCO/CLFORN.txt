@@ -1,0 +1,17 @@
+CLFORN — Campos Livres Fornec  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (11):
+  CL01    Text(50)  CL01
+  CL02    Text(50)  CL02
+  CL03    Text(50)  CL03
+  CL04    Text(50)  CL04
+  CL05    Text(50)  CL05
+  CL06    Text(50)  CL06
+  CL07    Text(50)  CL07
+  CL08    Text(50)  CL08
+  CL09    Text(50)  CL09
+  CL10    Text(50)  CL10
+  CODIGO  Text(15)  CODIGO

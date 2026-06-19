@@ -1,0 +1,15 @@
+MOEDAS — Moedas  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (9):
+  ARRDOC    Integer   Arredondamento Doc.
+  CAMBIOC   Currency  Câmbio Compra
+  CAMBIOM   Currency  Câmbio Médio
+  CAMBIOV   Currency  Câmbio Venda
+  CASASDEC  Integer   Casas Decimais
+  CODIGO    Text(3)   Código
+  DESCR     Text(20)  Descrição
+  DTCAMBIO  Date      Data Câmbio
+  FTEURO    Double    Factor Euro

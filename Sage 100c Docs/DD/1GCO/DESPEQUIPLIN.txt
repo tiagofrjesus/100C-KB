@@ -1,0 +1,15 @@
+DESPEQUIPLIN — Despesas de equipamento lin.  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: NUMERO+REF
+
+Columns (9):
+  CUSTO       Currency  
+  CUSTO_UN    Currency  
+  DESCRICAO   Text(43)  
+  FORNECEDOR  Text(15)  
+  NUMERO      Text(21)  
+  QUANTIDADE  Double    
+  REF         Long      
+  TIPO        Integer   
+  UNIDADE     Text(3)   

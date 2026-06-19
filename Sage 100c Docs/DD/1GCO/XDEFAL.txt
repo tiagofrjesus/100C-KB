@@ -1,0 +1,12 @@
+XDEFAL — Alertas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINCIPA [primary, unique]: REF
+
+Columns (6):
+  ACTIVO  Integer    Activo
+  APLIC   Integer    Aplicação
+  DESCR   Text(100)  Descrição Alerta
+  QR      Text(50)   Cód. SQL Detalhe
+  QT      Text(50)   Cód. SQL Alerta
+  REF     Text(50)   Código do Alerta

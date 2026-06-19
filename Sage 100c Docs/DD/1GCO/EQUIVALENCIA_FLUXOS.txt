@@ -1,0 +1,9 @@
+EQUIVALENCIA_FLUXOS — Equivalências entre planos de fluxos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  FLUXO [primary, unique]: EXERCICIO+FLUXO_EXERCICIO+FLUXO_EXERCICIO_ANTERIOR
+
+Columns (3):
+  EXERCICIO                 Integer  Exercício
+  FLUXO_EXERCICIO           Text(6)  Fluxo do exercício
+  FLUXO_EXERCICIO_ANTERIOR  Text(6)  Fluxo do exercício anterior

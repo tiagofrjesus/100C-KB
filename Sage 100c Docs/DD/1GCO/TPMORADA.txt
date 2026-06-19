@@ -1,0 +1,8 @@
+TPMORADA — Tipos Moradas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (2):
+  CODIGO    Text(3)   Código
+  DESCRICA  Text(50)  Descrição

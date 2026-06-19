@@ -1,0 +1,15 @@
+REINVESTIMENTO_VALORES — Reinvestimento de Valores  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXREINVESTIMENTO [primary, unique]: ANO_REALIZACAO
+
+Columns (9):
+  ANO_MAXIMO                Text(4)   Ano máximo para reinvestimento
+  ANO_REALIZACAO            Text(4)   Ano de realização
+  PROMETIDO_REINVESTIR      Currency  Valor prometido reinvestir
+  REINVESTIDO_ANO_0         Currency  Valor reinvestido no próprio ano da realização
+  REINVESTIDO_ANO_1         Currency  Valor reinvestido no ano seguinte
+  REINVESTIDO_ANO_2         Currency  Valor reinvestido no segundo ano da realização
+  REINVESTIDO_ANO_ANTERIOR  Currency  Valor reinvistido no ano anterior ao ano de realização
+  VALORES_POR_REINVESTIR    Currency  Valores por reinvestir
+  VALORES_REINVESTIDOS      Currency  Valores reinvestidos

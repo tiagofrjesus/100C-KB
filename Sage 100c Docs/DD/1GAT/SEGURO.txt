@@ -1,0 +1,13 @@
+SEGURO — Ficha de Seguro  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  FICHA [primary, unique]: FICHA+NAPO+DATA
+
+Columns (7):
+  CONTADO   Long      Contador
+  DATA      Date      Data
+  FICHA     Text(20)  Ficha
+  NAPO      Text(20)  Número da Apólice
+  OBSERVAC  Memo      Observações
+  RAMO      Integer   Ramo
+  VALAPO    Currency  Valor Apolice

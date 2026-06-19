@@ -1,0 +1,8 @@
+RMMG — Retribuição mínima mensal garantida  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  DATA [primary, unique]: DATA
+
+Columns (2):
+  DATA   Date      Data
+  VALOR  Currency  Valor

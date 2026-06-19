@@ -1,0 +1,16 @@
+EXPFD — Listagens configuradas - Campos GEST  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LXEXPFD [primary, unique]: CEXP+TFUN+NLIN
+
+Columns (10):
+  CEXP      Text(20)   Código de exportação
+  FORBRTAB  Text(20)   Tipo de Browse
+  FORLEG    Text(50)   
+  FORSIZE   Integer    Tamanho da coluna
+  FORTDV    Text(1)    Tipo de dados da coluna
+  FORVBFOR  Text(255)  Formato do valor
+  NLIN      Integer    Número de linha
+  SQLCOL    Text(255)  Nome da coluna SQL
+  SQLTOT    Text(20)   Função SQL totalizadora
+  TFUN      Text(1)    Tipo função: S-Select; W-Where; O-Order by

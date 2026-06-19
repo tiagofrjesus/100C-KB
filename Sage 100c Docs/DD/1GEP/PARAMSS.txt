@@ -1,0 +1,8 @@
+PARAMSS — Parâmetros S.Social  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NFUNC [primary, unique]: NFUNC
+
+Columns (2):
+  NDIAS  Integer   Nº Dias
+  NFUNC  Text(10)  Nº Funcionário

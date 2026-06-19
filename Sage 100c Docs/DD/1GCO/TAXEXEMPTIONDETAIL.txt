@@ -1,0 +1,20 @@
+TAXEXEMPTIONDETAIL — Movimentos detalhe do I.V.A. isento  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPDOC [primary, unique]: ORIGEM_ANO+ORIGEM_TPDOC+ORIGEM_SERIE+ORIGEM_NUMDOC+LIQUIDACAO_ANO+LIQUIDACAO_TPDOC+LIQUIDACAO_SERIE+LIQUIDACAO_NUMDOC+TIPOBEM+TAXAIVA+TIPOOPERACAO+ARTIGO_DESCRITOR+MOTIVO_ISENCAO
+
+Columns (14):
+  ARTIGO_DESCRITOR   Integer   Artigo ou descritor
+  LIQUIDACAO_ANO     Integer   Ano do documento de liquidação
+  LIQUIDACAO_NUMDOC  Long      Número do documento de liquidação
+  LIQUIDACAO_SERIE   Integer   Série do documento da liquidação
+  LIQUIDACAO_TPDOC   Text(3)   Tipo de documento de liquidação
+  MOTIVO_ISENCAO     Text(3)   Motivo de isenção para o SAFT
+  ORIGEM_ANO         Integer   Ano origem do documento
+  ORIGEM_NUMDOC      Long      Número do documento origem
+  ORIGEM_SERIE       Integer   Série do documento origem
+  ORIGEM_TPDOC       Text(3)   Tipo documento origem
+  TAXAIVA            Integer   Taxa de I.V.A.
+  TIPOBEM            Integer   Tipo de bem
+  TIPOOPERACAO       Integer   Tipo de operação
+  VALOR_BASE         Currency  Valor base

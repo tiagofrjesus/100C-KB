@@ -1,0 +1,12 @@
+MODELOS_FISCAIS — Modelos Fiscais  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CMOD [primary, unique]: CMODTYPE+CMODYEAR+CYEAR+CVERS
+
+Columns (6):
+  CELLS     Memo      
+  CMODTYPE  Text(15)  
+  CMODYEAR  Text(10)  
+  CVERS     Text(15)  
+  CYEAR     Integer   
+  PROPS     Memo      

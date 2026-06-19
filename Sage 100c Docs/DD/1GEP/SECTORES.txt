@@ -1,0 +1,9 @@
+SECTORES — Setores  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: COD
+
+Columns (3):
+  CCAIXA  Text(15)  Conta Caixa
+  COD     Text(3)   Código
+  DESCR   Text(25)  Descrição

@@ -1,0 +1,19 @@
+COMISSOES_LINHA — Comissões de vendedores por linha  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  VEND [primary, unique]: ORGANO+ORGTPDOC+ORGSERIE+ORGNUMDOC+LIQANO+LIQTPDOC+LIQSERIE+LIQNUMDOC+VENDEDOR+TIPO_COBRANCA+ESTADO
+
+Columns (13):
+  DATA           Date      Data
+  ESTADO         Integer   Estado
+  LIQANO         Integer   Ano liquidação
+  LIQNUMDOC      Long      Nº documento liquid.
+  LIQSERIE       Integer   Série liquidação
+  LIQTPDOC       Text(3)   Tipo documento liq.
+  ORGANO         Integer   Ano origem
+  ORGNUMDOC      Long      Nº documento origem
+  ORGSERIE       Integer   Série origem
+  ORGTPDOC       Text(3)   Tipo documento or.
+  TIPO_COBRANCA  Integer   Tipo cobrança
+  VALOR          Currency  Valor
+  VENDEDOR       Text(10)  Vendedor

@@ -1,0 +1,26 @@
+EFATMOV — Movimentos eFatura  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Columns (23):
+  ANO      Integer    
+  CIFIS    Text(15)   
+  CMIIVA   Text(3)    
+  CPAR     Text(4)    
+  DATA     Date       
+  ESTADO   Integer    
+  IDDOC    Text(50)   
+  NDOC     Text(50)   
+  NOME     Text(100)  
+  NUMDOC   Long       
+  SERIE    Integer    
+  TDOC     Text(3)    
+  TPDOC    Text(3)    
+  TXIVAI   Currency   
+  TXIVAN   Currency   
+  TXIVAR   Currency   
+  VALI     Currency   
+  VALISE   Currency   
+  VALIVAI  Currency   
+  VALIVAN  Currency   
+  VALIVAR  Currency   
+  VALN     Currency   
+  VALR     Currency   

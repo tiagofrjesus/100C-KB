@@ -1,0 +1,14 @@
+CUSTOSCOMUNS — Custos Comuns  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: NUM_LANC
+
+Columns (8):
+  CALCULADO        Boolean   
+  COD_CENT         Text(32)  
+  DATAREGISTO      Date      
+  DESCRICAO        Text(80)  
+  ID_DISTRIBUICAO  Long      
+  NUM_LANC         Long      
+  ORIGEM           Text(32)  
+  VALOR            Currency  

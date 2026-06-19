@@ -1,0 +1,9 @@
+TRAININGTIMETABLES — Horário da formação  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  INDEX [primary, unique]: REFERENCE
+
+Columns (3):
+  COMMENTS   Memo       Observações
+  NAME       Text(150)  Descrição
+  REFERENCE  Text(2)    Código

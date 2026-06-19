@@ -1,0 +1,16 @@
+TIPOS_RENDIMENTOS_INDEP — Tipos de rendimentos (Prestadores de serviços)  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  REFERENCE [primary, unique]: REFERENCE
+
+Columns (10):
+  DRF_CODIGO    Text(3)    Classificação para a Declaração de retenções na fonte de IRS/IRC/IS
+  M10_TIPREND   Text(3)    Classificação para Modelo 10
+  M30_REGTRIB   Text(2)    Regime de tributação para a Declaração de rendimentos pagos ou colocados à disposição de sujeitos passivos não residentes (Modelo 30)
+  M30_TIPREND   Text(2)    Regime de tributação para Modelo 30
+  M39_TIPREND   Text(2)    Classificação para Modelo 39
+  NAME          Text(250)  Descrição
+  OBSERV        Text(100)  Observações
+  REFERENCE     Text(3)    Código
+  TIPO_IMPOSTO  Integer    Tipo de Imposto (IRS ou IRC)
+  TXRET         Single     Taxa de retenção

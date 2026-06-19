@@ -1,0 +1,28 @@
+DF_MAPA_32 — Dossier fiscal - Mapa 32  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  LINHA [primary, unique]: LINHA+NATUREZA+METODO+EXERCICIO
+
+Columns (22):
+  AGRUPAMENTO                               Integer    Linha totalizadora de um agrupamento
+  ANO_INICIO                                Integer    Ano de início de utilização
+  CODIGO_TABELA                             Text(5)    Código de tabela
+  DEPRECIACOES_PERIODO                      Currency   Depreciações / amortizações e perdas por imparidade contabilizadas no período
+  DEPRECIACOES_PERIODOS_ANTERIORES_ACEITES  Currency   Depreciações e amortizações aceites em períodos anteriores
+  DEPRECIACOES_PERIODO_RECUPERADAS          Currency   Depreciações / amortizações e perdas por imparidade recuperadas no período
+  DEPRECIACOES_TAXA                         Currency   Taxa
+  DEPRECIACOES_TAXA_CORRIGIDA               Currency   Taxa corrigida
+  DESCRICAO                                 Text(100)  Descrição
+  EXERCICIO                                 Integer    Exercício
+  IMPARIDADES_PERIODO_ACEITES               Currency   Perdas por imparidade aceites no período
+  LIMITE_FISCAL                             Currency   Limite fiscal
+  LINHA                                     Long       Nº da linha
+  MES_INICIO                                Integer    Mês de início de utilização
+  METODO                                    Integer    Método utilizado
+  NATUREZA                                  Integer    Natureza do activo
+  NUMERO_ANOS_UTILIDADE                     Integer    Número de anos de utilidade esperada
+  REGIME                                    Integer    Regime
+  TAXAS_PERDIDAS                            Currency   Taxas perdidas acumuladas
+  TOTALMENTE_DEPRECIADO                     Integer    Ativo totalmente depreciado
+  VALOR_AQUISICAO                           Currency   Valor de aquisição
+  VALOR_CONTABILISTICO                      Currency   Valor contabilístico

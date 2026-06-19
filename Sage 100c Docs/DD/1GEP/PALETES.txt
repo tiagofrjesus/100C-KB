@@ -1,0 +1,16 @@
+PALETES — Paletes de cores para as listagens  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (10):
+  CODIGO        Text(2)   Código
+  CORDEBARRA    Text(20)  Cor de barra
+  CORDEDETALHE  Text(20)  Cor de detalhe
+  CORDETITULO   Text(20)  Cor de título
+  CORGRUPO1     Text(20)  Cor grupo 1
+  CORGRUPO2     Text(20)  Cor grupo 2
+  CORGRUPO3     Text(20)  Cor grupo 3
+  CORGRUPO4     Text(20)  Cor grupo 4
+  CORGRUPO5     Text(20)  Cor grupo 5
+  DESCRICAO     Text(50)  Descrição

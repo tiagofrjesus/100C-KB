@@ -1,0 +1,10 @@
+SEGUROS_ISP — Companhias de seguros (ISP)  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  REFERENCE [primary, unique]: REFERENCE
+
+Columns (4):
+  AUTHORIZATION_TYPE  Integer    
+  COUNTRY             Text(2)    
+  NAME                Text(250)  
+  REFERENCE           Text(4)    

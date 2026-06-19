@@ -1,0 +1,38 @@
+DOCLINDRF — Linhas dos documentos rectificativos de facturas/compras  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  DOC [primary, unique]: ANO+TPDOC+SERIE+NUMDOC+NUMLIN
+
+Columns (32):
+  ANO                   Integer   Ano
+  ANOL                  Integer   AnoL
+  DATADOC               Date      Data do documento
+  DATADOCL              Date      Data do documento liquidado
+  DATA_VOSSO_DOCUMENTO  Date      Data vosso documento
+  MOEDA                 Text(3)   Moeda do Pendente
+  NUMDOC                Long      Número do documento
+  NUMDOCL               Long      Número Documento Líq
+  NUMLIN                Integer   Número da linha
+  REGIME_IVA_CAIXA      Integer   Regime de I.V.A. de caixa
+  RGIVA                 Text(3)   Tipo de IVA
+  SECTOR                Text(3)   Sector
+  SERIE                 Integer   Série
+  SERIEL                Integer   Série do Liquidado
+  SINALCT               Integer   Sinal contabilístico
+  TERCEIRO              Text(15)  Terceiro
+  TIPO_SUJEITO_PASSIVO  Integer   Tipo de Sujeito passivo
+  TOTALDOCUMENTO        Currency  Total do documento
+  TPCNT                 Integer   Tipo de conta terceiro
+  TPDOC                 Text(3)   Tipo de documento
+  TPDOCL                Text(3)   Tipo Documento Líq.
+  TPTERC                Integer   Tipo de terceiro
+  VALORBASEIVA1         Currency  Valor base IVA 1
+  VALORBASEIVA2         Currency  Valor base IVA 2
+  VALORBASEIVA3         Currency  Valor base IVA 3
+  VALORBASEIVA4         Currency  Valor base IVA 4
+  VALORORIGINAL         Currency  Valor original do documento
+  VALORTOTIVA1          Currency  Valor IVA 1
+  VALORTOTIVA2          Currency  Valor IVA 2
+  VALORTOTIVA3          Currency  Valor IVA 3
+  VALORTOTIVA4          Currency  Valor IVA 4
+  VOSSO_NUMERO          Text(50)  Vosso número do documento

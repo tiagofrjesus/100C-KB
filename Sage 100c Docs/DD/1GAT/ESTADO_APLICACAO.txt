@@ -1,0 +1,10 @@
+ESTADO_APLICACAO — Estado da aplicação  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  IDX [primary]: EXERCICIO+ACCAO
+
+Columns (4):
+  ACCAO      Integer  Acção
+  DATA       Date     Data
+  EXERCICIO  Integer  Exercicio
+  VALOR      Integer  Operação

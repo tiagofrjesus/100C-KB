@@ -1,0 +1,8 @@
+IVAPAG — IVA Pagar  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Columns (5):
+  CNT35  Text(15)  Conta IVA Apuramento
+  CNT36  Text(15)  Conta IVA a Pagar
+  CNT37  Text(15)  Conta IVA Recuperar
+  CNT38  Text(15)  Conta IVA Reembolsar
+  CNT39  Text(15)  IVA Liq. Oficiosas

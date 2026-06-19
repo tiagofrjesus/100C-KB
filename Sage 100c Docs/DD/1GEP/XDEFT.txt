@@ -1,0 +1,12 @@
+XDEFT — Def.Tarefas  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  REF [primary, unique]: REF
+
+Columns (6):
+  ACTIVO  Integer    Ativa
+  DATA    Date       Data
+  DESCR   Text(100)  Descrição
+  DIAS    Integer    Nº Dias
+  HORA    Text(5)    Hora
+  REF     Long       Referência

@@ -1,0 +1,32 @@
+MOVCT — Movimentos Contabili  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ANO [primary, unique]: ANO+TPDOC+SERIE+NUMDOC+NUMLINHA
+  DIARIO: DATADOC+DIARIO+NUMDIARI+CONTA
+  LIGCTB: LIGADO+DATADOC+TPDOC+SERIE+NUMDOC+NUMLINHA
+  CONTA: CONTA+DATADOC+DIARIO+NUMDIARI
+
+Columns (23):
+  ANO       Integer   
+  CCUSTORC  Text(6)   
+  CNBANCO   Text(10)  
+  CONTA     Text(15)  
+  DATADOC   Date      
+  DBCR      Integer   
+  DESCR     Text(30)  
+  DIARIO    Text(3)   
+  ERROCTB   Text(15)  
+  LIGADO    Integer   
+  LINCOM    Integer   
+  MNLAUT    Integer   
+  NUMDIARI  Long      
+  NUMDOC    Long      
+  NUMLINHA  Integer   
+  ORIGEM    Integer   
+  RUBRORC   Text(6)   
+  SECTOR    Text(3)   
+  SERIE     Integer   
+  TERC      Text(15)  
+  TPDOC     Text(3)   
+  TPTERC    Integer   
+  VALOR     Currency  

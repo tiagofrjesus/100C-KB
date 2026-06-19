@@ -1,0 +1,12 @@
+ARTOPERA — Operações por Artigo  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ARTOPERA [primary, unique]: ARTIGO+OPERACAO+SEQ
+
+Columns (6):
+  ANTECEDE  Currency  Antecedência
+  ARTIGO    Text(15)  Artigo
+  OPERACAO  Text(3)   Operação
+  SEQ       Integer   Nº de Ordem
+  TEMPO     Currency  Tempo Necessário
+  UNITEMPO  Text(3)   Unidade de Tempo

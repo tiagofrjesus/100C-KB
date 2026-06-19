@@ -1,0 +1,13 @@
+STATUSPR — Status dos provisori  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  PROV [primary, unique]: PROV
+
+Columns (7):
+  DATA      Text(10)  Data
+  DECRETO   Text(5)   Decreto
+  DESCSIM   Text(50)  descsim
+  LIVRE2    Text(15)  Livre2
+  PROV      Integer   Provisorio
+  SIMULACA  Integer   Simulação
+  STATUS    Integer   Status

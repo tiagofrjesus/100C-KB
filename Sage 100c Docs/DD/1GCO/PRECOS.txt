@@ -1,0 +1,25 @@
+PRECOS — Preços  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ARTMLIN [primary, unique]: ARTIGO+MOEDA+LINPRC
+
+Columns (19):
+  AJUSTAM   Integer   Método
+  ARREDOND  Integer   Optimização
+  ARTIGO    Text(15)  Código do Artigo
+  BASECALC  Integer   Base de cálculo
+  BASECIVA  Currency  Base Com Iva
+  BCLINHA   Integer   Base na Linha
+  BCMOEDA   Text(3)   Base na Moeda
+  BUTHIST   Currency  Base Util. Histórica
+  DATACT    Date      Data de actualização
+  DATINIC   Date      Data início do preço
+  DBTS      23        
+  LINPRC    Integer   Linha de Preço
+  MOEDA     Text(3)   Moeda
+  PERCCFIG  Currency  % Custos Figurativos
+  PERCMMAR  Currency  % Margem Marcação
+  PVP       Currency  Preço Venda sem IVA
+  PVPIVA    Currency  Preço Venda com IVA
+  TPCUSTO   Integer   Tipo de Custo
+  TPMARGEM  Integer   Tipo de Margem

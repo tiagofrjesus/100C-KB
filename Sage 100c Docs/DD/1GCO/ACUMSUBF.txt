@@ -1,0 +1,15 @@
+ACUMSUBF — Acumulados SubFamili  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ASF [primary, unique]: ANO+MES+GRUPO+FAMILIA+SUBFAMIL
+
+Columns (9):
+  ANO       Integer   Ano
+  FAMILIA   Text(6)   Família
+  GRUPO     Text(6)   Grupo
+  MES       Integer   Mês
+  QTENTRA   Currency  Quantidade Entrada
+  QTSAI     Currency  Quantidade Saída
+  SUBFAMIL  Text(6)   Sub Família
+  VLENTRA   Currency  Valor Entrada
+  VLSAI     Currency  Valor Saída

@@ -1,0 +1,18 @@
+TAB1 — Tab IRS 1  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  ANO [primary]: ANO+TAB+LIMSUP+DOMFIS+DATA
+  NODUPS: ANO+LIMSUP+TX0DEP+TX1DEP+TX2DEP+TX3DEP+TX4DEP+TX5DEP+TAB+DOMFIS
+
+Columns (11):
+  ANO     Integer   Ano
+  DATA    Date      Data de entrada em vigor
+  DOMFIS  Integer   Dom. Fiscal
+  LIMSUP  Currency  Limite Superior
+  TAB     Integer   Tabela
+  TX0DEP  Currency  Taxa 0 Dep.
+  TX1DEP  Currency  Taxa 1 Dep.
+  TX2DEP  Currency  Taxa 2 Dep.
+  TX3DEP  Currency  Taxa 3 Dep.
+  TX4DEP  Currency  Taxa 4 Dep.
+  TX5DEP  Currency  Taxa 5 Dep.

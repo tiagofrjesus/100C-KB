@@ -1,0 +1,9 @@
+NTCNT — Notas Plano Contas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  NTCNT [primary, unique]: EXERCICIO+CONTA
+
+Columns (3):
+  CONTA      Text(15)  Conta
+  EXERCICIO  Integer   Exercício
+  NOTAS      Memo      Notas

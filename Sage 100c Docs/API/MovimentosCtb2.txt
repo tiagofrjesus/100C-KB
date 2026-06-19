@@ -1,0 +1,4 @@
+MovimentosCtb2
+Ligação á contabilidade, classe que tem os dados da contabilidade geral e analitica (collection LinhasAnalitica)
+
+Membros (0):

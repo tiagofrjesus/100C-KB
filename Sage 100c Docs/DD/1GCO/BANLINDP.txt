@@ -1,0 +1,19 @@
+BANLINDP — Linhas Talões  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CHAVES [primary, unique]: TIPODBAN+NUMDBAN+NUMLIN
+  DOCBAN: TPDOCBAN+NDOCBAN+BANCO
+
+Columns (12):
+  BANCO     Text(4)   Banco
+  CONTATMP  Text(21)  Conta
+  DEBCRED   Integer   Dédito/Crédito
+  DTMOV     Date      Data Mov.
+  DTVALOR   Date      Data Valor
+  NDOCBAN   Text(24)  Num Doc. Banc
+  NUMDBAN   Long      Num. Doc. Ban.
+  NUMLIN    Integer   Numlin
+  PRACA     Text(35)  Praça
+  TIPODBAN  Text(3)   Tipo Doc. ban.
+  TPDOCBAN  Text(3)   Tipo Doc. Ban.
+  VALOR     Currency  Valor

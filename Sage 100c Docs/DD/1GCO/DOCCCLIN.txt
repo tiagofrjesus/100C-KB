@@ -1,0 +1,45 @@
+DOCCCLIN — Documentos CC Lin  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  DOC [primary, unique]: ANO+TIPOD+SERIED+NUMD+NUMLIN
+  DOCTERC: TPTERC+TERCEIRO+ANOL+TPDOCL+SERIEL+NUMDOCL
+  DOCPAGO: ANOL+TPDOCL+SERIEL+NUMDOCL
+
+Columns (37):
+  ANO                   Integer   Ano
+  ANOL                  Integer   AnoL
+  BANCO                 Text(4)   Banco
+  CNTRES                Text(15)  Conta Resp.
+  COMISSAO              Integer   Comissão
+  COMVEND               Currency  Comissão Vendedor
+  DATADOC               Date      Data Documento
+  DATAVENC              Date      Data Vencimento
+  MOEDA                 Text(3)   Moeda do Pendente
+  NUMD                  Long      Número Documento
+  NUMDOCL               Long      Número Documento Líq
+  NUMLIN                Integer   Número Linha
+  OBRA                  Text(6)   Obra
+  REGIME_IVA_CAIXA      Integer   Regime de I.V.A. de caixa
+  RGIVA                 Text(3)   Tipo de IVA
+  SECTOR                Text(3)   Sector
+  SERIED                Integer   Série Documento
+  SERIEL                Integer   Série do Liquidado
+  SINALCT               Integer   Sinal Contab
+  TERCEIRO              Text(15)  Terceiro
+  TIPOD                 Text(3)   Tipo Documento
+  TIPO_SUJEITO_PASSIVO  Integer   Tipo de Sujeito passivo
+  TPCNT                 Integer   Tipo Conta terceiro
+  TPDOCL                Text(3)   Tipo Documento Líq.
+  TPTERC                Integer   Tipo Terceiro
+  VENDEDOR              Text(10)  Vendedor
+  VLDESC                Currency  Valor Desconto
+  VLDOCCV               Currency  V. Doc. Contra Valor
+  VLDOCMB               Currency  V. Doc. Moeda Base
+  VLORIG                Currency  Valor Origem
+  VLPAGCV               Currency  V. Pago Contra Valor
+  VLPAGMB               Currency  V. Pago Moeda Base
+  VLPAGO                Currency  Valor Pago
+  VLREMAN               Currency  Valor Remanescente
+  VLREMCV               Currency  V. Rem. Contra Valor
+  VLREMMB               Currency  V. Rem. Moeda Base
+  VNUM                  Text(32)  Vosso Número

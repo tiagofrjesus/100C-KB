@@ -1,0 +1,8 @@
+PARAMETROS_GERAIS — Parâmetros gerais da aplicação  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO
+
+Columns (2):
+  CODIGO     Integer  Código do parâmetro
+  PARAMETRO  Memo     Conteúdo do parâmetro

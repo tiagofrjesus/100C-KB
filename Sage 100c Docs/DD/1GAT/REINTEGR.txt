@@ -1,0 +1,13 @@
+REINTEGR — Depreciação  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  REGISTO [primary, unique]: FICHA+ANO+CONTADOR
+
+Columns (7):
+  ANO       Integer   Ano
+  CONTADOR  Long      CONTADOR
+  FICHA     Text(15)  Ficha
+  TAXA      Double    Taxa
+  VAQACTUA  Currency  Val.Aquisição Actual
+  VREEXNR   Currency  V. dep. ex. não de.
+  VREEXRV   Currency  V. dep. ex. rv.

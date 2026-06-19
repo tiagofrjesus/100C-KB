@@ -1,0 +1,12 @@
+LOGFIXOS — Histórico de abonos/ Descontos fixo  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  PROC [primary, unique]: ANO+MES+NFUNC+CODABDES
+
+Columns (6):
+  ANO              Integer   Ano de processamento
+  CODABDES         Text(10)  Código do abono
+  DESCONTA_FALTAS  Integer   Desconta faltas
+  MES              Integer   Mês de processamento
+  NFUNC            Text(10)  Número do funcionário
+  VALOR            Currency  Valor

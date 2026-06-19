@@ -1,0 +1,12 @@
+CONTLIN — Contagem Linhas  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  IDX [primary, unique]: DATAREF+CODBARRA
+
+Columns (6):
+  CODBARRA  Text(20)   Código de Barras
+  DATAREF   Date       Data de Referência
+  DESCRICA  Text(50)   Descrição
+  DTCONTAG  Date       Data de Contagem
+  LOCALIZ   Text(5)    Localização
+  OBS       Text(100)  Observações

@@ -1,0 +1,13 @@
+PARAMETRIZACOES_CTB — Parametrizações Contabilísticas  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CONTA [primary, unique]: ENTIDADE+CHAVE1+CHAVE2+CHAVE3+EXERCICIO+CAMPO
+
+Columns (7):
+  CAMPO      Integer   Campo
+  CHAVE1     Text(50)  Artigo
+  CHAVE2     Text(50)  Armazém
+  CHAVE3     Text(50)  Descritores
+  CONTA      Text(15)  Conta
+  ENTIDADE   Integer   Entidade
+  EXERCICIO  Integer   Exercício

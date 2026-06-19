@@ -1,0 +1,18 @@
+ACIVA — Acumulados IVA  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIVA [primary, unique]: ANO+MES+STATUS+CONTA+CODIVA+TPIVA+TPTERC+TERC+NCONT
+
+Columns (12):
+  ANO        Integer   Ano
+  CODIVA     Text(6)   Código IVA
+  CONTA      Text(15)  Conta
+  EXERCICIO  Integer   Exercício
+  MES        Integer   Mês
+  NCONT      Text(20)  No. Contribuinte
+  STATUS     Integer   Status Acumulados
+  TERC       Text(15)  Código Terceiro
+  TPIVA      Integer   Regime de IVA
+  TPTERC     Integer   Tipo Terceiro
+  VLCRED     Currency  Valor Crédito
+  VLDEB      Currency  Valor Débito

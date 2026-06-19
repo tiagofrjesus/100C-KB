@@ -1,0 +1,9 @@
+GRUPO_ACTIVOS — Grupo de Activos  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO+SNC
+
+Columns (3):
+  CODIGO     Text(10)   Código
+  DESCRICAO  Text(100)  Descrição
+  SNC        Integer    Referencial

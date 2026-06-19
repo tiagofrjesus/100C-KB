@@ -1,0 +1,8 @@
+NXTCTBDI — Equivalência Diários  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  DIARIONE [primary, unique]: DIARIONE
+
+Columns (2):
+  DIARIOCT  Integer  Diário Ctb
+  DIARIONE  Text(3)  Diário Next

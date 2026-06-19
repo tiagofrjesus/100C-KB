@@ -1,0 +1,13 @@
+EXTRASLI — Dados Complemtares d  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  LINHA [primary]: ANO+TPDOC+SERIE+NNUMDDO+LINHA+TIPEXTRA
+
+Columns (7):
+  ANO       Integer    
+  EXTRA     Text(100)  
+  LINHA     Integer    
+  NNUMDDO   Long       
+  SERIE     Integer    
+  TIPEXTRA  Integer    
+  TPDOC     Text(3)    

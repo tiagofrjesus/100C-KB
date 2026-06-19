@@ -1,0 +1,9 @@
+CONCELHO — Concelhos  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  COD [primary, unique]: CDDISTR+COD
+
+Columns (3):
+  CDDISTR  Text(2)   Código do Distrito
+  COD      Text(2)   Código do Concelho
+  DESCR    Text(35)  Descrição

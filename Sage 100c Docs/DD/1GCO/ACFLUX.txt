@@ -1,0 +1,15 @@
+ACFLUX — Acumulados Fluxos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  ACFLU [primary, unique]: ANO+MES+STATUS+CODFLUX+CODBNC+CONTA
+
+Columns (9):
+  ANO        Integer   Ano
+  CODBNC     Text(4)   Código Banco
+  CODFLUX    Text(6)   Código Fluxo
+  CONTA      Text(15)  Conta
+  EXERCICIO  Integer   Exercício
+  MES        Integer   Mês
+  STATUS     Integer   Status Acumulados
+  VLENT      Currency  Valor Entrada
+  VLSAIDA    Currency  Valor Saída

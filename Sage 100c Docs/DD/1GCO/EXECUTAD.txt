@@ -1,0 +1,19 @@
+EXECUTAD — Produçao Executada  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  EXECUTAD [primary, unique]: PROCESSO+ARTIGO+TIPODOC+ANO+NUMDOC+SERIE+OPERAÇÃO+FACTOR+CCOMPOST+DATAENTR
+
+Columns (13):
+  ANO       Integer   Ano
+  ARTIGO    Text(15)  Artigo
+  CCOMPOST  Text(15)  Código Composto
+  CUSTOPRE  Currency  CustoTeorico
+  DATAENTR  Date      Data Entrada
+  FACTOR    Text(15)  Factor
+  NUMDOC    Long      Tipo Documento
+  OPERAÇÃO  Text(15)  Operação
+  PROCESSO  Text(30)  Processo
+  QUANTIDA  Currency  Quantidade
+  SERIE     Integer   Serie
+  TIPMUTAC  Integer   Tipo Inputação
+  TIPODOC   Text(3)   TIPODOC

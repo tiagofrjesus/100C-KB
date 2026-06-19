@@ -1,0 +1,14 @@
+PFINACEI — Plano Financeiro  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  NLINH [primary, unique]: NLINHA+FICHA
+  NLINHA: FICHA
+
+Columns (7):
+  AMOFINA  Currency  Amortiz. Financeira
+  CAPDIVI  Currency  Capital em Divida
+  DATA     Date      Data
+  FICHA    Text(15)  Ficha
+  JUROS    Currency  Juros
+  NLINHA   Long      Contador
+  RENDA    Currency  Renda

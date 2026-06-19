@@ -1,0 +1,161 @@
+ARTIGOS — Artigos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+  NUMERO [unique]: NUMERO
+  GRUPO: GRUPO+FAMILIA+SUBFAMIL
+  REFS: CODREF+TMHOR+TMVER
+  CODBARRA: CODBARRA
+  PAUTA: CODPAUTA
+
+Columns (150):
+  ABREV                    Text(15)  Abreviatura
+  ADIANTAMENTO_CLIENTE     Text(15)  Conta adiant cli.
+  ADIANTAMENTO_FORNECEDOR  Text(15)  Conta adiant for.
+  ALTPRCMP                 Integer   Altera preço venda
+  ARMAZEM                  Text(6)   Armazém
+  ARTASSOC                 Text(15)  Artigo associado
+  ARTOUDES                 Integer   Artigo ou Descritor
+  ARTSUBST                 Text(15)  Artigo substituto
+  BASECALC                 Integer   Base Cálculo
+  BLNOTAS                  Memo      Bloco de Notas
+  CALCUL                   Integer   Incidência Cálculo
+  CATEGOR                  Text(10)  Categoria
+  CATEGORIA_LOTES          Text(10)  Categoria de lotes
+  CATEGORIA_NUMSERIE       Text(10)  Categoria de números de série
+  CC_CHAVE                 Text(70)  
+  CLASSE_RETENCAO          Text(5)   Classe de Retenção
+  CNCOMPRA                 Text(5)   Contas Compras
+  CNMVINT                  Text(5)   Grp Ctb.Mv. Internos
+  CNTCOMPR                 Text(15)  Conta Compras
+  CNTINV                   Text(15)  Conta Inventário
+  CNTVENDA                 Text(15)  Conta Vendas
+  CNVENDAS                 Text(5)   Grupo Contab. Vendas
+  CODBARRA                 Text(18)  Livre
+  CODIGO                   Text(15)  Código
+  CODPAUTA                 Text(10)  Código artigo pautal
+  CODREF                   Text(15)  Código Referência
+  COD_ALTER_1              Text(35)  Código A.E.C.O.P.S.
+  COD_ALTER_2              Text(35)  Código A.P.C.M.C.
+  COD_ALTER_3              Text(35)  Código 'Outros'
+  CONTROLO_LOTES           Integer   Controla lotes
+  CONTROLO_NUMSERIE        Integer   Controla números de série
+  CTRSTOCK                 Integer   Controla Stocks
+  CUSTFXEN                 Currency  Custo Fixo Enc
+  CUSTOFAC                 Currency  Custo dos Factores
+  CUSTOSAD                 Currency  Custos Adicionais
+  CUSTO_ORDEM              Currency  Custo Hora à Ordem
+  CUSTO_TRABALHO           Currency  Custo Dia Trabalho
+  DATARECONS_PCM           Date      Dt reconstrução PCM
+  DBTS                     23        
+  DECQUANT                 Integer   Decimais Quantidade
+  DESCONTO_COMPRA          Currency  Desconto Compra
+  DESCRICAO_COMPLETA       Memo      Descrição Completa
+  DESCRRTF                 Text(0)   Descrição RTF
+  DIASPENC                 Integer   Dias Ponto Enc
+  DIASSKMX                 Integer   Dias Stock Máx
+  DIASSKRS                 Integer   Dias Stock Reserva
+  DTENTR                   Date      Data última Entrada
+  DTEXMIN                  Date      Data Ex Min
+  DTSAID                   Date      Data última Saída
+  DTULTCP                  Date      Data Última Compra
+  ECOPERC                  Currency  Percentagem Cálculo
+  ENCARGOS                 Integer   Encargos
+  EXISTENCIAZERAR          Currency  Quantidade de existencias a Zerar
+  EXMINPRE                 Currency  Existencia Min Prev
+  E_LOTE                   Integer   É lote
+  E_NUMERO_SERIE           Integer   É Número de Série
+  FACTEMB                  Currency  Factor Emb
+  FACTOR_ORCAMENTO         Currency  Factor Orçamento
+  FACTTRA                  Currency  Factor Transp
+  FAMILIA                  Text(6)   Família
+  FORMULA                  Text(3)   Fórmula Movimentação
+  FORNEC                   Text(15)  Fornecedor
+  GRUPO                    Text(6)   Grupo
+  HORAS_SEMANA             Integer   Horas por Semana
+  IMPRIME                  Integer   Imoprime Taxa
+  INACTIVO                 Integer   Inactivo
+  IVA                      Integer   Regime de IVA
+  IVACOMPR                 Integer   Taxa Iva Compra
+  MARGEM                   Currency  Margem
+  MEDHOR                   Text(10)  Elemento Horizontal
+  MEDVERT                  Text(10)  Elemento vertical
+  MERC                     Integer   Mercado
+  METODO                   Integer   Método
+  MOVIM                    Integer   Áreas Aplicação
+  NAO_CALCULA_IVA          Integer   Não calcula IVA
+  NIVEL                    Text(10)  Nível
+  NOME                     Text(80)  Descrição
+  NUMERO                   Long      Número
+  NUMERO_AUTORIZACAO       Text(20)  Número de autorização de venda
+  OBSERV                   Text(35)  Observações
+  PCMPCIVA                 Currency  Preço Compra C/Iva
+  PCMPSIVA                 Currency  Preço Compra S/Iva
+  PERCENTAGEM_RETENCAO     Currency  Percentagem Retenção
+  PESO                     Currency  Peso
+  PESOART                  Integer   Peso Líq. Dec. Anual
+  PESOLIQ                  Currency  Peso Líquido
+  PONTOENC                 Currency  Ponto de Encomenda
+  PRAZOEXE                 Currency  Prazo de Execução
+  PRECO_A_ALTERAR          Integer   Preço a alterar
+  PRECO_FIXO               Integer   Preço Fixo
+  PRECO_ORCAMENTO          Currency  Preço de Orçamento
+  PRODUCTCATEGORYCODE      Integer   Código de Categoria de Produto
+  PRSTND                   Currency  Preço Standard
+  PRZAPRV                  Integer   Prazo Aprovision
+  PRZENTVN                 Integer   Prazo Ent Venda
+  PVALCIVA                 Currency  Preço V.Alter.C/Iva
+  PVALSIVA                 Currency  Preço V.Alter.S/Iva
+  PVP3_COM_IVA             Currency  Preço V. 3 C/ IVA
+  PVP3_SEM_IVA             Currency  Preço V. 3 S/ IVA
+  PVPCIVA                  Currency  Preço V.Princ. C/Iva
+  PVPSIVA                  Currency  Preço V.Princ. S/Iva
+  QTDMINEN                 Currency  Qtd Min Enc
+  QTMINCOM                 Currency  Qt.Min.Aprovisionar
+  RECURSO                  Text(3)   Recurso
+  REFFORN                  Text(18)  LIVRE
+  STATISMA                 Integer   Isento massa intrast
+  STDISP                   Currency  Stock Real
+  STKREP                   Currency  Stock de reposição
+  STMAX                    Currency  Stock máximo
+  STMIN                    Currency  Stock Mínimo
+  STRESENC                 Currency  Stock reserva enc.
+  STRESOBR                 Currency  Stock reserva obras
+  SUBFAMIL                 Text(6)   Sub Família
+  TAXA                     Text(10)  Taxa
+  TCOMPOSI                 Integer   Tipo de Composição
+  TIPOCALC                 Integer   Tipo Cálculo
+  TIPO_DESCRICAO           Integer   Tipo de Descrição
+  TIPO_DESCRITOR           Integer   Tipo de descritor
+  TIPO_EQUIPAMENTO         Integer   Tipo de Equipamento
+  TIPO_LANCAMENTO          Integer   Tipo de Lançamento
+  TIPO_PRECO               Integer   Tipo de Preço
+  TMHOR                    Text(10)  Medida horizontal.
+  TMVER                    Text(10)  Medida Vertical
+  TOTENCCL                 Currency  Total Enc.Cliente
+  TOTENCFO                 Currency  Total Enc.Fornecedor
+  TPARRED                  Integer   Tipo Arredondamento
+  TPBEM                    Integer   Tipo de Bem
+  TVALORIZ                 Integer   Tipo de Valorização
+  ULTPMP                   Double    Último CM calculado
+  ULTPRCBR                 Currency  Ultimo Preço Bruto
+  ULTPRCOM                 Currency  Ùltimo preço compra
+  UNBASE                   Text(3)   Unidade Base
+  UNCMP                    Text(3)   Unidade Compra
+  UNEMB                    Text(3)   Unidade Emb.
+  UNIDADEV                 Text(3)   Livre
+  UNIDADE_ORCAMENTO        Text(3)   Unidade Orçamento
+  UNIDADE_TRABALHO         Integer   Unidade de Trabalho
+  UNIDADE_VENCIMENTO       Integer   Unidade Vencimento
+  UNTRANS                  Text(3)   Unidade Transporte
+  UNVND                    Text(3)   Unidade Venda
+  VALOR_DIVERSOS           Currency  Comp. Diversos
+  VALOR_EQUIPAMENTO        Currency  Comp. Equipamento
+  VALOR_MAO_OBRA           Currency  Comp. Mão Obra
+  VALOR_MATERIAIS          Currency  Comp. Materiais
+  VALOR_SUBEMPREITEIROS    Currency  Comp. Subempreitada
+  VLREXIST                 Currency  Valor Existência
+  VLREXISTZERAR            Currency  Valor das existencias a zerar
+  VLRKG                    Currency  Valor Kg
+  VOLUME                   Currency  Volume
+  WEB                      Integer   Internet

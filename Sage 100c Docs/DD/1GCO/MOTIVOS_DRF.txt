@@ -1,0 +1,9 @@
+MOTIVOS_DRF — Motivos dos documentos rectificativos de facturas/compras  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (3):
+  CODIGO      Text(3)    Código
+  DESCRICAO   Text(50)   Descrição
+  OBSERVACAO  Text(350)  Observações

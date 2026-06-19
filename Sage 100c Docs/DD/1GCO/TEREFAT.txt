@@ -1,0 +1,21 @@
+TEREFAT — Parametrização dos fornecedores  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  IDX [primary, unique]: EXERCICIO+NIF
+
+Columns (15):
+  CCONTA     Text(15)  Conta contrapartida
+  CCONTAFR   Text(15)  Conta contrapartida fatura recibo
+  CCONTAFS   Text(15)  Conta contrapartida fatura simplificada
+  CCONTAFT   Text(15)  Conta contrapartida fatura
+  CCONTANC   Text(15)  Conta contrapartida nota de crédito
+  CCONTAND   Text(15)  Conta contrapartida nota de débito
+  CCONTAOUT  Text(15)  Conta contrapartida outros
+  CPARFR     Text(4)   Fatura recibo
+  CPARFS     Text(4)   Fatura simplificada
+  CPARFT     Text(4)   Fatura
+  CPARNC     Text(4)   Nota de crédito
+  CPARND     Text(4)   Nota de débito
+  CPAROUT    Text(4)   Outros
+  EXERCICIO  Integer   Exercício
+  NIF        Text(15)  NIF

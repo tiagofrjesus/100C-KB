@@ -1,0 +1,13 @@
+RGPD_CONSENTIMENTO — Consentimento para tratamento de dados  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  CHAVE [primary, unique]: ENTIDADE+CAMPO+CHAVE+FINALIDADE
+
+Columns (7):
+  CAMPO                 Text(50)  Campo
+  CHAVE                 Text(50)  Chave
+  CONSENTIMENTO         Integer   Consentimento
+  DATADECONSENTIMENTO   Date      Data de Consentimento
+  DATAFIMCONSENTIMENTO  Date      Data Fim Consentimento
+  ENTIDADE              Text(50)  Entidade
+  FINALIDADE            Text(10)  Finalidade

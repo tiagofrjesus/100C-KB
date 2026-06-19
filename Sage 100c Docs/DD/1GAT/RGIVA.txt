@@ -1,0 +1,13 @@
+RGIVA — Regime de Iva  [1GAT · Sage Gestao de Ativos]
+
+Keys / Indices:
+  CODIGO [primary, unique]: CODIGO
+
+Columns (7):
+  CODIGO    Text(3)   Código
+  DESCRICA  Text(50)  Descrição
+  MERCADO   Integer   Mercado
+  TX1       Currency  Tx1
+  TX2       Currency  Tx2
+  TX3       Currency  Tx3
+  TX4       Currency  Tx4

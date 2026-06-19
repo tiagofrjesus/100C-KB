@@ -1,0 +1,23 @@
+ACTERLIN — Acumulados Terceiros Lin  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPTERC [primary, unique]: TPTERC+ANO+TERCEIRO+ARGEST+TPOPER+MES
+
+Columns (17):
+  ANO       Integer   Ano
+  ARGEST    Integer   Area gestão
+  CEXISPC   Currency  Custo Exist PC
+  CEXPVP    Currency  Custo Exis PVP
+  COMISSPG  Currency  Comissoes
+  MES       Integer   Mes
+  OUTVEND   Currency  Total Outros
+  TERCEIRO  Text(15)  Terceiro
+  TOTDESCC  Integer   Total Desconto cli
+  TOTDESCF  Currency  Total desconto Fin
+  TOTMERC   Currency  Total Mercadoria
+  TOTOUTRO  Currency  Total Outro
+  TPOPER    Integer   Tipo operação
+  TPTERC    Integer   Tipo Terceiro
+  VLBRUTO   Currency  Valor Bruto
+  VLCOMPRA  Currency  Valor compra
+  VLPAGO    Currency  Valor pago

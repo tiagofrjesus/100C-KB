@@ -1,0 +1,13 @@
+ACUMGRP — Acumulados Grupo  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  AS [primary, unique]: ANO+MES+GRUPO
+
+Columns (7):
+  ANO      Integer   
+  GRUPO    Text(6)   
+  MES      Integer   
+  QTENTRA  Currency  
+  QTSAI    Currency  
+  VLENTRA  Currency  
+  VLSAI    Currency  

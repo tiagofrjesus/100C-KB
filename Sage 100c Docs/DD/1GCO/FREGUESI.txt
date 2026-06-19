@@ -1,0 +1,10 @@
+FREGUESI — Freguesias  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINC [primary, unique]: CDDISTRI+CDCONC+COD
+
+Columns (4):
+  CDCONC    Text(2)   Código do Concelho
+  CDDISTRI  Text(2)   Código do Distrito
+  COD       Text(2)   Código
+  DESCR     Text(50)  Descrição

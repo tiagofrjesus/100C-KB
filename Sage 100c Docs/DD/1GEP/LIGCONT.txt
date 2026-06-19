@@ -1,0 +1,22 @@
+LIGCONT — Lig. à Contabilidade  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX1 [primary]: ANO+MES+ID
+
+Columns (16):
+  ANO     Integer   ANO
+  CCUSTO  Text(6)   CCUSTO
+  CDFLX   Text(6)   CDFLX
+  CDIVA   Text(6)   CDIVA
+  CONTA   Text(15)  CONTA
+  DEBCRE  Integer   DEBCRE
+  ID      Long      ID
+  IDX     Integer   IDX
+  MES     Integer   MES
+  NFUNC   Text(10)  NFUNC
+  PLN100  Integer   PLN100
+  RUB     Text(6)   RUB
+  SEC100  Text(13)  SEC100
+  SECTOR  Text(3)   SECTOR
+  TIPO    Integer   TIPO
+  VALOR   Currency  VALOR

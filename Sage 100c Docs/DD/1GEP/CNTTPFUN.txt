@@ -1,0 +1,14 @@
+CNTTPFUN — Contas tipo funcioná  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  IDX [primary, unique]: CODIGO+TPMES
+
+Columns (8):
+  ABONO_ESPECIE    Text(15)  Conta abono em espécie
+  CNTADI           Text(15)  Conta Adiantamentos
+  CNTDESP          Text(15)  Conta Despesas
+  CNTTPF           Text(15)  Conta Tipo de Func.
+  CODIGO           Integer   Código Tipo Func.
+  RUBDES           Text(6)   Rúbrica de Despesas
+  TICKET_REFEICAO  Text(15)  Conta ticket refeição
+  TPMES            Integer   Tipo de Mês

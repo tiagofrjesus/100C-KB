@@ -1,0 +1,19 @@
+GRCONTMV — Grelha Contab. Mov.  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  TPDOC [primary, unique]: EXERCICIO+TPDOC+TERCCT+COMPRART+REGIME_IVA+TIPO_IVA
+
+Columns (13):
+  COMPRART          Text(5)   Grupo Artigo
+  CONTA_INVENTARIO  Text(15)  Conta Inventário
+  CTANIPDV          Text(15)  Cnt Anl Imp Dv
+  CTANIPST          Text(15)  Conta Anal Imp Stk
+  CTDESCCB          Text(15)  Conta Desc. Cab.
+  CTDESCLI          Text(15)  Conta Desc. Lin.
+  CTFINANC          Text(15)  Conta Financeira
+  CTIMPST           Text(15)  Conta Imp. Stocks
+  EXERCICIO         Integer   Exercício
+  REGIME_IVA        Text(3)   Tipo de IVA
+  TERCCT            Text(5)   Grupo Terceiro
+  TIPO_IVA          Integer   Regime de IVA
+  TPDOC             Text(3)   Tipo Documento

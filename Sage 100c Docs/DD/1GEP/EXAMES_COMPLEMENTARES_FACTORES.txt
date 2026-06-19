@@ -1,0 +1,10 @@
+EXAMES_COMPLEMENTARES_FACTORES — Exames complementares - Factores de risco  [1GEP · Sage Salarios]
+
+Keys / Indices:
+  NFUNC [primary, unique]: NFUNC+DATA+EXAME+FACTOR_RISCO
+
+Columns (4):
+  DATA          Date      Data
+  EXAME         Text(2)   Código do exame
+  FACTOR_RISCO  Text(2)   Factor de risco
+  NFUNC         Text(10)  Nº do funcionário

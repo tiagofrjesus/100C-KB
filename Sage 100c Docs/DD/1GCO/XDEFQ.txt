@@ -1,0 +1,10 @@
+XDEFQ — SQL  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINCIPA [primary, unique]: REF
+
+Columns (4):
+  DESCR  Text(100)  Descrição SQL
+  REF    Text(50)   Código SQL
+  SQL1   Memo       SQL
+  SQL2   Memo       

@@ -1,0 +1,12 @@
+RESREFLEX — Restrição Reflexões  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CONTA [primary, unique]: EXERCICIO+CONTA
+
+Columns (6):
+  CONTA      Text(15)  Conta
+  CONTACC    Text(15)  Crédito Crédito
+  CONTACD    Text(15)  Crédito Débito
+  CONTADC    Text(15)  Débito Crédito
+  CONTADD    Text(15)  Débito Débito
+  EXERCICIO  Integer   Exercício

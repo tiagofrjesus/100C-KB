@@ -1,0 +1,7 @@
+CNTBAN — Contas Bancos  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  PRINCIPA [primary, unique]: CONTAPOC
+
+Columns (1):
+  CONTAPOC  Text(15)  Conta do POC

@@ -1,0 +1,4 @@
+EncargosCompras
+Classe partilhada com a camada de dados Sage.1GCO.Data, usada pelo documento comercial para conter os dados associados aos encargos (compras)
+
+Membros (0):

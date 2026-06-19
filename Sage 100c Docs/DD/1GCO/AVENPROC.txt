@@ -1,0 +1,17 @@
+AVENPROC — Avenças Processa  [1GCO · Sage Gestao Empresarial / Comercial]
+
+Keys / Indices:
+  CHAVE [primary, unique]: CLIENTE+TIPOCNTR+NUMCNTR+ANOCNTR+DATAPROC
+
+Columns (11):
+  ANOCNTR   Integer   Ano ( Numeração )
+  ANOFINAL  Integer   Ano Doc Final
+  CLIENTE   Text(15)  Cliente
+  DATAPROC  Date      Data Processamento
+  DOCFINAL  Text(3)   Documento Final
+  FIMPROC   Date      Fim Processamento
+  NUMCNTR   Long      Numero Avença
+  NUMFINAL  Long      Num Doc Final
+  PROCESSA  Integer   Situação Processamen
+  SERFINAL  Integer   Serie Doc Fim
+  TIPOCNTR  Text(5)   Tipo Avença
