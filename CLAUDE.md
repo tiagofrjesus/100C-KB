@@ -38,13 +38,24 @@ A documentação oficial foi processada em índices compactos em `Docs\` e fiche
 | `Sage 100c Docs/API/<Classe>.txt` | Membros da classe: assinatura, input/output, propósito | Implementar chamadas à API |
 | `Docs/SDK_ObjectModel.md` | Modelo de objetos do SDK (Aplicacao, Contexto, Iterador, Campo, Empresa, Utilizador) | Automação COM |
 | `Docs/Mapas_Crystal.md` | Como modelar e emitir mapas Crystal | Relatórios |
+| `Docs/Funcional_Gestao.md` | Referência funcional da Gestão/Comercial (1GCO): ciclos, entidades, documentos, fluxos | Perceber o domínio antes de tocar em 1GCO comercial |
+| `Docs/Funcional_Contabilidade.md` | Referência funcional da Contabilidade (1GCO): contas, IVA, diários, exploração, modelos fiscais | Perceber contabilidade/movimentos |
+| `Docs/Funcional_Ativos.md` | Referência funcional dos Ativos (1GAT): ficha, depreciações, reavaliações, mapas fiscais | Perceber o domínio 1GAT |
+| `Docs/Funcional_RH.md` | Referência funcional de RH/Salários (1GEP): processamento, declarações, obrigações legais | Perceber o domínio 1GEP |
+| `Docs/Funcional_Sistema.md` | Sistema/administração: empresas, utilizadores, parâmetros, customização, executáveis | Configuração/automação de plataforma |
+| `Docs/Integracao_EDI_Generix.md` | Layout de largura fixa dos ficheiros EDI (GENERIX) — importação/exportação | Integrações por ficheiro EDI |
+| `Docs/Integracao_UBL_CIUS-PT.md` | Faturação eletrónica UBL 2.1 (CIUS-PT): estrutura XML, regras, mapeamentos | Faturação eletrónica estruturada |
+| `Docs/Boletins_Tecnicos.md` | Histórico de versões (novidades/correções) 2018/2023/2026 | Saber se/desde quando existe uma funcionalidade |
+| `Sage 100c Docs/Manuais/*.txt` | Texto completo dos manuais oficiais (grepável) | Detalhe que o índice funcional não cobre |
 
 ### Lookup rules
 
+- **Não percebes o domínio/fluxo** → lê primeiro a `Docs/Funcional_<MOD>.md` do módulo; dá vocabulário e aponta tabelas. Depois confirma sempre no `DD_Catalog`/`.txt`.
 - **Tabela** → grep `Docs/DD_Catalog_<MOD>.md`; depois lê `Sage 100c Docs/DD/<MOD>/<TABELA>.txt` **antes** de escrever a query.
 - **Campo de estado/tipo** → vê valores válidos em `Docs/Validacoes_<MOD>.md` (não assumas inteiros).
 - **API** → grep `Docs/API_Index.md` pela classe, lê `Sage 100c Docs/API/<Classe>.txt`.
 - **SDK** → `Docs/SDK_ObjectModel.md`.
+- **Integração EDI / faturação eletrónica** → `Docs/Integracao_EDI_Generix.md` / `Docs/Integracao_UBL_CIUS-PT.md`.
 
 ---
 

@@ -1,0 +1,210 @@
+Sage 100cloud Estrutura dos Ficheiros
+EDI
+v.2020.001
+
+Estrutura de Dados
+Índice
+Índice ................................................................................................................................................ 2 Estrutura de Ficheiros EDI (GENERIX) .......................................................................................... 3
+Ficheiro de importação (de encomendas)..................................................................................................3 Ficheiro de exportação (de documentos de venda) ...................................................................................4 Exemplo Pack Size.....................................................................................................................................7 Outras informações ....................................................................................................................................7
+Página 2 de 8 v.2020.001
+
+Estrutura de Dados
+
+Estrutura de Ficheiros EDI (GENERIX)
+
+Ficheiro de importação (de encomendas)
+Nome do ficheiro - Encomenda.TXT
+
+Cabeçalho (1 Linha Única)
+
+Campo
+
+Formato
+
+Tipo de registo Número Encomenda Documento O/D Tipo Encomenda Data Encomenda Hora Encomenda Data Entrega Hora Entrega Código Fornecedor Código Comprador Moeda do Documento Código Local Entrega Observações 1 Observações 2 Observações 3 Departamento Sucursal
+
+(yyyymmdd) (hhmm) (yyyymmdd) (hhmm)
+
+I CF
+
+Observações
+
+1 1 1 “C” (Cabeçalho) 2 15 16 Vosso Número de Encomenda 17 3 19 9=Original, 7=Duplicado 20 3 22 220=Normal 23 8 30 31 4 34 35 8 42 43 4 46 47 20 66 Código EAN Interno do Fornecedor 67 15 81 Código EAN Interno do Cliente 82 5 86 Sempre EUR=Euros 87 20 106 Código EAN Local Entrega 107 70 176 177 70 246 247 70 316 317 15 331 332 15 346
+
+Detalhe (N Linhas Repetitivas)
+Campo
+Tipo de registo Numero Linha Artigo Identificador artigo Identificador artigo Fornecedor Identificador artigo Comprador Descrição do artigo Quantidade Encomendada Quantidade Gratuita Data Entrega Hora Entrega Preço Líquido Unitário Preço Ilíquido Unitário Preço/Unidade Medida Unidade Medida Quantidade Embalagens Quantidade Grátis Tipo Embalagens Taxa IVA Montante IVA Montante IEC Níveis Lastro
+
+Formato
+
+I
+
+CF
+
+Observações
+
+1 1 1 “D” (detalhe) 267 8 20 27 28 20 47 48 20 67 68 35 102 103 10 112 113 10 122 123 8 130 131 4 134 135 15 149 150 15 164 165 15 179 Produtos Peso Variável 180 3 182 Exemplo: KGM=Quilograma 183 10 192 193 10 202 203 10 212 Exemplo: BX=Caixa 213 5 217 218 15 232 233 15 247 Produtos alcoólicos 248 10 257 258 10 267
+
+Página 3 de 8 v.2020.001
+
+Estrutura de Dados
+
+Ficheiro de exportação (de documentos de venda)
+Nome do ficheiro - Factura.TXT
+Cabeçalho (1 Linha Única)
+
+Campo
+
+Formato
+
+Tipo de registo Numero documento Data Documento Tipo Documento Tipo Documento Referido Número Doc. Referido Código EAN Fornecedor Código EAN Local de Entrega Código EAN Facturado Código EAN Recebedor Código EAN Comprador Montante Documento Montante Linhas Artigo Montante Tributável Montante Imposto Montante Custo Embalagem Moeda do Documento N.º Dias Vencimento Data Vencimento N.º Dias Desconto Financeiro1 Data Vencimento Desconto1 Percentagem Desconto 1 Valor Desconto1 N.º Dias Desconto Financeiro2 Data Vencimento Desconto 2 Percentagem Desconto 2 Valor Desconto2 Tipo Documento Referido Número Doc. Referido Data de Entrega da Mercadoria Nome do Cliente Texto Livre 2 + Texto Livre 3 Observações Fiscais Departamento Sucursal Número Cabimento Número Contrato Número Compromisso NIF Fornecedor/Empresa Designação Fornecedor/Empresa Morada Fornecedor/Empresa Localidade Fornecedor/Empresa Código Postal Fornecedor/Empresa Capital Social Fornecedor/Empresa em
+
+I
+
+CF
+
+Observações
+
+1 1 1 “C” (Cabeçalho) 2 15 16 p) 17 8 24 25 3 27 a) 28 3 30 b) - Para a Encomenda 31 15 45 c) - Para a Encomenda 46 20 65 h) 66 20 85 l) 86 20 105 m) 106 20 125 n) 126 20 145 o) 146 15 160 d) 161 15 175 e) 176 15 190 f) 191 15 205 g) 206 15 220 221 3 223 Sempre EUR=Euros 224 3 226 227 8 234 235 3 237 238 8 245 246 5 250 251 15 265 266 3 268 269 8 276 277 5 281 282 15 296 297 3 299 j) - Para a Guia de Remessa 300 15 314 k) - Para a Guia de Remessa 315 8 322 i) 323 35 357 358 250 607 Soma de 70 + 79 antigos 608 70 677 678 15 692 693 15 707 708 20 727 q) 728 20 747 748 20 767 768 20 787 788 80 867 868 60 927 928 50 977 978 8 985 986 20 1005
+
+Página 4 de 8 v.2020.001
+
+Estrutura de Dados
+
+Euros Registo Conservatória Fornecedor/Empresa NIF comprador Designação/Nome comprador Morada comprador Localidade comprador Código Postal comprador Hash e-Mail Cliente Nº Certificado Software ATCUD
+
+1006 20 1025
+
+1026 1046 1126 1186 1236 1244 1249 1349 1399
+
+20 1045 80 1125 60 1185 50 1235
+8 1243 5 1248 100 1348 Exclusivo formato MINSAIT 50 1398 100 1498 q)
+
+Notas: a) 380=Factura, 381=Nota de Crédito, 351=Guia de Remessa. Deve poder exportar Facturas, Notas de Crédito e Guias de Remessa b) ON=Nota de Encomenda, IV=Factura, DQ=Guia de Remessa, DL=Nota Débito. Neste caso será sempre o tipo de documento de Origem do EDI, ou seja “ON” c) Número da documento Referido de Origem, ó numero da Encomenda do EDI que vem no Vosso Numero de Documento. d) Montante do documento=Montante total da factura com imposto; e) Montante das linhas de artigo f) Montante de incidência do IVA g) Montante de imposto= Montante total do IVA+ Montante total do IEC; h) Código Interno da Empresa, está definido como parâmetro na Responsável de Sistema i) Data de Movimento da primeira linha do Documento contendo um Artigo ( DocGcLin.Data ) j) Sempre = DQ. Se o documento de Origem for uma guia de remessa k) Num do Doc de Origem da primeira linha do Documento contendo um Artigo, (DocGcLin.OrNum). Se o documento de Origem for uma guia de remessa. l) Colocar código do Local de Entrega que vem no Cabeçalho da Encomenda do EDI ou caso este esteja vazio colocar o Código GLN da Morada de “Onde Enviar Mercadoria” m) Código GLN da Morada de “Onde Cobrar” n) Código GLN da Morada de “Onde Enviar Documento” o) Colocar código do Comprador que vem no Cabeçalho da Encomenda do EDI p) Só número de documento ou série + numero de documento SS-NNNNNNNNNNNNN q) Campos dependentes de licenciamento com Módulo "EP"
+
+Detalhe (N Linhas Repetitivas)
+
+Campo
+Tipo de registo Numero Linha Artigo Código EAN do Artigo Identificador artigo Fornecedor Identificador artigo Comprador Descrição do artigo Quantidade Quantidade Grátis Preço Líquido Unitário Preço Ilíquido Unitário Preço/Unidade Medida Unidade Medida Montante Linha
+
+Formato
+
+I
+
+CF
+
+Observações
+
+1 1 1 “D” (Detalhe) 26 7 8 20 27 e) x) 28 20 47 h) y) 48 20 67 i) z) 68 35 102 103 10 112 113 10 122 123 15 137 138 15 152 153 15 167 Produtos Peso Variável 168 3 170 KGM=Quilograma 171 15 185 a)
+
+Página 5 de 8 v.2020.001
+
+Estrutura de Dados
+
+Número Remessa Quantidade Embalagens Tipo Embalagens Taxa IVA Montante IVA Tipo Imposto Montante IEC Número do Lote Data de Validade do Lote Pack Size Motivo isenção imposto Código do motivo de isenção de imposto
+
+186 15 200 f) 201 10 210 211 10 220 221 5 225 226 15 240 241 3 243 d) 244 15 258 Produtos alcoólicos 259 10 268 b) 269 8 276 c) 277 10 286 g) 287 60 346 k1) 347 3 349 k2)
+
+Notas: a) Montante de Linhas de artigo = Quantidade facturada* Preço liquido unitário; b) Número do Lote da primeira linha de lote do Lotmovs, respeitante a esta Linha c) Data de Validade do Numero de Lote da primeira linha de lote do Lotmovs, respeitante a esta Linha d) Pode ser IEC ou VAT, no nosso caso colocar sempre VAT f) Numero da Guia de Remessa que de Origem, se o doc de Origem for Guia de remessa g) O pack size de momento será para gravar sempre com Valor a 1. Será quando surgir a necessidade, a conversão da unidade que vai na encomenda para a unidade que vai na guia de remessa/factura. Exemplo: Encomenda 150 KGM a 1 Euro, Guia de Remessa 6 BX a 25 Euro, a Unidade de KGM = 1, a Unidade de BX = 25, logo o Pack Size = 25
+Modo 1 e) 1) Passo: Colocar o EAN que veio na Encomenda. 2) Passo: Colocar o EAN do AJUDAVND. 3) Passo: Colocar o EAN da Tabela CBARRAS. Deve ser guarado no DocGcLin o EAN que foi importado via EDI no campo Rubrica h) Igual ao Anterior i) Código do Artigo do Comprador. Referência do Comprador
+Modo 2 x) Sempre o EAN 14 do artigo, que veio na Encomenda, do AJUDAVND ou do CBARRAS y) Sempre o EAN 13 do artigo, que veio na Encomenda, do AJUDAVND ou do CBARRAS z) Código do Artigo do Comprador. Referência do Comprador k) Conforme Portaria n.º 302/2016, de 2 de dezembro k1) 4.1.4.19.16. TaxExemptionReason k2) 4.1.4.19.17. TaxExemptionCode
+
+Taxas (N Linhas Repetitivas. (Mínimo de 1 linha))
+
+Campo
+
+Formato I
+
+CF
+
+Observações
+
+Tipo de registo Tipo Imposto Taxa IVA Total Taxa IVA Total Base Iva
+
+1 1 1 "R" 2 3 4 VAT=IVA, ACT=IEC 559 10 15 24 25 15 39 a)
+
+Notas: a) Total da Mercadoria respeitante á taxa de Iva ( DocGcCab.BaseX )
+
+Legenda: I – Início do campo C – Comprimento do campo F - Fim
+
+Página 6 de 8 v.2020.001
+
+Estrutura de Dados
+
+Exemplo Pack Size
+• Exemplo 1
+
+Encomenda
+
+Quantidade Unidade Base Unidade Embalagem
+
+150 KGM
+
+BX
+
+Factor Embalagem
+
+Unidade Venda
+
+25 KGM
+
+Preço Unidade 1
+
+Factura
+Quantidade Unidade Base 6 KGM
+Pack Size = 150 / 6 = 25
+
+Unidade Embalagem BX
+
+Factor Embalagem
+
+Unidade Venda
+
+25 BX
+
+Preço Unidade 1
+
+• Exemplo 2
+
+Encomenda Quantidade Unidade Base
+150 KGM
+
+Unidade Embalagem BX
+
+Factor Embalagem
+
+Unidade Venda
+
+25 KGM
+
+Preço Unidade 1
+
+Factura
+Quantidade Unidade Base 2 BX
+Pack Size = 150 / 2 = 75
+
+Unidade Embalagem BX
+
+Factor Embalagem
+
+Unidade Venda 1 BX
+
+Preço Unidade 75
+
+Nos casos em que a Unidade da Factura é diferente da Unidade da Encomenda, devem ser divididas as a quantidades da Encomenda pelas quantidades da Venda, assim temos o pack size
+Outras informações
+O que vem nas Encomendas em Texto?
+Encomenda Cabeçalho
+• Código Fornecedor - Código de quem fornece ( de quem tem o Next ) Este código é sempre em Formato Ean Este código é guardado nas Encomendas geradas no Next e é transportado também para as facturas resultantes. Deve ser rigorosamente este o código a mencionar nas Facturas exportadas em "Código Fornecedor". Se este código não vier preenchido, é colocado em seu lugar o Código Edi do Next.win
+• Código Cliente - Código de quem compra Pode ser o código interno do Next ou Ean. Se o for o código interno do Next grava este código no cabeçalho das encomendas geradas Se for o Ean, é efectuada uma pesquisa no ficheiro de clientes pelo campo Código EDI, encontrado o cliente com este Código Edi, é gravado o código de cliente interno do Next no cabeçalho das encomendas geradas
+Encomenda Linhas
+• Identificador Artigo - Código de Artigo Pode ser o código interno do Next ou Ean. Se o for o código interno do Next grava este código nas linhas das encomendas geradas Se for o Ean, é efectuada uma pesquisa no ficheiro de Códigos de Barras, encontrado o artigo com este Código Ean, é gravado o código do artigo interno do Next nas linhas das encomendas geradas
+O que vai nas Facturas em Texto?
+Página 7 de 8 v.2020.001
+
+Estrutura de Dados
+Facturas Cabeçalho • Identificação Fornecedor - Código de quem fornece ( de quem tem o Next ) Este código é sempre em Formato Ean Este código é rigorosamente o que vem nas Encomendas importadas em "Código Fornecedor". • Código Cliente - Código de quem compra Este código é sempre em Formato Ean Este código é o Código Edi do cliente mencionado no cabeçalho das facturas. Se este código não vier preenchido, é colocado em seu lugar o Código Edi do Next.win
+Facturas Linhas • Identificador Artigo - Código de Artigo Este código é sempre em formato EAN Este código é o código de barras referente aos artigos mencionado nas linhas da factura.
+Página 8 de 8 v.2020.001
+
+

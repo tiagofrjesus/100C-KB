@@ -1,0 +1,1464 @@
+Sage 100c
+Formato UBL2.1
+(segundo o modelo de dados semânticos, CIUS-PT)
+Sage Junho 2021
+
+Pág. 2 / 19
+
+Formato UBL2.1 (segundo o modelo de dados semânticos, CIUS-PT)........................................... 4 Fatura.......................................................................................................................................... 4 Nota de Crédito ......................................................................................................................... 12 Notas adicionais ........................................................................................................................ 19
+Pág. 3 / 19
+
+Formato UBL2.1 (segundo o modelo de dados semânticos, CIUS-PT)
+A Sage 100c passa a disponibilizar a emissão do documento para o formato XML UBL 2.1, segundo o modelo de dados semânticos, CIUS-PT, conforme definido pelo eSPap.
+Fatura
+
+Id Norma16931
+
+INVOICE UBL-2.1 Syntax
+
+Descrição dos campos
+
+100C - GESTÃO
+
+<?xml version="1.0" encoding="UTF-8"?> <Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"> <cbc:CustomizationID></cbc:CustomizationID> BT-24 Nome da customização CIUS-PT.
+Permite ao recetor aplicar a validação do documento de acordo com as regras da sua customização.
+
+<cbc:ID></cbc:ID>
+
+BT-1 Número de referência do documento, emitido pelo fornecedor.
+
+Valor fixo: urn:cen.eu:en16931:2017#compliant#urn:feap.gov.pt: CIUS-PT:2.0.0.
+Identificador documento:<Ano> <Código Tipo documento> <Série>/<Número documento>
+
+<cbc:IssueDate>1111-11-11</cbc:IssueDate>
+
+BT-2 Data de emissão do documento.
+
+Data emissão documento
+
+<cbc:DueDate>1111-11-11</cbc:DueDate>
+
+BT-9 Data de vencimento do documento. Data de vencimento do documento
+
+<cbc:InvoiceTypeCode></cbc:InvoiceTypeCode> BT-3
+
+Código que identifica o tipo funcional do documento.
+
+Fatura: 380 Nota de débito: 383 Fatura simplificada: FS Fatura-recibo: FR
+
+<cbc:Note></cbc:Note>
+
+BT-21 BT-22
+
+Assunto da nota.
+Nota textual, que permite ao fornecedor enviar informação não estruturada relativa ao documento.
+
+<cbc:DocumentCurrencyCode></cbc:DocumentC BT-5 urrencyCode>
+
+<cbc:AccountingCost></cbc:AccountingCost>
+
+BT-19
+
+<cbc:BuyerReference></cbc:BuyerReference>
+
+BT-10
+
+Moeda na qual os montantes constantes no documento estão indicados. Número do compromisso.
+Referência do Cliente
+
+Exportadas as seguintes notas: Número certificado AT: #NUMBER@ATCERTIFIEDPROGRAM#2649/AT#
+Chave do documento (Hash) do SAF-T (PT): #HASHCODE@ATCERTIFIEDPROGRAM#<hashco de># Código ISO 4217 da moeda do documento
+Número do compromisso do documento, no separador Fatura eletrónica Código EDI definido no cliente (codigo EAN)
+
+<cac:OrderReference> <cbc:ID></cbc:ID> </cac:OrderReference>
+
+BT-13 Número da nota de encomenda.
+
+Vosso Número indicado no documento
+
+<cac:ContractDocumentReference> <cbc:ID></cbc:ID> </cac:ContractDocumentReference>
+
+BT-12 Número do contrato.
+
+Número do contrato do documento, no separador Fatura eletrónica
+
+<cac:AdditionalDocumentReference> <cbc:ID></cbc:ID>
+</cac:AdditionalDocumentReference> <cac:AdditionalDocumentReference>
+
+BT-18 BT-122
+
+Identificador do processo de registo de entrada do documento.
+Identificador do anexo referenciado.
+
+<Código tipo documento> <Série><Número>
+
+<cbc:ID></cbc:ID>
+
+BT-18
+
+Identificador do processo de registo de entrada do documento - Número Único do Documento (ATCUD)
+
+Código único do documento (ATCUD),
+Enquanto não sair legislação sobre o tema, deverá ser colocado"0"
+
+<cbc:DocumentDescription></cbc:DocumentDesc ription> <cac:Attachment>
+
+Descrição do documento anexado
+
+Valor fixo: QR_CODE
+
+Pág. 4 / 19
+
+Id Norma16931
+
+INVOICE UBL-2.1 Syntax
+
+Descrição dos campos
+
+100C - GESTÃO
+
+<cbc:EmbeddedDocumentBinaryObject mimeCode="" filename=""></cbc:EmbeddedDocumentBinaryObj ect> </cac:Attachment>
+
+O documento anexado em formato binário.
+
+QRCODE em Base64
+
+</cac:AdditionalDocumentReference>
+
+<cac:AdditionalDocumentReference>
+
+<cbc:ID></cbc:ID>
+
+BT-18 BT-122
+
+Identificador do processo de registo de entrada do documento.
+Identificador do anexo referenciado.
+
+<cbc:DocumentDescription></cbc:DocumentDesc ription> <cac:Attachment>
+
+BT-123
+
+Descrição do documento anexado.
+
+<cbc:EmbeddedDocumentBinaryObject mimeCode="" filename=""></cbc:EmbeddedDocumentBinaryObj ect> <cac:ExternalReference>
+
+BT-125
+
+O documento anexado em formato binário.
+
+<cbc:URI></cbc:URI> </cac:ExternalReference>
+
+BT-124 Endereço para um documento, localizado externamente.
+
+</cac:Attachment>
+
+</cac:AdditionalDocumentReference>
+
+<Código tipo documento> <Série><Número> Valor fixo: INVOICE_REPRESENTATION Documento PDF
+Valor fixo: www.espap.gov.pt
+
+<cac:AccountingSupplierParty>
+
+<cac:Party> <cbc:EndpointID schemeID=""></cbc:EndpointID> BT-34
+
+<cac:PartyIdentification> <cbc:ID schemeID=""></cbc:ID>
+
+BT-29
+
+BT-90
+
+</cac:PartyIdentification>
+
+Endereço eletrónico do fornecedor.
+Identificação do vendedor (ID Bancário) Identificador do credor designado pelo banco.
+
+Endereço email da empresa, definido na Ficha de empresa
+Código EAN empresa, indicado nos Parâmetros de aplicação\Identificação
+
+<cac:PartyName> <cbc:Name></cbc:Name>
+</cac:PartyName>
+
+BT-28 Nome comercial do fornecedor.
+
+Designação da empresa, definido na Ficha de empresa\Identificação
+
+<cac:PostalAddress> <cbc:StreetName></cbc:StreetName>
+
+BT-35 Linha 1 da morada do fornecedor.
+
+<cbc:CityName></cbc:CityName>
+
+BT-37 Cidade da morada do fornecedor.
+
+<cbc:PostalZone></cbc:PostalZone> <cbc:CountrySubentity></cbc:CountrySubentity> <cac:Country>
+
+BT-38 BT-39
+
+Código postal da morada do fornecedor.
+Região/Província da morada do fornecedor.
+
+<cbc:IdentificationCode></cbc:IdentificationCode> BT-40
+
+</cac:Country> <cbc:CompanyID></cbc:CompanyID>
+
+BT-31
+
+Código identificador do país da morada do fornecedor.
+Número de identificação fiscal do fornecedor.
+
+Morada da empresa, definido na Ficha de empresa\Identificação Localidade da empresa, definido na Ficha de empresa\Identificação Código Postal da empresa, definido na Ficha de empresa\Identificação Localidade da empresa, definido na Ficha de empresa\Identificação Código País da empresa, definido na Ficha de empresa\Identificação
+Prefixo código País e NIF da empresa, definido na Ficha de empresa\Identificação
+
+Pág. 5 / 19
+
+Id Norma16931
+
+INVOICE UBL-2.1 Syntax
+
+Descrição dos campos
+
+100C - GESTÃO
+
+BT-32
+
+<cac:TaxScheme> <cbc:ID></cbc:ID> </cac:TaxScheme> </cac:PartyTaxScheme> <cac:PartyLegalEntity> <cbc:RegistrationName></cbc:RegistrationName> BT-27
+
+<cbc:CompanyLegalForm></cbc:CompanyLegalF BT-33 orm> </cac:PartyLegalEntity>
+</cac:Party>
+
+</cac:AccountingSupplierParty>
+
+<cac:AccountingCustomerParty>
+
+<cac:Party> <cbc:EndpointID schemeID=""></cbc:EndpointID> BT-49
+
+<cac:PartyIdentification> <cbc:ID></cbc:ID> </cac:PartyIdentification>
+
+BT-46
+
+<cac:PartyName> <cbc:Name></cbc:Name>
+
+BT-45
+
+</cac:PartyName>
+
+<cac:PostalAddress> <cbc:StreetName></cbc:StreetName>
+
+BT-50
+
+<cbc:AdditionalStreetName></cbc:AdditionalStree BT-51
+
+tName>
+
+<cbc:CityName></cbc:CityName>
+
+BT-52
+
+<cbc:PostalZone></cbc:PostalZone>
+
+BT-53
+
+<cbc:CountrySubentity></cbc:CountrySubentity> BT-54
+
+<cac:Country> <cbc:IdentificationCode></cbc:IdentificationCode> BT-55
+
+</cac:Country> </cac:PostalAddress>
+
+<cac:PartyTaxScheme> <cbc:CompanyID></cbc:CompanyID>
+
+BT-48
+
+<cac:TaxScheme>
+
+<cbc:ID></cbc:ID> </cac:TaxScheme>
+
+Identificação do local do fornecedor (definida pelo endereço do fornecedor para fins fiscais ou uma referência que permita ao fornecedor declarar seu status fiscal registado.
+Valor fixo: VAT
+
+O nome formal completo pelo qual o fornecedor está registrado no registo nacional de pessoas jurídicas ou como sujeito passivo ou, de outra forma, negocia como pessoa ou pessoas. Informação sobre o capital social.
+
+Designação da empresa, definido na Ficha de empresa\Identificação
+Capital social, definido na Ficha de empresa\Dados fiscais
+
+Endereço eletrónico do cliente. Identificador do cliente.
+
+E -mail do cliente indicado na ficha do cliente\Informação
+Código EDI definido no cliente (codigo EAN)
+
+Nome comercial do cliente.
+
+Nome do cliente indicado na ficha do cliente\Informação
+
+Linha 1 da morada do cliente. Linha 2 da morada do cliente. Cidade da morada do cliente. Código postal da morada do cliente. Região/Província da morada do cliente.
+
+Morada do cliente indicada na ficha do cliente\Informação Morada 2 do cliente indicada na ficha do cliente\Informação Localidade do cliente indicada na ficha do cliente\Informação Código Postal do cliente indicada na ficha do cliente\Informação Localidade indicada na ficha do cliente\Informação
+
+Código identificador do país da morada do cliente.
+
+Código País indicado na ficha do cliente\Informação
+
+Número de identificação fiscal do cliente.
+
+Prefixo código País e NIF do cliente, definido na Ficha do cliente
+Valor fixo: VAT
+
+Pág. 6 / 19
+
+Id Norma16931
+
+INVOICE UBL-2.1 Syntax
+
+Descrição dos campos
+
+100C - GESTÃO
+
+</cac:PartyTaxScheme>
+
+<cac:PartyLegalEntity> <cbc:RegistrationName></cbc:RegistrationName> BT-44 </cac:PartyLegalEntity>
+
+Nome do cliente.
+
+Nome do cliente indicado na ficha do cliente\Informação
+
+</cac:Party>
+
+</cac:AccountingCustomerParty>
+
+<cac:Delivery>
+<cbc:ActualDeliveryDate>1111-1111</cbc:ActualDeliveryDate> <cac:DeliveryLocation>
+<cbc:ID></cbc:ID>
+
+BT-72 BT-71
+
+<cac:Address> <cbc:StreetName></cbc:StreetName>
+
+BT-75
+
+<cbc:CityName></cbc:CityName>
+
+BT-77
+
+<cbc:PostalZone></cbc:PostalZone>
+
+BT-78
+
+<cbc:CountrySubentity></cbc:CountrySubentity> BT-79
+
+<cac:Country> <cbc:IdentificationCode></cbc:IdentificationCode> BT-80
+
+</cac:Country>
+
+Data da entrega.
+
+Data de movimento das linhas
+
+Identificador do local em que os bens Código GLN definido no campo Onde entregar a
+
+e serviços são entregues.
+
+mercadoria do documento, no separador Informação
+
+do documento
+
+Linha 1 da morada do local de entrega.
+
+Morada de descarga, no separador Informação do documento
+
+Cidade da morada do local de entrega.
+
+Localidade de descarga, no separador Informação do documento
+
+Código postal da morada do local de Código postal descarga, no separador Informação do
+
+entrega.
+
+documento
+
+Região/Província da morada do local Localidade de descarga, no separador Informação do
+
+de entrega.
+
+documento
+
+Código identificador do país da morada do local de entrega.
+
+País descarga, no separador Informação do documento
+
+</cac:Address> </cac:DeliveryLocation>
+
+</cac:Delivery>
+
+<cac:PaymentMeans>
+<cbc:PaymentMeansCode name=""></cbc:PaymentMeansCode>
+
+BT-81 BT-82
+
+Código identificador do método de pagamento.
+
+Para meio de pagamento SAF-T Transferência bancária ou débito direto autorizado: TB
+
+<cac:PayeeFinancialAccount> <cbc:ID></cbc:ID> <cbc:Name></cbc:Name> <cac:FinancialInstitutionBranch> <cbc:ID></cbc:ID> </cac:FinancialInstitutionBranch>
+
+BT-84 BT-85
+
+Identificador do pagamento, código IBAN. Identificação da conta, para a qual o pagamento deve ser efetuado.
+
+IBAN definido na conta em Parâmetros aplicação\Bancos, Conta por omissão da empresa Nº da conta definida em Parâmetros aplicação\Bancos, Conta por omissão da empresa
+
+BT-86
+
+Código da instituição bancária, código SWIFT.
+
+BIC definido em Parâmetros aplicação\Bancos, Conta por omissão da empresa
+
+</cac:PayeeFinancialAccount> </cac:PaymentMeans>
+
+<cac:AllowanceCharge>
+
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator > <cbc:AllowanceChargeReasonCode></cbc:Allowa nceChargeReasonCode>
+
+BT-98 BT-105
+
+Código do motivo do desconto. Código do motivo do encargo.
+
+Valor fixo: false Valor fixo: 95
+
+Pág. 7 / 19
+
+Id Norma16931
+
+INVOICE UBL-2.1 Syntax
+
+Descrição dos campos
+
+100C - GESTÃO
+
+<cbc:AllowanceChargeReason></cbc:AllowanceC BT-97
+hargeReason>
+BT-104
+
+Representação textual do desconto. Representação textual do encargo.
+
+Valor fixo: Desconto cabeçalho
+
+<cbc:MultiplierFactorNumeric>0.0</cbc:MultiplierF BT-94 actorNumeric>
+
+Fator multiplicador sobre o montante Desconto cabeçalho do documento base do desconto.
+
+BT-101 Fator multiplicador sobre o montante base do encargo.
+
+<cbc:Amount currencyID="">0.0</cbc:Amount>
+
+BT-92 BT-99
+
+Montante do desconto, sem impostos. Montante do encargo.
+
+Valor do desconto cabeçalho do documento
+
+<cbc:BaseAmount currencyID="">0.0</cbc:BaseAmount>
+
+BT-93 Montante base do desconto. BT-100 Montante base do encargo.
+
+Valor ilíquido do documento
+
+<cac:TaxCategory>
+
+<cbc:ID></cbc:ID> <cbc:Percent>0.0</cbc:Percent> <cac:TaxScheme>
+
+BT-95 BT-102 BT-96 BT-103
+
+Código de imposto aplicado ao desconto. Código de imposto aplicado ao encargo. Percentagem de imposto aplicada ao desconto. Percentagem de imposto aplicada ao encargo.
+
+Pode assumir: RED - Taxa reduzida; INT - Taxa intermédia; NOR - Taxa normal; ISE - Isenta; OUT Outros
+Taxa de Iva
+
+<cbc:ID></cbc:ID>
+
+Valor fixo: VAT
+
+</cac:TaxScheme>
+
+</cac:TaxCategory> </cac:AllowanceCharge>
+
+<cac:TaxTotal>
+
+<cbc:TaxAmount currencyID="">0.0</cbc:TaxAmount>
+<cac:TaxSubtotal>
+
+BT-110 Total de imposto.
+
+BT-111
+
+Total do IVA expresso na moeda aceite ou exigida no país do Fornecedor.
+
+Valor total do IVA
+
+<cbc:TaxableAmount currencyID="">0.0</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="">0.0</cbc:TaxAmount>
+<cac:TaxCategory>
+
+BT-116 BT-117
+
+Montante base de incidência para a taxa de imposto aplicada no respetivo subtotal. Montante calculado do imposto sobre o montante base de incidência respetivo.
+
+Base de incidência (por taxa) Valor do iva (por taxa)
+
+<cbc:ID></cbc:ID> <cbc:Percent>0.0</cbc:Percent>
+
+BT-118 BT-119
+
+Código de imposto respeitante à taxa aplicada no subtotal.
+Percentagem de imposto do subtotal.
+
+Pode assumir: RED - Taxa reduzida; INT - Taxa intermédia; NOR - Taxa normal; ISE - Isenta; OUT Outros Taxa de Iva
+
+<cbc:TaxExemptionReasonCode></cbc:TaxExem BT-121 ptionReasonCode>
+<cbc:TaxExemptionReason></cbc:TaxExemption BT-120 Reason>
+<cac:TaxScheme>
+
+Código do motivo, que possa levar a que o montante contemplado no subtotal, respetivo, esteja isento de imposto.
+Descrição textual do motivo, que possa levar a que o montante contemplado no subtotal, respetivo, esteja isento de imposto.
+
+Código do motivo de isenção associado na linha do artigo, caso seja isento
+Descrição do motivo de isenção associado na linha do artigo, caso seja isento
+
+<cbc:ID></cbc:ID>
+
+Valor fixo: VAT
+
+</cac:TaxScheme>
+
+</cac:TaxCategory> </cac:TaxSubtotal>
+
+Pág. 8 / 19
+
+Id Norma16931
+
+INVOICE UBL-2.1 Syntax
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal> <cbc:LineExtensionAmount currencyID="">0.0</cbc:LineExtensionAmount>
+
+Descrição dos campos
+BT-106 Soma dos montantes das linhas do documento (s/imposto).
+
+100C - GESTÃO
+(Preço * Quantidade) - Valor desconto linha + Valor desconto cabeçalho
+
+<cbc:TaxExclusiveAmount currencyID="">0.0</cbc:TaxExclusiveAmount>
+
+BT-109
+
+<cbc:TaxInclusiveAmount currencyID="">0.0</cbc:TaxInclusiveAmount>
+
+BT-112
+
+<cbc:AllowanceTotalAmount
+
+BT-107
+
+currencyID="">0.0</cbc:AllowanceTotalAmount>
+
+<cbc:PayableRoundingAmount currencyID="">0.0</cbc:PayableRoundingAmount > <cbc:PayableAmount currencyID="">0.0</cbc:PayableAmount>
+
+BT-114 BT-115
+
+</cac:LegalMonetaryTotal>
+
+Total do documento (s/imposto).
+Total do documento (c/imposto).
+Total de descontos aplicados no documento.
+Montante de arredondamento aplicado ao total do documento c/imposto Valor a pagar. / Montante a pagamento do ATM. / Montante a pagamento do DUC.
+
+<cac:InvoiceLine> <cbc:ID></cbc:ID>
+<cbc:Note></cbc:Note>
+<cbc:InvoicedQuantity unitCode="">0.0</cbc:InvoicedQuantity>
+
+BT-126 BT-127 BT-129
+
+Identificador único da linha do documento, atribuído pelo fornecedor. Texto livre para descrever o item respetivo à linha do documento.
+Quantidade, do bem ou serviço, faturada.
+
+Valor base do documento Valor total do documento Valor do desconto cabeçalho do documento Valor do arredondamento Valor total do documento
+Número da linha do documento Descrição da linha do documento Código ISO 16931 da Unidade da linha do documento Quantidade da linha do documento
+
+Para os Descritores, usa a Unidade Fatura Eletrónica indicada na tabela Descritores\Informação
+
+Para as Taxas adicionais, usa a Unidade indicada na tabela Taxas\Informação.
+
+<cbc:LineExtensionAmount currencyID="">0.0</cbc:LineExtensionAmount>
+<cac:DocumentReference>
+
+BT-131
+
+Montante da linha (s/imposto). O valor deve incluir os respetivos encargos ou descontos aplicados à linha, desprovidos de imposto e outras taxas (que não sejam de IVA).
+
+Preço Unitário * Quantidade - Desconto linha
+
+<cbc:ID></cbc:ID> </cac:DocumentReference>
+
+BT-128
+
+Identificador para um objeto no qual a linha da fatura é baseada, fornecida pelo fornecedor.
+
+Documento original: Ano / Código Tipo Documento / Serie / Número
+
+<cac:AllowanceCharge>
+
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator > <cbc:AllowanceChargeReasonCode></cbc:Allowa nceChargeReasonCode>
+
+BT-140 BT-145
+
+<cbc:AllowanceChargeReason></cbc:AllowanceC BT-139 hargeReason>
+
+Código do motivo do desconto da linha Código do motivo do encargo da linha Representação textual do desconto da linha do documento.
+
+Valor fixo: false Valor fixo: 95
+Valor fixo: Desconto de linha
+
+BT-144 Representação textual do encargo da linha do documento.
+
+<cbc:MultiplierFactorNumeric>0.0</cbc:MultiplierF BT-138 actorNumeric>
+BT-143
+
+Fator multiplicador sobre o montante base do desconto da linha do documento. Fator multiplicador sobre o montante base do encargo da linha do documento.
+
+Desconto linha do documento
+
+Pág. 9 / 19
+
+Id Norma16931
+
+INVOICE UBL-2.1 Syntax
+<cbc:Amount currencyID="">0.0</cbc:Amount>
+<cbc:BaseAmount currencyID="">0.0</cbc:BaseAmount>
+</cac:AllowanceCharge> <cac:Item> <cbc:Description></cbc:Description> <cbc:Name></cbc:Name> <cac:BuyersItemIdentification> <cbc:ID></cbc:ID>
+</cac:BuyersItemIdentification> <cac:SellersItemIdentification> <cbc:ID></cbc:ID>
+</cac:SellersItemIdentification> <cac:StandardItemIdentification> <cbc:ID schemeID=""></cbc:ID>
+</cac:StandardItemIdentification> <cac:ClassifiedTaxCategory> <cbc:ID></cbc:ID>
+<cbc:Percent>0.0</cbc:Percent>
+<cac:TaxScheme> <cbc:ID></cbc:ID> </cac:TaxScheme> </cac:ClassifiedTaxCategory> <cac:AdditionalItemProperty> <cbc:Name></cbc:Name>
+<cbc:Value></cbc:Value> </cac:AdditionalItemProperty> </cac:Item> <cac:Price> <cbc:PriceAmount currencyID="">0.0</cbc:PriceAmount> <cbc:BaseQuantity unitCode="">0.0</cbc:BaseQuantity>
+
+Descrição dos campos
+
+100C - GESTÃO
+
+BT-136 BT-141 BT-137 BT-142
+
+Montante de desconto da linha do documento. Montante de encargo da linha do documento. Montante base do desconto da linha do documento. Montante base do encargo da linha do documento.
+
+Valor do desconto linha do documento Preço * Quantidade
+
+BT-154 BT-153
+
+Descrição do item da linha do documento. Nome do item da linha do documento.
+
+Descrição RTF Descrição da linha do documento
+
+BT-156 Código de material usado no ERP ou Campo Sua Referência, da Ajuda à venda
+
+Sistema de Faturação.
+
+Ou Código de barras ativo
+
+BT-155
+
+Código de material usado pelo fornecedor, partner number, para identificar univocamente o item da linha do documento.
+
+Campo Seu EAN, da Ajuda à venda ou Código de barras ativo
+
+BT-157
+
+Identificador do item da linha do documento de acordo com um esquema padrão, EAN.
+
+Campo Seu EAN, da Ajuda à venda ou Código de barras ativo
+
+BT-151 BT-152
+
+Código de imposto respeitante à taxa aplicada no item da linha do documento.
+Percentagem de imposto respeitante à taxa aplicada no item da linha do documento.
+
+Pode assumir: RED - Taxa reduzida; INT - Taxa intermédia; NOR - Taxa normal; ISE - Isenta; OUT Outros Taxa de Iva
+
+Valor fixo: VAT
+
+BT-160 BT-161
+
+Tipo da propriedade adicional do item da linha do documento.
+Valor da propriedade do item da linha do documento.
+
+Para taxa de Iva isenta #TAXEXEMPTIONREASONCODE@CLASSIFIEDTA XCATEGORY# Descrição do motivo de isenção associado na linha do artigo, caso seja isento
+
+BT-146 BT-149
+
+Montante do item após aplicação do Preço * Quantidade desconto.
+
+Número de quantidades que fazem o montante do preço. Por exemplo, se a quantidade faturada for 1000 litros, o preço pode ser 15€ por 10 litros.
+
+Código ISO 16931 da Unidade da linha do documento Quantidade unitária linha do documento (leva em consideração o fator)
+
+Pág. 10 / 19
+
+Id Norma16931
+
+INVOICE UBL-2.1 Syntax
+
+Descrição dos campos
+
+100C - GESTÃO
+
+Para os descritores, usa a Unidade Fatura Eletrónica indicada na tabela Descritores\Informação.
+
+Para as Taxas adicionais, usa a Unidade indicada na tabela Taxas\Informação.
+
+<cac:AllowanceCharge>
+
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator > <cbc:Amount currencyID="">0.0</cbc:Amount>
+
+BT-147
+
+Montante do desconto sobre o preço do item da linha do documento.
+
+Valor fixo: false 0
+
+<cbc:BaseAmount currencyID="">0.0</cbc:BaseAmount>
+</cac:AllowanceCharge>
+
+BT-148
+
+Montante base, do preço do item da linha do documento,onde incidirá o desconto.
+
+Preço * Quantidade
+
+</cac:Price> </cac:InvoiceLine> </Invoice>
+
+Pág. 11 / 19
+
+Nota de Crédito
+
+Id Norma16931
+
+CREDITNOTE UBL-2.1 Syntax
+
+Descrição dos campos
+
+100C - GESTÃO
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice xmlns="urn:oasis:names:specification:ubl:schema:xsd:Invoice-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"> <cbc:CustomizationID></cbc:CustomizationID> BT-24 Nome da customização CIUS-PT.
+Permite ao recetor aplicar a validação do documento de acordo com as regras da sua customização.
+
+<cbc:ID></cbc:ID>
+
+BT-1 Número de referência do documento, emitido pelo fornecedor.
+
+Valor fixo: urn:cen.eu:en16931:2017#compliant#urn:feap.gov.pt: CIUS-PT:2.0.0.
+Identificador documento:<Ano> <Código Tipo documento> <Série>/<Número documento>
+
+<cbc:IssueDate>1111-11-11</cbc:IssueDate>
+
+BT-2 Data de emissão do documento.
+
+Data emissão documento
+
+<cbc:CreditNoteTypeCode></cbc:CreditNoteType BT-3 Code>
+
+Código que identifica o tipo funcional Valor fixo: 381 do documento.
+
+<cbc:Note></cbc:Note>
+
+BT-21 BT-22
+
+Assunto da nota.
+Nota textual, que permite ao fornecedor enviar informação não estruturada relativa ao documento.
+
+<cbc:DocumentCurrencyCode></cbc:DocumentC BT-5 urrencyCode>
+
+<cbc:AccountingCost></cbc:AccountingCost>
+
+BT-19
+
+Moeda na qual os montantes constantes no documento estão indicados. Número do compromisso.
+
+<cbc:BuyerReference></cbc:BuyerReference> <cac:OrderReference> <cbc:ID></cbc:ID> </cac:OrderReference>
+
+BT-10 Referência do Cliente BT-13 Número da nota de encomenda.
+
+Exportadas as seguintes notas: Número certificado AT: #NUMBER@ATCERTIFIEDPROGRAM#2649/AT#
+Chave do documento (Hash) do SAF-T (PT): #HASHCODE@ATCERTIFIEDPROGRAM#<hashco de># Código ISO 4217 da moeda do documento
+Número do compromisso do documento, no separador Fatura eletrónica Código EDI definido no cliente (código EAN)
+Vosso Número indicado no documento
+
+<cac:BillingReference>
+
+<cac:InvoiceDocumentReference>
+
+<cbc:ID></cbc:ID> </cac:InvoiceDocumentReference>
+
+Referência às faturas devolvidas <Ano>/<Código documento><Série><Número>; Ou caso não se trate de devolução de faturas: Campo Documento retificado, no separador Informação documento
+
+</cac:BillingReference>
+
+<cac:ContractDocumentReference> <cbc:ID></cbc:ID> </cac:ContractDocumentReference>
+
+BT-12 Número do contrato.
+
+Número do contrato do documento, no separador Fatura eletrónica
+
+<cac:AdditionalDocumentReference> <cbc:ID></cbc:ID>
+</cac:AdditionalDocumentReference> <cac:AdditionalDocumentReference> <cbc:ID></cbc:ID>
+
+BT-18 BT-122
+
+Identificador do processo de registo de entrada do documento.
+Identificador do anexo referenciado.
+
+<Código tipo documento> <Série><Número>
+
+BT-18
+
+Identificador do processo de registo de entrada do documento - Número Único do Documento (ATCUD)
+
+Código único do documento (ATCUD),
+Enquanto não sair legislação sobre o tema, deverá ser colocado"0”
+
+<cbc:DocumentDescription></cbc:DocumentDesc ription>
+
+Descrição do documento anexado
+
+Valor fixo: QR_CODE
+
+Pág. 12 / 19
+
+Id Norma16931
+
+CREDITNOTE UBL-2.1 Syntax
+
+Descrição dos campos
+
+100C - GESTÃO
+
+<cac:Attachment>
+
+<cbc:EmbeddedDocumentBinaryObject mimeCode="" filename=""></cbc:EmbeddedDocumentBinaryObj ect> </cac:Attachment>
+
+O documento anexado em formato binário.
+
+</cac:AdditionalDocumentReference>
+
+<cac:AdditionalDocumentReference>
+
+<cbc:ID></cbc:ID>
+
+BT-18
+
+<cbc:DocumentDescription></cbc:DocumentDesc BT-123 ription> <cac:Attachment>
+
+Identificador do processo de registo de entrada do documento.
+Descrição do documento anexado.
+
+<cbc:EmbeddedDocumentBinaryObject mimeCode="" filename=""></cbc:EmbeddedDocumentBinaryObj ect>
+<cac:ExternalReference>
+
+BT-125
+
+O documento anexado em formato binário.
+
+<cbc:URI></cbc:URI> </cac:ExternalReference>
+
+BT-124 Endereço para um documento, localizado externamente.
+
+</cac:Attachment>
+
+</cac:AdditionalDocumentReference>
+
+<cac:AccountingSupplierParty>
+
+<cac:Party> <cbc:EndpointID schemeID=""></cbc:EndpointID> BT-34
+
+Endereço eletrónico do fornecedor.
+
+<cac:PartyIdentification> <cbc:ID schemeID=""></cbc:ID>
+</cac:PartyIdentification>
+
+BT-29 BT-90
+
+Identificação do vendedor (ID Bancário) Identificador do credor designado pelo banco.
+
+<cac:PartyName> <cbc:Name></cbc:Name>
+
+BT-28 Nome comercial do fornecedor.
+
+</cac:PartyName> <cac:PostalAddress> <cbc:StreetName></cbc:StreetName>
+
+BT-35 Linha 1 da morada do fornecedor.
+
+<cbc:CityName></cbc:CityName>
+
+BT-37 Cidade da morada do fornecedor.
+
+<cbc:PostalZone></cbc:PostalZone> <cbc:CountrySubentity></cbc:CountrySubentity> <cac:Country>
+
+BT-38 BT-39
+
+Código postal da morada do fornecedor.
+Região/Província da morada do fornecedor.
+
+<cbc:IdentificationCode></cbc:IdentificationCode> BT-40
+
+</cac:Country> <cbc:CompanyID></cbc:CompanyID>
+
+BT-31
+
+Código identificador do país da morada do fornecedor.
+Número de identificação fiscal do fornecedor.
+
+QRCODE em Base64
+<Código tipo documento> <Série><Número> Valor fixo: CREDITNOTE_REPRESENTATION
+Documento PDF
+Valor fixo: www.espap.gov.pt
+Endereço email da empresa, definido na Ficha de empresa Código EAN empresa, indicado nos Parâmetros de aplicação\Identificação
+Designação da empresa, definido na Ficha de empresa\Identificação
+Morada da empresa, definido na Ficha de empresa\Identificação Localidade da empresa, definido na Ficha de empresa\Identificação Código Postal da empresa, definido na Ficha de empresa\Identificação Localidade da empresa, definido na Ficha de empresa\Identificação Código País da empresa, definido na Ficha de empresa\Identificação
+Prefixo código País e NIF da empresa, definido na Ficha de empresa\Identificação
+
+Pág. 13 / 19
+
+Id Norma16931
+
+CREDITNOTE UBL-2.1 Syntax
+
+Descrição dos campos
+
+100C - GESTÃO
+
+BT-32
+
+<cac:TaxScheme> <cbc:ID></cbc:ID> </cac:TaxScheme> </cac:PartyTaxScheme> <cac:PartyLegalEntity> <cbc:RegistrationName></cbc:RegistrationName> BT-27
+
+<cbc:CompanyLegalForm></cbc:CompanyLegalF BT-33 orm> </cac:PartyLegalEntity>
+</cac:Party>
+
+</cac:AccountingSupplierParty>
+
+<cac:AccountingCustomerParty>
+
+<cac:Party> <cbc:EndpointID schemeID=""></cbc:EndpointID> BT-49
+
+<cac:PartyIdentification> <cbc:ID></cbc:ID> </cac:PartyIdentification>
+
+BT-46
+
+<cac:PartyName> <cbc:Name></cbc:Name>
+
+BT-45
+
+</cac:PartyName>
+
+<cac:PostalAddress> <cbc:StreetName></cbc:StreetName>
+
+BT-50
+
+<cbc:AdditionalStreetName></cbc:AdditionalStree BT-51
+
+tName>
+
+<cbc:CityName></cbc:CityName>
+
+BT-52
+
+<cbc:PostalZone></cbc:PostalZone>
+
+BT-53
+
+<cbc:CountrySubentity></cbc:CountrySubentity> BT-54
+
+<cac:Country> <cbc:IdentificationCode></cbc:IdentificationCode> BT-55
+
+</cac:Country> </cac:PostalAddress>
+
+<cac:PartyTaxScheme> <cbc:CompanyID></cbc:CompanyID>
+
+BT-48
+
+<cac:TaxScheme>
+
+<cbc:ID></cbc:ID> </cac:TaxScheme>
+
+Identificação do local do fornecedor (definida pelo endereço do fornecedor para fins fiscais ou uma referência que permita ao fornecedor declarar seu status fiscal registado.
+Valor fixo: VAT
+
+O nome formal completo pelo qual o fornecedor está registrado no registo nacional de pessoas jurídicas ou como sujeito passivo ou, de outra forma, negocia como pessoa ou pessoas. Informação sobre o capital social.
+
+Designação da empresa, definido na Ficha de empresa\Identificação
+Capital social, definido na Ficha de empresa\Dados fiscais
+
+Endereço eletrónico do cliente. Identificador do cliente.
+
+E -mail do cliente indicado na ficha do cliente\Informação
+Código EDI definido no cliente (código EAN)
+
+Nome comercial do cliente.
+
+Nome do cliente indicado na ficha do cliente\Informação
+
+Linha 1 da morada do cliente. Linha 2 da morada do cliente. Cidade da morada do cliente. Código postal da morada do cliente. Região/Província da morada do cliente.
+
+Morada do cliente indicada na ficha do cliente\Informação Morada 2 do cliente indicada na ficha do cliente\Informação Localidade do cliente indicada na ficha do cliente\Informação Código Postal do cliente indicada na ficha do cliente\Informação Localidade indicada na ficha do cliente\Informação
+
+Código identificador do país da morada do cliente.
+
+Código País indicado na ficha do cliente\Informação
+
+Número de identificação fiscal do cliente.
+
+Prefixo código País e NIF do cliente, definido na Ficha do cliente
+Valor fixo: VAT
+
+Pág. 14 / 19
+
+Id Norma16931
+
+CREDITNOTE UBL-2.1 Syntax
+
+Descrição dos campos
+
+100C - GESTÃO
+
+</cac:PartyTaxScheme>
+
+<cac:PartyLegalEntity> <cbc:RegistrationName></cbc:RegistrationName> BT-44 </cac:PartyLegalEntity>
+
+Nome do cliente.
+
+Nome do cliente indicado na ficha do cliente\Informação
+
+</cac:Party>
+
+</cac:AccountingCustomerParty>
+
+<cac:Delivery>
+<cbc:ActualDeliveryDate>1111-1111</cbc:ActualDeliveryDate> <cac:DeliveryLocation>
+<cbc:ID></cbc:ID>
+
+BT-72 BT-71
+
+<cac:Address> <cbc:StreetName></cbc:StreetName>
+
+BT-75
+
+<cbc:CityName></cbc:CityName>
+
+BT-77
+
+<cbc:PostalZone></cbc:PostalZone>
+
+BT-78
+
+<cbc:CountrySubentity></cbc:CountrySubentity> BT-79
+
+<cac:Country> <cbc:IdentificationCode></cbc:IdentificationCode> BT-80
+
+</cac:Country>
+
+Data da entrega.
+
+Data de movimento das linhas
+
+Identificador do local em que os bens Código GLN definido no campo Onde entregar a
+
+e serviços são entregues.
+
+mercadoria do documento, no separador Informação
+
+do documento
+
+Linha 1 da morada do local de entrega.
+
+Morada de descarga, no separador Informação do documento
+
+Cidade da morada do local de entrega.
+
+Localidade de descarga, no separador Informação do documento
+
+Código postal da morada do local de Código postal descarga, no separador Informação do
+
+entrega.
+
+documento
+
+Região/Província da morada do local Localidade de descarga, no separador Informação do
+
+de entrega.
+
+documento
+
+Código identificador do país da morada do local de entrega.
+
+País descarga, no separador Informação do documento
+
+</cac:Address> </cac:DeliveryLocation>
+
+</cac:Delivery>
+
+<cac:PaymentMeans>
+<cbc:PaymentMeansCode name=""></cbc:PaymentMeansCode>
+
+BT-81 BT-82
+
+Código identificador do método de pagamento.
+
+Para meio de pagamento SAF-T Transferência bancária ou débito direto autorizado: TB
+
+<cac:PayeeFinancialAccount> <cbc:ID></cbc:ID> <cbc:Name></cbc:Name> <cac:FinancialInstitutionBranch> <cbc:ID></cbc:ID> </cac:FinancialInstitutionBranch>
+
+BT-84 BT-85
+
+Identificador do pagamento, código IBAN. Identificação da conta, para a qual o pagamento deve ser efetuado.
+
+IBAN definido na conta em Parâmetros aplicação\Bancos, Conta por omissão da empresa Nº da conta definida em Parâmetros aplicação\Bancos, Conta por omissão da empresa
+
+BT-86
+
+Código da instituição bancária, código SWIFT.
+
+BIC definido em Parâmetros aplicação\Bancos, Conta por omissão da empresa
+
+</cac:PayeeFinancialAccount> </cac:PaymentMeans>
+
+<cac:AllowanceCharge>
+
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator > <cbc:AllowanceChargeReasonCode></cbc:Allowa nceChargeReasonCode>
+
+BT-98 BT-105
+
+Código do motivo do desconto. Código do motivo do encargo.
+
+Caso tenha desconto cabeçalho Valor fixo: false Valor fixo: 95
+
+Pág. 15 / 19
+
+Id Norma16931
+
+CREDITNOTE UBL-2.1 Syntax
+
+Descrição dos campos
+
+100C - GESTÃO
+
+<cbc:AllowanceChargeReason></cbc:AllowanceC BT-97
+hargeReason>
+BT-104
+
+Representação textual do desconto. Representação textual do encargo.
+
+Valor fixo: Desconto cabeçalho
+
+<cbc:MultiplierFactorNumeric>0.0</cbc:MultiplierF BT-94 actorNumeric>
+
+Fator multiplicador sobre o montante Desconto cabeçalho do documento base do desconto.
+
+BT-101 Fator multiplicador sobre o montante base do encargo.
+
+<cbc:Amount currencyID="">0.0</cbc:Amount>
+
+BT-92 BT-99
+
+Montante do desconto, sem impostos. Montante do encargo.
+
+Valor do desconto cabeçalho do documento
+
+<cbc:BaseAmount currencyID="">0.0</cbc:BaseAmount>
+
+BT-93 Montante base do desconto. BT-100 Montante base do encargo.
+
+Valor ilíquido do documento
+
+<cac:TaxCategory>
+
+<cbc:ID></cbc:ID> <cbc:Percent>0.0</cbc:Percent> <cac:TaxScheme>
+
+BT-95 BT-102 BT-96 BT-103
+
+Código de imposto aplicado ao desconto. Código de imposto aplicado ao encargo. Percentagem de imposto aplicada ao desconto. Percentagem de imposto aplicada ao encargo.
+
+Pode assumir: RED - Taxa reduzida; INT - Taxa intermédia; NOR - Taxa normal; ISE - Isenta; OUT Outros
+Taxa de Iva
+
+<cbc:ID></cbc:ID>
+
+Valor fixo: VAT
+
+</cac:TaxScheme>
+
+</cac:TaxCategory> </cac:AllowanceCharge>
+
+<cac:TaxTotal>
+
+<cbc:TaxAmount currencyID="">0.0</cbc:TaxAmount>
+<cac:TaxSubtotal>
+
+BT-110 Total de imposto.
+
+BT-111
+
+Total do IVA expresso na moeda aceite ou exigida no país do Fornecedor.
+
+Valor total do IVA
+
+<cbc:TaxableAmount currencyID="">0.0</cbc:TaxableAmount>
+<cbc:TaxAmount currencyID="">0.0</cbc:TaxAmount>
+<cac:TaxCategory>
+
+BT-116 BT-117
+
+Montante base de incidência para a taxa de imposto aplicada no respetivo subtotal. Montante calculado do imposto sobre o montante base de incidência respetivo.
+
+Base de incidência (por taxa) Valor do Iva (por taxa)
+
+<cbc:ID></cbc:ID> <cbc:Percent>0.0</cbc:Percent>
+
+BT-118 BT-119
+
+Código de imposto respeitante à taxa aplicada no subtotal.
+Percentagem de imposto do subtotal.
+
+Pode assumir: RED - Taxa reduzida; INT - Taxa intermédia; NOR - Taxa normal; ISE - Isenta; OUT Outros Taxa de Iva
+
+<cbc:TaxExemptionReasonCode></cbc:TaxExem BT-121 ptionReasonCode>
+<cbc:TaxExemptionReason></cbc:TaxExemption BT-120 Reason>
+<cac:TaxScheme>
+
+Código do motivo, que possa levar a que o montante contemplado no subtotal, respetivo, esteja isento de imposto.
+Descrição textual do motivo, que possa levar a que o montante contemplado no subtotal, respetivo, esteja isento de imposto.
+
+Código do motivo de isenção associado na linha do artigo, caso seja isento
+Descrição do motivo de isenção associado na linha do artigo, caso seja isento
+
+<cbc:ID></cbc:ID>
+
+Valor fixo: VAT
+
+</cac:TaxScheme>
+
+</cac:TaxCategory> </cac:TaxSubtotal>
+
+Pág. 16 / 19
+
+Id Norma16931
+
+CREDITNOTE UBL-2.1 Syntax
+</cac:TaxTotal>
+<cac:LegalMonetaryTotal> <cbc:LineExtensionAmount currencyID="">0.0</cbc:LineExtensionAmount>
+
+Descrição dos campos
+BT-106 Soma dos montantes das linhas do documento (s/imposto).
+
+100C - GESTÃO
+(Preço * Quantidade) - Valor desconto linha + Valor desconto cabeçalho
+
+<cbc:TaxExclusiveAmount currencyID="">0.0</cbc:TaxExclusiveAmount>
+
+BT-109
+
+<cbc:TaxInclusiveAmount currencyID="">0.0</cbc:TaxInclusiveAmount>
+
+BT-112
+
+<cbc:AllowanceTotalAmount
+
+BT-107
+
+currencyID="">0.0</cbc:AllowanceTotalAmount>
+
+<cbc:PayableRoundingAmount currencyID="">0.0</cbc:PayableRoundingAmount > <cbc:PayableAmount currencyID="">0.0</cbc:PayableAmount>
+
+BT-114 BT-115
+
+</cac:LegalMonetaryTotal>
+
+Total do documento (s/imposto).
+Total do documento (c/imposto).
+Total de descontos aplicados no documento.
+Montante de arredondamento aplicado ao total do documento c/imposto Valor a pagar. / Montante a pagamento do ATM. / Montante a pagamento do DUC.
+
+<cac:CreditNoteLine> <cbc:ID></cbc:ID>
+<cbc:Note></cbc:Note>
+<cbc:InvoicedQuantity unitCode="">0.0</cbc:InvoicedQuantity>
+
+BT-126 BT-127 BT-129
+
+Identificador único da linha do documento, atribuído pelo fornecedor. Texto livre para descrever o item respetivo à linha do documento.
+Quantidade, do bem ou serviço, faturada.
+
+Valor base do documento Valor total do documento Valor do desconto cabeçalho do documento Valor do arredondamento Valor total do documento
+Número da linha do documento Descrição da linha do documento Código ISO 16931 da Unidade da linha do documento Quantidade da linha do documento
+
+Para os descritores, usa a Unidade Fatura Eletrónica indicada na tabela Descritores\Informação
+
+Para as Taxas adicionais, usa a Unidade indicada na tabela Taxas\Informação.
+
+<cbc:LineExtensionAmount currencyID="">0.0</cbc:LineExtensionAmount>
+<cac:DocumentReference>
+
+BT-131
+
+Montante da linha (s/imposto). O valor deve incluir os respetivos encargos ou descontos aplicados à linha, desprovidos de imposto e outras taxas (que não sejam de IVA).
+
+Preço Unitário * Quantidade - Desconto linha
+
+<cbc:ID></cbc:ID> </cac:DocumentReference>
+
+BT-128
+
+Identificador para um objeto no qual a linha da fatura é baseada, fornecida pelo fornecedor.
+
+Documento original: Ano / Código Tipo Documento / Serie / Número
+
+<cac:AllowanceCharge>
+
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator > <cbc:AllowanceChargeReasonCode></cbc:Allowa nceChargeReasonCode>
+
+BT-140 BT-145
+
+<cbc:AllowanceChargeReason></cbc:AllowanceC BT-139 hargeReason>
+
+Código do motivo do desconto da linha Código do motivo do encargo da linha Representação textual do desconto da linha do documento.
+
+Valor fixo: false Valor fixo: 95
+Valor fixo: Desconto de linha
+
+BT-144 Representação textual do encargo da linha do documento.
+
+<cbc:MultiplierFactorNumeric>0.0</cbc:MultiplierF BT-138 actorNumeric>
+BT-143
+
+Fator multiplicador sobre o montante base do desconto da linha do documento. Fator multiplicador sobre o montante base do encargo da linha do documento.
+
+Desconto linha do documento
+
+Pág. 17 / 19
+
+Id Norma16931
+
+CREDITNOTE UBL-2.1 Syntax
+<cbc:Amount currencyID="">0.0</cbc:Amount>
+<cbc:BaseAmount currencyID="">0.0</cbc:BaseAmount>
+</cac:AllowanceCharge> <cac:Item> <cbc:Description></cbc:Description> <cbc:Name></cbc:Name> <cac:BuyersItemIdentification> <cbc:ID></cbc:ID>
+</cac:BuyersItemIdentification> <cac:SellersItemIdentification> <cbc:ID></cbc:ID>
+</cac:SellersItemIdentification> <cac:StandardItemIdentification> <cbc:ID schemeID=""></cbc:ID>
+</cac:StandardItemIdentification> <cac:ClassifiedTaxCategory> <cbc:ID></cbc:ID>
+<cbc:Percent>0.0</cbc:Percent>
+<cac:TaxScheme> <cbc:ID></cbc:ID> </cac:TaxScheme> </cac:ClassifiedTaxCategory> <cac:AdditionalItemProperty> <cbc:Name></cbc:Name>
+<cbc:Value></cbc:Value> </cac:AdditionalItemProperty> <cac:AdditionalItemProperty> <cbc:Name></cbc:Name>
+<cbc:Value></cbc:Value> </cac:AdditionalItemProperty> </cac:Item> <cac:Price>
+
+Descrição dos campos
+
+100C - GESTÃO
+
+BT-136 BT-141 BT-137 BT-142
+
+Montante de desconto da linha do documento. Montante de encargo da linha do documento. Montante base do desconto da linha do documento. Montante base do encargo da linha do documento.
+
+Valor do desconto linha do documento Preço * Quantidade
+
+BT-154 BT-153
+
+Descrição do item da linha do documento. Nome do item da linha do documento.
+
+Descrição RTF Descrição da linha do documento
+
+BT-156 Código de material usado no ERP ou Campo Sua Referência, da Ajuda à venda
+
+Sistema de Faturação.
+
+Ou Código de barras ativo
+
+BT-155
+
+Código de material usado pelo fornecedor, partner number, para identificar univocamente o item da linha do documento.
+
+Campo Seu EAN, da Ajuda à venda ou Código de barras ativo
+
+BT-157
+
+Identificador do item da linha do documento de acordo com um esquema padrão, EAN.
+
+Campo Seu EAN, da Ajuda à venda ou Código de barras ativo
+
+BT-151 BT-152
+
+Código de imposto respeitante à taxa aplicada no item da linha do documento.
+Percentagem de imposto respeitante à taxa aplicada no item da linha do documento.
+
+Pode assumir: RED - Taxa reduzida; INT - Taxa intermédia; NOR - Taxa normal; ISE - Isenta; OUT Outros Taxa de Iva
+
+Valor fixo: VAT
+
+BT-160 BT-161
+
+Tipo da propriedade adicional do item da linha do documento.
+Valor da propriedade do item da linha do documento.
+
+Para taxa de Iva isenta #TAXEXEMPTIONREASONCODE@CLASSIFIEDTA XCATEGORY# Descrição do motivo de isenção associado na linha do artigo, caso seja isento
+
+BT-160 BT-161
+
+Tipo da propriedade adicional do item da linha do documento.
+Valor da propriedade do item da linha do documento.
+
+Para indicar a fatura devolvida #ID@INVOICEDOCUMENTREFERENCE@BILLING REFERENCE-001# <Ano>/<Código documento>/<Série>/<Número>
+
+Pág. 18 / 19
+
+Id Norma16931
+
+CREDITNOTE UBL-2.1 Syntax
+<cbc:PriceAmount currencyID="">0.0</cbc:PriceAmount>
+<cbc:BaseQuantity unitCode="">0.0</cbc:BaseQuantity>
+
+Descrição dos campos
+
+100C - GESTÃO
+
+BT-146 BT-149
+
+Montante do item após aplicação do Preço * Quantidade desconto.
+
+Número de quantidades que fazem o montante do preço. Por exemplo, se a quantidade faturada for 1000 litros, o preço pode ser 15€ por 10 litros.
+
+Código ISO 16931 da Unidade da linha do documento Quantidade unitária linha do documento (leva em consideração o fator)
+
+Para os descritores, usa a Unidade Fatura Eletrónica indicada na tabela Descritores\Informação.
+
+Para as Taxas adicionais, usa a Unidade indicada na tabela Taxas\Informação.
+
+<cac:AllowanceCharge>
+
+<cbc:ChargeIndicator>false</cbc:ChargeIndicator > <cbc:Amount currencyID="">0.0</cbc:Amount>
+
+BT-147
+
+Montante do desconto sobre o preço do item da linha do documento.
+
+Valor fixo: false 0
+
+<cbc:BaseAmount currencyID="">0.0</cbc:BaseAmount>
+</cac:AllowanceCharge>
+
+BT-148
+
+Montante base, do preço do item da linha do documento,onde incidirá o desconto.
+
+Preço * Quantidade
+
+</cac:Price> </cac:CreditNoteLine> </CreditNote>
+
+Notas adicionais
+Mais informações em:
+https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/What+is+eInvoicing https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/Code+lists (lista completa de códigos usado em EN16931)
+
+Pág. 19 / 19
+
+

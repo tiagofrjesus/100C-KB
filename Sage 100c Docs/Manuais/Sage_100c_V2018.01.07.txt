@@ -1,0 +1,37 @@
+Sage 100c
+VERSÃO 2018.01.07
+Sage Outubro 2017
+
+Índice
+Customização .............................................................................................................................................................3 Customização de menus.......................................................................................................................3 Novo Atalho ..........................................................................................................................................3 Configuração de atalhos .......................................................................................................................4 Remover opção ....................................................................................................................................4 Menus customizados ............................................................................................................................5 Favoritos ...............................................................................................................................................6
+2
+
+Customização
+Customização de menus
+A Customização de menus permite ao utilizador acrescentar ou remover aos menus já existentes, atalhos para: aplicações, mapas de Crystal, consultas, documentos, mapas e etiquetas A customização efetuada pelo utilizador estará disponível, apenas para o próprio utilizador, em todas as bases de dados a que este tem acesso. A única exceção é para utilizadores do tipo “Administrador”, que poderão efetuar customizações que estejam disponíveis para todos os utilizadores, ou apenas para o próprio.
+Novo Atalho
+O “Novo Atalho” vai permitir configurar atalhos para um conjunto de funcionalidades da aplicação ou para funcionalidades externas, que lhe serão apresentadas.
+Antes de criar atalhos deve posicionar-se na opção correspondente ao menu ao qual pretende associar o atalho. Se estiver a configurar um novo atalho associado ao separador “Vendas” o mesmo só estará disponível em “Vendas”.
+Ao entrar na opção de customização, através do botão do utilizador, que se encontra no canto superior direito da aplicação, irá ser mostrada a janela da opção:
+O botão visível na imagem apenas estará disponível na primeira vez em que se entrar na opção, nas vezes subsequentes, quando já existirem atalhos criados, deverá usar o botão “Novo atalho” que se encontra na barra de tarefas da opção.
+Clicando em “Novo atalho” terá à sua disposição as várias opções de customização possíveis: 3
+
+Executar Aplicação A opção permite configurar a execução de uma aplicação externa, a partir da aplicação. Mapa Crystal A opção permite adicionar à aplicação mapas Crystal que tenham sido criados especificamente para a sua empresa. Consulta/Documento A opção permite adicionar à aplicação consultas ou documentos específicos criados em formato .anl Mapa/Etiqueta A opção permite adicionar à aplicação mapas e documentos específicos criados em formato .lst.
+Configuração de atalhos
+Para configurar cada uma das opções terá à sua disposição um conjunto de campos que terá que preencher:
+Geral Nome – Nome da opção que será mostrado na barra superior e lateral. Descrição – Pequena descrição que será mostrada quando passar com o cursor sobre a opção (tooltip) Administrador Acesso – Nesta opção o utilizador deverá indicar se a opção estará disponível para todos os utilizadores ou apenas para o próprio.
+Esta opção só estará visivel para utilizadores do tipo “Administrador”
+Parâmetros do comando Ficheiro – Indicação do ficheiro a utilizar na opção (exe, rpt, anl ou lst) Argumentos – Campo apenas disponível na opção “Executar Opção”, que será usado para a execução da aplicação externa.
+Remover opção
+Se pretender remover qualquer uma das opções que configurou, deverá selecionar essa opção e clicar no botão “Remover”. A opção vai ficar marcada como “removida”, mas só irá desaparecer das barras depois de gravar as alterações.
+4
+
+Menus customizados
+Os atalhos configurados pelos utilizadores ficarão posicionados na barra superior à esquerda das opções existentes e na barra lateral por baixo das mesmas (como pode ver nas imagens abaixo). Barra horizontal Barra lateral
+5
+
+Favoritos
+É ainda possível arrastar estas opções para a zona dos favoritos do utilizador, para facilitar a sua utilização.
+6
+
+

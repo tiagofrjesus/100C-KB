@@ -1,0 +1,186 @@
+Boletim Técnico Sage 100cloud
+O acesso à versão 2026.02 é apenas possível para licenciamento versão 26.02
+
+Sage 100 2026.02.02 (Build 213)
+21 de maio de 2026
+Aplicável desde a versão 2026.02.01
+
+Recuros Humanos
+
+Relatório único Atualização validador para o ano 2025
+
+Novidades
+
+Sage 100 2026.02.01 (Build 212)
+12 de maio de 2026
+Aplicável desde a versão 2026.01.01
+
+Plataforma
+
+Novidades
+Unificação da EULA e Termos & Condições (T&C) A EULA passa a estar unificada com os Termos & Condições gerais da Sage, consolidando num único documento legal as várias aceitações anteriormente apresentadas em diferentes pontos da aplicação. Nesta revisão foram também acrescentadas cláusulas que regulam a utilização de Inteligência Artificial, ajustadas as cláusulas relativas a Cookies e revistas as cláusulas relacionadas com Customer Services, garantindo um enquadramento mais atual e centralizado. A aplicação passa ainda a disponibilizar uma opção no menu Ajuda para consulta permanente dos Termos & Condições. Na instalação desta versão, o utilizador terá de aceitar estes
+Prémios de produtividade, desempenho, participações nos lucros e gratificações de balanço Ao abrigo da Portaria n.º 289/2025/1, de 1 de setembro, a aplicação passa a tratar prémios de produtividade, desempenho, participações nos lucros e gratificações de balanço, no âmbito do artigo 115.º do CIRS e do OE2025.
+
+Recuros Humanos
+
+Atualização das freguesias Na compatibilização da base de dados, passa a ser atualizada a tabela de freguesias de acordo com a nova codificação disponibilizada pelo INE. Após a atualização, o utilizador deverá rever a ficha da empresa e a ficha dos estabelecimentos, garantindo que são utilizados códigos de freguesia válidos.
+
+Segurança Social — comunicação de vínculo de trabalhadores Foi incluído um novo campo em Gestão > Entidades e taxas > Centros regionais de Segurança Social para indicação do código de enquadramento do regime. A comunicação de vínculo de trabalhadores passa assim a contemplar a nova informação de enquadramento, garantindo maior consistência no envio via webservice para a Segurança Social.
+
+Sage
+
+Boletim Técnico Sage 100 - v2024
+
+Pág 1/5
+
+Boletim Técnico Sage 100cloud
+
+Gestão
+
+Tipos de IVA — validação e expiração de taxas inválidas Na entrada da aplicação, passa a ser efetuada uma validação às taxas de IVA configuradas, considerando taxa, tipo de imposto, região e motivo de isenção atualmente em vigor. Quando forem detetados tipos de IVA com taxas inválidas, será apresentado um assistente que permite marcar esses tipos como expirados, evitando a sua utilização futura na movimentação. Na criação de novos tipos de IVA, a aplicação passa a sugerir as taxas de acordo com o espaço fiscal. Na edição, é igualmente efetuada a validação para garantir que não existem taxas inválidas, exceto quando se encontrem devidamente expiradas.
+Motivos de isenção SAF-T — data limite e validações adicionais Os códigos de motivos de isenção SAF-T passam a contemplar uma data limite, permitindo controlar a sua vigência e reduzir o risco de utilização indevida de motivos expirados. Na criação do motivo de isenção passa também a existir uma validação do tipo de imposto. Quando o TaxType for “Não sujeito”, apenas poderá ser indicado o motivo SAF-T M99.
+Movimentação de vendas — controlo de motivos de isenção Na movimentação de vendas deixa de ser possível associar motivos de isenção expirados, garantindo que apenas são utilizados motivos válidos para a data do documento. O motivo de isenção M31 passa a ser permitido apenas quando o documento identifica que o cliente é sujeito passivo de IVA. Caso contrário, será apresentada mensagem e impedida a gravação do documento. Sempre que seja associado o motivo M09, a aplicação apresenta uma mensagem informativa, uma vez que este motivo apenas se aplica a pequenos retalhistas.
+Guias de Transporte — comunicação à AT via API A comunicação de Guias de Transporte à Autoridade Tributária passa a estar alinhada com a utilização de API, modernizando o processo de comunicação e reduzindo dependências técnicas mais antigas. Esta evolução reforça a fiabilidade da comunicação e mantém a aplicação preparada para os novos mecanismos de integração com os serviços da AT.
+
+Gestão Contabilidade
+
+Alterações
+Sugestão: 132654 : API - Possibilidade de comunicar documentos para AT (Ex: GTs)
+Corrreções: 140253 : Adiantamento fornecedores: na emissão do PGA não permite outro valor a regulariz 145970 : Listas das compras não carrega o Compras Cab 145973 : Recibo com fatura recibo não faz movimento contabilístico 146131 : Aprovação de folha de obra não carrega documento e série de conversão 146215 : Importar várias unidades logisticas dá erro 146220 : Descontar fatura de adiantamento via crédito de artigo, extrato dá saída 2 vezes 146305 : Certas situações ao anular compra não anula o pendente 146492 : Reclassificação contabilística incorreta nos Ajustamento Cambial 146530 : API - Permite inserir linha com taxa iva diferente 0 e com motivo isenção 146647 : Ficha da empresa sendo espaço fiscal estrangeiro não grava NIF corretamente 146675 : Não apresenta alertas 146737 : Mapa Inventario Existência à Data Lotes não filtra os disponíveis corretamente 146873 : Mapa consignações está a carregar valores incorretos
+125994 : Introdução automática saft vendas não faz os arredondamentos
+
+Recursos Humanos 146944 : Recibo extra mais vencimento com horas extras total liquido errado no recibo
+
+Sage 100 2026.01.06 (Build 211)
+24 de março de 2026
+Aplicável desde a versão 2026.01.01
+Novidades
+
+Sage
+
+Boletim Técnico Sage 100 - v2024
+
+Pág 2/5
+
+Boletim Técnico Sage 100cloud
+
+Contabilidade
+
+Modelos fiscais - Modelo 22 Disponibilizada atualização do Modelo 22 e respetivo suporte magnético, para entrega em 2025.
+Modelos fiscais - Modelo 3 Disponibilizada atualização do Modelo 3 e respetivo suporte magnético, para entrega em 2025.
+
+Contabilidade
+
+Alterações
+146789 : Bizdocs - não faz ligação de documentos oriundos da Gestão Comercial (GC) 146882 : Pesquisa Bizdocs no e-fatura - erro 440 e 3265 ao finalizar a pesquisa
+
+Gestão Conta Sage
+Gestão
+
+Sage 100 2026.01.05 (Build 210)
+17 de março de 2026
+Aplicável desde a versão 2026.01.01
+Novidades
+Sistema de Depósito e Reembolso O Sistema de Depósito e Reembolso é um sistema que aplica um depósito às embalagens de bebidas não reutilizáveis, como plástico, alumínio e metal, até 3 litros. Estas embalagens, após março de 2026, passam a ser colocadas no mercado com o símbolo Volta, que indica que pertencem ao sistema.
+Conta Sage A Sage lançou uma nova aplicação de autenticação para simplificar a autenticação de dois fatores (2FA): Sage Verify. O Sage Verify foi desenvolvido para: • Reforçar a segurança, utilizando um processo de verificação fiável e padronizado • Proporcionar aos clientes uma experiência de autenticação mais simples • Apoiar a conformidade com normas atualizadas de proteção de dados e verificação Está disponível para instalação no Google Play e na Apple App Store Como funciona? Os clientes podem utilizar o Sage Verify para aprovar inícios de sessão através de uma notificação push no telemóvel, em vez de introduzirem um código de 6 dígitos. O uso do Sage Verify não é obrigatório para os clientes, que podem continuar a utilizar os métodos antigos (telefone/outras aplicações). Todos os novos utilizadores, bem como os que redefinirem a autenticação de dois fatores (2FA), serão encaminhados para utilizar o Sage Verify como autenticador preferencial.
+Alterações
+146817 : Liquidação pré datado em moeda estrangeira gera movimento CTB incorreto
+
+Sage 100 2026.01.04 (Build 209)
+23 de fevereiro de 2026
+Aplicável desde a versão 2026.01.01
+Novidades
+
+Sage
+
+Boletim Técnico Sage 100 - v2024
+
+Pág 3/5
+
+Boletim Técnico Sage 100cloud
+
+Recursos Humanos
+
+DMR-AT Disponibilizada atualização da DMR-AT para entrega em 2026, de acordo com a Portaria n.º 69/2026/1, de 12 de fevereiro. Novo código A34 e atualização da descrição do A41 (Portaria n.º 69/2026/1, de 12 de fevereiro): - A34: Compensações e subsídios, referentes à atividade voluntária, postos à disposição dos bombeiros, pelas associações humanitárias de bombeiros, até ao limite máximo anual, por bombeiro, de seis vezes o indexante de apoios sociais (n.º 7 do artigo 12.º do Código do IRS). - A41: Montantes pagos ou colocados à disposição dos trabalhadores ou membros dos órgãos estatutários, suportados pela entidade patronal, de forma voluntária e sem caráter regular a título de prémios de produtividade, desempenho, participações nos lucros e gratificações de balanço, na parte que não exceda o limite de 6% da retribuição base anual do trabalhador, conforme previsto no n.º 1 e considerando ainda a condição prevista no n.º 2, dos artigos 115.º da Lei n.º 45.º-A/2024, de 31 de dezembro e 96.º da Lei n.º 73.ºA/2025, de 30 de dezembro – respetivamente anos de 2025 e 2026
+
+Contabilidade
+
+Alterações
+146836 : DPIVA não está disponivel o ano de 2026 na relação de fornecedores
+
+Recursos Humanos
+
+Sugestão: 146853 : Disponibilizar a natureza A34 para a DMR AT
+Correção: 146862 : "Erro 100 ao comunicar cessação de vinculo à segurança social
+
+Sage 100 2026.01.03 (Build 208)
+23 de fevereiro de 2026
+Aplicável desde a versão 2026.01.01
+
+Novidades
+
+Recursos Humanos
+
+Cálculo do número de dias de tempo trabalhado a declarar à Segurança Social de acordo com o Decreto Regulamentar n.º 7/2025 Para a segurança social, é registado um dia de trabalho por cada conjunto de cinco horas e, quando o número de horas de trabalho exceda múltiplos de cinco, é registado mais um dia, com o limite máximo de 30 dias em cada mês
+
+Alterações
+
+Gestão
+
+141040 : API - Transferências entre Armazéns não gera Lançamento Contabilístico 146778 : API - objContabDoc.cab.Referencia não é assumido no movimento contabilístico
+
+Contabilidade
+
+146714 : Reconciliação bancária em papel dá erro quando faz "Seguinte" 146772 : Reconciliação Bancaria - movimentos ficam por reconciliar
+
+Sage 100 2026.01.02 (Build 207)
+22 de janeiro de 2026
+Aplicável à versão 2026.01.01
+Novidades
+
+Sage
+
+Boletim Técnico Sage 100 - v2024
+
+Pág 4/5
+
+Boletim Técnico Sage 100cloud
+
+Gestão
+
+Consignações Disponíveis novos mapas, na área de Stocks, menu lateral Relatório de stocks - Existências - Existências à consignação, para extração das consignações em curso por artigo e por cliente.
+
+Gestão Contabilidade
+
+Alterações
+Sugestão: 146297: Possibilidade mapas a consignação não apresentar FCO e CCO associadas
+Correções 140004 : Liquidação pré-datado em moeda estrangeira faz movimento CTB incorreto 145833 : Anular REC de FT e fazer NC através de devolução da FT corrompe assinatura 146461 : Painel de clientes não mostra as consignações (nenhuma linha extraída) 146529 : Stock linha errado quando importa documento 146536 : Encontro Contas - Não faz o encontro de uma FT com uma CCF mesmo valor 146548 : Recibo de adiantamento não é exportado para o ficheiro saft 146685 : Não carrega anos superiores a 2025 no painel clientes, artigos, etc 146722 : Erro ao emitir o recibo com desconto relativo à fatura com retenção.
+146678 : Arquivo Digital Bizdocs-Pesquisa ser feita pela descrição Refª e não pelas linhas 146720 : Reconciliação Bancária automática - faz ligação de documentos com valores difere
+
+Recursos Humanos
+
+146488 : Não surgem as faltas no Extrato de horas trabalhadas 146618 : Erro ao processar retroativos de funcionários quando existem horas extras
+
+Ativos
+
+146733 : Erro 13 ao efetuar a passagem de ano
+
+Plataforma
+
+3 de dezembro de 2025
+Aplicável à versão 2018.01.01 (setup completo)
+Novidades
+Sage Self-Service O Sage Self-Service é uma nova funcionalidade incorporada na Sage 100, concebida para oferecer uma experiência intuitiva, semelhante de uma loja de aplicações, permitindo-lhe descobrir, comprar, instalar e ativar aplicações ou add-ons nativos da Sage e de terceiros, através de uma interface centralizada e visual.
+
+Contabilidade
+
+Bank Feeds Bank Feeds é uma funcionalidade que advém do serviço global do Sage Banking Service, que utiliza o serviço Bank Account Data da GoCardless, um fornecedor licenciado como Account Information Service Provider (AISP) e supervisionado pelo Banco de Portugal. Esta ferramenta proporciona uma ligação automática a todos os bancos em Portugal aderentes à diretiva Open Banking, facilitando a recolha automática de extratos bancários detalhados para reconciliação com lançamentos contabilísticos.
+Arquivo digital Cloud É um sistema de arquivo digital intuitivo e simples para o processamento de toda a documentação do seu negócio, que comunica diretamente com aplicação Sage 100, assim este processo possibilita a associação do documento físico com o seu respetivo movimento contabilístico.
+
+Sage
+
+Boletim Técnico Sage 100 - v2024
+
+Pág 5/5
+
+

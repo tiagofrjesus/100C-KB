@@ -1,0 +1,537 @@
+Boletim Técnico Sage 100cloud
+
+Sage 100 2023.02.10 (Build 171)
+23 de outubro de 2023
+O acesso à versão 2023.02.01 é apenas possível para licenciamento versão 23.02.
+
+Aplicável à versão 2023.02.01 ou superior
+
+Alterações
+
+Gestão
+
+134140 : Pagamentos por lista com meio de pagamento em numerário obriga a banco 137268 : Em algumas base de dados a faturação eletrónica não envia email 137351 : Reconstrução total apresenta Qt encomendas diferentes de reconstrução no artigo 140594 : SQLFACTLOT.RPT não permite imprimir 140894 : Saft Simplificado com valor duplicado nos recibos quando liquida doc isentos iva 141938 : Não faz encontro de contas 142070 : Não liquida NC se preencher primeiro o campo a regularizar 142349 : REF- Recibo fornecedor em modelos anl informa que não tem campos certificação 143862 : Não faz estorno se o utilizador tiver 10 letras na movctb apenas regista 9 140917 : Após alterar documento não atualiza ficheiros XML e PDF exportados para a pasta (Na faturação, no geração do CIUS-PT - gerar ficheiro, enviar email ou WebService - , se o documento já estiver no arquivo, o utilizador é equacionado se quer usar o que está gravado ou se quer gerar um novo e substituir o existente. Na emissão de documentos, quando selecionado Emissão específica: Exportação formato CIUS-PT, disponibilizada check box “Caso já exista o documento no arquivo digital, gerar um novo e substituir o existente”)
+
+Contabilidade
+
+129488 : Criação de fichas de ativos através do lançamento da compra do mesmo 133863 : Ficheiro ligação a contabilidade com numeradores a negativo (GCN) 139867 : Outros lançamento não permite lançar com o diário do tipo Regularizações 142879 : Importação lançamentos, são importados para um único documento
+
+Recursos Humanos
+
+129995 : Mapa de Assiduidade não apresentar os funcionários demitidos 139001 : Listagem da ficha do funcionário não apresenta a data de demissão 139301 : DMR AT- As declarações emitidas na versão anterior não são visualizadas 140407 : Campo Tipo de contrato só é impresso se tiver data de fim de contrato preenchida 143660 : IRS Jovem - Valor IRS errado quando tem SF e SN 50% 143764 : Dados inválidos no processamento quinzenal com duodécimos
+
+Gestão
+
+Sage 100 2023.02.09 (Build 170)
+9 de outubro de 2023
+Aplicável à versão 2023.02.01 ou superior
+
+Nova versão 13.0.34 do Crystal Reports Runtime.
+
+Novidades
+
+Plataforma Gestão
+Contabilidade
+
+Alterações
+139345 : Não instala aplicação 100c caso exista o sage x3 com versão do crystal 30
+127146 : Erro ao validar SAF-T 1.04 no Assertion TaxPercentage 128786 : Exportação para PDF coloca o nome com dupla extensão (Abc.pdf .pdf) 129278 : Ao inserir recibo via API, não preenche as linhas 141031 : Envio via Sage Cloud Email não entrega email 143691 : Anulando ccf com imputação de encargos não limpa a informação dos encargos 143800 : Fatura eletronica avançada tenta enviar ENC se for importado na FT 143803 : Assistente recuperação series marcando 1ª opção não valida código Validação AT
+133007 : Diagnostico saft apresenta contas da classe 9 para preencher as taxonomias 134771 : e-fatura-ao quebrar e voltar a lançar o movimento fica sem código iva associado 138264 : Reconciliação bancária-Automática e manual Botão desfazer não desfaz os manuais 140196 : e-Fatura Connection não abre o ecrã de lançamento no botão "Lançar e Editar"
+
+Sage
+
+Boletim Técnico Sage 100cloud - v2022
+
+Pág 1/14
+
+Boletim Técnico Sage 100cloud
+
+Recursos Humanos
+
+139374 : São processados funcionários demitidos data demissão > último processamento 143545 : Abono com a natureza S para a segurança social, Tipificação Outros abonos 143583 : Simulação de processamento - nenhum funcionário corresponde à seleção pedida 143586 : Taxa marginal de IRS/valor abater errado quanto sub férias superior a vencimento 143693 : Erro de dados inválidos ao processar funcionário se data fim do FCT em branco
+
+Gestão
+
+Sage 100 2023.02.08 (Build 169)
+25 de setembro de 2023
+Aplicável à versão 2023.02.01 ou superior
+Novidades
+Atualização do serviço Exchange para resolver o constrangimento detetado no envio de emails via Sage Cloud Email.
+
+Alterações
+
+Gestão
+
+129171 : Aplicação permite movimentar artigos sem ter a ficha criada 129194 : Nas Entradas Produção importar EDS não se vê a totalidade da data 135743 : Divisão da base de dados gera valores diferentes nos extractos de conta 137177 : Modelo SQLFACTCLIRtf.rpt no transporte de pagina soma a 1ª linha página seguinte 139234 : Consulta e Reenvio AT de documentos não marca "todos" os documentos 140263 : Painel vendas cliente não considera os adiantamentos 142380 : Consulta e reenvio documentos a AT não indica o envio de documento (Indicação no rodapé a informação do processo que está a decorrer) 142381 : Consulta e reenvio documentos a AT permite envio de documentos de outras séries 143225 : Não grava documento após importar e o cliente não tiver nada para importar 143329 : Comunicação Webservice AT Doc, faturação não permite alterar reserva 143312 : Diagnóstico de inventário permanente- não deteta quando o artigo vai a negativo 143349 : Erro comunicar documento AT quando não tem código de artigo\descritor 143466 : Reconstrução total apresenta custo médio diferentes de reconstrução artigo 143490 : Faturação Electrónica - Permite anular documento após ter feito download
+
+Recursos Humanos
+
+143713 : IRS do recibo diferente da DMR em 1€ 143752 : IRS errado no recibo de vencimento quando tem período extra com abono proporcion 143772 : Cessação de contrato proporcional de subs. de férias não calcula IRS 143773 : Não tem taxa efetiva nem marginal para subs. de férias em duodécimos
+
+Gestão
+
+Sage 100 2023.02.07 (Build 168)
+Aplicável à versão 2023.02.01 ou superior
+Novidades
+Comunicação de documentos de faturação à AT Se existirem documentos com código de resposta -10 (Invoices) ou -22 (WorkingDocuments) é disponibilizada ação para alterar o estado do documento para “Já comunicado” Esta acão é disponibilizada na opção Consulta de estado e reenvio de documentos e nos écrans de Vendas: Orçamento, Encomendas e Faturação. Implementado no seguimento da defect 143307 : Com. doc. AT por WS, permitir marcar doc. como já comunicado quando status (-22)
+Alterações
+
+Sage
+
+Boletim Técnico Sage 100cloud - v2023
+
+Pág 2/14
+
+Boletim Técnico Sage 100cloud
+
+Gestão Contabilidade
+
+136531 : Exportação saft global está exportar documentos justificativos internos 138954 : Eliminar linha de artigo com ecotaxa não elimina a ecotaxa associada 140037 : Exportação SAF-T global não exporta recibos com serie diferente do parâmetros 140720 : Erro ao anular REC com RPC se existir outro REC com RPC com o mesmo numero 141552 : Registo de artigos com mesmas ecotaxas, retirando um artigo não cria DOCGCECO. 141683 : Conversão de ENC em FT em artigos com lote/n serie não passa taxa adicional 142096 : Ao efetuar encontro de contas, o documento de Recibo não está a gerar ATCUD 142240 : Consulta de documentos no SAFT Faturação não faz nada 142662 : Ao importar um novo DIN na Fatura o cursor fica fixo na primeira linha do docume 142712 : Mapa existências à Consignação apresenta valores incorretos da FCO 142976 : Compatibilização muito demorada 143049 : Importação parcial de ENC de artigos com lotes marca os restantes como esgotados 143115 : Consulta e Reenvio AT de documentos não atualiza "Lido pelo cliente" 143391 : REC ou PGT colocado como efetivos após consulta definitivos ficam "Suspensos" 143392 : Mapa de Inventário contabilístico não carrega informação correta 143469 : Sage.Core.SMS.Server.30.exe não está assinado 143623 : Erro de motivo de isenção ao validar cius-pt quando tem Lixo coluna artigo 143671 : Erro ao anular faturas Remover-FT-
+133572 : Valor de IVA errado na DPIVA relação fornecedores de doc importado e-fatura 143504 : Diagnóstico SVAT vai ler contas que estão em movimentos excluídos
+
+Recursos Humanos
+
+138916 : Migração Ngep não preenche dados da empresa, nif e descrição 143564 : IRS de sub ferias errado, quando processado por tranches via alteração mensal 143578 : Erro de dados inválidos ao processar funcionário com base diária 143580 : Não calcula IRS do proporcional sub natal quando usa taxa apurada total abono 143592 : Erro de dados inválidos no processamento de não residente com vto 760€ 143611 : Erro de dados inválidos ao processar funcionário falta mês completo e hora extra
+
+Sage 100 2023.02.06 (Build 167)
+O acesso à versão 2023.02.01 é apenas possível para licenciamento versão 23.02.
+
+Aplicável à versão 2023.02.01 ou superior
+
+Novidades
+Importação de relógio de ponto Possibilidade de marcar de forma automática faltas nos dias de ócio, ativado por parâmetro nos Parâmetros de aplicação\Outras parametrizações: Importação de faltas do relógio de ponto geram alterações em dias de ócio. Quando ativo, na importação do ficheiro de relógio de ponto o sistema irá gerar faltas para os dias de descanso ou feriado, quando esta é introduzida no dia útil imediatamente anterior. As faltas em dias de descanso ou feriado (dias de ócio), quando em horas, serão lançadas com quantidade = 0 .
+
+Faltas em horas Possibilidade de introduzir faltas em horas em dias de descanso ou feriado (dias de ócio) com quantidade = 0. Foi adaptada a forma de lançamento de faltas em horas através da Situações de ausência ou através do calendário, para que sejam contemplados os dias de descanso ou feriados (dias de ócio) no intervalo de dias ou no calendário, aproximando-se assim da forma de introdução das faltas em dias, respeitando as especificidades do tipo de faltas.
+
+Recursos Humanos
+
+Funcionário residente não habitual A aplicação passa a permitir indicar se o funcionário é residente não habitual, aplicando neste caso para o cálculo do IRS dos recibos deste funcionário a taxa fixa indicada na respetiva fixa uma vez que que não pode ser efetuado a partir das tabelas de IRS. De acordo com o artigo 99.º CIRS, n.º 8 rendimentos de categoria A auferidos em atividades de elevado valor acrescentado, com carácter científico, artístico ou técnico, definidas em portaria do membro do Governo responsável pela área das finanças, aplica-se a taxa de 20 %.
+
+Possibilidade de indicar o fator de multiplicação a aplicar para os sujeitos passivos com dependentes com grau de incapacidade permanente igual ou superior a 60 %, de acordo com o Despacho n.º 7673-B/2023 Segundo o Despacho n.º 7673-B/2023 , o valor a acrescer à parcela a abater, por cada dependente com grau de incapacidade permanente igual ou superior a 60 % referido na alínea a) n.º 5 do Despacho n.º 14043B/2022, de 5 de dezembro, publicado no Diário da República, 2.ª série, n.º 233, suplemento, pode ser acrescido: a) Até três vezes, no caso de não casado e no caso de casado, único titular; b) Até seis vezes, no caso de casado, dois titulares. Na ficha do funcionário\IRS, no campo Fator de multiplicação pode indicar qual o fator a ser aplicado. Este só deve ser preenchido se for superior a 1.
+
+Sage
+
+Consulta do recibo – Valor a abater Boletim Técnico Sage 100cloud - v2023 Passa a estar discriminado na consulta, do detalhe do cálculo do IRS, o valor a abater referente a cada
+
+Pág 3/14
+
+Funcionário residente não habitual A aplicação passa a permitir indicar se o funcionário é residente não habitual, aplicando neste caso para o cálculo do IRS dos recibos deste funcionário a taxa fixa indicada na respetiva fixa uma vez que que não pode ser efetuado a partir das tabelas de IRS.
+Boletim Técnico Sage 100cloud De acordo com o artigo 99.º CIRS, n.º 8 rendimentos de categoria A auferidos em atividades de elevado valor acrescentado, com carácter científico, artístico ou técnico, definidas em portaria do membro do Governo Recursos Humanos responsável pela área das finanças, aplica-se a taxa de 20 %.
+Possibilidade de indicar o fator de multiplicação a aplicar para os sujeitos passivos com dependentes com grau de incapacidade permanente igual ou superior a 60 %, de acordo com o Despacho n.º 7673-B/2023 Segundo o Despacho n.º 7673-B/2023 , o valor a acrescer à parcela a abater, por cada dependente com grau de incapacidade permanente igual ou superior a 60 % referido na alínea a) n.º 5 do Despacho n.º 14043B/2022, de 5 de dezembro, publicado no Diário da República, 2.ª série, n.º 233, suplemento, pode ser acrescido: a) Até três vezes, no caso de não casado e no caso de casado, único titular; b) Até seis vezes, no caso de casado, dois titulares. Na ficha do funcionário\IRS, no campo Fator de multiplicação pode indicar qual o fator a ser aplicado. Este só deve ser preenchido se for superior a 1.
+Consulta do recibo – Valor a abater Passa a estar discriminado na consulta, do detalhe do cálculo do IRS, o valor a abater referente a cada código de remuneração .
+Compatibilização base de dados Recursos humanos - Novo parâmetro nos Parâmetros de aplicação, para importação de faltas do relógio de ponto marcarem alterações em dias de ócio - Novo parâmetro na Ficha do funcionário para identificar residente não habitual - Novo parâmetro na Ficha do funcionário para introduzir o fator de multiplicação a aplicar no caso de ter dependentes deficientes.
+
+Alterações
+
+Plataforma
+
+139653 : Após migrar com sucesso da BS não permite completar/editar dados empresa
+
+Gestão Recursos Humanos
+
+139052 : Inibe trabalhar no 2º posto, enquanto gravam documentos no 1º posto (servidor) 141243 : Emissão de cheques não permite selecionar o cheque 143387 : Exportação Cius-pt não exporta o GLN do campo onde enviar mercadoria 143372 - CIUS-PT - Exportar o nº da conservatória disponível na ficha da empresa
+143324 : Criar seg soc agrupa todos os funcionários independentemente regime selecionado 143515 : Irs 2º semestre - taxa efetiva calculada do IRS jovem incorreta 143524 : IRS de sub ferias errado, quando processado por tranches via alteração mensal 143483 : Tratamento funcionário "não habitual"
+
+Sage 100 2023.02.05 (Build 166)
+Aplicável à versão 2023.02.01 ou superior
+
+Novidades
+
+Recursos Humanos
+
+Adaptação do processamento de acordo com o Ofício Circulado N.º 20258 da AT com FAQ’s sobre modelo e tabelas de retenção a partir de julho de 2023. https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/instrucoes_administrativas/Docume nts/Oficio_circulado_20258_2023.pdf
+
+Gestão
+
+Alterações
+143443 : Faturação eletrônica Saphety - Faz referência ao documento interno
+
+Recursos Humanos 143457 : Valor IRS com tx 2º semestre - errado quando se trata funcionário não residente
+
+Sage 100 2023.02.04 (Build 165)
+Aplicável à versão 2023.02.01 ou superior Novidades
+
+Sage
+
+Boletim Técnico Sage 100cloud - v2023
+
+Pág 4/14
+
+Boletim Técnico Sage 100cloud
+
+Gestão
+
+Exportação SAF-T – Recibos De forma a cumprir o que está estipulado na FAQ 56-2794 (em Outras Obrigações > SAF-T PT > Questões Técnicas), referente aos recibos: - Para Recibos fora do âmbito do Regime de IVA de Caixa, os campos "4.4.4.14.4-Valor a débito (DebitAmount)" ou "4.4.4.14.5-Valor a crédito (CreditAmount)" são preenchidos com o valor recebido no pagamento. Não será gerada a estrutura "4.4.4.14.6-Taxa de imposto (Tax)", e relativamente aos elementos dentro de 4.4.4.15-"Totais do documento" (DocumentTotals), no campo "4.4.4.15.1 - Valor do imposto a pagar (TaxPayable)” constará 0.00 e os montantes inscritos nos campos "4.4.4.15.2 Total do documento sem impostos (NetTotal)" e "4.4.4.15.3 - Total do documento com impostos (GrossTotal)" coincidirão. - No âmbito do Regime de IVA de Caixa (4.4.4.6 PaymentType = "RC"). A impressão dos Recibos como deve discriminar os impostos, serão mantidas as validações atuais, bem como o mecanismo de exportação para SAF-T, nomeadamente preenchendo os campos "4.4.4.14.4-Valor a débito (DebitAmount)" ou "4.4.4.14.5Valor a crédito (CreditAmount)" com os valores líquidos de Imposto, descriminando o elemento "4.4.4.14.6Taxa de imposto (Tax)" e preenchendo o valor do elemento "4.4.4.15.1 - Valor do imposto a pagar (TaxPayable)”.
+
+Gestão
+
+Alterações
+136131 : Reconstrução dados não considera armazém c\ valorização e quantidade a 0 137767 : Reconstrução total apresenta existência valor diferentes de reconstrução artigo 143317 : API - documento inserido em preparação não respeita a data das linhas 143347 : Documentos comunicados ao Webservice AT não tem em conta a moeda 143366 : Linhas informativas com taxa a zero coloca motivo isenção
+
+Recursos Humanos 143193 : Valores errados no recibo detalhe/DMR AT com recibo extra+vencimento
+
+Gestão
+
+Sage 100 2023.02.03 (Build 164)
+Aplicável à versão 2023.02.01 ou superior
+Alterações
+137453 : Movimento CTB está a ler a conta arredondamento c\ linhas de abatimento 139283 : Não imprime Morada e Localidade de descarga se não indicar preço 141151 : Desconto adiantamentos fornecedor ISP, contas iva ficam ambas a débito 141865 : Erro de creditAmount na exportação saf-t simplificado 141908 : REC ou PGT colocado como efetivos na Gestão, na CTB aparecem como "Suspensos"
+
+Contabilidade
+
+138096 : Exportação saft global está exportar recebimentos referentes adiantamentos 143015 : DPIVA Anexo 40- Inclui as NC anuladas com estorno na contabilidade
+
+138403 : Valor hora suplementar não sai mapa Seg. Social se referente a mês anterior Recursos Humanos 143267 : Segurança social errada processa abono Tipificação - Abono - Descanso compensató
+143295 : Seg. social duplica valores da hora extra se selecionar códigos seg. social
+
+Sage 100 2023.02.02 (Build 163)
+Aplicável à versão 2023.02.01 Alterações
+Recursos Humanos 143260 : DR SS - Duplica os valores quando processa horas extras e S. Turno
+
+Sage 100 2023.02.02 (Build 162)
+Aplicável à versão 2023.02.01 Novidades
+
+Sage
+
+Boletim Técnico Sage 100cloud - v2023
+
+Pág 5/14
+
+Boletim Técnico Sage 100cloud
+
+Gestão
+
+Fatura Eletrónica Administração Pública/Generix Inclusão do campo Motivo de isenção no ficheiro exportado.
+
+Gestão
+
+Alterações
+128495 : Erro aviso analisador no WorkingDocuments.NumberOfEntries 134676 : Empresa modelo e demo no plano de IVA o campo Regime de IVA não está preenchido 141331 : SAF-T - WorkingDocuments faturados não são contabilizados no campo NumberOfEntri 141955 : Valorização incorreta quando entrada por GEF, efetuar TAR e anular a GEF 143082 : Transferência entre carteiras não é refletido no extrato de conta de clientes 143200 : Existência de muitos armazéns com transferências o pcm não atualiza corretamente 143207 : Finalizar encomendas via API dá erro 143209 : Importando documentos está a colocar motivos de isenção em linhas de texto. 143212 : Imprimir documentos em preparação dá mensagem ficheiro NGCO_PrepExpedicaoCli.rpt 143214 : Anal. Saft-Soma documentos de conferência não considera documentos F</WorkStatus
+
+Contabilidade
+
+139707 : Lançamento em introdução por diário, com contas reflexões alerta único terceiro 139824 : Empresa modelo e demo sinal contabilístico do ISO está como debito 141260 : Balancete geral com valores duplicados se no ano n-1 não estiver fechado
+
+Recursos Humanos
+
+142999 : Taxa IRS errada nas horas extras se tiver várias alterações 143242 : Run time error "6" overflow quando processo o recibo de ferias e vencimento
+
+Sage 100 2023.02.01 (Build 161)
+Atualização aplicavel deste a versão 2018.01.01
+
+Plataforma Gestão
+
+Novidades
+Rebranding Introduzido na identidade visual da aplicação o recente rebranding da Sage.
+Consola de estado e reenvio de documentos à AT Envio de documentos de Faturação Eletrónica através da Consola passa a guardar o documento no arquivo digital.
+Séries - Validação do Código de Comunicação AT introduzido manualmente. A partir desta versão o código das séries introduzido manualmente poderá conter apenas consoantes maiúsculas e algarismos (excluindo o 0 e 1)
+
+Novas tabelas de retenção na fonte de IRS - 2º semestre 2023 Conforme legislado pelo Despacho n.º 14043-B/2022 e Despacho n.º 4930/2023, a preparação de recibos foi devidamente adaptada para proceder ao cálculo dos descontos de IRS de acordo com as novas tabelas a vigorar a partir do segundo semestre de 2023. As novas tabelas de retenção podem ser obtidas através da opção Atualizações via Web: Taxas IRS 2023 - 2º Semestre (aplicável apenas a partir da versão 2023.02)
+
+Recursos Humanos
+
+Alterações ao Código de Trabalho Relativamente à Cessação de contrato de trabalho o número de dias de compensação atribuídos por cada ano de trabalho foi alterado para: - Contrato sem termo - Atribui 14 dias por cada ano completo de antiguidade (= Compensação por despedimento coletivo) - Contrato trabalho com termo certo - Atribui 24 dias por cada ano completo de antiguidade - Contrato trabalho com termo incerto - Atribui 24 dias por cada ano completo de antiguidade No que diz respeito ao FCT e FGCT, a partir dos processamentos de maio (inclusive) a aplicação cingiu todas as obrigações relacionadas com FCT e FGCT, deixando nomeadamente de calcular os descontos FCT/FGCT.
+
+Declaração remunerações Segurança Social Possibilidade de comunicar via Webservice a declaração de remunerações Segurança Social
+
+Plataforma
+
+Alterações
+141195 : Run-time error '53': File not found impede o acesso às empresas
+
+Sage
+
+Boletim Técnico Sage 100cloud - v2023
+
+Pág 6/14
+
+Boletim Técnico Sage 100cloud
+
+Gestão Contabilidade
+
+138887 : API - Este documento está em uso noutro posto, como tal não pode ser editado. 141620 : Erro ao criar série para tipo doc. TAR: Não foi indicado o tipo de conversão 141737 : Finalizando documento em preparação não assume data da fatura 142200 : EPR não atualiza o ultimo preço de compra da ficha de artigo 142416 : API - Este documento está em uso noutro posto após alterar documento 142417 : API - Alterar documento devolve Erro: -2147221504 Documentos Contabilístico 142596 : não deixa alterar quantidade em documento em preparação 142971 : Importação de faturas a consignação (FCO) com muitas linhas bloqueia 142979 : Stock não atualiza automaticamente 142995 : Importando um DIN com Regime intracomunitário coloca taxa iva nos artigos 143005 : QRCODE campo C está a colocar o código da tabela de países 143011 : Janela documentos não satisfeitos bloqueia após satisfazer 2ª documento 143114 : Erro no Mapa 6 ao emitir extrato de Número de Série 143127 : Stock real errado quando existe reserva de stocks ao fazer um novo documento
+136901 : Abertura do exercício encerra o ano anterior sem dar indicação 142032 : Documento anulado na comercial passa para a contabilidade como suspenso 142878 : Documento contabilístico com incoerências 143069 : Erro 91 ao criar o suporte magnético da Modelo 22
+
+Recursos Humanos
+
+139920 : Ligação à CTB por Conta/Funcionário estar dividido por centros de custo como BS 143072 : Valor duplicado na segurança social quando processa horas extras do mês anterior
+
+Gestão Gestão
+
+Sage 100cloud 2023.01.10 (Build 160)
+Esta atualização é aplicavel deste a versão 2023.01.01 (build 148)
+Novidades
+Sage IVA 2023 – Cabaz de alimentos Utiltário para alteração da taxa de IVA dos produtos face à isenção do IVA no cabaz de bens essenciais a vigorar entre 18 de abril a 31 de outubro de 2023 (em Gestão – Assistentes – Alteração do regime de iva dos artigos)
+Alterações
+142680 : Documento interno (DIN) satisfeito retira nas encomendas a clientes na ficha 142910 : Mapa Vendas por vendedor está a considerar documentos em preparação 142913 : Cius-pt não preenche o campo InvoiceDocumentReference corretamente 142939 : Não comunica guias, não existe informação de autenticação webservice da AT
+
+Contabilidade
+
+Sage 100cloud 2023.01.09 (Build 159)
+Esta atualização é aplicavel desde a versão 2023.01.01 (build 148) Alterações
+Modelo 22 - Erro 91 ao gerar o suporte magnético
+
+Sage 100cloud 2023.01.09 (Build 158)
+Esta atualização é aplicavel desde a versão 2023.01.01 (build 148) Novidades
+
+Sage
+
+Boletim Técnico Sage 100cloud - v2023
+
+Pág 7/14
+
+Boletim Técnico Sage 100cloud
+
+Comunicação SAF- T Disponibilizado o novo ficheiro Jar (FACTEMICLI-2.5.26-44872-cmdClient.jar).
+
+Contabilidade Recursos Humanos
+
+Modelos fiscais - Modelo 3 Disponibilização do formulário e suporte magnético do Modelo 3 para entrega em 2023 referente ao período de 2022.
+Relatório único Disponibilizada versão 14 do Relatório Único para a entrega dos dados referentes ao ano 2022.
+
+Gestão
+
+Alterações
+142812 : Possibilidade na série externa poder aceitar mais de 10 caracteres (20 caracteres) 142335 : Série manual não permite importar mais que uma guia para a compra 142720 : Faturação Electrónica - Documentos anulados consegue fazer download
+
+Gestão
+
+Sage 100cloud 2023.01.08 (Build 157)
+Esta atualização é aplicavel desde a versão 2023.01.01 (build 148) Alterações
+142394 : Mapa de preparação de expedição carrega lotes de outros documentos
+
+Contabilidade
+
+Sage 100cloud 2023.01.08 (Build 156)
+Esta atualização é aplicavel desde a versão 2023.01.01 (build 148)
+Alterações
+142610 : Documento contabilístico com incoerências 142760 : Alterações Gestor de Plano de Contas marcam movimentos com incoerências
+
+Recursos Humanos 142678 : Valor a receber errado quando tem horas extra com mais de 100 horas
+
+Sage 100cloud 2023.01.07 (Build 155)
+Esta atualização é aplicavel desde a versão 2023.01.01 (build 148)
+
+Gestão
+
+Novidades
+Séries de autofaturação sem acordo (anteriormente usadas para fornecedores genéricos) A opção "Fornecedor Genérico" passa a chamar-se "Autofaturação sem acordo". Neste tipo de séries deixa de ser obrigatório a configuração de um fornecedor de autofaturação específico. No entanto os fornecedores que poderão registar documentos nesta série não podem ter marcada a opção "Acordo prévio para comunicar as faturas via WS à AT" e não podem ser sujeitos passivos de IVA
+
+Recursos Humanos
+
+Modelos fiscais Na criação das declarações fiscais, se existirem movimentos no estado Suspenso para o período, passa a alertar para a sua existência, permitindo prosseguir a operação caso o utilizador assim decida.
+
+Análise e reporte - Modelo 22 Disponibilizada atualização do Modelo 22 e respetivo suporte magnético, para entrega em 2023.
+
+Alterações
+
+Sage
+
+Boletim Técnico Sage 100cloud - v2023
+
+Pág 8/14
+
+Boletim Técnico Sage 100cloud
+
+Gestão
+
+142301 : Importação parcial de ENC de artigos com lotes marca os restantes como esgotados 142551 : SCA's estão a ser exportados para o saft simplificado 142552 : Importação de GCO para CCO (Crédito á consignação) com quantidades erradas lotes 142574 : Sage Inventarios - não considera todos os armazéns quando tem pcm por artigo 142581 : Extrato de conta de clientes está a carregar documentos anulados 142582 : Não faz o estorno quando a descrição do movimento tem mais de 32 caracteres 142711: Possibilidade aumentar os campos nos contatos da ficha de cliente
+
+Contailidade
+
+142141 : Não grava alterações feitas aos centros de custo na introdução por diário 142482 : Importação SAFT vendas apenas importa 1º dígito da serie 142667 : Erro no saldo da conta 8121 ao lançar o apuramento
+
+Gestão de Ativos 140932 : Calcula Depreciações recuperadas quando existe revalorização
+
+Gestão
+
+Sage 100cloud 2023.01.06 (Build 154)
+Esta atualização é aplicavel desde a versão 2023.01.01 (build 148)
+Alterações
+142519 : Intrastat só está a calcular as chegadas 142580 : Não reconstrói artigos quando existem transferências de armazéns 142593 : A aplicação cracha ao abrir guia transporte entre armazens 142619 : Comun. faturas AT via WS propriedade "Amount" na linha não está a ser preenchida
+
+Sage 100cloud 2023.01.05 (Build 153)
+Esta atualização é aplicavel apenas desde a versão 2023.01.01 (build 148)
+
+Novidades
+Documentos de autofacturação - registo de séries via WebService Foi disponibilizado o serviço de Comunicação via webservice à AT de séries.
+
+Gestão
+
+Documentos de autofacturação - comunicação de documentos à AT via Webservice Foi disponibilizado o serviço de Comunicação via webservice à AT de Documentos de Autofaturação. Este serviço consiste na comunicação via internet dos documentos de autofaturação para fornecedores com acordo ou documentos efetuados em séries de fornecedores genéricos.
+Processamento – Redução para metade da taxa de retenção na fonte autónoma de IRS no trabalho suplementar, a partir da 101.ª hora. No processamento, passa a ser aplicada a redução para metade da taxa de retenção na fonte autónoma de IRS no trabalho suplementar, a partir da 101.ª hora.
+
+Recursos Humanos
+
+Recibos com discriminação da taxa de IRS Atualizados os modelos de recibos, apresentar a taxa efetiva mensal de retenção na fonte: GepVenReciboA4.lst GepVenReciboA4-OriginalDuplicado.lst SQLRecibos Por Email.rpt NGEP_Recibo.rpt
+
+Alterações
+
+Sage
+
+Boletim Técnico Sage 100cloud - v2023
+
+Pág 9/14
+
+Boletim Técnico Sage 100cloud
+
+Gestão Contailidade
+
+138660 : Reconstrução não corrige valores de quantidades encomendadas 139609 : Intrastat - Não calcula documentos com Pais diferente do ISO3166-1 A2 141241 : Modelo TALAO.RPT apenas imprime totalidade se doc. tiver até 3 linhas de artigo. 142041 : Documento é comunicado ao webservice no estado não aparece informação 142214 : Emissão de etiquetas com séries alfanuméricas 142235 : Alterar DocComercial (Documento de Compra) elimina a contabilidade 142249 : Erro taxcode na exportação saf-t mensal quando liquidam documentos antigos 142264 : Não reconstrói valor de saída dos artigos com entradas anteriores 142307 : Documento com incoerências caso seja acedido por outro utilizador 142309 : Após consultar registos coloca os documentos com incoerências 142336 : Não cria descrição no movimento CTB se abrir a janela da CTB e depois gravar 142338 : Importação de guia de transporte para fatura dá erro de data e hora 142341 : Série Auto-Faturados por Terceiros não aceita ATCUD manual 142369 : Movimento de abertura com valores duplicados nos mapas 142402 : API - Anulando um documento (ex:CCF) não faz o estorno do movimento CTB 142425 : Alerta stock insuficiente apenas surge qd lança o dobro da quantidade disponível 142427 : Lentidão na importação ficheiro gcn na contabilidade 142430 : EDI - Após integrar o ficheiro o mesmo permanece na pasta 142433 : Composto transformação - Importando GR para FT gera nova entrada composto 142464 : Erro ao alterar documento gravado na alteração preço do artigo
+137920 : Não é possível mudar do estado dos movimentos de Efetivos para qualquer outro estado 142409 : DPIVA com valores negativos no anexo 41 142541 : E-fatura Connection- Erro 04 quando empresas tem mais de 300 documentos mês
+
+Recursos Humanos
+
+142374 : Abono com valor mensal fixo é calculado com base nos dias trabalhados 142398 : Comunicação de novos períodos de rendimentos não preenche data de alteração
+
+Sage 100cloud 2023.01.04 (Build 151)
+Esta atualização é aplicavel apenas desde a versão 2023.01.01 (build 148)
+
+Novidades
+Fatura Eletrónica Administração Pública/Generix Inclusão do campo QRCode Text no ficheiro exportado.
+
+Gestão
+
+Melhorias à comunicação das séries Na comunicação das séries foi alterado o comportamento do campo data e número. No campo data passa a ser sugerida a data de sistema e no campo número passa a sugerir o número da tabela de numeradores da série (quando a série é nova o número sugerido é 1).
+
+Processamento do IRS Jovem - Atualização ao OE 2023 O regime fiscal aplicável ao “IRS Jovem” ajustado com o aumento dos limites da isenção do IRS Jovem e dos limites máximos do benefício em cada ano: de 50% no primeiro ano, 40% no segundo ano, 30% no terceiro e no quarto ano e de 20% no último ano, com os limites de 12,5 vezes o valor do IAS, 10 vezes o valor do IAS, 7,5 vezes o valor do IAS e 5 vezes o valor do IAS, respetivamente.
+
+Recursos Humanos
+
+Redução das retenções na fonte para titulares de crédito à habitação – Artigo 155.º do OE 2023 Para os sujeitos passivos titulares de créditos à habitação será reduzida a retenção na fonte sobre rendimentos da categoria A, para o escalão imediatamente inferior, quando sejam titulares de crédito à habitação e aufiram remuneração mensal que não ultrapasse € 2 700.
+
+Modelo 10 - Rendimentos e Retenções a Residentes versão 2023 Atualização do modelo para entrega em 2023 dos rendimentos e retenções referentes a 2022 (Portaria n.º 8/2023 de 4 de janeiro).
+
+Modelo DMR-AT versão 2023 Disponibilização da nova versão da DMR-AT (Portaria n.º 307/2022 de 27 de dezembro).
+
+Sage
+
+Boletim Técnico Sage 100cloud - v2023
+
+Pág 10/14
+
+Boletim Técnico Sage 100cloud
+
+Contabilidade
+
+Modelo 39 - Rendimentos e Retenções a Taxas Liberatórias - versão 2023 Atualização do modelo para entrega em 2023 dos rendimentos e retenções referentes a 2022 (Portaria n.º 289/2022 de 2 de dezembro).
+Modelo 10 - Rendimentos e Retenções a Residentes - versão 2023 Atualização do modelo para entrega em 2023 dos rendimentos e retenções referentes a 2022 (Portaria n.º 8/2023 de 4 de janeiro).
+IES - versão 2023 Disponibilização do formulário e suporte magnético da IES/DA para os dados do exercício 2022.
+
+Alterações
+
+Plataforma
+
+142021 : NONSHARED DATA SEGMENT REQUIRED
+
+Gestão
+Contailidade Recursos Humanos
+
+131082 : Consulta e Reenvio AT de documentos não reenvia todos os documentos 134147 : Consulta e Reenvio AT de documentos não carrega informação anos anteriores 135808 : Consulta Reenvio AT Documentos não submete documentos convertidos 136215 : Consulta e Reenvio AT de documentos não valida estado corretamente 139504 : Consulta e Reenvio AT de documentos está a enviar email aos clientes 139776 : Exportação contabilidade sage linha 50 exporta documentos anulados 140657 : Emissão de documentos não comunica para webservice saphety 140935 : Erro exportação saf-t mensal quando no documento não existe artigos\descritores 141001 : Não imprime QRCode em modelos em anl nas Guias transporte Fornecedor 141085 : API - NC sobre FR coloca o movimento contabilístico como excluído 141118 : Erro no saft global, no registo de orçamentos sem artigo e quantidade 142152 : Novos documentos sem status ctb 141700 : Não permite imprimir recibos em series não comunicadas 141761 : SDk - Ao importar elimina campos SDK ou campos do introdutor 141812 : Email Faturação Eletrónica - esta a colocar o NIF em vez do nome da empresa 141863 : Importação de FCO para CCO (Crédito á consignação) com quantidades erradas lotes 141958 : SQLFACTFORRTF.RPT está a ir buscar a localidade descarga em vez da morada 142000 : Série autofaturação não permite registar código ATCUD manualmente 142046 : Consulta e Reenvio documentos tenta enviar para cliente recebe a fatura em papel 142052 : Fatura eletronica avançada tenta enviar ENC se for importado na FT 142067 : Não permite alterar vendedor, indica que obriga a data e hora de carga 142083 : Consulta e Reenvio documentos não faz o envio 142140 : Consulta e Reenvio AT de documentos não atualiza "Lido pelo cliente" 142158 : Coluna stock apresenta valores a negativo nas linhas do documento 142181 : Série manual dá informação que data ou hora de carga inferior à data de Sistema 142185 : Consulta e reenvio documentos a AT não carrega "Todos" os documentos 142196 : Documento com formulas, gravar em preparação, após finalizar não grava medidas 142212 : Layout em anl não imprime qrcode em alguns layouts 142223 : Campos sobrepostos em documentos anl com o atcud 142228 : A data ou hora de carga é inferior à data do Sistema 142303 : Fatura Eletrónica (ex: eSPAp), na Nota de Crédito não mostra o Status do Envio 142198 : API - Ao finalizar documento em preparação, não usa os dados da tabela TERCVDI 142295 : Nota crédito com estorno aplicação soma os valores para anexo 40
+140841 : Vencimento errado no mês da cessação com faltas 142039 : Mapa SS - Valor das horas extra com data de mês anterior, não sai no mapa 142169 : Comunicação de contratos à Seg.Social - aplicação crasha ao clicar na opção 142258 : Assistente de atualização de vencimento (RMMG)- Decreto errado
+
+Gestão
+
+Sage 100cloud 2023.01.03 (Build 150)
+Esta atualização é aplicavel apenas desde a versão 2023.01.01 (build 148)
+Novidades
+Comunicação em lote de séries à AT Possibilidade de comunicar séries de documentos à AT em lote.
+
+Sage
+
+Boletim Técnico Sage 100cloud - v2023
+
+Pág 11/14
+
+Boletim Técnico Sage 100cloud
+
+Recursos humanos Comunicação dos vínculos à Segurança Social e FCT, e à Autoridade para as Condições do Trabalho (ACT) Consulta de contratos de funcionários, comunicação e cessação de vínculos, alteração de contratos, obtenção de comprovativos
+Recursos Humanos Comunicação de novos períodos de rendimento Comunicação de novos períodos de rendimento à Segurança Social
+Consulta de contratos de funcionários Possibilidade de para um determinado período ou NISS verificar o estado do contrato na Segurança Social.
+
+Gestão Contailidade
+
+Alterações
+138778 : Valorização de stock fica errada nas folhas de obra 140522 : Após reconstrução limpa valorização se tiver movimentos zzz 140989 : Não importa todas a linhas de texto do Adiantamento para a NC 141572 : stock linha esta a validar o stock na data do documento de origem 141710 : Registo de artigo c\ importação apresenta quantidades incorretas de stock 141785 : Recibos não faz a numeração continua ou nova serie para series comunicadas á AT 141999 : V2023.01.01 não permite comunicar documentos por fatura eletrônica 142068 : Submissão de ficheiro saft com valores calculados pela AT diferentes 141710 : Registo de artigo c\ importação apresenta quantidades incorretas de stock
+142082 : Run-time error 440 ao lançar documentos via e-Fatura 142089 : importação GCN coloca os movimentos como tendo incoerência e não deixa alterar
+
+Recursos Humanos 140667 : Anexo C do Relatório Único com muitas páginas o suporte magnético fica vazio
+
+Sage 100cloud 2023.01.02 (Build 149)
+
+Gestão
+
+Novidades
+O acesso à versão 2023.01.01 é apenas possível para licenciamento versão 23.01.
+Fatura Eletrónica Administração Pública/Generix Inclusão do campo ATCUD no ficheiro exportado
+Assistente para criação de séries do tipo de numeração “Nova Série” O assistente de criação de novas séries, passa a contemplar os tipos de documentos: Orçamentos, Encomendas e Recibos.
+
+Gestão
+
+Alterações
+139467 : Não importação de Documento interno com artigos com data de contagem 140387 : API - Integra movimentos em diários fechados 141376 : Ao alterar preço de artigo com formula a formula desaparece 141870 : Copiar documentos não copia as medidas 141936 : Encomendas clientes não atualiza no artigo quando registado uma encomenda 141943 : Nota de encomenda emite aviso de data de carga inferior à data de sistema 141945 : Perde ordenação das linhas quando se importa documentos 141953 : Erro -2147221504 ao emitir NC de adiantamento 141954 : Ao gravar a Fatura emite aviso "Não existe informação de autenticação para o Webs 141965 : Não permite fazer Devolução na Guia, indica que a data e hora de carga inferior 141986 : Encomendas clientes não atualiza stock reservado na ficha do artigo 142006 : API - Não insere documentos financeiros 142009 : Anulando o RCA que liquida o ADD, o ADC não é anulado 142013 : Serie externa não permite nem comunicar nem inserir código AT
+
+Recursos Humanos 140416 : Dias errados para a segurança social quando há faltas
+
+Sage 100cloud 2023.01.01 (Build 148)
+
+Sage
+
+Boletim Técnico Sage 100cloud - v2023
+
+Pág 12/14
+
+Boletim Técnico Sage 100cloud
+
+Gestão Contabilidade
+
+Novidades
+O acesso à versão 2023.01.01 é apenas possível para licenciamento versão 23.01.
+Novo controlo da data de carga e descarga dos documentos O sistema passa a controlar a data de carga e descarga dos documentos contra a data de sistema, impedindo que sejam feitos documentos com data de carga / descarga inferior à data de sistema. Controlo do SystemEntrydate na criação de documentos de Faturação e Recebimentos O sistema passa a controlar o SystemEntryDate dos documentos para impedir manuseamento manual da data de sistema: •Nos documentos da área da Faturação e nos Recebimentos passa a controlar e verficar o SystemEntrydate dos documentos criados, impedindo que sejam criados documentos cujo SystemEntryDate seja inferior ao existente na base de dados Documentos Internos não movimentam encomendas de clientes Foi criado um novo parâmetro na tabela Tipo de Documentos, exclusivo para Documentos do Tipo Interno, que permite indicar se esse documento afeta a quantidade mostrada em Encomendas de Cliente existente na ficha de artigos (pasta existência).
+Motivos de isenção Foi atualizada a tabela de motivos de isenção com os novos motivos de isenção disponibilizados pela AT. A partir desta versão deixa de ser possível a introdução de linhas com motivo de isenção M03 e M08, pois estes deixaram de ser aplicáveis.
+Nos recebimentos deixa de ser possível atribuir descontos em percentagem ou valor a Notas de Crédito Nos recebimentos deixa de ser possível atribuir descontos em percentagem ou valor a Notas de Crédito
+Sage Inventários Por omissão passa a sugerir para exportação a versão 2.01 do ficheiro de para submissão de inventário para a AT de acordo com a Portaria 126/2019.
+Impressão ATCUD Para faturas e demais documentos fiscalmente relevantes emitidos a partir de 01/01/2023, será testada a existência do campo código único de documento (ATCUD) nos modelos de impressão, sendo apenas possível usar os modelos de impressão configurados com os campos obrigatórios para certificação.
+Controlo de incoerências nos Diários Passa a existir um controlo de incoerências (adulterações) nos diários. Ao tentar criar documentos com ligação a contabilidade, por exemplo: compras, sobras ou quebras, o utilizador é aviso que não pode criar esse documento porque o diário apresenta incoerências. Comunicação dos elementos dos documentos de faturação à AT, por webservice Disponibilizado novo modelo de comunicação dos elementos dos documentos de faturação à AT, por Webservice. Para além dos documentos de faturação já contemplados: FT – Fatura; FS – Fatura Simplificada; NC – Nota de Crédito; ND – Nota de Débito e FR – Fatura-recibo, a partir desta versão, passa a ser possível comunicar os documentos de conferência (WorkingDocuments): OR – Orçamentos NE – Nota de Encomenda FC – Fatura de consignação nos termos do art.º 38º do código do IVA CC – Crédito de consignação e dos recibos emitidos no âmbito do regime de IVA de caixa (Payments): RC - Recibos em Regime de Iva de Caixa
+Importação de lançamentos através do SAF-T de Faturação passa a validar se o número de contribuinte do ficheiro que está a ser importado corresponde ao número de contribuinte da empresa Na Contabilidade, a importação de lançamentos através do SAF-T de Faturação, passa a validar se o número de contribuinte do ficheiro que está a ser importado corresponde ao número de contribuinte da empresa.
+Controlo de incoerências nos Diários Passa a existir um controlo de incoerências (adulterações) nos diários. Ao tentar movimentar um diário com incoerências em algumas opções da aplicação, como por exemplo: na introdução por documentos, introdução por diários, lançamentos de gestão, o utilizador é avisado que esse diário está incoerente e não poderá gravar o movimento que está a introduzir. Na mudança de estado dos documentos estes diários não estarão disponíveis para seleção.
+
+Gestão
+Nos parâmetros de aplicação, no separador Contabilidade, tem a possibilidade de indicar se quer gerar os movimentos com o status Suspenso ou Efetivo. Se tiver definido o status Efetivo, se o sistema detetar que existem erros contabilísticos, o movimento será gerado com status Suspenso
+
+Sage
+
+Boletim Técnico Sage 100cloud - v2023
+
+Pág 13/14
+
+Boletim Técnico Sage 100cloud
+
+SVAT Sistema
+
+Contabilidade
+Registo de alterações A aplicação passa a gravar as evidências de criação, alteração e eliminação dos lançamentos contabilísticos, com a identificação da transação, a data e hora de criação e modificação do movimento contabilístico, o registo do utilizador que gerou e modificou o movimento contabilístico e as contas e/ou valores originais e modificados, bem como qualificadores de débito/crédito. Pode consultar esta informação através da opção Consulta de registo de alteração de lançamentos, em Lançamentos\Registo de alterações, permitindo gerar um relatório das referidas evidências. Controlo de incoerências nos movimentos contabilísticos Passa a existir um controlo de incoerências (adulterações) nos movimentos contabilísticos. Na edição de um lançamento cujos movimentos foram adulterados passa a existir a informação que o documento está incoerente, ficando o utilizador impossibilitado de fazer qualquer alteração no documento, podendo apenas anular. Movimentos com status Suspenso O utilizador será avisado para existência de movimentos no estado de suspenso para o período em que está a efetuar nas seguintes operações: •Operações de apuramento automático, como Apuramento de IVA, Regularizações, Abertura •Criação de APC’s e TFE’s •Analise financeira •Exportação Saf-T Global E será impedido nas seguintes operações •Apuramentos, Resultados Líquidos •Criação de qualquer modelo de caracter fiscal como, Declaração de IVA, Recapitulativa Modelo 22, Modelo 3, IES… Diários Lançamento com status extra contabilístico apenas poderá ser efetuado em diários próprios para o efeito. Para isso passa a ser possível indicar para os diários da contabilidade o campo “Exclusivo para lançamentos com status Exta contabilísticos”.
+Mudança de estado Nesta opção, no separador Exta contabilístico, tem a possibilidade de criar os lançamentos com status efetivo ou suspenso em diários da contabilidade.
+Importação do Saf-T de faturação Apenas permite importar os dados de ficheiro cujo NIF corresponda ao NIF da empresa.
+Exportação Global do Saf-T Para exercícios fechados apenas é possível exportar o Saf-T anual.
+Backup e Restore de base de dados de Gestão O nome gerado pelo Backup será gerado com um checkSum para garantir que foi feita pelo sistema Sage. No restore de cópias de segurança apenas permitirá repor a cópia se esta foi feita pelo sistema SAGE.
+
+Alterações
+
+Plataforma
+
+141660 : Divisão base de dados - Erro update docgccab
+
+Gestão
+
+138572 : Cius-PT - Webservice dá erro quando existem linhas do tipo informativas 139456 : Modulo Bancos, após gravação documentos não permite alterar 141353 : Não imprime nr. da série no 'Mapa Geral do IVA - Setor/Série' 141407 : Não permite importar linhas do mesmo documento 141601 : Exportação ficheiro Cius-pt exporta ficheiro com extensão .xmlxml 141666 : API - Está a fazer o SELECT erradamente à tabela de PENDENTES e seria PENDENTE 141794 : Extrato de Cliente ocorre erro na exportação para XLS 141818 : API - Não herda informação da relação da empresa do Fornecedor/cliente -1 141820 : Fatura Recibo liquida sempre não é apresentado no Diário de comissões
+
+Recursos Humanos 138620 : falta sem visto em mapa absentismo sai na mesma no mapa
+
+Sage
+
+Boletim Técnico Sage 100cloud - v2023
+
+Pág 14/14
+
+

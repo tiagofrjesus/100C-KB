@@ -34,6 +34,15 @@ All indexes live at `C:\100C-KB\`. Use absolute paths. They are pre-built from t
 | SDK — modelo de objetos (automação COM) | `C:\100C-KB\Docs\SDK_ObjectModel.md` |
 | Mapas Crystal e como emiti-los | `C:\100C-KB\Docs\Mapas_Crystal.md` |
 | Visão geral / módulos / bases de dados | `C:\100C-KB\Docs\Modulos.md` |
+| **Referência funcional** — Gestão/Comercial (1GCO) | `C:\100C-KB\Docs\Funcional_Gestao.md` |
+| **Referência funcional** — Contabilidade (1GCO) | `C:\100C-KB\Docs\Funcional_Contabilidade.md` |
+| **Referência funcional** — Ativos (1GAT) | `C:\100C-KB\Docs\Funcional_Ativos.md` |
+| **Referência funcional** — RH/Salários (1GEP) | `C:\100C-KB\Docs\Funcional_RH.md` |
+| **Referência funcional** — Sistema/Administração | `C:\100C-KB\Docs\Funcional_Sistema.md` |
+| **Integração** — EDI (GENERIX), layout de ficheiros | `C:\100C-KB\Docs\Integracao_EDI_Generix.md` |
+| **Integração** — Faturação eletrónica UBL 2.1 (CIUS-PT) | `C:\100C-KB\Docs\Integracao_UBL_CIUS-PT.md` |
+| **Histórico de versões** — boletins técnicos | `C:\100C-KB\Docs\Boletins_Tecnicos.md` |
+| Fonte completa dos manuais (texto grepável) | `C:\100C-KB\Sage 100c Docs\Manuais\*.txt` |
 
 ---
 
@@ -53,6 +62,10 @@ Empresas de demonstração: `DEMO` e `MODELO`.
 
 Estas regras existem porque inventar nomes de tabelas/campos produz erros silenciosos.
 
+- **Não percebes o domínio/fluxo funcional** (o que é uma avença, uma carteira, uma depreciação, como flui orçamento→fatura, que tabelas mestras existem) → lê primeiro a **referência funcional** do módulo (`Funcional_Gestao.md`, `Funcional_Contabilidade.md`, `Funcional_Ativos.md`, `Funcional_RH.md`, `Funcional_Sistema.md`). Dá-te o vocabulário e aponta para as tabelas reais; depois confirma sempre no `DD_Catalog`/`.txt`.
+- **Vais integrar por ficheiro EDI** (importar encomendas / exportar faturas via GENERIX) → lê `C:\100C-KB\Docs\Integracao_EDI_Generix.md` para o layout de largura fixa.
+- **Vais gerar/validar faturação eletrónica estruturada (UBL 2.1 / CIUS-PT)** → lê `C:\100C-KB\Docs\Integracao_UBL_CIUS-PT.md`.
+- **Precisas de saber se uma funcionalidade existe e desde que versão** → consulta `C:\100C-KB\Docs\Boletins_Tecnicos.md`.
 - **Precisas de uma tabela** → grep `C:\100C-KB\Docs\DD_Catalog_<MODULO>.md` por nome ou descrição para obter o nome exato e a chave primária.
 - **Vais escrever uma query que toca numa tabela** → lê `C:\100C-KB\Sage 100c Docs\DD\<MODULO>\<TABELA>.txt` PRIMEIRO, para a lista completa de colunas, tipos e chaves. Nomes de colunas não se adivinham.
 - **Filtras por um campo de estado/tipo (Integer com poucos valores)** → consulta `C:\100C-KB\Docs\Validacoes_<MODULO>.md`. Se a validação for "Tabela Interna", os valores válidos estão nessa tabela (faz lookup); nunca assumas valores inteiros.
