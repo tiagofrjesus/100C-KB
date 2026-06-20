@@ -46,12 +46,14 @@ A documentação oficial foi processada em índices compactos em `Docs\` e fiche
 | `Docs/Integracao_EDI_Generix.md` | Layout de largura fixa dos ficheiros EDI (GENERIX) — importação/exportação | Integrações por ficheiro EDI |
 | `Docs/Integracao_UBL_CIUS-PT.md` | Faturação eletrónica UBL 2.1 (CIUS-PT): estrutura XML, regras, mapeamentos | Faturação eletrónica estruturada |
 | `Docs/Boletins_Tecnicos.md` | Histórico de versões (novidades/correções) 2018/2023/2026 | Saber se/desde quando existe uma funcionalidade |
+| `Docs/Relacoes_<MOD>.md` | Relações DERIVADAS entre tabelas (JOINs canónicos verificados, renomes, falsos amigos) | Antes de escrever um JOIN |
 | `Sage 100c Docs/Manuais/*.txt` | Texto completo dos manuais oficiais (grepável) | Detalhe que o índice funcional não cobre |
 
 ### Lookup rules
 
 - **Não percebes o domínio/fluxo** → lê primeiro a `Docs/Funcional_<MOD>.md` do módulo; dá vocabulário e aponta tabelas. Depois confirma sempre no `DD_Catalog`/`.txt`.
 - **Tabela** → grep `Docs/DD_Catalog_<MOD>.md`; depois lê `Sage 100c Docs/DD/<MOD>/<TABELA>.txt` **antes** de escrever a query.
+- **JOIN entre tabelas** → vê o JOIN canónico em `Docs/Relacoes_<MOD>.md` (chaves verificadas); confirma sempre as colunas nos `.txt`. Não há FKs nativas — são relações derivadas.
 - **Campo de estado/tipo** → vê valores válidos em `Docs/Validacoes_<MOD>.md` (não assumas inteiros).
 - **API** → grep `Docs/API_Index.md` pela classe, lê `Sage 100c Docs/API/<Classe>.txt`.
 - **SDK** → `Docs/SDK_ObjectModel.md`.

@@ -42,6 +42,9 @@ All indexes live at `C:\100C-KB\`. Use absolute paths. They are pre-built from t
 | **Integração** — EDI (GENERIX), layout de ficheiros | `C:\100C-KB\Docs\Integracao_EDI_Generix.md` |
 | **Integração** — Faturação eletrónica UBL 2.1 (CIUS-PT) | `C:\100C-KB\Docs\Integracao_UBL_CIUS-PT.md` |
 | **Histórico de versões** — boletins técnicos | `C:\100C-KB\Docs\Boletins_Tecnicos.md` |
+| **Relações entre tabelas** (derivadas) — 1GCO | `C:\100C-KB\Docs\Relacoes_1GCO.md` |
+| **Relações entre tabelas** (derivadas) — 1GAT | `C:\100C-KB\Docs\Relacoes_1GAT.md` |
+| **Relações entre tabelas** (derivadas) — 1GEP | `C:\100C-KB\Docs\Relacoes_1GEP.md` |
 | Fonte completa dos manuais (texto grepável) | `C:\100C-KB\Sage 100c Docs\Manuais\*.txt` |
 
 ---
@@ -69,7 +72,7 @@ Estas regras existem porque inventar nomes de tabelas/campos produz erros silenc
 - **Precisas de uma tabela** → grep `C:\100C-KB\Docs\DD_Catalog_<MODULO>.md` por nome ou descrição para obter o nome exato e a chave primária.
 - **Vais escrever uma query que toca numa tabela** → lê `C:\100C-KB\Sage 100c Docs\DD\<MODULO>\<TABELA>.txt` PRIMEIRO, para a lista completa de colunas, tipos e chaves. Nomes de colunas não se adivinham.
 - **Filtras por um campo de estado/tipo (Integer com poucos valores)** → consulta `C:\100C-KB\Docs\Validacoes_<MODULO>.md`. Se a validação for "Tabela Interna", os valores válidos estão nessa tabela (faz lookup); nunca assumas valores inteiros.
-- **Precisas de juntar cabeçalho + linhas de documentos** → confirma as chaves de ligação nos ficheiros `.txt` das duas tabelas antes de escrever o JOIN (ex.: cabeçalho `DOCGCCAB` ↔ linhas `DOCGCLIN`).
+- **Precisas de juntar tabelas / fazer um JOIN** → consulta `C:\100C-KB\Docs\Relacoes_<MODULO>.md` para o JOIN canónico (chaves já verificadas, incl. renomes como `DOCGCCAB.TPDOC` ↔ `DOCGCLIN.TPDOCUM`). São relações DERIVADAS (não há FKs nativas) — confirma sempre os nomes EXATOS das colunas nos `.txt` das duas tabelas antes de escrever. Cuidado com colunas sobrecarregadas/falsos amigos (`CONTA`, `DESCR`) assinalados nesses docs.
 - **Vais usar a API** → grep `C:\100C-KB\Docs\API_Index.md` pela classe (ex.: `DocumentoComercial`, `Clientes`, `Artigos`) e lê `Sage 100c Docs\API\<Classe>.txt` para a assinatura, input/output e propósito dos membros.
 - **Vais usar o SDK (COM)** → lê `C:\100C-KB\Docs\SDK_ObjectModel.md`. Ponto de entrada: objeto `Aplicacao`.
 - **Vais emitir/criar um mapa** → lê `C:\100C-KB\Docs\Mapas_Crystal.md`.
